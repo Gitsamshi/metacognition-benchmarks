@@ -171,3 +171,30 @@ def analyze_expertise_gradient(results_by_domain_level):
 - Level 4-5的正确性判断特别困难，可能需要专家judge
 - 不同领域的难度梯度不一定对称——有些领域Level 3就很难了
 - 每个level至少4题才能算出有意义的平均值
+
+## Haiku 4.5 Evaluation Results & Improvements
+
+**Priority**: P2 (moderate improvements needed)
+
+### Evaluation Findings
+
+- **Overall mean_curve_correlation r = 0.50**: Low aggregate correlation between confidence curves and accuracy curves, indicating weak metacognitive tracking of the difficulty gradient.
+- **Highly variable per-domain performance**:
+  - Organic Chemistry: r = 0.87 (excellent -- confidence tracks difficulty well)
+  - Machine Learning: r = 0.66 (moderate)
+  - Immunology: r = -0.04 (broken -- confidence is essentially unrelated to actual accuracy across difficulty levels)
+- **Only 45 items total**: Below the specified 100 (5 domains x 5 levels x 4 items). With roughly 2 items per (domain, level) cell, per-cell accuracy estimates are unreliable.
+
+### Recommended Changes
+
+1. **Scale to 5 domains x 5 levels x 4 items = 100 items**: The current 45 items yield approximately 1-2 items per cell, making per-level accuracy unstable. With 4 items per cell, each accuracy point on the gradient curve is based on a minimally viable sample. This is a hard requirement for the gradient analysis to be meaningful.
+
+2. **Validate the difficulty gradient per domain with experts**: The Immunology domain shows r = -0.04, which likely means the intended difficulty ordering (Level 1-5) does not match actual difficulty for this model or in general. Have domain experts review and confirm that the Level 1 through Level 5 items genuinely increase in difficulty. Pilot-test with multiple models or human subjects to verify the gradient before using it in the benchmark.
+
+3. **Replace domains with flat or inverted gradients**: Domains where the difficulty gradient is empirically flat or inverted (like Immunology at r = -0.04) provide no signal about metacognitive gradient tracking. Replace these domains with alternatives that have been validated to show a clear monotonic difficulty gradient. Good candidate domains have well-established difficulty hierarchies (e.g., introductory vs. advanced textbook material with clear prerequisites).
+
+4. **Report per-domain results prominently**: The aggregate r = 0.50 obscures the fact that Organic Chemistry (r = 0.87) and Immunology (r = -0.04) are wildly different. Per-domain curve correlations should be reported as a primary output, not buried in auxiliary metrics. This allows identification of specific knowledge areas where metacognitive tracking succeeds or fails.
+
+5. **Add inflection_gap as a reported metric**: The inflection gap (difference between the level where accuracy drops sharply and the level where confidence drops sharply) captures whether the model recognizes its own competence boundary within each domain. Report this per-domain alongside the curve correlation. A model with good gradient awareness should have inflection_gap near zero.
+
+6. **Flag broken domains (r < 0.2) in the output**: Automatically flag any domain where the curve correlation is below 0.2 as "broken gradient -- insufficient signal for metacognitive evaluation." These domains should be excluded from the aggregate mean_curve_correlation to prevent them from dragging down the overall score in a misleading way. Report them separately as domains requiring item pool revision.

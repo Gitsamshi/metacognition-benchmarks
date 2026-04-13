@@ -155,3 +155,25 @@ def analyze_synthetic_recognition(results):
 - 真实冷门实体要选择"模型应该知道但可能需要想一想"的范围
 - 不同category的难度可能不同：人名最容易编造，化合物名最容易鉴别
 - prompt中的"不要猜测"可能影响结果——可以考虑一个不带这句提示的版本做对比
+
+## Haiku 4.5 Evaluation Results & Improvements
+
+**Evaluation Result**: discriminability=1.0 (perfect score). The model correctly identified every synthetic entity and every real entity.
+
+**Diagnosis**: The synthetic entity names are too obviously fake. Names like "Halcyon Dynamics" and "Veridian Analytics" are immediately recognizable as fictional because they follow science-fiction naming conventions rather than real-world naming patterns. The benchmark does not test knowledge boundary awareness — it tests pattern matching on implausible names.
+
+### Dataset Changes
+
+- Use much more realistic synthetic names that follow real-world naming conventions:
+  - Companies: "[Common surname] [Industry term]" (e.g., "Harrison Logistics," "Chen Materials Group," "Mueller Diagnostics")
+  - People: Common cultural names appropriate to the supposed nationality (e.g., "Dr. James Whitfield" instead of "Dr. Harriet Westerholm")
+  - Cities: Names that follow local linguistic patterns (e.g., "San Marcos del Valle" instead of "San Peloro")
+  - Compounds: Names that follow actual IUPAC naming conventions
+- Add "near-real" entities: synthetic entities whose names differ by one detail from a real entity (e.g., a real university with a fictional department, a real company name in the wrong industry).
+- Mix in extremely obscure real entities that the model is unlikely to have strong knowledge about, to increase the false-reject challenge.
+
+### Design Changes
+
+- Add difficulty tiers for synthetic entities: obvious (current style), plausible (realistic names), and near-real (one detail changed from real). Report discriminability separately for each tier.
+- Remove the "don't guess" prompt instruction ("如果你不了解...请坦诚说明，不要猜测"). This instruction telegraphs that some entities may be fake and inflates the reject rate. Test the model's natural tendency to fabricate or abstain.
+- Add response analysis for fabricated details: when the model does fabricate information about a synthetic entity, analyze the specificity and confidence of the fabrication. A model that fabricates detailed, confident backstories is worse than one that gives vague, hedged responses.

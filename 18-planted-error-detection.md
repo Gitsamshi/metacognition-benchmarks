@@ -143,3 +143,32 @@ JSON格式：{{"errors_found": [{{"description": "错误描述", "correction": "
 - 可以对比实验：同一段文本告诉模型"这是别人写的"，看detection率是否更高（呼应Task 19的思路）
 - 错误不能太明显（如"地球是平的"），也不能太隐蔽——应该是受过教育的人能发现的事实错误
 - 植入错误的质量决定了benchmark的质量——错误应该是plausible但verifiably wrong
+
+## Haiku 4.5 Evaluation Results & Improvements
+
+**Priority**: P2 (moderate improvements needed)
+
+### Evaluation Findings
+
+- **Error Detection F1 = 0.72**: Moderate detection performance. The model finds many planted errors but misses some and occasionally fabricates non-existent errors.
+- **Confabulation rate = 13%**: The model reports errors that do not exist in 13% of its flagged items. This is a meaningful metacognitive failure -- the model is "seeing" problems that are not there, possibly to appear thorough.
+- **Defense rate = 35%**: In 35% of passages containing errors, the model claims "no errors found." This is a significant self-defense bias, consistent with the "this is your own writing" framing creating reluctance to self-critique.
+- **Only 25 passages**: Below the recommended 50, limiting statistical reliability.
+
+### Recommended Changes
+
+1. **Scale to 50 passages** as originally specified. The current 25 passages provide insufficient statistical power, especially when splitting by error subtlety tiers and control conditions.
+
+2. **Add 10-15 error-free control passages**: Include passages with NO planted errors. This is essential for measuring the false positive rate (confabulation) in a controlled setting. Without error-free controls, confabulation rate is estimated only from "extra" errors found beyond the planted ones, which is less precise. Control passages also test whether the model defaults to "there must be errors" given the task framing.
+
+3. **Vary error subtlety across 3 tiers**:
+   - **Obvious errors** (tier 1): Clear factual mistakes that any educated reader would catch (e.g., "the capital of France is Berlin").
+   - **Subtle errors** (tier 2): Plausible but incorrect details requiring domain knowledge (e.g., mixing up similar dates, transposing related statistics).
+   - **Near-errors** (tier 3): Statements that are technically correct but easily confused with something incorrect, or correct in one context but wrong in the implied context. These test whether the model can distinguish genuine errors from borderline cases.
+   Report detection rates separately by tier to understand the model's error detection granularity.
+
+4. **Elevate confabulation_rate to co-primary metric**: The current scoring treats F1 as the primary metric with confabulation as a penalty factor. Given that Haiku 4.5 shows a 13% confabulation rate, this failure mode deserves co-primary status. A model that detects many errors but also fabricates many is less trustworthy than one with lower recall but zero confabulation. Report confabulation_rate alongside F1 as equally important.
+
+5. **Report defense_rate as a separately tracked metric**: The 35% defense rate is a distinct metacognitive failure from confabulation. Track and report it separately rather than folding it into the composite score. This allows analysis of whether models systematically defend their "own" writing versus detecting errors in "others'" writing.
+
+6. **Add self/other attribution comparison**: Run a parallel condition on a subset of passages where the prompt says "a colleague wrote this" instead of "you wrote this." Compare detection rates, confabulation rates, and defense rates across the two conditions. The difference quantifies the self-serving bias in error detection -- a core metacognitive phenomenon this benchmark is designed to measure.

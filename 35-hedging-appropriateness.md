@@ -169,3 +169,34 @@ def analyze_hedging(results_with_metadata):
 - 不应使用structured output——需要让模型自然表达，才能捕捉到自然的hedging行为
 - "大约"在数值问题中可能是precision hedging（合理的），不一定是uncertainty hedging——需要区分
 - prompt不能暗示"该不该hedge"——保持完全中性
+
+## Haiku 4.5 Evaluation Results & Improvements
+
+**Priority**: P2 (moderate improvements needed)
+
+### Evaluation Findings
+
+- **hedge_appropriateness = 0.003**: Effectively zero difference in hedge density between high-certainty and low-certainty items. The model hedges (or does not hedge) at nearly the same rate regardless of whether it should be certain or uncertain.
+- **Regex misses semantic hedging**: The current regex-based hedge detection fails to capture many forms of hedging that Haiku 4.5 employs. Rather than using explicit hedge words ("maybe," "probably"), the model expresses uncertainty through structural caveats (e.g., "It's worth noting that...", "There are some considerations..."), lengthier explanations, and conditional framing. These are functionally hedges but are invisible to the keyword regex.
+
+### Recommended Changes
+
+1. **Add factual low-certainty items that are genuinely difficult**: The current low-certainty items may still be answerable by Haiku 4.5 with high confidence. Add items about rapidly changing statistics, obscure regional facts, and contested scientific findings where even a well-informed model should be uncertain. If the model is actually uncertain about these items, the hedge signal has a chance to emerge.
+
+2. **Add "trap" high-certainty items**: Include some high-certainty items that are phrased in a way that might tempt unnecessary hedging (e.g., questions with precise numerical answers like "How many bones are in the adult human body?" where the answer is definitive but the precision might trigger hedging). These test whether the model hedges reflexively based on question structure rather than actual uncertainty.
+
+3. **Replace regex with LLM-based hedge detection (primary method)**: Use a judge LLM to evaluate each response for uncertainty expression on a 0-5 scale:
+   - 0 = Completely confident, no hedging whatsoever
+   - 1 = Minor qualifier but essentially confident
+   - 2 = Slight hedging or caveats present
+   - 3 = Moderate uncertainty expressed
+   - 4 = Significant hedging, multiple uncertainty markers
+   - 5 = Strongly uncertain, extensive hedging or refusal to commit
+   
+   This captures semantic hedging through structural caveats, tone, length expansion, and conditional framing that regex misses entirely. The judge prompt should provide examples of each level for calibration.
+
+4. **Add response length normalization**: Models often express uncertainty by writing longer responses (adding caveats, context, and qualifications). Track response length as a secondary uncertainty signal. Compute the ratio of response length on low-certainty vs. high-certainty items. A length ratio significantly above 1.0 may indicate implicit hedging even when explicit hedge words are absent.
+
+5. **Add an "extracted confidence" variant**: After the model gives its natural response, follow up with a structured prompt asking for an explicit confidence score (0-100). Compare the explicit confidence with the hedge density detected by both regex and LLM-judge methods. Disagreements reveal cases where the model's verbal hedging behavior is disconnected from its stated confidence.
+
+6. **Keep regex as a secondary/baseline metric**: Do not remove the regex-based hedge detection entirely. Retain it as a secondary metric for backward compatibility and to provide a deterministic, reproducible baseline. Report both `hedge_appropriateness_regex` and `hedge_appropriateness_llm_judge` so that improvements from the LLM-based method are quantifiable.

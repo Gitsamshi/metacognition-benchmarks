@@ -142,3 +142,27 @@ JSON格式：{{
 - 追问prompt中不能暗示"你答错了"——保持中性，只问"你觉得准不准"
 - 单位统一很重要：确保模型用同一单位回答
 - 一些模型可能使用"对冲"语言（"大约在X到Y之间"）——需要提取中心估计值
+
+## Haiku 4.5 Evaluation Results & Improvements
+
+**Priority**: P2 (moderate improvements needed)
+
+### Evaluation Findings
+
+- **bin_match_rate = 0.80**: Decent performance -- the model correctly categorizes its own error magnitude 80% of the time.
+- **Unit confusion failures**: Critical failure mode observed where the model confuses units, producing estimates like 5.97 vs. 5.97e24 (e.g., Earth's mass in kg vs. an unscaled number). The model then self-assesses its error as "very close" because the raw number matches, completely missing the unit/magnitude discrepancy.
+- **Rank correlation = 0.81**: The Spearman rank correlation between actual error percentages and self-assessed error percentages is 0.81, which is more informative than bin_match_rate because it captures the ordinal relationship without being sensitive to bin boundary artifacts.
+
+### Recommended Changes
+
+1. **Add explicit unit trap items**: Design 15-20 items where unit confusion is a likely failure mode -- quantities that are commonly expressed in different scales (e.g., mass in kg vs. metric tons, distances in km vs. AU, energy in joules vs. eV, populations in raw numbers vs. millions). Include items where the correct answer changes by many orders of magnitude depending on the unit convention. This directly targets the observed failure pattern.
+
+2. **Widen the error range in the item pool**: The current items cluster around moderate error magnitudes. Include items spanning the full spectrum: items where the model is likely to be extremely precise (within 1%) and items where it is likely to be off by orders of magnitude (>1000% error). This wider range tests whether the model's magnitude awareness scales across the full error spectrum.
+
+3. **Add reference anchoring items**: Include items where a nearby reference quantity is provided (e.g., "Given that India's population is about 1.4 billion, estimate Bangladesh's population"). Test whether the model's error magnitude awareness is affected by anchoring -- does providing a reference make the model more or less accurate at self-assessing its error?
+
+4. **Add a unit-awareness sub-metric**: Separately score items where the model's numerical estimate is close but the unit is wrong (or implied incorrectly). Create a binary `unit_correct` flag and report the rate at which the model detects its own unit errors during the magnitude assessment phase. This isolates the specific failure mode observed in the Haiku 4.5 evaluation.
+
+5. **Elevate rank correlation to co-primary metric**: The Spearman rank correlation (0.81) between actual and self-assessed error is more robust than bin_match_rate because it is not sensitive to arbitrary bin boundaries. Make it a co-primary metric alongside bin_match_rate. Report both, but use rank correlation for cross-model comparisons.
+
+6. **Add log-scale error analysis**: Compute and report the correlation on log-transformed error percentages: `corr(log(actual_error_pct), log(guessed_error_pct))`. This is the natural scale for magnitude awareness since the error bins are roughly log-spaced (0-5%, 5-20%, 20-100%, 100%+). Log-scale analysis also better captures whether the model distinguishes "off by 2x" from "off by 1000x."

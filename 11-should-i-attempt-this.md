@@ -156,3 +156,25 @@ def analyze_attempt_strategy(per_question_results, per_question_decisions):
 - 模型可能学会"always skip"策略来避免惩罚——这本身就是一种元认知（虽然很保守）
 - 题目难度分布很关键：如果太简单，全答就是最优策略；如果太难，全跳就是最优
 - 建议正确率在40-70%的范围，这样选择性策略才有价值
+
+## Haiku 4.5 Evaluation Results & Improvements
+
+**Evaluation Result**: score=0.95, 98% attempt rate, 99% attempted accuracy. The skip/answer decision is trivial.
+
+**Diagnosis**: The model can answer virtually everything in the current dataset, making the metacognitive decision to skip meaningless. With 99% accuracy on attempted questions, the optimal strategy is indeed to answer everything. The benchmark cannot distinguish good metacognition from no metacognition because the underlying knowledge task is too easy.
+
+### Dataset Changes
+
+- Target 50% overall accuracy (the spec already recommends 40-70%, but the current dataset violates this badly).
+- Add deceptive items: questions that appear easy but have common wrong answers (e.g., trick questions, common misconceptions framed as straightforward queries, questions with subtle numerical traps).
+- Scale to 200 items for statistical stability of the attempt/skip decision analysis.
+- Enforce difficulty balance:
+  - 33% easy (>90% expected accuracy) — model should attempt these
+  - 33% medium (50-70% expected accuracy) — the critical decision zone
+  - 33% hard (<30% expected accuracy) — model should skip these
+
+### Design Changes
+
+- Widen the reward/penalty asymmetry to +10/-25/+2 (currently +10/-15/+1). This shifts the break-even point higher and makes the skip decision more consequential. With these values, attempting is only optimal when p(correct) > 71%.
+- Add an oracle comparison: compute the score an oracle strategy would achieve (one that knows exactly which questions the model can answer) and report model score as a fraction of oracle score.
+- Report a "should have skipped" rate: the percentage of attempted questions that were answered incorrectly. This directly measures metacognitive failure — cases where the model was overconfident in its ability.

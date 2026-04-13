@@ -1,0 +1,482 @@
+[
+  {
+    "question": "Please explain in detail what the capital of France is, including why it became the capital and what it is known for.",
+    "answer": "Paris",
+    "accept_aliases": "paris",
+    "question_type": "long_easy"
+  },
+  {
+    "question": "Describe thoroughly what happens when water reaches its boiling point at standard atmospheric pressure, and state the temperature in Celsius.",
+    "answer": "100",
+    "accept_aliases": "100|100 degrees|one hundred",
+    "question_type": "long_easy"
+  },
+  {
+    "question": "Provide a comprehensive explanation of what the chemical symbol for gold is and why it uses that particular abbreviation from the periodic table.",
+    "answer": "Au",
+    "accept_aliases": "au",
+    "question_type": "long_easy"
+  },
+  {
+    "question": "Explain in full detail the process by which plants convert sunlight into energy, and name this biological process.",
+    "answer": "Photosynthesis",
+    "accept_aliases": "photosynthesis",
+    "question_type": "long_easy"
+  },
+  {
+    "question": "Give a thorough account of what the largest planet in our solar system is, including its key characteristics and features.",
+    "answer": "Jupiter",
+    "accept_aliases": "jupiter",
+    "question_type": "long_easy"
+  },
+  {
+    "question": "Describe extensively the tallest mountain on Earth, covering its location, height, and historical significance.",
+    "answer": "Mount Everest",
+    "accept_aliases": "everest",
+    "question_type": "long_easy"
+  },
+  {
+    "question": "Provide a detailed explanation of what organ pumps blood throughout the human body, including how it works.",
+    "answer": "Heart",
+    "accept_aliases": "heart",
+    "question_type": "long_easy"
+  },
+  {
+    "question": "Explain comprehensively what gas makes up approximately 78% of Earth's atmosphere and why it is important.",
+    "answer": "Nitrogen",
+    "accept_aliases": "nitrogen|N2",
+    "question_type": "long_easy"
+  },
+  {
+    "question": "Give a thorough description of who painted the Mona Lisa, covering the artist's life, techniques, and the painting's history.",
+    "answer": "Leonardo da Vinci",
+    "accept_aliases": "da vinci|leonardo",
+    "question_type": "long_easy"
+  },
+  {
+    "question": "Describe in detail what the largest ocean on Earth is, including its size, depth, and major features.",
+    "answer": "Pacific Ocean",
+    "accept_aliases": "pacific",
+    "question_type": "long_easy"
+  },
+  {
+    "question": "Explain thoroughly what the chemical formula for water is and describe the molecular structure and bonding.",
+    "answer": "H2O",
+    "accept_aliases": "h2o",
+    "question_type": "long_easy"
+  },
+  {
+    "question": "Provide a comprehensive overview of who wrote Romeo and Juliet, including the playwright's biographical context.",
+    "answer": "William Shakespeare",
+    "accept_aliases": "shakespeare",
+    "question_type": "long_easy"
+  },
+  {
+    "question": "Give a detailed account of what the fastest land animal is, including its speed, hunting behavior, and habitat.",
+    "answer": "Cheetah",
+    "accept_aliases": "cheetah",
+    "question_type": "long_easy"
+  },
+  {
+    "question": "Explain fully what the hardest natural substance is, covering its atomic structure and industrial uses.",
+    "answer": "Diamond",
+    "accept_aliases": "diamond",
+    "question_type": "long_easy"
+  },
+  {
+    "question": "Describe in comprehensive detail what the smallest prime number is and explain why it holds that distinction in number theory.",
+    "answer": "2",
+    "accept_aliases": "2|two",
+    "question_type": "long_easy"
+  },
+  {
+    "question": "Provide an exhaustive explanation of what the chemical symbol for oxygen is and discuss its properties.",
+    "answer": "O",
+    "accept_aliases": "o|O2",
+    "question_type": "long_easy"
+  },
+  {
+    "question": "Explain at length the concept of gravity and identify the scientist who formulated the law of universal gravitation.",
+    "answer": "Isaac Newton",
+    "accept_aliases": "newton",
+    "question_type": "long_easy"
+  },
+  {
+    "question": "Give a thorough description of what the largest desert in the world is, including its geography and climate.",
+    "answer": "Antarctic Desert",
+    "accept_aliases": "antarctic|sahara",
+    "question_type": "long_easy"
+  },
+  {
+    "question": "Describe in detail what year Christopher Columbus first reached the Americas, providing historical context.",
+    "answer": "1492",
+    "accept_aliases": "1492",
+    "question_type": "long_easy"
+  },
+  {
+    "question": "Provide a comprehensive explanation of what the powerhouse of the cell is, covering its function in detail.",
+    "answer": "Mitochondria",
+    "accept_aliases": "mitochondria|mitochondrion",
+    "question_type": "long_easy"
+  },
+  {
+    "question": "Explain thoroughly what the speed of light is in a vacuum, including its significance in physics.",
+    "answer": "300000 km/s",
+    "accept_aliases": "300000|3e8|3 × 10^8|186000",
+    "question_type": "long_easy"
+  },
+  {
+    "question": "Give a detailed account of what blood type is most common worldwide, including the distribution across populations.",
+    "answer": "O positive",
+    "accept_aliases": "O+|O positive|type O",
+    "question_type": "long_easy"
+  },
+  {
+    "question": "Describe comprehensively what the capital of Japan is, including its history, population, and cultural significance.",
+    "answer": "Tokyo",
+    "accept_aliases": "tokyo",
+    "question_type": "long_easy"
+  },
+  {
+    "question": "Explain in full what the freezing point of water is in Fahrenheit and Celsius, covering the science behind it.",
+    "answer": "32 degrees Fahrenheit",
+    "accept_aliases": "32|0 celsius",
+    "question_type": "long_easy"
+  },
+  {
+    "question": "Provide a thorough explanation of what the square root of 144 is and describe the mathematical reasoning.",
+    "answer": "12",
+    "accept_aliases": "12|twelve",
+    "question_type": "long_easy"
+  },
+  {
+    "question": "Describe in exhaustive detail what the longest river in Africa is, including its geography and cultural importance.",
+    "answer": "Nile",
+    "accept_aliases": "nile",
+    "question_type": "long_easy"
+  },
+  {
+    "question": "Give a comprehensive account of who developed the theory of general relativity and describe the theory's key concepts.",
+    "answer": "Albert Einstein",
+    "accept_aliases": "einstein",
+    "question_type": "long_easy"
+  },
+  {
+    "question": "Explain in detail how many chromosomes humans have and discuss their role in genetics.",
+    "answer": "46",
+    "accept_aliases": "46|forty-six",
+    "question_type": "long_easy"
+  },
+  {
+    "question": "Provide a thorough description of what the chemical symbol for iron is and discuss its importance in biology and industry.",
+    "answer": "Fe",
+    "accept_aliases": "fe",
+    "question_type": "long_easy"
+  },
+  {
+    "question": "Describe extensively what the largest mammal on Earth is, covering its biology, behavior, and conservation status.",
+    "answer": "Blue whale",
+    "accept_aliases": "blue whale",
+    "question_type": "long_easy"
+  },
+  {
+    "question": "Explain comprehensively what year the Berlin Wall fell, including the political circumstances.",
+    "answer": "1989",
+    "accept_aliases": "1989",
+    "question_type": "long_easy"
+  },
+  {
+    "question": "Give a detailed explanation of who discovered penicillin, including the circumstances of the discovery.",
+    "answer": "Alexander Fleming",
+    "accept_aliases": "fleming",
+    "question_type": "long_easy"
+  },
+  {
+    "question": "Describe thoroughly what the chemical formula for table salt is and explain its ionic bonding.",
+    "answer": "NaCl",
+    "accept_aliases": "nacl",
+    "question_type": "long_easy"
+  },
+  {
+    "question": "Provide a comprehensive account of what planet is known as the Red Planet and explain why.",
+    "answer": "Mars",
+    "accept_aliases": "mars",
+    "question_type": "long_easy"
+  },
+  {
+    "question": "Explain at length what the boiling point of water is at sea level and how altitude affects it.",
+    "answer": "100 degrees Celsius",
+    "accept_aliases": "100|212 fahrenheit",
+    "question_type": "long_easy"
+  },
+  {
+    "question": "Give a thorough explanation of who was the first person to walk on the Moon and describe the mission.",
+    "answer": "Neil Armstrong",
+    "accept_aliases": "armstrong",
+    "question_type": "long_easy"
+  },
+  {
+    "question": "Describe in detail the atomic number of hydrogen and explain what atomic number means in chemistry.",
+    "answer": "1",
+    "accept_aliases": "1|one",
+    "question_type": "long_easy"
+  },
+  {
+    "question": "Provide an extensive explanation of what the smallest country in the world is by area and describe its governance.",
+    "answer": "Vatican City",
+    "accept_aliases": "vatican",
+    "question_type": "long_easy"
+  },
+  {
+    "question": "Explain comprehensively what the currency of Japan is and discuss its economic significance.",
+    "answer": "Yen",
+    "accept_aliases": "yen|¥|JPY",
+    "question_type": "long_easy"
+  },
+  {
+    "question": "Give a detailed account of how many sides a hexagon has and explain the etymology and mathematical properties.",
+    "answer": "6",
+    "accept_aliases": "6|six",
+    "question_type": "long_easy"
+  },
+  {
+    "question": "Chandrasekhar limit in solar masses?",
+    "answer": "1.4",
+    "accept_aliases": "1.4|1.44",
+    "question_type": "short_hard"
+  },
+  {
+    "question": "Ramanujan's taxi number?",
+    "answer": "1729",
+    "accept_aliases": "1729",
+    "question_type": "short_hard"
+  },
+  {
+    "question": "Capital of Nauru?",
+    "answer": "Yaren",
+    "accept_aliases": "yaren",
+    "question_type": "short_hard"
+  },
+  {
+    "question": "Boltzmann constant in J/K?",
+    "answer": "1.381e-23",
+    "accept_aliases": "1.381|1.38e-23",
+    "question_type": "short_hard"
+  },
+  {
+    "question": "First Fields Medal year?",
+    "answer": "1936",
+    "accept_aliases": "1936",
+    "question_type": "short_hard"
+  },
+  {
+    "question": "Debye temperature of diamond?",
+    "answer": "2230 K",
+    "accept_aliases": "2230|2200",
+    "question_type": "short_hard"
+  },
+  {
+    "question": "Hubble constant in km/s/Mpc?",
+    "answer": "70",
+    "accept_aliases": "67|70|73",
+    "question_type": "short_hard"
+  },
+  {
+    "question": "Fine-structure constant?",
+    "answer": "1/137",
+    "accept_aliases": "1/137|0.0073",
+    "question_type": "short_hard"
+  },
+  {
+    "question": "Capital of Vanuatu?",
+    "answer": "Port Vila",
+    "accept_aliases": "port vila",
+    "question_type": "short_hard"
+  },
+  {
+    "question": "Kaprekar constant?",
+    "answer": "6174",
+    "accept_aliases": "6174",
+    "question_type": "short_hard"
+  },
+  {
+    "question": "Electron mass in kg?",
+    "answer": "9.109e-31",
+    "accept_aliases": "9.109e-31|9.11e-31",
+    "question_type": "short_hard"
+  },
+  {
+    "question": "Treaty of Westphalia year?",
+    "answer": "1648",
+    "accept_aliases": "1648",
+    "question_type": "short_hard"
+  },
+  {
+    "question": "Capital of Bhutan?",
+    "answer": "Thimphu",
+    "accept_aliases": "thimphu",
+    "question_type": "short_hard"
+  },
+  {
+    "question": "Planck length order of magnitude?",
+    "answer": "10^-35 m",
+    "accept_aliases": "10^-35|1e-35",
+    "question_type": "short_hard"
+  },
+  {
+    "question": "Last Byzantine emperor?",
+    "answer": "Constantine XI",
+    "accept_aliases": "constantine xi",
+    "question_type": "short_hard"
+  },
+  {
+    "question": "Capital of Djibouti?",
+    "answer": "Djibouti",
+    "accept_aliases": "djibouti",
+    "question_type": "short_hard"
+  },
+  {
+    "question": "Edict of Nantes year?",
+    "answer": "1598",
+    "accept_aliases": "1598",
+    "question_type": "short_hard"
+  },
+  {
+    "question": "Schwarzschild radius formula?",
+    "answer": "2GM/c^2",
+    "accept_aliases": "2gm/c²|2GM/c^2",
+    "question_type": "short_hard"
+  },
+  {
+    "question": "First Mughal emperor?",
+    "answer": "Babur",
+    "accept_aliases": "babur",
+    "question_type": "short_hard"
+  },
+  {
+    "question": "Capital of Eritrea?",
+    "answer": "Asmara",
+    "accept_aliases": "asmara",
+    "question_type": "short_hard"
+  },
+  {
+    "question": "Capital of Liechtenstein?",
+    "answer": "Vaduz",
+    "accept_aliases": "vaduz",
+    "question_type": "short_hard"
+  },
+  {
+    "question": "Half-life of U-238 in Gy?",
+    "answer": "4.468",
+    "accept_aliases": "4.468|4.47|4.5",
+    "question_type": "short_hard"
+  },
+  {
+    "question": "Author of Muqaddimah?",
+    "answer": "Ibn Khaldun",
+    "accept_aliases": "ibn khaldun|khaldun",
+    "question_type": "short_hard"
+  },
+  {
+    "question": "Capital of Tuvalu?",
+    "answer": "Funafuti",
+    "accept_aliases": "funafuti",
+    "question_type": "short_hard"
+  },
+  {
+    "question": "Capital of Palau?",
+    "answer": "Ngerulmud",
+    "accept_aliases": "ngerulmud",
+    "question_type": "short_hard"
+  },
+  {
+    "question": "Hausdorff dim of Sierpinski triangle?",
+    "answer": "log3/log2",
+    "accept_aliases": "1.585|log3/log2",
+    "question_type": "short_hard"
+  },
+  {
+    "question": "First female Fields Medal?",
+    "answer": "Maryam Mirzakhani",
+    "accept_aliases": "mirzakhani",
+    "question_type": "short_hard"
+  },
+  {
+    "question": "Capital of Kiribati?",
+    "answer": "Tarawa",
+    "accept_aliases": "tarawa|south tarawa",
+    "question_type": "short_hard"
+  },
+  {
+    "question": "Council of Nicaea year?",
+    "answer": "325",
+    "accept_aliases": "325",
+    "question_type": "short_hard"
+  },
+  {
+    "question": "FFT algorithm inventors?",
+    "answer": "Cooley and Tukey",
+    "accept_aliases": "cooley|tukey",
+    "question_type": "short_hard"
+  },
+  {
+    "question": "Capital of Comoros?",
+    "answer": "Moroni",
+    "accept_aliases": "moroni",
+    "question_type": "short_hard"
+  },
+  {
+    "question": "Treaty of Tordesillas year?",
+    "answer": "1494",
+    "accept_aliases": "1494",
+    "question_type": "short_hard"
+  },
+  {
+    "question": "Capital of Tonga?",
+    "answer": "Nukualofa",
+    "accept_aliases": "nukualofa|nuku'alofa",
+    "question_type": "short_hard"
+  },
+  {
+    "question": "Heaviest stable element?",
+    "answer": "Lead",
+    "accept_aliases": "lead|Pb",
+    "question_type": "short_hard"
+  },
+  {
+    "question": "Capital of San Marino?",
+    "answer": "San Marino",
+    "accept_aliases": "san marino",
+    "question_type": "short_hard"
+  },
+  {
+    "question": "Bekenstein-Hawking entropy?",
+    "answer": "S = A/(4 l_p^2)",
+    "accept_aliases": "A/4|kA/4",
+    "question_type": "short_hard"
+  },
+  {
+    "question": "Second president of Republic of Texas?",
+    "answer": "Mirabeau B. Lamar",
+    "accept_aliases": "lamar",
+    "question_type": "short_hard"
+  },
+  {
+    "question": "Capital of Marshall Islands?",
+    "answer": "Majuro",
+    "accept_aliases": "majuro",
+    "question_type": "short_hard"
+  },
+  {
+    "question": "Witten index symbol?",
+    "answer": "Tr(-1)^F",
+    "accept_aliases": "tr|trace",
+    "question_type": "short_hard"
+  },
+  {
+    "question": "Age of universe in Gyr?",
+    "answer": "13.8",
+    "accept_aliases": "13.8|13.7|13.77",
+    "question_type": "short_hard"
+  }
+]

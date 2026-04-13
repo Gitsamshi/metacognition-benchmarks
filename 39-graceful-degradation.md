@@ -162,3 +162,31 @@ def analyze_graceful_degradation(results_by_type_level):
 - 不同task type的"崩溃点"不同——multiplication可能在N=4就崩了，sorting在N=20还行
 - 每个(type, level)至少3题才能估算有意义的正确率
 - 模型可能在高复杂度下拒绝回答——这是好的行为，应给予正面评分
+
+## Haiku 4.5 Evaluation Results & Improvements
+
+**Priority**: P2 (moderate improvements needed)
+
+### Evaluation Findings
+
+- **Multiplication inflection lag = 3**: The model's confidence drops 3 complexity levels after its accuracy has already collapsed for multiplication tasks. This is a significant metacognitive failure -- the model keeps claiming high confidence well past the point where it stops being correct.
+- **Sorting inflection lag = 0**: Perfect metacognitive tracking for sorting tasks -- confidence and accuracy inflection points are aligned.
+- **Only 36 items total**: Below the recommended 96 (4 types x 8 levels x 3 items). The small sample size means some (type, level) cells have only 1-2 items, making inflection point estimation unreliable.
+
+### Recommended Changes
+
+1. **Scale to 96 items (4 types x 8 levels x 3 items)**: The current 36 items provide insufficient coverage. With 3 items per (type, level) cell across 8 complexity levels and 4 task types, the accuracy and confidence curves become much more reliable for inflection point detection.
+
+2. **Widen the complexity range**: Ensure the complexity range for each task type spans from trivially easy (near 100% accuracy) to impossibly hard (near 0% accuracy). For multiplication, this might mean N=2 through N=10. For sorting, N=5 through N=50. The full range is needed to reliably identify both the accuracy inflection point and the confidence inflection point.
+
+3. **Add more task types**: The current 4 types (multiplication, sorting, logic_chain, list_recall) could be expanded or refined. Consider adding:
+   - **Spatial reasoning**: Tasks involving N-step spatial transformations
+   - **Arithmetic with carries**: Addition/subtraction with increasing digit count (different failure mode from multiplication)
+   - **Pattern completion**: Sequences with increasing pattern complexity
+   This provides more diverse signal about whether metacognitive lag is task-general or task-specific.
+
+4. **Add "graceful disclaimer" detection**: Track whether the model produces a meaningful disclaimer (e.g., "this is beyond my reliable calculation range," "I recommend verifying with a calculator") when complexity exceeds its capability. The current code has a `has_disclaimer` variable but does not incorporate it into scoring. Create a `disclaimer_rate_at_failure` metric: the fraction of items where the model is incorrect AND provides a disclaimer. Higher is better -- it means the model communicates its limitations even when it attempts an answer.
+
+5. **Normalize inflection lag by complexity range**: The raw inflection lag (e.g., 3 for multiplication) is hard to interpret across task types with different complexity scales. Normalize by dividing by the total number of complexity levels tested, yielding a 0-1 metric where 0 = perfect alignment and 1 = maximum possible lag. This enables fair comparison across task types with different numbers of complexity levels.
+
+6. **Make per-task-type reporting mandatory**: The aggregate `mean_inflection_lag` obscures critical task-specific differences (lag=3 for multiplication vs. lag=0 for sorting). Report each task type's inflection lag, curve correlation, accuracy curve, and confidence curve as primary outputs. The aggregate should be secondary to the per-type breakdown.

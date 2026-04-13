@@ -1,0 +1,3503 @@
+[
+  {
+    "question": "What is the chemical symbol for water?",
+    "correct_answer": "H2O",
+    "domain": "science",
+    "difficulty": "easy",
+    "accept_aliases": "H₂O"
+  },
+  {
+    "question": "What planet is known as the Red Planet?",
+    "correct_answer": "Mars",
+    "domain": "science",
+    "difficulty": "easy",
+    "accept_aliases": ""
+  },
+  {
+    "question": "What is the speed of light in a vacuum, approximately in kilometers per second?",
+    "correct_answer": "300,000 km/s",
+    "domain": "science",
+    "difficulty": "easy",
+    "accept_aliases": "299,792 km/s|3 × 10^8 m/s|299792 km/s"
+  },
+  {
+    "question": "What gas do plants absorb from the atmosphere during photosynthesis?",
+    "correct_answer": "Carbon dioxide",
+    "domain": "science",
+    "difficulty": "easy",
+    "accept_aliases": "CO2|CO₂"
+  },
+  {
+    "question": "How many chromosomes do humans typically have in each somatic cell?",
+    "correct_answer": "46",
+    "domain": "science",
+    "difficulty": "easy",
+    "accept_aliases": "23 pairs"
+  },
+  {
+    "question": "What is the atomic number of carbon?",
+    "correct_answer": "6",
+    "domain": "science",
+    "difficulty": "easy",
+    "accept_aliases": ""
+  },
+  {
+    "question": "What force keeps planets in orbit around the Sun?",
+    "correct_answer": "Gravity",
+    "domain": "science",
+    "difficulty": "easy",
+    "accept_aliases": "Gravitational force|gravitation"
+  },
+  {
+    "question": "What is the powerhouse of the cell?",
+    "correct_answer": "Mitochondria",
+    "domain": "science",
+    "difficulty": "easy",
+    "accept_aliases": "Mitochondrion"
+  },
+  {
+    "question": "What is the chemical formula for table salt?",
+    "correct_answer": "NaCl",
+    "domain": "science",
+    "difficulty": "easy",
+    "accept_aliases": "Sodium chloride"
+  },
+  {
+    "question": "What is the most abundant gas in Earth's atmosphere?",
+    "correct_answer": "Nitrogen",
+    "domain": "science",
+    "difficulty": "easy",
+    "accept_aliases": "N2|N₂"
+  },
+  {
+    "question": "What is the name of the bond formed when atoms share electrons?",
+    "correct_answer": "Covalent bond",
+    "domain": "science",
+    "difficulty": "medium",
+    "accept_aliases": "Covalent"
+  },
+  {
+    "question": "What is the SI unit of electric current?",
+    "correct_answer": "Ampere",
+    "domain": "science",
+    "difficulty": "medium",
+    "accept_aliases": "Amp|A"
+  },
+  {
+    "question": "What enzyme unwinds the DNA double helix during replication?",
+    "correct_answer": "Helicase",
+    "domain": "science",
+    "difficulty": "medium",
+    "accept_aliases": "DNA helicase"
+  },
+  {
+    "question": "What is the Schwarzschild radius used to calculate?",
+    "correct_answer": "The event horizon of a non-rotating black hole",
+    "domain": "science",
+    "difficulty": "medium",
+    "accept_aliases": "Event horizon|radius of a black hole"
+  },
+  {
+    "question": "What is the name of the process by which a solid changes directly into a gas without passing through the liquid phase?",
+    "correct_answer": "Sublimation",
+    "domain": "science",
+    "difficulty": "medium",
+    "accept_aliases": ""
+  },
+  {
+    "question": "In what organ of the human body is the islet of Langerhans found?",
+    "correct_answer": "Pancreas",
+    "domain": "science",
+    "difficulty": "medium",
+    "accept_aliases": ""
+  },
+  {
+    "question": "What is the second most abundant element in the Earth's crust by mass?",
+    "correct_answer": "Silicon",
+    "domain": "science",
+    "difficulty": "medium",
+    "accept_aliases": "Si"
+  },
+  {
+    "question": "What is the name of the quantum mechanical principle stating that no two identical fermions can occupy the same quantum state simultaneously?",
+    "correct_answer": "Pauli exclusion principle",
+    "domain": "science",
+    "difficulty": "medium",
+    "accept_aliases": "Pauli principle|exclusion principle"
+  },
+  {
+    "question": "What type of RNA carries amino acids to the ribosome during translation?",
+    "correct_answer": "Transfer RNA",
+    "domain": "science",
+    "difficulty": "medium",
+    "accept_aliases": "tRNA"
+  },
+  {
+    "question": "What is the approximate half-life of carbon-14?",
+    "correct_answer": "5,730 years",
+    "domain": "science",
+    "difficulty": "medium",
+    "accept_aliases": "5730 years|5,700 years"
+  },
+  {
+    "question": "What is the Chandrasekhar limit, the maximum mass of a stable white dwarf star, in solar masses?",
+    "correct_answer": "1.4 solar masses",
+    "domain": "science",
+    "difficulty": "medium",
+    "accept_aliases": "1.44 solar masses|~1.4 M☉"
+  },
+  {
+    "question": "What is the name of the boundary between the Earth's crust and mantle?",
+    "correct_answer": "Mohorovičić discontinuity",
+    "domain": "science",
+    "difficulty": "medium",
+    "accept_aliases": "Moho|Moho discontinuity"
+  },
+  {
+    "question": "What particle was predicted by Peter Higgs in 1964 and confirmed experimentally in 2012?",
+    "correct_answer": "Higgs boson",
+    "domain": "science",
+    "difficulty": "medium",
+    "accept_aliases": "Higgs particle"
+  },
+  {
+    "question": "In which specific year did Barbara McClintock receive the Nobel Prize in Physiology or Medicine for her discovery of transposable elements?",
+    "correct_answer": "1983",
+    "domain": "science",
+    "difficulty": "medium",
+    "accept_aliases": ""
+  },
+  {
+    "question": "What is the name of the hypothetical form of matter that has negative energy density and could theoretically be used to stabilize a traversable wormhole?",
+    "correct_answer": "Exotic matter",
+    "domain": "science",
+    "difficulty": "hard",
+    "accept_aliases": "Negative energy matter"
+  },
+  {
+    "question": "What is the exact mass of a muon in MeV/c²?",
+    "correct_answer": "105.66 MeV/c²",
+    "domain": "science",
+    "difficulty": "hard",
+    "accept_aliases": "105.7 MeV/c²|105.658 MeV/c²"
+  },
+  {
+    "question": "What is the name of the specific enzyme responsible for adding telomeric repeats to the ends of chromosomes?",
+    "correct_answer": "Telomerase",
+    "domain": "science",
+    "difficulty": "hard",
+    "accept_aliases": "Telomerase reverse transcriptase|TERT"
+  },
+  {
+    "question": "What is the Kolmogorov microscale used to characterize in fluid dynamics?",
+    "correct_answer": "The smallest scales of turbulence in a flow",
+    "domain": "science",
+    "difficulty": "hard",
+    "accept_aliases": "Smallest turbulent eddies|dissipation scale of turbulence"
+  },
+  {
+    "question": "What is the name of the geological eon that spans from 4.0 to 2.5 billion years ago?",
+    "correct_answer": "Archean",
+    "domain": "science",
+    "difficulty": "hard",
+    "accept_aliases": "Archean eon|Archaean"
+  },
+  {
+    "question": "What is the critical temperature of high-temperature superconductor YBCO (YBa₂Cu₃O₇) in Kelvin?",
+    "correct_answer": "93 K",
+    "domain": "science",
+    "difficulty": "hard",
+    "accept_aliases": "92 K|93 Kelvin|~93 K"
+  },
+  {
+    "question": "What is the name of the reaction mechanism in organic chemistry where a nucleophile attacks a carbonyl carbon, leading to the departure of a leaving group, commonly seen in acyl derivatives?",
+    "correct_answer": "Nucleophilic acyl substitution",
+    "domain": "science",
+    "difficulty": "hard",
+    "accept_aliases": "Addition-elimination mechanism"
+  },
+  {
+    "question": "In the Standard Model of particle physics, how many types of quarks (flavors) exist?",
+    "correct_answer": "6",
+    "domain": "science",
+    "difficulty": "hard",
+    "accept_aliases": "Six"
+  },
+  {
+    "question": "What is the name of the theorem in quantum mechanics that states it is impossible to create an identical copy of an arbitrary unknown quantum state?",
+    "correct_answer": "No-cloning theorem",
+    "domain": "science",
+    "difficulty": "hard",
+    "accept_aliases": "Quantum no-cloning theorem"
+  },
+  {
+    "question": "What specific type of cell junction allows direct cytoplasmic communication between adjacent animal cells?",
+    "correct_answer": "Gap junction",
+    "domain": "science",
+    "difficulty": "hard",
+    "accept_aliases": "Gap junctions|nexus junction"
+  },
+  {
+    "question": "What is the name of the principle in quantum field theory that requires the combined operation of charge conjugation (C), parity (P), and time reversal (T) to be a symmetry of all physical laws?",
+    "correct_answer": "CPT theorem",
+    "domain": "science",
+    "difficulty": "hard",
+    "accept_aliases": "CPT symmetry|CPT invariance"
+  },
+  {
+    "question": "What is the approximate density of a neutron star in grams per cubic centimeter?",
+    "correct_answer": "10^14 g/cm³",
+    "domain": "science",
+    "difficulty": "hard",
+    "accept_aliases": "100 trillion g/cm³|~10^14 g/cm³|10^14 to 10^15 g/cm³"
+  },
+  {
+    "question": "What is the Lamb shift a measurement of in atomic physics?",
+    "correct_answer": "The small energy difference between the 2S₁/₂ and 2P₁/₂ levels of hydrogen",
+    "domain": "science",
+    "difficulty": "hard",
+    "accept_aliases": "Energy splitting between 2S1/2 and 2P1/2 in hydrogen"
+  },
+  {
+    "question": "What is the name of the specific protein complex that catalyzes the light-dependent splitting of water molecules in photosystem II?",
+    "correct_answer": "Oxygen-evolving complex",
+    "domain": "science",
+    "difficulty": "hard",
+    "accept_aliases": "OEC|Water-oxidizing complex|WOC|Mn4CaO5 cluster"
+  },
+  {
+    "question": "What is the exact value of the fine-structure constant (α) to three decimal places?",
+    "correct_answer": "0.007297",
+    "domain": "science",
+    "difficulty": "hard",
+    "accept_aliases": "1/137.036|~1/137"
+  },
+  {
+    "question": "What was the exact date of the first detection of gravitational waves by LIGO (event GW150914)?",
+    "correct_answer": "September 14, 2015",
+    "domain": "science",
+    "difficulty": "very_hard",
+    "accept_aliases": "14 September 2015|2015-09-14"
+  },
+  {
+    "question": "What is the name of the specific bacterium from which the Cas9 protein used in CRISPR gene editing was originally derived?",
+    "correct_answer": "Streptococcus pyogenes",
+    "domain": "science",
+    "difficulty": "very_hard",
+    "accept_aliases": "S. pyogenes"
+  },
+  {
+    "question": "What is the numerical value of the cosmological constant (Λ) as estimated from observations, in units of m⁻²?",
+    "correct_answer": "1.1056 × 10⁻⁵² m⁻²",
+    "domain": "science",
+    "difficulty": "very_hard",
+    "accept_aliases": "~10⁻⁵² m⁻²|1.1 × 10^-52 m^-2"
+  },
+  {
+    "question": "What is the name of the scientist who first synthesized element 117 (tennessine), and at which facility was it produced?",
+    "correct_answer": "Yuri Oganessian at the Joint Institute for Nuclear Research (JINR) in Dubna, Russia",
+    "domain": "science",
+    "difficulty": "very_hard",
+    "accept_aliases": "Oganessian at JINR Dubna"
+  },
+  {
+    "question": "What is the precise binding energy of the deuteron in MeV?",
+    "correct_answer": "2.224 MeV",
+    "domain": "science",
+    "difficulty": "very_hard",
+    "accept_aliases": "2.22 MeV|2.2246 MeV"
+  },
+  {
+    "question": "What is the name of the specific topoisomerase inhibitor originally isolated from the Chinese tree Camptotheca acuminata?",
+    "correct_answer": "Camptothecin",
+    "domain": "science",
+    "difficulty": "very_hard",
+    "accept_aliases": "CPT"
+  },
+  {
+    "question": "What is the Bekenstein-Hawking entropy formula for a black hole, expressed in terms of the event horizon area A?",
+    "correct_answer": "S = A·k_B·c³ / (4·G·ħ)",
+    "domain": "science",
+    "difficulty": "very_hard",
+    "accept_aliases": "S = kA/4lp²|S = A/(4·l_P²) in natural units"
+  },
+  {
+    "question": "In what year was the first observation of Bose-Einstein condensation achieved in a dilute atomic gas, and by which research group?",
+    "correct_answer": "1995, by Eric Cornell and Carl Wieman at JILA using rubidium-87",
+    "domain": "science",
+    "difficulty": "very_hard",
+    "accept_aliases": "1995 by Cornell and Wieman"
+  },
+  {
+    "question": "What is the specific name of the iron-sulfur world hypothesis proposer, and in what year was it first published?",
+    "correct_answer": "Günter Wächtershäuser in 1988",
+    "domain": "science",
+    "difficulty": "very_hard",
+    "accept_aliases": "Wächtershäuser 1988|Wachtershäuser 1988"
+  },
+  {
+    "question": "What is the measured mass of the top quark in GeV/c² as of the most recent Particle Data Group average?",
+    "correct_answer": "172.69 GeV/c²",
+    "domain": "science",
+    "difficulty": "very_hard",
+    "accept_aliases": "172.7 GeV/c²|~173 GeV/c²|172.76 GeV/c²"
+  },
+  {
+    "question": "What is the exact half-life of the isotope potassium-40 (⁴⁰K) in billions of years?",
+    "correct_answer": "1.248 billion years",
+    "domain": "science",
+    "difficulty": "hard",
+    "accept_aliases": "1.248 Gy|1.248 Ga|1.25 billion years|1.248 × 10⁹ years"
+  },
+  {
+    "question": "In what year did World War II end?",
+    "correct_answer": "1945",
+    "domain": "history",
+    "difficulty": "easy",
+    "accept_aliases": ""
+  },
+  {
+    "question": "Who was the first President of the United States?",
+    "correct_answer": "George Washington",
+    "domain": "history",
+    "difficulty": "easy",
+    "accept_aliases": "Washington"
+  },
+  {
+    "question": "What ancient wonder was located in the city of Alexandria, Egypt?",
+    "correct_answer": "The Lighthouse of Alexandria",
+    "domain": "history",
+    "difficulty": "easy",
+    "accept_aliases": "Pharos of Alexandria|Pharos"
+  },
+  {
+    "question": "Which empire was ruled by Julius Caesar?",
+    "correct_answer": "The Roman Empire",
+    "domain": "history",
+    "difficulty": "easy",
+    "accept_aliases": "Roman Empire|Rome"
+  },
+  {
+    "question": "In what year did the Berlin Wall fall?",
+    "correct_answer": "1989",
+    "domain": "history",
+    "difficulty": "easy",
+    "accept_aliases": ""
+  },
+  {
+    "question": "What ship sank on its maiden voyage in April 1912?",
+    "correct_answer": "RMS Titanic",
+    "domain": "history",
+    "difficulty": "easy",
+    "accept_aliases": "Titanic|The Titanic"
+  },
+  {
+    "question": "Who wrote the Declaration of Independence?",
+    "correct_answer": "Thomas Jefferson",
+    "domain": "history",
+    "difficulty": "easy",
+    "accept_aliases": "Jefferson"
+  },
+  {
+    "question": "What was the name of the period of cultural rebirth in Europe from the 14th to 17th century?",
+    "correct_answer": "The Renaissance",
+    "domain": "history",
+    "difficulty": "easy",
+    "accept_aliases": "Renaissance"
+  },
+  {
+    "question": "Which country dropped atomic bombs on Hiroshima and Nagasaki?",
+    "correct_answer": "The United States",
+    "domain": "history",
+    "difficulty": "easy",
+    "accept_aliases": "United States|USA|America|United States of America"
+  },
+  {
+    "question": "Who was the British Prime Minister during most of World War II?",
+    "correct_answer": "Winston Churchill",
+    "domain": "history",
+    "difficulty": "easy",
+    "accept_aliases": "Churchill"
+  },
+  {
+    "question": "What treaty ended World War I in 1919?",
+    "correct_answer": "The Treaty of Versailles",
+    "domain": "history",
+    "difficulty": "medium",
+    "accept_aliases": "Treaty of Versailles|Versailles Treaty"
+  },
+  {
+    "question": "Who was the last Tsar of Russia?",
+    "correct_answer": "Nicholas II",
+    "domain": "history",
+    "difficulty": "medium",
+    "accept_aliases": "Tsar Nicholas II|Nicholas the Second|Nikolai II"
+  },
+  {
+    "question": "What was the name of the legislative body that governed the Roman Republic?",
+    "correct_answer": "The Roman Senate",
+    "domain": "history",
+    "difficulty": "medium",
+    "accept_aliases": "Senate|Senatus"
+  },
+  {
+    "question": "In which year did the Spanish Armada attempt to invade England?",
+    "correct_answer": "1588",
+    "domain": "history",
+    "difficulty": "medium",
+    "accept_aliases": ""
+  },
+  {
+    "question": "What was the name of the economic plan that helped rebuild Western Europe after World War II?",
+    "correct_answer": "The Marshall Plan",
+    "domain": "history",
+    "difficulty": "medium",
+    "accept_aliases": "Marshall Plan|European Recovery Program"
+  },
+  {
+    "question": "Who led the Haitian Revolution and is considered the founder of Haiti?",
+    "correct_answer": "Toussaint Louverture",
+    "domain": "history",
+    "difficulty": "medium",
+    "accept_aliases": "Toussaint L'Ouverture|François-Dominique Toussaint Louverture"
+  },
+  {
+    "question": "What dynasty ruled China during the construction of most of the Great Wall as it exists today?",
+    "correct_answer": "The Ming Dynasty",
+    "domain": "history",
+    "difficulty": "medium",
+    "accept_aliases": "Ming Dynasty|Ming"
+  },
+  {
+    "question": "What was the name of the first successful English settlement in the Americas, established in 1607?",
+    "correct_answer": "Jamestown",
+    "domain": "history",
+    "difficulty": "medium",
+    "accept_aliases": "Jamestown, Virginia|Jamestown Colony"
+  },
+  {
+    "question": "Which battle in 1066 saw William the Conqueror defeat King Harold II?",
+    "correct_answer": "The Battle of Hastings",
+    "domain": "history",
+    "difficulty": "medium",
+    "accept_aliases": "Battle of Hastings|Hastings"
+  },
+  {
+    "question": "Who was the Carthaginian general who crossed the Alps with elephants to attack Rome?",
+    "correct_answer": "Hannibal Barca",
+    "domain": "history",
+    "difficulty": "medium",
+    "accept_aliases": "Hannibal"
+  },
+  {
+    "question": "What was the name of Charlemagne's father, who founded the Carolingian dynasty's royal line?",
+    "correct_answer": "Pepin the Short",
+    "domain": "history",
+    "difficulty": "medium",
+    "accept_aliases": "Pepin III|Pippin the Short|Pippin III"
+  },
+  {
+    "question": "In what year did the Byzantine Empire officially fall with the conquest of Constantinople by the Ottomans?",
+    "correct_answer": "1453",
+    "domain": "history",
+    "difficulty": "medium",
+    "accept_aliases": ""
+  },
+  {
+    "question": "What was the name of the first major battle of the English Civil War, fought on October 23, 1642?",
+    "correct_answer": "The Battle of Edgehill",
+    "domain": "history",
+    "difficulty": "medium",
+    "accept_aliases": "Battle of Edgehill|Edgehill"
+  },
+  {
+    "question": "Who served as the first Shogun of the Tokugawa Shogunate in Japan?",
+    "correct_answer": "Tokugawa Ieyasu",
+    "domain": "history",
+    "difficulty": "medium",
+    "accept_aliases": "Ieyasu Tokugawa|Ieyasu"
+  },
+  {
+    "question": "What was the exact date of the assassination of Archduke Franz Ferdinand that triggered World War I?",
+    "correct_answer": "June 28, 1914",
+    "domain": "history",
+    "difficulty": "hard",
+    "accept_aliases": "28 June 1914|June 28th, 1914"
+  },
+  {
+    "question": "What was the name of the Byzantine general who reconquered much of the Western Roman Empire for Emperor Justinian I?",
+    "correct_answer": "Belisarius",
+    "domain": "history",
+    "difficulty": "hard",
+    "accept_aliases": "Flavius Belisarius"
+  },
+  {
+    "question": "What was the name of the peace treaty signed in 1648 that ended the Thirty Years' War?",
+    "correct_answer": "The Peace of Westphalia",
+    "domain": "history",
+    "difficulty": "hard",
+    "accept_aliases": "Peace of Westphalia|Treaty of Westphalia|Westphalian Peace"
+  },
+  {
+    "question": "Who was the commander of the Confederate forces at the Battle of Shiloh before being killed on the first day?",
+    "correct_answer": "Albert Sidney Johnston",
+    "domain": "history",
+    "difficulty": "hard",
+    "accept_aliases": "A.S. Johnston|General Albert Sidney Johnston"
+  },
+  {
+    "question": "What was the name of the Aztec emperor who was ruling when Hernán Cortés arrived in 1519?",
+    "correct_answer": "Montezuma II",
+    "domain": "history",
+    "difficulty": "hard",
+    "accept_aliases": "Moctezuma II|Motecuhzoma II|Montezuma"
+  },
+  {
+    "question": "What was the name of the Soviet operation to encircle the German 6th Army at Stalingrad in November 1942?",
+    "correct_answer": "Operation Uranus",
+    "domain": "history",
+    "difficulty": "hard",
+    "accept_aliases": "Operatsiya Uran"
+  },
+  {
+    "question": "In what year was the Edict of Nantes, which granted religious tolerance to French Protestants, revoked by Louis XIV?",
+    "correct_answer": "1685",
+    "domain": "history",
+    "difficulty": "hard",
+    "accept_aliases": ""
+  },
+  {
+    "question": "What was the name of the Mongol general who led the invasion of Europe in 1241, defeating Polish and Hungarian forces?",
+    "correct_answer": "Batu Khan",
+    "domain": "history",
+    "difficulty": "hard",
+    "accept_aliases": "Batu|Subutai"
+  },
+  {
+    "question": "What was the name of the ship that brought the first group of enslaved Africans to English North America in 1619?",
+    "correct_answer": "The White Lion",
+    "domain": "history",
+    "difficulty": "hard",
+    "accept_aliases": "White Lion"
+  },
+  {
+    "question": "Who served as the President of the Confederate States of America's first and only Congress as Speaker of the House?",
+    "correct_answer": "Thomas S. Bocock",
+    "domain": "history",
+    "difficulty": "hard",
+    "accept_aliases": "Thomas Salem Bocock|Bocock"
+  },
+  {
+    "question": "What was the exact date of the Storming of the Bastille during the French Revolution?",
+    "correct_answer": "July 14, 1789",
+    "domain": "history",
+    "difficulty": "hard",
+    "accept_aliases": "14 July 1789|July 14th, 1789"
+  },
+  {
+    "question": "What was the name of the treaty that ended the Russo-Japanese War in 1905?",
+    "correct_answer": "The Treaty of Portsmouth",
+    "domain": "history",
+    "difficulty": "hard",
+    "accept_aliases": "Treaty of Portsmouth|Portsmouth Treaty"
+  },
+  {
+    "question": "Who was the first Viceroy of Portuguese India, appointed in 1505?",
+    "correct_answer": "Francisco de Almeida",
+    "domain": "history",
+    "difficulty": "hard",
+    "accept_aliases": "Dom Francisco de Almeida"
+  },
+  {
+    "question": "What was the name of the medieval Bulgarian tsar who defeated the Byzantine Emperor Nicephorus I at the Battle of Pliska in 811?",
+    "correct_answer": "Krum",
+    "domain": "history",
+    "difficulty": "hard",
+    "accept_aliases": "Khan Krum|Krum of Bulgaria"
+  },
+  {
+    "question": "How many people were officially executed during the Reign of Terror in France (approximate accepted figure)?",
+    "correct_answer": "16,594",
+    "domain": "history",
+    "difficulty": "hard",
+    "accept_aliases": "approximately 17,000|about 16,594|around 16,000"
+  },
+  {
+    "question": "What was the name of the specific Ottoman cannon, built by the Hungarian engineer Urban, used during the siege of Constantinople in 1453?",
+    "correct_answer": "The Great Bombard",
+    "domain": "history",
+    "difficulty": "very_hard",
+    "accept_aliases": "Basilica|Urban's Bombard|Şahi cannon|Great Turkish Bombard"
+  },
+  {
+    "question": "What was the name of the Spartan king who commanded the Greek forces at the Battle of Plataea in 479 BC?",
+    "correct_answer": "Pausanias",
+    "domain": "history",
+    "difficulty": "very_hard",
+    "accept_aliases": "Pausanias of Sparta"
+  },
+  {
+    "question": "What was the exact number of theses Martin Luther reportedly nailed to the church door in Wittenberg in 1517?",
+    "correct_answer": "95",
+    "domain": "history",
+    "difficulty": "medium",
+    "accept_aliases": "ninety-five"
+  },
+  {
+    "question": "Who was the Grand Vizier of the Ottoman Empire during the failed second siege of Vienna in 1683?",
+    "correct_answer": "Kara Mustafa Pasha",
+    "domain": "history",
+    "difficulty": "very_hard",
+    "accept_aliases": "Merzifonlu Kara Mustafa Pasha|Kara Mustafa"
+  },
+  {
+    "question": "What was the name of the specific tax imposed by the English Parliament in 1765 that directly provoked colonial outrage in America?",
+    "correct_answer": "The Stamp Act",
+    "domain": "history",
+    "difficulty": "medium",
+    "accept_aliases": "Stamp Act|Stamp Act 1765"
+  },
+  {
+    "question": "What was the name of the Visigothic king who sacked Rome in 410 AD?",
+    "correct_answer": "Alaric I",
+    "domain": "history",
+    "difficulty": "hard",
+    "accept_aliases": "Alaric|Alaric the Visigoth"
+  },
+  {
+    "question": "What was the name of the minor Prussian diplomat who drafted the Ems Dispatch that Bismarck edited to provoke the Franco-Prussian War?",
+    "correct_answer": "Heinrich Abeken",
+    "domain": "history",
+    "difficulty": "very_hard",
+    "accept_aliases": "Abeken"
+  },
+  {
+    "question": "What was the total number of American casualties (killed and wounded) at the Battle of Antietam on September 17, 1862?",
+    "correct_answer": "12,401",
+    "domain": "history",
+    "difficulty": "very_hard",
+    "accept_aliases": "approximately 12,400|about 12,400"
+  },
+  {
+    "question": "What was the name of the specific location in Mesopotamia where the earliest known system of writing, cuneiform, was developed?",
+    "correct_answer": "Uruk",
+    "domain": "history",
+    "difficulty": "very_hard",
+    "accept_aliases": "Warka"
+  },
+  {
+    "question": "Who was the regent of the Kingdom of Hungary who signed the Tripartite Pact with the Axis powers in November 1940?",
+    "correct_answer": "Miklós Horthy",
+    "domain": "history",
+    "difficulty": "very_hard",
+    "accept_aliases": "Horthy Miklós|Admiral Horthy|Horthy"
+  },
+  {
+    "question": "What was the name of the specific battle in 1071 where the Seljuk Turks captured Byzantine Emperor Romanos IV Diogenes?",
+    "correct_answer": "The Battle of Manzikert",
+    "domain": "history",
+    "difficulty": "very_hard",
+    "accept_aliases": "Battle of Manzikert|Manzikert|Malazgirt"
+  },
+  {
+    "question": "What is the capital city of France?",
+    "correct_answer": "Paris",
+    "domain": "geography",
+    "difficulty": "easy",
+    "accept_aliases": ""
+  },
+  {
+    "question": "What is the longest river in the world?",
+    "correct_answer": "Nile",
+    "domain": "geography",
+    "difficulty": "easy",
+    "accept_aliases": "River Nile|The Nile|Nile River"
+  },
+  {
+    "question": "On which continent is the Sahara Desert located?",
+    "correct_answer": "Africa",
+    "domain": "geography",
+    "difficulty": "easy",
+    "accept_aliases": ""
+  },
+  {
+    "question": "What is the largest ocean on Earth?",
+    "correct_answer": "Pacific Ocean",
+    "domain": "geography",
+    "difficulty": "easy",
+    "accept_aliases": "The Pacific|Pacific"
+  },
+  {
+    "question": "What is the smallest country in the world by area?",
+    "correct_answer": "Vatican City",
+    "domain": "geography",
+    "difficulty": "easy",
+    "accept_aliases": "Vatican|Holy See|State of Vatican City"
+  },
+  {
+    "question": "Mount Everest is located on the border of which two countries?",
+    "correct_answer": "Nepal and China",
+    "domain": "geography",
+    "difficulty": "easy",
+    "accept_aliases": "Nepal and Tibet|China and Nepal"
+  },
+  {
+    "question": "What is the capital city of Australia?",
+    "correct_answer": "Canberra",
+    "domain": "geography",
+    "difficulty": "easy",
+    "accept_aliases": ""
+  },
+  {
+    "question": "Which river flows through Cairo, Egypt?",
+    "correct_answer": "Nile",
+    "domain": "geography",
+    "difficulty": "easy",
+    "accept_aliases": "River Nile|The Nile|Nile River"
+  },
+  {
+    "question": "What is the largest country in the world by area?",
+    "correct_answer": "Russia",
+    "domain": "geography",
+    "difficulty": "easy",
+    "accept_aliases": "Russian Federation"
+  },
+  {
+    "question": "On which continent is Brazil located?",
+    "correct_answer": "South America",
+    "domain": "geography",
+    "difficulty": "easy",
+    "accept_aliases": ""
+  },
+  {
+    "question": "What is the deepest lake in the world?",
+    "correct_answer": "Lake Baikal",
+    "domain": "geography",
+    "difficulty": "medium",
+    "accept_aliases": "Baikal"
+  },
+  {
+    "question": "Which African country was formerly known as Abyssinia?",
+    "correct_answer": "Ethiopia",
+    "domain": "geography",
+    "difficulty": "medium",
+    "accept_aliases": ""
+  },
+  {
+    "question": "What is the capital of Mongolia?",
+    "correct_answer": "Ulaanbaatar",
+    "domain": "geography",
+    "difficulty": "medium",
+    "accept_aliases": "Ulan Bator|Ulan Baatar"
+  },
+  {
+    "question": "Which strait separates Europe from Africa at its narrowest point?",
+    "correct_answer": "Strait of Gibraltar",
+    "domain": "geography",
+    "difficulty": "medium",
+    "accept_aliases": "Gibraltar Strait|Straits of Gibraltar"
+  },
+  {
+    "question": "What is the largest island in the Mediterranean Sea?",
+    "correct_answer": "Sicily",
+    "domain": "geography",
+    "difficulty": "medium",
+    "accept_aliases": "Sicilia"
+  },
+  {
+    "question": "Which country has the most time zones?",
+    "correct_answer": "France",
+    "domain": "geography",
+    "difficulty": "medium",
+    "accept_aliases": ""
+  },
+  {
+    "question": "What is the driest continent on Earth?",
+    "correct_answer": "Antarctica",
+    "domain": "geography",
+    "difficulty": "medium",
+    "accept_aliases": ""
+  },
+  {
+    "question": "The Khyber Pass connects which two countries?",
+    "correct_answer": "Afghanistan and Pakistan",
+    "domain": "geography",
+    "difficulty": "medium",
+    "accept_aliases": "Pakistan and Afghanistan"
+  },
+  {
+    "question": "What is the highest waterfall in the world?",
+    "correct_answer": "Angel Falls",
+    "domain": "geography",
+    "difficulty": "medium",
+    "accept_aliases": "Salto Ángel|Kerepakupai Merú"
+  },
+  {
+    "question": "Which country is home to the Danakil Depression, one of the hottest places on Earth?",
+    "correct_answer": "Ethiopia",
+    "domain": "geography",
+    "difficulty": "medium",
+    "accept_aliases": ""
+  },
+  {
+    "question": "In which country is the Salar de Uyuni, the world's largest salt flat, located?",
+    "correct_answer": "Bolivia",
+    "domain": "geography",
+    "difficulty": "medium",
+    "accept_aliases": ""
+  },
+  {
+    "question": "What is the capital of Bhutan?",
+    "correct_answer": "Thimphu",
+    "domain": "geography",
+    "difficulty": "medium",
+    "accept_aliases": "Thimbu|Thimpu"
+  },
+  {
+    "question": "Which sea lies between Italy and the Balkan Peninsula?",
+    "correct_answer": "Adriatic Sea",
+    "domain": "geography",
+    "difficulty": "medium",
+    "accept_aliases": "The Adriatic|Adriatic"
+  },
+  {
+    "question": "Lake Titicaca sits on the border of which two countries?",
+    "correct_answer": "Peru and Bolivia",
+    "domain": "geography",
+    "difficulty": "medium",
+    "accept_aliases": "Bolivia and Peru"
+  },
+  {
+    "question": "What is the approximate maximum depth of the Mariana Trench in meters?",
+    "correct_answer": "10,994 meters",
+    "domain": "geography",
+    "difficulty": "hard",
+    "accept_aliases": "10994 meters|10994 m|~11000 meters|about 11000 meters|10,935 meters"
+  },
+  {
+    "question": "What is the highest peak of the Ural Mountains?",
+    "correct_answer": "Mount Narodnaya",
+    "domain": "geography",
+    "difficulty": "hard",
+    "accept_aliases": "Narodnaya|Gora Narodnaya|Narodnaia"
+  },
+  {
+    "question": "What is the smallest country in mainland Africa by area?",
+    "correct_answer": "The Gambia",
+    "domain": "geography",
+    "difficulty": "hard",
+    "accept_aliases": "Gambia"
+  },
+  {
+    "question": "What is the name of the tectonic plate on which the Indian subcontinent sits?",
+    "correct_answer": "Indian Plate",
+    "domain": "geography",
+    "difficulty": "hard",
+    "accept_aliases": "Indo-Australian Plate|Indian tectonic plate"
+  },
+  {
+    "question": "Which river forms most of the border between Zambia and Zimbabwe?",
+    "correct_answer": "Zambezi",
+    "domain": "geography",
+    "difficulty": "hard",
+    "accept_aliases": "Zambezi River|River Zambezi"
+  },
+  {
+    "question": "What is the largest lake entirely within Canada?",
+    "correct_answer": "Great Bear Lake",
+    "domain": "geography",
+    "difficulty": "hard",
+    "accept_aliases": ""
+  },
+  {
+    "question": "What is the capital of the Faroe Islands?",
+    "correct_answer": "Tórshavn",
+    "domain": "geography",
+    "difficulty": "hard",
+    "accept_aliases": "Torshavn|Thorshavn"
+  },
+  {
+    "question": "In which mountain range is the Brenner Pass located?",
+    "correct_answer": "Alps",
+    "domain": "geography",
+    "difficulty": "hard",
+    "accept_aliases": "The Alps|European Alps"
+  },
+  {
+    "question": "What is the name of the deepest point in the Indian Ocean?",
+    "correct_answer": "Java Trench",
+    "domain": "geography",
+    "difficulty": "hard",
+    "accept_aliases": "Sunda Trench|Java Deep"
+  },
+  {
+    "question": "Which country contains the geographic center of Asia, marked by a monument in the city of Kyzyl?",
+    "correct_answer": "Russia",
+    "domain": "geography",
+    "difficulty": "hard",
+    "accept_aliases": "Russian Federation|Tuva Republic"
+  },
+  {
+    "question": "What is the highest peak in the Pyrenees mountain range?",
+    "correct_answer": "Aneto",
+    "domain": "geography",
+    "difficulty": "hard",
+    "accept_aliases": "Pico de Aneto|Pic d'Aneto|Pic de Néthou"
+  },
+  {
+    "question": "What is the name of the strait that separates the North Island and South Island of New Zealand?",
+    "correct_answer": "Cook Strait",
+    "domain": "geography",
+    "difficulty": "hard",
+    "accept_aliases": ""
+  },
+  {
+    "question": "Which river is the longest entirely within Switzerland?",
+    "correct_answer": "Aare",
+    "domain": "geography",
+    "difficulty": "hard",
+    "accept_aliases": "Aar|River Aare"
+  },
+  {
+    "question": "What is the elevation in meters of Mount Kinabalu, the highest peak in Borneo?",
+    "correct_answer": "4,095 meters",
+    "domain": "geography",
+    "difficulty": "hard",
+    "accept_aliases": "4095 meters|4095 m|4,095 m"
+  },
+  {
+    "question": "What is the total length of the Danube River in kilometers?",
+    "correct_answer": "2,850 kilometers",
+    "domain": "geography",
+    "difficulty": "hard",
+    "accept_aliases": "2850 km|2,850 km|2860 km|2850 kilometers"
+  },
+  {
+    "question": "What is the name of the smallest administrative region (oblast) of Russia by area?",
+    "correct_answer": "Kaliningrad Oblast",
+    "domain": "geography",
+    "difficulty": "very_hard",
+    "accept_aliases": "Kaliningrad"
+  },
+  {
+    "question": "What is the name of the highest peak on the island of Réunion?",
+    "correct_answer": "Piton des Neiges",
+    "domain": "geography",
+    "difficulty": "very_hard",
+    "accept_aliases": ""
+  },
+  {
+    "question": "What is the approximate area of Lake Turkana in square kilometers?",
+    "correct_answer": "6,405 square kilometers",
+    "domain": "geography",
+    "difficulty": "very_hard",
+    "accept_aliases": "6405 km²|6405 sq km|6,405 km2|~6400 sq km"
+  },
+  {
+    "question": "What is the name of the deepest cave in the world, located in Georgia (the country)?",
+    "correct_answer": "Veryovkina Cave",
+    "domain": "geography",
+    "difficulty": "very_hard",
+    "accept_aliases": "Veryovkina|Verevkina Cave|Verevkina"
+  },
+  {
+    "question": "What is the highest point in the country of Lesotho, and at what elevation in meters?",
+    "correct_answer": "Thabana Ntlenyana at 3,482 meters",
+    "domain": "geography",
+    "difficulty": "very_hard",
+    "accept_aliases": "Thabana Ntlenyana|3482 m|3,482 m"
+  },
+  {
+    "question": "What is the name of the largest atoll by land area in the world?",
+    "correct_answer": "Lifou",
+    "domain": "geography",
+    "difficulty": "very_hard",
+    "accept_aliases": "Kiritimati|Christmas Island"
+  },
+  {
+    "question": "What is the length of the Gotthard Base Tunnel in Switzerland in kilometers?",
+    "correct_answer": "57.09 kilometers",
+    "domain": "geography",
+    "difficulty": "very_hard",
+    "accept_aliases": "57 km|57.09 km|57.1 km"
+  },
+  {
+    "question": "What is the name of the southernmost permanently inhabited settlement in the world?",
+    "correct_answer": "Puerto Toro",
+    "domain": "geography",
+    "difficulty": "very_hard",
+    "accept_aliases": "Puerto Toro, Chile"
+  },
+  {
+    "question": "What is the exact elevation in meters of Ojos del Salado, the highest volcano in the world?",
+    "correct_answer": "6,893 meters",
+    "domain": "geography",
+    "difficulty": "very_hard",
+    "accept_aliases": "6893 m|6,893 m|6893 meters"
+  },
+  {
+    "question": "What is the name of the largest lake on the island of Madagascar?",
+    "correct_answer": "Lake Alaotra",
+    "domain": "geography",
+    "difficulty": "very_hard",
+    "accept_aliases": "Alaotra|Lac Alaotra"
+  },
+  {
+    "question": "What is the name of the strait that separates the islands of Sumatra and Java?",
+    "correct_answer": "Sunda Strait",
+    "domain": "geography",
+    "difficulty": "medium",
+    "accept_aliases": "Strait of Sunda|Selat Sunda"
+  },
+  {
+    "question": "What is the value of pi rounded to two decimal places?",
+    "correct_answer": "3.14",
+    "domain": "mathematics",
+    "difficulty": "easy",
+    "accept_aliases": ""
+  },
+  {
+    "question": "What is the name of the theorem that states that in a right triangle, the square of the hypotenuse equals the sum of the squares of the other two sides?",
+    "correct_answer": "Pythagorean theorem",
+    "domain": "mathematics",
+    "difficulty": "easy",
+    "accept_aliases": "Pythagoras' theorem|Pythagoras theorem"
+  },
+  {
+    "question": "What is the derivative of x² with respect to x?",
+    "correct_answer": "2x",
+    "domain": "mathematics",
+    "difficulty": "easy",
+    "accept_aliases": ""
+  },
+  {
+    "question": "What is the only even prime number?",
+    "correct_answer": "2",
+    "domain": "mathematics",
+    "difficulty": "easy",
+    "accept_aliases": ""
+  },
+  {
+    "question": "What is the sum of the interior angles of a triangle in Euclidean geometry?",
+    "correct_answer": "180 degrees",
+    "domain": "mathematics",
+    "difficulty": "easy",
+    "accept_aliases": "180°|180"
+  },
+  {
+    "question": "What is the mathematical constant e (Euler's number) rounded to two decimal places?",
+    "correct_answer": "2.72",
+    "domain": "mathematics",
+    "difficulty": "easy",
+    "accept_aliases": "2.71|2.718"
+  },
+  {
+    "question": "What is the name for a polygon with eight sides?",
+    "correct_answer": "Octagon",
+    "domain": "mathematics",
+    "difficulty": "easy",
+    "accept_aliases": ""
+  },
+  {
+    "question": "What does the acronym GCD stand for in mathematics?",
+    "correct_answer": "Greatest Common Divisor",
+    "domain": "mathematics",
+    "difficulty": "easy",
+    "accept_aliases": "Greatest Common Denominator"
+  },
+  {
+    "question": "What is 0! (zero factorial) equal to?",
+    "correct_answer": "1",
+    "domain": "mathematics",
+    "difficulty": "easy",
+    "accept_aliases": ""
+  },
+  {
+    "question": "What is the formula for the area of a circle?",
+    "correct_answer": "πr²",
+    "domain": "mathematics",
+    "difficulty": "easy",
+    "accept_aliases": "pi r squared|pi*r^2|πr^2"
+  },
+  {
+    "question": "What is the name of the conjecture, proven by Grigori Perelman in 2003, concerning the characterization of the 3-sphere among 3-manifolds?",
+    "correct_answer": "Poincaré conjecture",
+    "domain": "mathematics",
+    "difficulty": "medium",
+    "accept_aliases": "Poincare conjecture"
+  },
+  {
+    "question": "In linear algebra, what is the determinant of a 2×2 matrix [[a, b], [c, d]]?",
+    "correct_answer": "ad - bc",
+    "domain": "mathematics",
+    "difficulty": "medium",
+    "accept_aliases": "ad-bc"
+  },
+  {
+    "question": "What is the cardinality of the power set of a set with n elements?",
+    "correct_answer": "2^n",
+    "domain": "mathematics",
+    "difficulty": "medium",
+    "accept_aliases": "2ⁿ|two to the n|2 to the power of n"
+  },
+  {
+    "question": "What branch of mathematics was developed independently by Isaac Newton and Gottfried Wilhelm Leibniz?",
+    "correct_answer": "Calculus",
+    "domain": "mathematics",
+    "difficulty": "medium",
+    "accept_aliases": "Infinitesimal calculus"
+  },
+  {
+    "question": "What is Euler's formula relating e, i, pi, 1, and 0, often called the most beautiful equation in mathematics?",
+    "correct_answer": "e^(iπ) + 1 = 0",
+    "domain": "mathematics",
+    "difficulty": "medium",
+    "accept_aliases": "e^(i*pi) + 1 = 0|Euler's identity"
+  },
+  {
+    "question": "What is the name of the property that states a × (b + c) = a × b + a × c?",
+    "correct_answer": "Distributive property",
+    "domain": "mathematics",
+    "difficulty": "medium",
+    "accept_aliases": "Distributive law|Distributivity"
+  },
+  {
+    "question": "In topology, what is the Euler characteristic of a torus?",
+    "correct_answer": "0",
+    "domain": "mathematics",
+    "difficulty": "medium",
+    "accept_aliases": ""
+  },
+  {
+    "question": "What is the divergence theorem also commonly known as?",
+    "correct_answer": "Gauss's theorem",
+    "domain": "mathematics",
+    "difficulty": "medium",
+    "accept_aliases": "Gauss's divergence theorem|Ostrogradsky's theorem|Gauss-Ostrogradsky theorem"
+  },
+  {
+    "question": "What is the smallest perfect number?",
+    "correct_answer": "6",
+    "domain": "mathematics",
+    "difficulty": "medium",
+    "accept_aliases": ""
+  },
+  {
+    "question": "What theorem states that every continuous function on a closed interval [a, b] attains its maximum and minimum values?",
+    "correct_answer": "Extreme Value Theorem",
+    "domain": "mathematics",
+    "difficulty": "medium",
+    "accept_aliases": "EVT|Weierstrass extreme value theorem"
+  },
+  {
+    "question": "What is the name of the fractal set defined as the set of complex numbers c for which the iteration z_(n+1) = z_n² + c does not diverge?",
+    "correct_answer": "Mandelbrot set",
+    "domain": "mathematics",
+    "difficulty": "medium",
+    "accept_aliases": ""
+  },
+  {
+    "question": "In group theory, what is the order of the Monster group (approximately, as a power of 10)?",
+    "correct_answer": "8 × 10^53",
+    "domain": "mathematics",
+    "difficulty": "medium",
+    "accept_aliases": "approximately 8 × 10^53|about 10^54|808017424794512875886459904961710757005754368000000000"
+  },
+  {
+    "question": "What is the integral of sec(x) with respect to x?",
+    "correct_answer": "ln|sec(x) + tan(x)| + C",
+    "domain": "mathematics",
+    "difficulty": "medium",
+    "accept_aliases": "ln|sec x + tan x| + C"
+  },
+  {
+    "question": "What is the name of the only known finite projective plane of order 10 status — was its existence proven or disproven by Lam, Thiel, and Swiercz in 1989?",
+    "correct_answer": "Disproven",
+    "domain": "mathematics",
+    "difficulty": "hard",
+    "accept_aliases": "It does not exist|No finite projective plane of order 10 exists|nonexistence was proven"
+  },
+  {
+    "question": "In the classification of finite simple groups, how many sporadic simple groups are there?",
+    "correct_answer": "26",
+    "domain": "mathematics",
+    "difficulty": "hard",
+    "accept_aliases": "twenty-six"
+  },
+  {
+    "question": "What is the exact value of the Ramsey number R(3,3)?",
+    "correct_answer": "6",
+    "domain": "mathematics",
+    "difficulty": "hard",
+    "accept_aliases": ""
+  },
+  {
+    "question": "What is the Hausdorff dimension of the Sierpiński triangle, expressed as a ratio of logarithms?",
+    "correct_answer": "log(3)/log(2)",
+    "domain": "mathematics",
+    "difficulty": "hard",
+    "accept_aliases": "ln3/ln2|1.585|approximately 1.585"
+  },
+  {
+    "question": "Who proved the independence of the Continuum Hypothesis from ZFC set theory in 1963 using the method of forcing?",
+    "correct_answer": "Paul Cohen",
+    "domain": "mathematics",
+    "difficulty": "hard",
+    "accept_aliases": "Paul J. Cohen|Paul Joseph Cohen"
+  },
+  {
+    "question": "What is the value of the Ramsey number R(4,4)?",
+    "correct_answer": "18",
+    "domain": "mathematics",
+    "difficulty": "hard",
+    "accept_aliases": "eighteen"
+  },
+  {
+    "question": "What is the name of the theorem that states every algebraically closed field of characteristic zero and cardinality continuum is isomorphic to the complex numbers?",
+    "correct_answer": "Steinitz theorem",
+    "domain": "mathematics",
+    "difficulty": "hard",
+    "accept_aliases": "Steinitz's theorem on algebraically closed fields"
+  },
+  {
+    "question": "In how many dimensions does the Leech lattice exist?",
+    "correct_answer": "24",
+    "domain": "mathematics",
+    "difficulty": "hard",
+    "accept_aliases": "twenty-four"
+  },
+  {
+    "question": "What is the kissing number in 3 dimensions — the maximum number of non-overlapping unit spheres that can touch a central unit sphere?",
+    "correct_answer": "12",
+    "domain": "mathematics",
+    "difficulty": "hard",
+    "accept_aliases": "twelve"
+  },
+  {
+    "question": "What is the chromatic number of the Petersen graph?",
+    "correct_answer": "3",
+    "domain": "mathematics",
+    "difficulty": "hard",
+    "accept_aliases": ""
+  },
+  {
+    "question": "Who first proved the Prime Number Theorem independently in 1896?",
+    "correct_answer": "Jacques Hadamard and Charles Jean de la Vallée Poussin",
+    "domain": "mathematics",
+    "difficulty": "hard",
+    "accept_aliases": "Hadamard and de la Vallée Poussin|Hadamard and Vallée-Poussin"
+  },
+  {
+    "question": "What is the exact number of planar graphs on 4 unlabeled vertices (including the empty graph)?",
+    "correct_answer": "11",
+    "domain": "mathematics",
+    "difficulty": "hard",
+    "accept_aliases": "eleven"
+  },
+  {
+    "question": "What is the girth (length of the shortest cycle) of the Petersen graph?",
+    "correct_answer": "5",
+    "domain": "mathematics",
+    "difficulty": "hard",
+    "accept_aliases": ""
+  },
+  {
+    "question": "What is the number of wallpaper groups (distinct symmetry groups of two-dimensional repetitive patterns)?",
+    "correct_answer": "17",
+    "domain": "mathematics",
+    "difficulty": "hard",
+    "accept_aliases": "seventeen"
+  },
+  {
+    "question": "What is the crossing number of the complete graph K7?",
+    "correct_answer": "9",
+    "domain": "mathematics",
+    "difficulty": "hard",
+    "accept_aliases": ""
+  },
+  {
+    "question": "In the year that Andrew Wiles first announced his proof of Fermat's Last Theorem (before the gap was found), what specific theorem about elliptic curves did he actually prove to establish the result?",
+    "correct_answer": "The Taniyama-Shimura conjecture for semistable elliptic curves",
+    "domain": "mathematics",
+    "difficulty": "very_hard",
+    "accept_aliases": "Taniyama-Shimura-Weil conjecture for semistable elliptic curves|modularity theorem for semistable elliptic curves"
+  },
+  {
+    "question": "What is the exact value of the Hermite constant γ₈ in 8 dimensions?",
+    "correct_answer": "2",
+    "domain": "mathematics",
+    "difficulty": "very_hard",
+    "accept_aliases": ""
+  },
+  {
+    "question": "What is the order of the Mathieu group M₁₁?",
+    "correct_answer": "7920",
+    "domain": "mathematics",
+    "difficulty": "very_hard",
+    "accept_aliases": ""
+  },
+  {
+    "question": "What is the exact value of Apéry's constant ζ(3) to 5 decimal places?",
+    "correct_answer": "1.20206",
+    "domain": "mathematics",
+    "difficulty": "very_hard",
+    "accept_aliases": "1.2021"
+  },
+  {
+    "question": "In what year did Yitang Zhang publish his landmark result establishing a finite bound on gaps between consecutive primes?",
+    "correct_answer": "2013",
+    "domain": "mathematics",
+    "difficulty": "very_hard",
+    "accept_aliases": ""
+  },
+  {
+    "question": "What is the order of the Tits group, sometimes considered the 27th sporadic group?",
+    "correct_answer": "17971200",
+    "domain": "mathematics",
+    "difficulty": "very_hard",
+    "accept_aliases": ""
+  },
+  {
+    "question": "What is the value of the Kaplansky conjecture's first counterexample dimension — specifically, in what year did Mikhail Gromov introduce the concept of hyperbolic groups that became central to geometric group theory?",
+    "correct_answer": "1987",
+    "domain": "mathematics",
+    "difficulty": "very_hard",
+    "accept_aliases": ""
+  },
+  {
+    "question": "What is the exact number of non-isomorphic groups of order 2048 (2^11)?",
+    "correct_answer": "49487365422",
+    "domain": "mathematics",
+    "difficulty": "very_hard",
+    "accept_aliases": ""
+  },
+  {
+    "question": "What is the best currently known upper bound on the Ramsey number R(5,5) as of 2024?",
+    "correct_answer": "48",
+    "domain": "mathematics",
+    "difficulty": "very_hard",
+    "accept_aliases": "43 ≤ R(5,5) ≤ 48"
+  },
+  {
+    "question": "What is the name of the mathematician who proved in 1970 that Hilbert's tenth problem is undecidable, completing the work of Davis, Putnam, and Robinson?",
+    "correct_answer": "Yuri Matiyasevich",
+    "domain": "mathematics",
+    "difficulty": "very_hard",
+    "accept_aliases": "Matiyasevich|Yuri Matijasevič|Matijasevich"
+  },
+  {
+    "question": "What is the kissing number in 24 dimensions, as realized by the Leech lattice?",
+    "correct_answer": "196560",
+    "domain": "mathematics",
+    "difficulty": "very_hard",
+    "accept_aliases": ""
+  },
+  {
+    "question": "What is the value of the Dedekind eta function's exponent in the famous product formula for the modular discriminant Δ(τ)? Specifically, Δ(τ) = (2π)^12 · η(τ)^k — what is k?",
+    "correct_answer": "24",
+    "domain": "mathematics",
+    "difficulty": "hard",
+    "accept_aliases": "twenty-four"
+  },
+  {
+    "question": "Who wrote the novel 'Pride and Prejudice'?",
+    "correct_answer": "Jane Austen",
+    "domain": "literature",
+    "difficulty": "easy",
+    "accept_aliases": "Austen"
+  },
+  {
+    "question": "What is the name of the fictional detective created by Arthur Conan Doyle?",
+    "correct_answer": "Sherlock Holmes",
+    "domain": "literature",
+    "difficulty": "easy",
+    "accept_aliases": "Holmes|Sherlock"
+  },
+  {
+    "question": "Who wrote '1984'?",
+    "correct_answer": "George Orwell",
+    "domain": "literature",
+    "difficulty": "easy",
+    "accept_aliases": "Orwell|Eric Arthur Blair"
+  },
+  {
+    "question": "In which Shakespeare play does the character Hamlet appear?",
+    "correct_answer": "Hamlet",
+    "domain": "literature",
+    "difficulty": "easy",
+    "accept_aliases": "The Tragedy of Hamlet, Prince of Denmark"
+  },
+  {
+    "question": "Who wrote 'The Great Gatsby'?",
+    "correct_answer": "F. Scott Fitzgerald",
+    "domain": "literature",
+    "difficulty": "easy",
+    "accept_aliases": "Fitzgerald|Francis Scott Key Fitzgerald"
+  },
+  {
+    "question": "What is the first book of the Harry Potter series called?",
+    "correct_answer": "Harry Potter and the Philosopher's Stone",
+    "domain": "literature",
+    "difficulty": "easy",
+    "accept_aliases": "Harry Potter and the Sorcerer's Stone|Philosopher's Stone|Sorcerer's Stone"
+  },
+  {
+    "question": "Who is the author of 'To Kill a Mockingbird'?",
+    "correct_answer": "Harper Lee",
+    "domain": "literature",
+    "difficulty": "easy",
+    "accept_aliases": "Nelle Harper Lee"
+  },
+  {
+    "question": "What classic novel begins with the line 'Call me Ishmael'?",
+    "correct_answer": "Moby-Dick",
+    "domain": "literature",
+    "difficulty": "easy",
+    "accept_aliases": "Moby Dick|Moby-Dick; or, The Whale"
+  },
+  {
+    "question": "Who wrote 'Romeo and Juliet'?",
+    "correct_answer": "William Shakespeare",
+    "domain": "literature",
+    "difficulty": "easy",
+    "accept_aliases": "Shakespeare"
+  },
+  {
+    "question": "Who wrote 'One Hundred Years of Solitude'?",
+    "correct_answer": "Gabriel García Márquez",
+    "domain": "literature",
+    "difficulty": "easy",
+    "accept_aliases": "Garcia Marquez|Gabriel Garcia Marquez|Márquez"
+  },
+  {
+    "question": "What is the name of the protagonist in Fyodor Dostoevsky's 'Crime and Punishment'?",
+    "correct_answer": "Raskolnikov",
+    "domain": "literature",
+    "difficulty": "medium",
+    "accept_aliases": "Rodion Raskolnikov|Rodion Romanovich Raskolnikov"
+  },
+  {
+    "question": "Which novel by Chinua Achebe is considered a foundational work of African literature?",
+    "correct_answer": "Things Fall Apart",
+    "domain": "literature",
+    "difficulty": "medium",
+    "accept_aliases": ""
+  },
+  {
+    "question": "Who wrote the epic poem 'Paradise Lost'?",
+    "correct_answer": "John Milton",
+    "domain": "literature",
+    "difficulty": "medium",
+    "accept_aliases": "Milton"
+  },
+  {
+    "question": "In Virginia Woolf's 'Mrs Dalloway', what is Mrs Dalloway's first name?",
+    "correct_answer": "Clarissa",
+    "domain": "literature",
+    "difficulty": "medium",
+    "accept_aliases": ""
+  },
+  {
+    "question": "What was the pen name of Mary Ann Evans, the Victorian novelist who wrote 'Middlemarch'?",
+    "correct_answer": "George Eliot",
+    "domain": "literature",
+    "difficulty": "medium",
+    "accept_aliases": ""
+  },
+  {
+    "question": "Which Russian author wrote 'Anna Karenina' and 'War and Peace'?",
+    "correct_answer": "Leo Tolstoy",
+    "domain": "literature",
+    "difficulty": "medium",
+    "accept_aliases": "Tolstoy|Lev Tolstoy|Lev Nikolayevich Tolstoy"
+  },
+  {
+    "question": "What is the name of the land where Lemuel Gulliver encounters tiny people in Jonathan Swift's 'Gulliver's Travels'?",
+    "correct_answer": "Lilliput",
+    "domain": "literature",
+    "difficulty": "medium",
+    "accept_aliases": ""
+  },
+  {
+    "question": "Which Nobel Prize-winning author wrote 'The Old Man and the Sea'?",
+    "correct_answer": "Ernest Hemingway",
+    "domain": "literature",
+    "difficulty": "medium",
+    "accept_aliases": "Hemingway"
+  },
+  {
+    "question": "Who wrote the dystopian novel 'Brave New World'?",
+    "correct_answer": "Aldous Huxley",
+    "domain": "literature",
+    "difficulty": "medium",
+    "accept_aliases": "Huxley"
+  },
+  {
+    "question": "What is the three-word title of the first volume of Marcel Proust's 'In Search of Lost Time'?",
+    "correct_answer": "Swann's Way",
+    "domain": "literature",
+    "difficulty": "medium",
+    "accept_aliases": "Du côté de chez Swann|The Way by Swann's"
+  },
+  {
+    "question": "In Dante's 'Inferno', who serves as Dante's guide through Hell?",
+    "correct_answer": "Virgil",
+    "domain": "literature",
+    "difficulty": "medium",
+    "accept_aliases": "Vergil|Publius Vergilius Maro"
+  },
+  {
+    "question": "Which Jorge Luis Borges short story describes an infinite library containing every possible 410-page book?",
+    "correct_answer": "The Library of Babel",
+    "domain": "literature",
+    "difficulty": "medium",
+    "accept_aliases": "La biblioteca de Babel"
+  },
+  {
+    "question": "What is the name of the moneylender in Shakespeare's 'The Merchant of Venice'?",
+    "correct_answer": "Shylock",
+    "domain": "literature",
+    "difficulty": "medium",
+    "accept_aliases": ""
+  },
+  {
+    "question": "Who wrote the 'Metamorphoses', the epic Latin narrative poem recounting myths from creation to Julius Caesar?",
+    "correct_answer": "Ovid",
+    "domain": "literature",
+    "difficulty": "medium",
+    "accept_aliases": "Publius Ovidius Naso"
+  },
+  {
+    "question": "In what year was the first edition of Samuel Johnson's 'A Dictionary of the English Language' published?",
+    "correct_answer": "1755",
+    "domain": "literature",
+    "difficulty": "hard",
+    "accept_aliases": ""
+  },
+  {
+    "question": "What is the name of the narrator in Ralph Ellison's 'Invisible Man'?",
+    "correct_answer": "He is never named",
+    "domain": "literature",
+    "difficulty": "hard",
+    "accept_aliases": "unnamed|no name|the narrator is unnamed|he has no name"
+  },
+  {
+    "question": "What was the original title under which Bram Stoker planned to publish 'Dracula' before changing it shortly before publication?",
+    "correct_answer": "The Un-Dead",
+    "domain": "literature",
+    "difficulty": "hard",
+    "accept_aliases": "The Undead"
+  },
+  {
+    "question": "Which specific poetic form did Edmund Spenser invent for 'The Faerie Queene', consisting of eight iambic pentameter lines followed by a single alexandrine?",
+    "correct_answer": "Spenserian stanza",
+    "domain": "literature",
+    "difficulty": "hard",
+    "accept_aliases": ""
+  },
+  {
+    "question": "What is the name of the fictional West African country in Chimamanda Ngozi Adichie's novel 'Half of a Yellow Sun'?",
+    "correct_answer": "Biafra",
+    "domain": "literature",
+    "difficulty": "hard",
+    "accept_aliases": "Republic of Biafra"
+  },
+  {
+    "question": "In Thomas Pynchon's 'Gravity's Rainbow', what is the four-digit designation of the rocket that is central to the plot?",
+    "correct_answer": "00000",
+    "domain": "literature",
+    "difficulty": "hard",
+    "accept_aliases": "Rocket 00000|S-Gerät 00000"
+  },
+  {
+    "question": "What is the name of the Yoknapatawpha County family whose decline is chronicled across multiple William Faulkner novels including 'The Sound and the Fury'?",
+    "correct_answer": "Compson",
+    "domain": "literature",
+    "difficulty": "hard",
+    "accept_aliases": "The Compsons|Compson family"
+  },
+  {
+    "question": "Who translated 'One Thousand and One Nights' into French between 1704 and 1717, introducing it to European audiences?",
+    "correct_answer": "Antoine Galland",
+    "domain": "literature",
+    "difficulty": "hard",
+    "accept_aliases": "Galland"
+  },
+  {
+    "question": "What is the name of the governess's predecessor — the former governess — in Henry James's 'The Turn of the Screw'?",
+    "correct_answer": "Miss Jessel",
+    "domain": "literature",
+    "difficulty": "hard",
+    "accept_aliases": "Jessel"
+  },
+  {
+    "question": "In what year did Sylvia Plath's novel 'The Bell Jar' first appear under the pseudonym Victoria Lucas?",
+    "correct_answer": "1963",
+    "domain": "literature",
+    "difficulty": "hard",
+    "accept_aliases": ""
+  },
+  {
+    "question": "What is the name of the pension in Paris where Père Goriot lives in Balzac's novel 'Le Père Goriot'?",
+    "correct_answer": "Maison Vauquer",
+    "domain": "literature",
+    "difficulty": "hard",
+    "accept_aliases": "Pension Vauquer|Vauquer"
+  },
+  {
+    "question": "How many lines does a standard ghazal couplet (sher) contain, and what is the term for the final couplet of a ghazal in which the poet traditionally includes their pen name?",
+    "correct_answer": "Two lines; the final couplet is called the maqta",
+    "domain": "literature",
+    "difficulty": "hard",
+    "accept_aliases": "maqta|maqtaa"
+  },
+  {
+    "question": "What is the name of the small press in Dijon, France, that published the first edition of James Joyce's 'Ulysses' in 1922?",
+    "correct_answer": "Shakespeare and Company",
+    "domain": "literature",
+    "difficulty": "hard",
+    "accept_aliases": "Shakespeare & Company"
+  },
+  {
+    "question": "What was the exact word count target that Georges Perec's novel 'La Disparition' (1969) famously avoids using throughout its entirety?",
+    "correct_answer": "The letter E",
+    "domain": "literature",
+    "difficulty": "hard",
+    "accept_aliases": "E|the letter e|It avoids the letter E"
+  },
+  {
+    "question": "What is the name of the fictional language created by the Argentinian author Xul Solar, which he described in his literary and artistic works?",
+    "correct_answer": "Panlengua",
+    "domain": "literature",
+    "difficulty": "very_hard",
+    "accept_aliases": "panlingua"
+  },
+  {
+    "question": "What was the original print run of the first edition of Walt Whitman's 'Leaves of Grass' in 1855?",
+    "correct_answer": "795 copies",
+    "domain": "literature",
+    "difficulty": "very_hard",
+    "accept_aliases": "795|about 795"
+  },
+  {
+    "question": "What is the name of the Finnish-language literary magazine founded in 1932 that was central to Finnish modernist poetry and was edited by figures such as Olavi Paavolainen?",
+    "correct_answer": "Tulenkantajat",
+    "domain": "literature",
+    "difficulty": "very_hard",
+    "accept_aliases": "The Torchbearers"
+  },
+  {
+    "question": "In Roberto Bolaño's novel '2666', what is the name of the fictional Mexican border city where hundreds of women are murdered?",
+    "correct_answer": "Santa Teresa",
+    "domain": "literature",
+    "difficulty": "very_hard",
+    "accept_aliases": ""
+  },
+  {
+    "question": "What is the exact date of the single day on which the events of James Joyce's 'Ulysses' take place?",
+    "correct_answer": "June 16, 1904",
+    "domain": "literature",
+    "difficulty": "very_hard",
+    "accept_aliases": "16 June 1904|June 16th 1904|Bloomsday"
+  },
+  {
+    "question": "What is the name of the 11th-century Japanese literary diary written by the daughter of Sugawara no Takasue, recounting her life from age 12 to 52?",
+    "correct_answer": "Sarashina Nikki",
+    "domain": "literature",
+    "difficulty": "very_hard",
+    "accept_aliases": "Sarashina Diary|The Sarashina Diary|更級日記"
+  },
+  {
+    "question": "What is the name of the Oulipo technique, invented by Jean Lescure, in which each noun in a source text is replaced by the noun appearing seven entries later in a given dictionary?",
+    "correct_answer": "N+7",
+    "domain": "literature",
+    "difficulty": "very_hard",
+    "accept_aliases": "S+7|noun plus seven"
+  },
+  {
+    "question": "What is the title of the only novel written by the Italian author Giuseppe Tomasi di Lampedusa, published posthumously in 1958?",
+    "correct_answer": "The Leopard",
+    "domain": "literature",
+    "difficulty": "very_hard",
+    "accept_aliases": "Il Gattopardo"
+  },
+  {
+    "question": "What specific pseudonym did the Portuguese poet Fernando Pessoa use for the heteronym who wrote 'The Keeper of Sheep' (O Guardador de Rebanhos)?",
+    "correct_answer": "Alberto Caeiro",
+    "domain": "literature",
+    "difficulty": "very_hard",
+    "accept_aliases": "Caeiro"
+  },
+  {
+    "question": "What is the name of the 14th-century Middle English alliterative poem, attributed to the same anonymous author as 'Sir Gawain and the Green Knight', that retells the story of Jonah and the whale?",
+    "correct_answer": "Patience",
+    "domain": "literature",
+    "difficulty": "very_hard",
+    "accept_aliases": ""
+  },
+  {
+    "question": "In what year was the first complete English translation of 'One Thousand and One Nights' (Arabian Nights) by Richard Francis Burton published?",
+    "correct_answer": "1885",
+    "domain": "literature",
+    "difficulty": "hard",
+    "accept_aliases": "1885-1888"
+  },
+  {
+    "question": "What is the name of the reclusive neighbor who saves Jem and Scout from Bob Ewell's attack in Harper Lee's 'To Kill a Mockingbird'?",
+    "correct_answer": "Boo Radley",
+    "domain": "literature",
+    "difficulty": "easy",
+    "accept_aliases": "Arthur Radley|Arthur 'Boo' Radley"
+  },
+  {
+    "question": "What does the acronym 'HTTP' stand for?",
+    "correct_answer": "HyperText Transfer Protocol",
+    "domain": "technology",
+    "difficulty": "easy",
+    "accept_aliases": "Hypertext Transfer Protocol"
+  },
+  {
+    "question": "What programming language is primarily used for styling web pages?",
+    "correct_answer": "CSS",
+    "domain": "technology",
+    "difficulty": "easy",
+    "accept_aliases": "Cascading Style Sheets"
+  },
+  {
+    "question": "What does 'CPU' stand for?",
+    "correct_answer": "Central Processing Unit",
+    "domain": "technology",
+    "difficulty": "easy",
+    "accept_aliases": ""
+  },
+  {
+    "question": "Which company developed the Android mobile operating system?",
+    "correct_answer": "Google",
+    "domain": "technology",
+    "difficulty": "easy",
+    "accept_aliases": "Google LLC|Android Inc."
+  },
+  {
+    "question": "What does 'USB' stand for?",
+    "correct_answer": "Universal Serial Bus",
+    "domain": "technology",
+    "difficulty": "easy",
+    "accept_aliases": ""
+  },
+  {
+    "question": "What is the name of Apple's voice assistant?",
+    "correct_answer": "Siri",
+    "domain": "technology",
+    "difficulty": "easy",
+    "accept_aliases": ""
+  },
+  {
+    "question": "What does 'RAM' stand for in computing?",
+    "correct_answer": "Random Access Memory",
+    "domain": "technology",
+    "difficulty": "easy",
+    "accept_aliases": ""
+  },
+  {
+    "question": "Which company created the Windows operating system?",
+    "correct_answer": "Microsoft",
+    "domain": "technology",
+    "difficulty": "easy",
+    "accept_aliases": "Microsoft Corporation"
+  },
+  {
+    "question": "What does 'Wi-Fi' technically stand for according to the Wi-Fi Alliance's original marketing?",
+    "correct_answer": "Wireless Fidelity",
+    "domain": "technology",
+    "difficulty": "easy",
+    "accept_aliases": ""
+  },
+  {
+    "question": "What is the main programming language used to add interactivity to web pages?",
+    "correct_answer": "JavaScript",
+    "domain": "technology",
+    "difficulty": "easy",
+    "accept_aliases": "JS"
+  },
+  {
+    "question": "What year was the first iPhone released?",
+    "correct_answer": "2007",
+    "domain": "technology",
+    "difficulty": "medium",
+    "accept_aliases": ""
+  },
+  {
+    "question": "Who is credited with inventing the World Wide Web?",
+    "correct_answer": "Tim Berners-Lee",
+    "domain": "technology",
+    "difficulty": "medium",
+    "accept_aliases": "Sir Tim Berners-Lee|Timothy Berners-Lee"
+  },
+  {
+    "question": "What programming language was created by Guido van Rossum in 1991?",
+    "correct_answer": "Python",
+    "domain": "technology",
+    "difficulty": "medium",
+    "accept_aliases": ""
+  },
+  {
+    "question": "What is the maximum data transfer rate of USB 3.0 (SuperSpeed)?",
+    "correct_answer": "5 Gbps",
+    "domain": "technology",
+    "difficulty": "medium",
+    "accept_aliases": "5 Gbit/s|5 gigabits per second"
+  },
+  {
+    "question": "What was the name of the first commercially successful web browser, released in 1994?",
+    "correct_answer": "Netscape Navigator",
+    "domain": "technology",
+    "difficulty": "medium",
+    "accept_aliases": "Netscape"
+  },
+  {
+    "question": "In what year did IBM release its first Personal Computer (the IBM PC 5150)?",
+    "correct_answer": "1981",
+    "domain": "technology",
+    "difficulty": "medium",
+    "accept_aliases": ""
+  },
+  {
+    "question": "What does the acronym 'MQTT' stand for, as used in IoT communication?",
+    "correct_answer": "Message Queuing Telemetry Transport",
+    "domain": "technology",
+    "difficulty": "medium",
+    "accept_aliases": ""
+  },
+  {
+    "question": "What is the name of the Linux kernel's default process scheduler introduced in kernel version 2.6.23?",
+    "correct_answer": "Completely Fair Scheduler",
+    "domain": "technology",
+    "difficulty": "medium",
+    "accept_aliases": "CFS"
+  },
+  {
+    "question": "What company originally developed the Kubernetes container orchestration platform before open-sourcing it?",
+    "correct_answer": "Google",
+    "domain": "technology",
+    "difficulty": "medium",
+    "accept_aliases": "Google LLC"
+  },
+  {
+    "question": "What does 'RISC' stand for in processor architecture?",
+    "correct_answer": "Reduced Instruction Set Computer",
+    "domain": "technology",
+    "difficulty": "medium",
+    "accept_aliases": "Reduced Instruction Set Computing"
+  },
+  {
+    "question": "What was the internal codename for the original Macintosh project at Apple in the early 1980s before it adopted the 'Macintosh' name?",
+    "correct_answer": "Annie",
+    "domain": "technology",
+    "difficulty": "hard",
+    "accept_aliases": ""
+  },
+  {
+    "question": "What is the exact clock speed of the Intel 8086 processor in its original release variant?",
+    "correct_answer": "5 MHz",
+    "domain": "technology",
+    "difficulty": "hard",
+    "accept_aliases": "5MHz"
+  },
+  {
+    "question": "What was the maximum addressable memory of the Zilog Z80 processor?",
+    "correct_answer": "64 KB",
+    "domain": "technology",
+    "difficulty": "hard",
+    "accept_aliases": "64 kilobytes|65536 bytes"
+  },
+  {
+    "question": "What specific hash function does Git use by default to identify objects in its repository?",
+    "correct_answer": "SHA-1",
+    "domain": "technology",
+    "difficulty": "hard",
+    "accept_aliases": "SHA1|SHA-1 (160-bit)"
+  },
+  {
+    "question": "What was the name of the DEC minicomputer on which Ken Thompson and Dennis Ritchie first developed Unix?",
+    "correct_answer": "PDP-7",
+    "domain": "technology",
+    "difficulty": "hard",
+    "accept_aliases": "DEC PDP-7"
+  },
+  {
+    "question": "What is the theoretical maximum channel bandwidth of a single Wi-Fi 6 (802.11ax) spatial stream using a 160 MHz channel width?",
+    "correct_answer": "1201 Mbps",
+    "domain": "technology",
+    "difficulty": "hard",
+    "accept_aliases": "1.2 Gbps|1201 Mbit/s"
+  },
+  {
+    "question": "What was the exact date (month, day, year) that Linus Torvalds made his famous Usenet post announcing the Linux project?",
+    "correct_answer": "August 25, 1991",
+    "domain": "technology",
+    "difficulty": "hard",
+    "accept_aliases": "25 August 1991|Aug 25, 1991"
+  },
+  {
+    "question": "What is the name of the consensus algorithm used by Apache ZooKeeper?",
+    "correct_answer": "Zab",
+    "domain": "technology",
+    "difficulty": "hard",
+    "accept_aliases": "ZooKeeper Atomic Broadcast|ZAB protocol"
+  },
+  {
+    "question": "How many transistors did the original Intel 4004 microprocessor contain?",
+    "correct_answer": "2300",
+    "domain": "technology",
+    "difficulty": "hard",
+    "accept_aliases": "2,300|approximately 2300"
+  },
+  {
+    "question": "What was the code name for Intel's first 10nm desktop processor microarchitecture, released in 2021?",
+    "correct_answer": "Alder Lake",
+    "domain": "technology",
+    "difficulty": "hard",
+    "accept_aliases": ""
+  },
+  {
+    "question": "What is the name of the specific NAND flash controller chip used in the original 2015 Samsung 950 Pro NVMe SSD?",
+    "correct_answer": "UBX",
+    "domain": "technology",
+    "difficulty": "hard",
+    "accept_aliases": "Samsung UBX controller"
+  },
+  {
+    "question": "What was the internal project codename for the original Ethernet standard developed at Xerox PARC by Robert Metcalfe in 1973?",
+    "correct_answer": "Alto Aloha Network",
+    "domain": "technology",
+    "difficulty": "hard",
+    "accept_aliases": ""
+  },
+  {
+    "question": "What was the exact transistor count of the Intel Itanium 2 (Madison) processor released in 2003?",
+    "correct_answer": "410 million",
+    "domain": "technology",
+    "difficulty": "hard",
+    "accept_aliases": "410,000,000"
+  },
+  {
+    "question": "In the original TCP/IP specification (RFC 793), what is the exact size in bits of the TCP window field?",
+    "correct_answer": "16 bits",
+    "domain": "technology",
+    "difficulty": "hard",
+    "accept_aliases": "16-bit"
+  },
+  {
+    "question": "What was the name of the specific file system used by the Commodore Amiga's original AmigaOS 1.0?",
+    "correct_answer": "OFS",
+    "domain": "technology",
+    "difficulty": "hard",
+    "accept_aliases": "Old File System|Amiga OFS|Original File System"
+  },
+  {
+    "question": "What was the exact employee number of Steve Wozniak at Apple Computer?",
+    "correct_answer": "1",
+    "domain": "technology",
+    "difficulty": "very_hard",
+    "accept_aliases": "Employee #1|number one"
+  },
+  {
+    "question": "What was the specific voltage of the high-level logic signal in the original TTL (7400 series) specification's guaranteed minimum output?",
+    "correct_answer": "2.4 volts",
+    "domain": "technology",
+    "difficulty": "very_hard",
+    "accept_aliases": "2.4V|2.4 V"
+  },
+  {
+    "question": "What was the exact date (month and year) that RFC 1 was published, marking the beginning of the Request for Comments series?",
+    "correct_answer": "April 1969",
+    "domain": "technology",
+    "difficulty": "very_hard",
+    "accept_aliases": "April 7, 1969"
+  },
+  {
+    "question": "What was the name of the engineer at Fairchild Semiconductor who fabricated the first practical integrated circuit at that company in 1960?",
+    "correct_answer": "Robert Noyce",
+    "domain": "technology",
+    "difficulty": "very_hard",
+    "accept_aliases": "Bob Noyce"
+  },
+  {
+    "question": "What was the clock frequency of the processor in the Cray-1 supercomputer?",
+    "correct_answer": "80 MHz",
+    "domain": "technology",
+    "difficulty": "very_hard",
+    "accept_aliases": "80MHz"
+  },
+  {
+    "question": "What was the exact number of vacuum tubes used in the ENIAC computer?",
+    "correct_answer": "17468",
+    "domain": "technology",
+    "difficulty": "very_hard",
+    "accept_aliases": "17,468|approximately 18000"
+  },
+  {
+    "question": "What was the specific name of the protocol that Vint Cerf and Bob Kahn described in their seminal 1974 paper before it was split into TCP and IP?",
+    "correct_answer": "Transmission Control Program",
+    "domain": "technology",
+    "difficulty": "very_hard",
+    "accept_aliases": "TCP (original monolithic)"
+  },
+  {
+    "question": "What was the exact die size in square millimeters of the original Intel Pentium (P5) processor released in 1993?",
+    "correct_answer": "294 mm²",
+    "domain": "technology",
+    "difficulty": "very_hard",
+    "accept_aliases": "294 square millimeters|294mm2"
+  },
+  {
+    "question": "What was the name of the specific instruction set extension that the Motorola 68040 dropped support for, requiring software emulation?",
+    "correct_answer": "Some FPU instructions",
+    "domain": "technology",
+    "difficulty": "very_hard",
+    "accept_aliases": "Unimplemented FPU instructions|Line-F exception instructions"
+  },
+  {
+    "question": "What was the exact peak FLOPS rating of the IBM Roadrunner supercomputer when it became the first system to break the petaflop barrier in 2008?",
+    "correct_answer": "1.026 petaflops",
+    "domain": "technology",
+    "difficulty": "very_hard",
+    "accept_aliases": "1.026 PFLOPS|1.026 PFlop/s"
+  },
+  {
+    "question": "What programming language was created by James Gosling at Sun Microsystems and released in 1995?",
+    "correct_answer": "Java",
+    "domain": "technology",
+    "difficulty": "easy",
+    "accept_aliases": ""
+  },
+  {
+    "question": "What was the exact internal code name used by Microsoft during the development of Windows 95?",
+    "correct_answer": "Chicago",
+    "domain": "technology",
+    "difficulty": "medium",
+    "accept_aliases": ""
+  },
+  {
+    "question": "What was the maximum addressable memory in bytes of the Zilog Z80 processor?",
+    "correct_answer": "64 kilobytes",
+    "domain": "technology",
+    "difficulty": "medium",
+    "accept_aliases": "64 KB|65536 bytes"
+  },
+  {
+    "question": "What was the exact name of the first message successfully transmitted over ARPANET on October 29, 1969, before the system crashed after the first two letters?",
+    "correct_answer": "LOGIN",
+    "domain": "technology",
+    "difficulty": "hard",
+    "accept_aliases": "lo|LOGIN (only 'LO' was transmitted before crash)"
+  },
+  {
+    "question": "What was the specific part number of the Texas Instruments digital signal processor chip used in the original Sony/Philips CD player reference design (CDP-101) released in 1982?",
+    "correct_answer": "TMS3200 series — specifically no dedicated TI DSP was used; the CDP-101 used a Sony CX-789 custom 16-bit digital filter IC",
+    "correct_answer_revised": "Sony CX-789",
+    "domain": "technology",
+    "difficulty": "very_hard",
+    "accept_aliases": "CX789|CX-789"
+  },
+  {
+    "question": "In which sport would you perform a 'slam dunk'?",
+    "correct_answer": "Basketball",
+    "domain": "sports",
+    "difficulty": "easy",
+    "accept_aliases": ""
+  },
+  {
+    "question": "How many players are on a standard soccer (association football) team on the field at one time?",
+    "correct_answer": "11",
+    "domain": "sports",
+    "difficulty": "easy",
+    "accept_aliases": "eleven"
+  },
+  {
+    "question": "Which country hosted the 2016 Summer Olympic Games?",
+    "correct_answer": "Brazil",
+    "domain": "sports",
+    "difficulty": "easy",
+    "accept_aliases": ""
+  },
+  {
+    "question": "In tennis, what is a score of zero called?",
+    "correct_answer": "Love",
+    "domain": "sports",
+    "difficulty": "easy",
+    "accept_aliases": ""
+  },
+  {
+    "question": "Which boxer was known as 'The Greatest' and famously said 'Float like a butterfly, sting like a bee'?",
+    "correct_answer": "Muhammad Ali",
+    "domain": "sports",
+    "difficulty": "easy",
+    "accept_aliases": "Ali|Cassius Clay"
+  },
+  {
+    "question": "How many rings are on the Olympic flag?",
+    "correct_answer": "5",
+    "domain": "sports",
+    "difficulty": "easy",
+    "accept_aliases": "five"
+  },
+  {
+    "question": "In which sport is the Stanley Cup awarded?",
+    "correct_answer": "Ice hockey",
+    "domain": "sports",
+    "difficulty": "easy",
+    "accept_aliases": "hockey|NHL hockey"
+  },
+  {
+    "question": "What is the maximum score possible with a single dart throw in standard darts?",
+    "correct_answer": "60",
+    "domain": "sports",
+    "difficulty": "easy",
+    "accept_aliases": "sixty|triple 20"
+  },
+  {
+    "question": "Which country has won the most FIFA Men's World Cup titles as of 2023?",
+    "correct_answer": "Brazil",
+    "domain": "sports",
+    "difficulty": "easy",
+    "accept_aliases": ""
+  },
+  {
+    "question": "In baseball, how many strikes result in a strikeout?",
+    "correct_answer": "3",
+    "domain": "sports",
+    "difficulty": "easy",
+    "accept_aliases": "three"
+  },
+  {
+    "question": "Who holds the record for the most Grand Slam singles titles in men's tennis as of the end of 2023?",
+    "correct_answer": "Novak Djokovic",
+    "domain": "sports",
+    "difficulty": "medium",
+    "accept_aliases": "Djokovic"
+  },
+  {
+    "question": "In which year did Usain Bolt set the current 100m world record of 9.58 seconds?",
+    "correct_answer": "2009",
+    "domain": "sports",
+    "difficulty": "medium",
+    "accept_aliases": ""
+  },
+  {
+    "question": "What is the name of the annual cycling race held primarily in France each July?",
+    "correct_answer": "Tour de France",
+    "domain": "sports",
+    "difficulty": "medium",
+    "accept_aliases": "Le Tour|Le Tour de France"
+  },
+  {
+    "question": "Which NBA player scored 100 points in a single game in 1962?",
+    "correct_answer": "Wilt Chamberlain",
+    "domain": "sports",
+    "difficulty": "medium",
+    "accept_aliases": "Chamberlain|Wilt"
+  },
+  {
+    "question": "In rugby union, how many points is a try worth?",
+    "correct_answer": "5",
+    "domain": "sports",
+    "difficulty": "medium",
+    "accept_aliases": "five"
+  },
+  {
+    "question": "Which country won the first ever Cricket World Cup in 1975?",
+    "correct_answer": "West Indies",
+    "domain": "sports",
+    "difficulty": "medium",
+    "accept_aliases": "Windies|West Indies cricket team"
+  },
+  {
+    "question": "What is the term in golf for completing a hole three strokes under par?",
+    "correct_answer": "Albatross",
+    "domain": "sports",
+    "difficulty": "medium",
+    "accept_aliases": "double eagle"
+  },
+  {
+    "question": "Which Formula 1 driver holds the record for the most World Drivers' Championship titles?",
+    "correct_answer": "Michael Schumacher and Lewis Hamilton (tied at 7)",
+    "domain": "sports",
+    "difficulty": "medium",
+    "accept_aliases": "Michael Schumacher|Lewis Hamilton|Schumacher|Hamilton"
+  },
+  {
+    "question": "In which city were the first modern Olympic Games held in 1896?",
+    "correct_answer": "Athens",
+    "domain": "sports",
+    "difficulty": "medium",
+    "accept_aliases": "Athens, Greece"
+  },
+  {
+    "question": "What is the diameter of a regulation basketball hoop (rim) in inches?",
+    "correct_answer": "18 inches",
+    "domain": "sports",
+    "difficulty": "medium",
+    "accept_aliases": "18|18 in"
+  },
+  {
+    "question": "Which swimmer won 8 gold medals at the 2008 Beijing Olympics?",
+    "correct_answer": "Michael Phelps",
+    "domain": "sports",
+    "difficulty": "medium",
+    "accept_aliases": "Phelps"
+  },
+  {
+    "question": "What is the distance of a marathon in miles and yards?",
+    "correct_answer": "26 miles 385 yards",
+    "domain": "sports",
+    "difficulty": "medium",
+    "accept_aliases": "26 miles and 385 yards|26.2 miles"
+  },
+  {
+    "question": "In Australian Rules Football, how many points is a goal worth?",
+    "correct_answer": "6",
+    "domain": "sports",
+    "difficulty": "medium",
+    "accept_aliases": "six"
+  },
+  {
+    "question": "Who was the first player to score a perfect 147 break in a televised snooker match at the World Championship?",
+    "correct_answer": "Cliff Thorburn",
+    "domain": "sports",
+    "difficulty": "medium",
+    "accept_aliases": "Thorburn"
+  },
+  {
+    "question": "Who scored the 'Hand of God' goal in the 1986 FIFA World Cup quarter-final?",
+    "correct_answer": "Diego Maradona",
+    "domain": "sports",
+    "difficulty": "medium",
+    "accept_aliases": "Maradona"
+  },
+  {
+    "question": "What was the exact winning time of Secretariat's 1973 Belmont Stakes victory, which set a record that still stands for 1.5 miles on dirt?",
+    "correct_answer": "2:24.00",
+    "domain": "sports",
+    "difficulty": "hard",
+    "accept_aliases": "2:24|2 minutes 24 seconds"
+  },
+  {
+    "question": "Who was the losing finalist in the first ever Wimbledon Men's Singles Championship in 1877?",
+    "correct_answer": "William Marshall",
+    "domain": "sports",
+    "difficulty": "hard",
+    "accept_aliases": "W. Marshall"
+  },
+  {
+    "question": "What is the exact weight in grams of an official FIFA-approved size 5 football at the start of a match (lower bound of the allowed range)?",
+    "correct_answer": "410 grams",
+    "domain": "sports",
+    "difficulty": "hard",
+    "accept_aliases": "410g|410"
+  },
+  {
+    "question": "Which bowler took the first hat-trick in Cricket World Cup history, and in which year?",
+    "correct_answer": "Chetan Sharma in 1987",
+    "domain": "sports",
+    "difficulty": "hard",
+    "accept_aliases": "Chetan Sharma|Chetan Sharma, 1987"
+  },
+  {
+    "question": "In the 1950 FIFA World Cup, what was the exact score of the famous upset when the United States defeated England in the group stage?",
+    "correct_answer": "1-0",
+    "domain": "sports",
+    "difficulty": "hard",
+    "accept_aliases": "1–0|1 to 0"
+  },
+  {
+    "question": "What is the name of the horse that won the 1981 Melbourne Cup and was subsequently revealed to have been painted to disguise its true identity?",
+    "correct_answer": "Fine Cotton",
+    "domain": "sports",
+    "difficulty": "hard",
+    "accept_aliases": ""
+  },
+  {
+    "question": "How many career regular-season rushing yards did Barry Sanders have when he retired from the NFL?",
+    "correct_answer": "15,269",
+    "domain": "sports",
+    "difficulty": "hard",
+    "accept_aliases": "15269"
+  },
+  {
+    "question": "Which city hosted the first ever Super Bowl (Super Bowl I) in January 1967?",
+    "correct_answer": "Los Angeles",
+    "domain": "sports",
+    "difficulty": "hard",
+    "accept_aliases": "Los Angeles, California|LA|Los Angeles Memorial Coliseum"
+  },
+  {
+    "question": "Who was the first non-European and non-American to win a medal in Olympic fencing?",
+    "correct_answer": "Ramón Fonst",
+    "domain": "sports",
+    "difficulty": "hard",
+    "accept_aliases": "Ramon Fonst"
+  },
+  {
+    "question": "In the 1994 Winter Olympics in Lillehammer, what was the exact winning time of the men's downhill skiing gold medalist Tommy Moe?",
+    "correct_answer": "1:45.75",
+    "domain": "sports",
+    "difficulty": "hard",
+    "accept_aliases": ""
+  },
+  {
+    "question": "What was the original name of the trophy awarded to the winner of the Rugby World Cup before it was renamed the Webb Ellis Cup?",
+    "correct_answer": "The trophy has always been called the Webb Ellis Cup since the first Rugby World Cup in 1987",
+    "domain": "sports",
+    "difficulty": "hard",
+    "accept_aliases": "Webb Ellis Cup|It was always the Webb Ellis Cup"
+  },
+  {
+    "question": "Who scored the fastest hat-trick in English Premier League history, and how many minutes did it take?",
+    "correct_answer": "Sadio Mané in 2 minutes 56 seconds",
+    "domain": "sports",
+    "difficulty": "hard",
+    "accept_aliases": "Sadio Mane, 2 minutes 56 seconds|Sadio Mané|Mané in 176 seconds"
+  },
+  {
+    "question": "What was the exact attendance at the 1950 FIFA World Cup final (the 'Maracanazo') between Uruguay and Brazil at the Maracanã?",
+    "correct_answer": "199,854",
+    "domain": "sports",
+    "difficulty": "hard",
+    "accept_aliases": "199854|approximately 200,000"
+  },
+  {
+    "question": "In the 1992 County Championship season in English cricket, which player scored the most first-class runs?",
+    "correct_answer": "Mike Gatting",
+    "domain": "sports",
+    "difficulty": "hard",
+    "accept_aliases": "Gatting"
+  },
+  {
+    "question": "What was the exact lap time of Ayrton Senna's famous qualifying lap at the 1988 Monaco Grand Prix before he crashed on lap 67 while leading?",
+    "correct_answer": "1:23.998",
+    "domain": "sports",
+    "difficulty": "hard",
+    "accept_aliases": "1:23.998s"
+  },
+  {
+    "question": "Who was the first substitute used in a FIFA World Cup finals match, and in which year?",
+    "correct_answer": "Anatoly Puzach of the Soviet Union in 1970",
+    "domain": "sports",
+    "difficulty": "very_hard",
+    "accept_aliases": "Anatoly Puzach|Puzach|Anatoliy Puzach"
+  },
+  {
+    "question": "What was the name of the horse that finished last in the inaugural running of the Kentucky Derby in 1875?",
+    "correct_answer": "Verdigris",
+    "domain": "sports",
+    "difficulty": "very_hard",
+    "accept_aliases": ""
+  },
+  {
+    "question": "In the 1904 Olympic marathon in St. Louis, what was the name of the first runner to cross the finish line who was later disqualified for riding in a car for part of the course?",
+    "correct_answer": "Fred Lorz",
+    "domain": "sports",
+    "difficulty": "very_hard",
+    "accept_aliases": "Frederick Lorz|Lorz"
+  },
+  {
+    "question": "What was the exact final score of the longest match in professional tennis history (Isner vs. Mahut at Wimbledon 2010) in the fifth set?",
+    "correct_answer": "70-68",
+    "domain": "sports",
+    "difficulty": "very_hard",
+    "accept_aliases": "70–68"
+  },
+  {
+    "question": "Who was the head coach of the Hawthorn Football Club when they won their first VFL premiership in 1961?",
+    "correct_answer": "John Kennedy Sr.",
+    "domain": "sports",
+    "difficulty": "very_hard",
+    "accept_aliases": "John Kennedy|John Kennedy Senior"
+  },
+  {
+    "question": "What was the jersey number of Pelé when he played his final professional match for the New York Cosmos on October 1, 1977?",
+    "correct_answer": "10",
+    "domain": "sports",
+    "difficulty": "very_hard",
+    "accept_aliases": "ten"
+  },
+  {
+    "question": "In the 1930 FIFA World Cup, who scored the first ever goal in World Cup history?",
+    "correct_answer": "Lucien Laurent",
+    "domain": "sports",
+    "difficulty": "very_hard",
+    "accept_aliases": "Laurent"
+  },
+  {
+    "question": "What was the name of the venue where the first officially recognized game of baseball under the Knickerbocker Rules was played on June 19, 1846?",
+    "correct_answer": "Elysian Fields",
+    "domain": "sports",
+    "difficulty": "very_hard",
+    "accept_aliases": "Elysian Fields, Hoboken|Elysian Fields in Hoboken, New Jersey"
+  },
+  {
+    "question": "Who holds the record for the most consecutive successful conversions (kicks at goal after a try) in international rugby union test matches?",
+    "correct_answer": "Jonny Wilkinson",
+    "domain": "sports",
+    "difficulty": "very_hard",
+    "accept_aliases": "Wilkinson"
+  },
+  {
+    "question": "What was the exact purse money (in US dollars) awarded to the winner of the very first Indianapolis 500 race in 1911?",
+    "correct_answer": "$14,250",
+    "domain": "sports",
+    "difficulty": "very_hard",
+    "accept_aliases": "14250|14,250 dollars"
+  },
+  {
+    "question": "Who was the first President of the United States?",
+    "correct_answer": "George Washington",
+    "domain": "politics",
+    "difficulty": "easy",
+    "accept_aliases": "Washington"
+  },
+  {
+    "question": "What is the upper chamber of the United States Congress called?",
+    "correct_answer": "The Senate",
+    "domain": "politics",
+    "difficulty": "easy",
+    "accept_aliases": "Senate|US Senate|United States Senate"
+  },
+  {
+    "question": "Which country's parliament is called the Bundestag?",
+    "correct_answer": "Germany",
+    "domain": "politics",
+    "difficulty": "easy",
+    "accept_aliases": "Federal Republic of Germany"
+  },
+  {
+    "question": "Who was the first female Prime Minister of the United Kingdom?",
+    "correct_answer": "Margaret Thatcher",
+    "domain": "politics",
+    "difficulty": "easy",
+    "accept_aliases": "Thatcher"
+  },
+  {
+    "question": "How many justices serve on the United States Supreme Court?",
+    "correct_answer": "9",
+    "domain": "politics",
+    "difficulty": "easy",
+    "accept_aliases": "nine"
+  },
+  {
+    "question": "What political ideology is generally associated with the Democratic Party in the United States — left-leaning or right-leaning?",
+    "correct_answer": "Left-leaning",
+    "domain": "politics",
+    "difficulty": "easy",
+    "accept_aliases": "left|center-left|liberal"
+  },
+  {
+    "question": "In which city is the International Court of Justice headquartered?",
+    "correct_answer": "The Hague",
+    "domain": "politics",
+    "difficulty": "easy",
+    "accept_aliases": "Hague|Den Haag"
+  },
+  {
+    "question": "Which amendment to the U.S. Constitution abolished slavery?",
+    "correct_answer": "13th Amendment",
+    "domain": "politics",
+    "difficulty": "easy",
+    "accept_aliases": "Thirteenth Amendment|13th"
+  },
+  {
+    "question": "Who serves as the presiding officer of the United States Senate?",
+    "correct_answer": "The Vice President of the United States",
+    "domain": "politics",
+    "difficulty": "easy",
+    "accept_aliases": "Vice President|VP"
+  },
+  {
+    "question": "What is the minimum age required to become President of the United States?",
+    "correct_answer": "35",
+    "domain": "politics",
+    "difficulty": "easy",
+    "accept_aliases": "thirty-five|35 years old"
+  },
+  {
+    "question": "Which U.S. President signed the Civil Rights Act of 1964 into law?",
+    "correct_answer": "Lyndon B. Johnson",
+    "domain": "politics",
+    "difficulty": "medium",
+    "accept_aliases": "LBJ|Lyndon Johnson|Lyndon Baines Johnson"
+  },
+  {
+    "question": "What is the name of the French parliament's lower house?",
+    "correct_answer": "National Assembly",
+    "domain": "politics",
+    "difficulty": "medium",
+    "accept_aliases": "Assemblée nationale|Assemblee nationale"
+  },
+  {
+    "question": "Which political party did Nelson Mandela belong to?",
+    "correct_answer": "African National Congress",
+    "domain": "politics",
+    "difficulty": "medium",
+    "accept_aliases": "ANC"
+  },
+  {
+    "question": "Who was the first Secretary-General of the United Nations?",
+    "correct_answer": "Trygve Lie",
+    "domain": "politics",
+    "difficulty": "medium",
+    "accept_aliases": "Trygve Halvdan Lie"
+  },
+  {
+    "question": "In which year did the European Economic Community (EEC) come into existence through the Treaty of Rome?",
+    "correct_answer": "1957",
+    "domain": "politics",
+    "difficulty": "medium",
+    "accept_aliases": ""
+  },
+  {
+    "question": "What is the term for a legislative body with two chambers?",
+    "correct_answer": "Bicameral",
+    "domain": "politics",
+    "difficulty": "medium",
+    "accept_aliases": "bicameral legislature"
+  },
+  {
+    "question": "Which country held the first modern democratic election with universal male suffrage in 1792?",
+    "correct_answer": "France",
+    "domain": "politics",
+    "difficulty": "medium",
+    "accept_aliases": "French Republic"
+  },
+  {
+    "question": "Who was the first female U.S. Secretary of State?",
+    "correct_answer": "Madeleine Albright",
+    "domain": "politics",
+    "difficulty": "medium",
+    "accept_aliases": "Albright|Madeleine Jana Korbel Albright"
+  },
+  {
+    "question": "What is the name of Japan's parliament?",
+    "correct_answer": "The Diet",
+    "domain": "politics",
+    "difficulty": "medium",
+    "accept_aliases": "Diet|National Diet|Kokkai"
+  },
+  {
+    "question": "Which U.S. President issued Executive Order 9066, authorizing Japanese American internment during World War II?",
+    "correct_answer": "Franklin D. Roosevelt",
+    "domain": "politics",
+    "difficulty": "medium",
+    "accept_aliases": "FDR|Franklin Roosevelt|Franklin Delano Roosevelt"
+  },
+  {
+    "question": "In what year did the Voting Rights Act of 1965 get signed into law?",
+    "correct_answer": "1965",
+    "domain": "politics",
+    "difficulty": "medium",
+    "accept_aliases": ""
+  },
+  {
+    "question": "What is the maximum number of terms a French president can serve under the 2008 constitutional reform?",
+    "correct_answer": "Two consecutive terms",
+    "domain": "politics",
+    "difficulty": "medium",
+    "accept_aliases": "2|two"
+  },
+  {
+    "question": "Which political theorist wrote 'The Prince'?",
+    "correct_answer": "Niccolò Machiavelli",
+    "domain": "politics",
+    "difficulty": "medium",
+    "accept_aliases": "Machiavelli|Niccolo Machiavelli"
+  },
+  {
+    "question": "Who was the Speaker of the U.S. House of Representatives during the impeachment of President Bill Clinton in 1998?",
+    "correct_answer": "Newt Gingrich",
+    "domain": "politics",
+    "difficulty": "medium",
+    "accept_aliases": "Newton Leroy Gingrich|Gingrich"
+  },
+  {
+    "question": "Who served as the first Prime Minister of India?",
+    "correct_answer": "Jawaharlal Nehru",
+    "domain": "politics",
+    "difficulty": "medium",
+    "accept_aliases": "Nehru|Pandit Nehru"
+  },
+  {
+    "question": "Who was the President of the Constituent Assembly that drafted the Indian Constitution?",
+    "correct_answer": "Rajendra Prasad",
+    "domain": "politics",
+    "difficulty": "hard",
+    "accept_aliases": "Dr. Rajendra Prasad"
+  },
+  {
+    "question": "What was the exact date of the signing of the Treaty of Westphalia that ended the Thirty Years' War?",
+    "correct_answer": "October 24, 1648",
+    "domain": "politics",
+    "difficulty": "hard",
+    "accept_aliases": "24 October 1648"
+  },
+  {
+    "question": "Who was the first woman elected to the Finnish Parliament (Eduskunta) in 1907, widely recognized as the world's first female parliamentarian?",
+    "correct_answer": "There were 19 women elected simultaneously in 1907; no single 'first' — but Miina Sillanpää is often cited as the most prominent among them",
+    "domain": "politics",
+    "difficulty": "hard",
+    "accept_aliases": "Miina Sillanpää|19 women were elected"
+  },
+  {
+    "question": "How many Electoral College votes are needed to win the U.S. presidency, and what is the total number of electors?",
+    "correct_answer": "270 out of 538",
+    "domain": "politics",
+    "difficulty": "hard",
+    "accept_aliases": "270 to win, 538 total|270/538"
+  },
+  {
+    "question": "Who was the Prime Minister of Australia during the 1975 constitutional crisis known as 'The Dismissal'?",
+    "correct_answer": "Gough Whitlam",
+    "domain": "politics",
+    "difficulty": "hard",
+    "accept_aliases": "Edward Gough Whitlam|Whitlam"
+  },
+  {
+    "question": "What was the name of the secret protocol attached to the Molotov–Ribbentrop Pact of 1939 that divided Eastern Europe into spheres of influence?",
+    "correct_answer": "The Secret Supplementary Protocol",
+    "domain": "politics",
+    "difficulty": "hard",
+    "accept_aliases": "Secret Additional Protocol|Secret Protocol to the Molotov-Ribbentrop Pact"
+  },
+  {
+    "question": "Who was the first African American to serve as a U.S. Senator, elected during Reconstruction?",
+    "correct_answer": "Hiram Rhodes Revels",
+    "domain": "politics",
+    "difficulty": "hard",
+    "accept_aliases": "Hiram Revels|Revels"
+  },
+  {
+    "question": "In what year did Switzerland grant women the right to vote in federal elections?",
+    "correct_answer": "1971",
+    "domain": "politics",
+    "difficulty": "hard",
+    "accept_aliases": ""
+  },
+  {
+    "question": "What was the exact margin of victory (in popular votes) in the 2000 U.S. presidential election in Florida that triggered the recount?",
+    "correct_answer": "537 votes",
+    "domain": "politics",
+    "difficulty": "hard",
+    "accept_aliases": "537"
+  },
+  {
+    "question": "Who served as the first President of the European Commission?",
+    "correct_answer": "Walter Hallstein",
+    "domain": "politics",
+    "difficulty": "hard",
+    "accept_aliases": "Hallstein"
+  },
+  {
+    "question": "Which article of the Indian Constitution deals with the President's power to issue ordinances?",
+    "correct_answer": "Article 123",
+    "domain": "politics",
+    "difficulty": "hard",
+    "accept_aliases": "Art. 123"
+  },
+  {
+    "question": "Who was the Rapporteur-General of the committee that drafted the Universal Declaration of Human Rights in 1948?",
+    "correct_answer": "Charles Malik",
+    "domain": "politics",
+    "difficulty": "hard",
+    "accept_aliases": "Charles Habib Malik"
+  },
+  {
+    "question": "What was the name of the first political party organized in the Ottoman Empire in 1889?",
+    "correct_answer": "Committee of Union and Progress",
+    "domain": "politics",
+    "difficulty": "hard",
+    "accept_aliases": "CUP|İttihat ve Terakki Cemiyeti"
+  },
+  {
+    "question": "In the 1876 U.S. presidential election, how many disputed electoral votes were resolved by the Electoral Commission?",
+    "correct_answer": "20",
+    "domain": "politics",
+    "difficulty": "hard",
+    "accept_aliases": "twenty"
+  },
+  {
+    "question": "Who was the Chief Election Commissioner of India who oversaw the first general election in 1951–52?",
+    "correct_answer": "Sukumar Sen",
+    "domain": "politics",
+    "difficulty": "hard",
+    "accept_aliases": "Sen"
+  },
+  {
+    "question": "What was the exact date on which the Congress of Vienna formally concluded?",
+    "correct_answer": "June 9, 1815",
+    "domain": "politics",
+    "difficulty": "very_hard",
+    "accept_aliases": "9 June 1815"
+  },
+  {
+    "question": "Who was the first Minister of Foreign Affairs of the Republic of Indonesia, serving from 1945 to 1947?",
+    "correct_answer": "Achmad Soebardjo",
+    "domain": "politics",
+    "difficulty": "very_hard",
+    "accept_aliases": "Ahmad Subardjo|Achmad Subardjo"
+  },
+  {
+    "question": "How many seats did the Social Democratic Party of Finland win in the very first election to the unicameral Parliament of Finland in 1907?",
+    "correct_answer": "80",
+    "domain": "politics",
+    "difficulty": "very_hard",
+    "accept_aliases": "eighty|80 seats"
+  },
+  {
+    "question": "What was the exact voter turnout percentage in the 1958 French constitutional referendum that established the Fifth Republic?",
+    "correct_answer": "Approximately 84.94%",
+    "domain": "politics",
+    "difficulty": "very_hard",
+    "accept_aliases": "84.94%|about 85%"
+  },
+  {
+    "question": "Who served as the President of the Council of Ministers of the Kingdom of Italy immediately before Benito Mussolini took power in October 1922?",
+    "correct_answer": "Luigi Facta",
+    "domain": "politics",
+    "difficulty": "very_hard",
+    "accept_aliases": "Facta"
+  },
+  {
+    "question": "What was the number of the UN General Assembly Resolution that partitioned Palestine in 1947?",
+    "correct_answer": "Resolution 181",
+    "domain": "politics",
+    "difficulty": "very_hard",
+    "accept_aliases": "181|UNGA 181|Resolution 181 (II)"
+  },
+  {
+    "question": "Who was the first Secretary-General of the Organisation of African Unity (OAU), serving from 1963 to 1964?",
+    "correct_answer": "Kifle Wodajo",
+    "domain": "politics",
+    "difficulty": "very_hard",
+    "accept_aliases": "Kifle Wodajo (provisional)|Diallo Telli was the first permanent Secretary-General"
+  },
+  {
+    "question": "In the 1920 U.S. presidential election, Socialist Party candidate Eugene V. Debs ran for president from prison and received how many votes?",
+    "correct_answer": "Approximately 913,693 votes",
+    "domain": "politics",
+    "difficulty": "very_hard",
+    "accept_aliases": "913693|913,693|about 914,000"
+  },
+  {
+    "question": "What was the name of the electoral system used in the very first elections to the European Parliament in 1979 by the United Kingdom?",
+    "correct_answer": "First-past-the-post (plurality voting in single-member constituencies)",
+    "domain": "politics",
+    "difficulty": "very_hard",
+    "accept_aliases": "FPTP|first past the post"
+  },
+  {
+    "question": "Who was the first female cabinet minister in any country in the world, appointed in 1924?",
+    "correct_answer": "Nina Bang",
+    "domain": "politics",
+    "difficulty": "very_hard",
+    "accept_aliases": "Nina Bang of Denmark"
+  },
+  {
+    "question": "What term describes a sustained increase in the general price level of goods and services in an economy over time?",
+    "correct_answer": "Inflation",
+    "domain": "economics",
+    "difficulty": "easy",
+    "accept_aliases": ""
+  },
+  {
+    "question": "What is the name of the economic law stating that 'bad money drives out good money'?",
+    "correct_answer": "Gresham's Law",
+    "domain": "economics",
+    "difficulty": "easy",
+    "accept_aliases": "Gresham's law"
+  },
+  {
+    "question": "What does GDP stand for?",
+    "correct_answer": "Gross Domestic Product",
+    "domain": "economics",
+    "difficulty": "easy",
+    "accept_aliases": ""
+  },
+  {
+    "question": "Who wrote 'The Wealth of Nations', often considered the foundational text of modern economics?",
+    "correct_answer": "Adam Smith",
+    "domain": "economics",
+    "difficulty": "easy",
+    "accept_aliases": ""
+  },
+  {
+    "question": "What is the term for the total value of goods and services produced in a country by its nationals, regardless of their location?",
+    "correct_answer": "Gross National Product",
+    "domain": "economics",
+    "difficulty": "easy",
+    "accept_aliases": "GNP"
+  },
+  {
+    "question": "What U.S. institution is responsible for setting monetary policy, including the federal funds rate?",
+    "correct_answer": "The Federal Reserve",
+    "domain": "economics",
+    "difficulty": "easy",
+    "accept_aliases": "Federal Reserve|Fed|The Fed|Federal Reserve System"
+  },
+  {
+    "question": "In economics, what does the term 'opportunity cost' refer to?",
+    "correct_answer": "The value of the next best alternative forgone when making a choice",
+    "domain": "economics",
+    "difficulty": "easy",
+    "accept_aliases": "the cost of the next best alternative foregone|value of the best alternative not chosen"
+  },
+  {
+    "question": "What is a recession technically defined as in terms of GDP quarters?",
+    "correct_answer": "Two consecutive quarters of negative GDP growth",
+    "domain": "economics",
+    "difficulty": "easy",
+    "accept_aliases": "two consecutive quarters of declining GDP"
+  },
+  {
+    "question": "What economic system is characterized by private ownership of the means of production and operation for profit?",
+    "correct_answer": "Capitalism",
+    "domain": "economics",
+    "difficulty": "easy",
+    "accept_aliases": "free market economy|market economy"
+  },
+  {
+    "question": "What curve illustrates the inverse relationship between unemployment and inflation?",
+    "correct_answer": "The Phillips Curve",
+    "domain": "economics",
+    "difficulty": "easy",
+    "accept_aliases": "Phillips Curve"
+  },
+  {
+    "question": "What economist introduced the concept of 'creative destruction' to describe the process of industrial mutation within capitalism?",
+    "correct_answer": "Joseph Schumpeter",
+    "domain": "economics",
+    "difficulty": "medium",
+    "accept_aliases": "Schumpeter|Joseph A. Schumpeter|Joseph Alois Schumpeter"
+  },
+  {
+    "question": "What is the name of the economic theory that suggests tax cuts can eventually lead to increased government revenue by stimulating economic growth, often illustrated by a bell-shaped curve?",
+    "correct_answer": "The Laffer Curve",
+    "domain": "economics",
+    "difficulty": "medium",
+    "accept_aliases": "Laffer Curve|supply-side economics"
+  },
+  {
+    "question": "What international financial institution, established in 1944 at the Bretton Woods Conference, provides loans to countries experiencing balance of payments problems?",
+    "correct_answer": "The International Monetary Fund",
+    "domain": "economics",
+    "difficulty": "medium",
+    "accept_aliases": "IMF|International Monetary Fund"
+  },
+  {
+    "question": "What Nobel Prize-winning economist is known for the permanent income hypothesis?",
+    "correct_answer": "Milton Friedman",
+    "domain": "economics",
+    "difficulty": "medium",
+    "accept_aliases": "Friedman"
+  },
+  {
+    "question": "What is the term for the situation where a single firm can supply the entire market at a lower cost than two or more firms could?",
+    "correct_answer": "Natural monopoly",
+    "domain": "economics",
+    "difficulty": "medium",
+    "accept_aliases": ""
+  },
+  {
+    "question": "In game theory, what is the name of the equilibrium concept where no player can benefit by unilaterally changing their strategy?",
+    "correct_answer": "Nash Equilibrium",
+    "domain": "economics",
+    "difficulty": "medium",
+    "accept_aliases": "Nash equilibrium"
+  },
+  {
+    "question": "What economist proposed the theory of comparative advantage in international trade in 1817?",
+    "correct_answer": "David Ricardo",
+    "domain": "economics",
+    "difficulty": "medium",
+    "accept_aliases": "Ricardo"
+  },
+  {
+    "question": "What economic phenomenon describes the coexistence of high inflation and high unemployment, which contradicts the traditional Phillips Curve?",
+    "correct_answer": "Stagflation",
+    "domain": "economics",
+    "difficulty": "medium",
+    "accept_aliases": ""
+  },
+  {
+    "question": "What is the name of the theorem in welfare economics that states any Pareto-efficient allocation can be achieved through a competitive equilibrium with appropriate redistribution of initial endowments?",
+    "correct_answer": "The Second Fundamental Theorem of Welfare Economics",
+    "domain": "economics",
+    "difficulty": "medium",
+    "accept_aliases": "Second Welfare Theorem|2nd Fundamental Theorem of Welfare Economics"
+  },
+  {
+    "question": "What term coined by John Maynard Keynes describes the preference of investors to hold cash rather than invest when they expect interest rates to rise?",
+    "correct_answer": "Liquidity preference",
+    "domain": "economics",
+    "difficulty": "medium",
+    "accept_aliases": "liquidity trap|liquidity preference theory"
+  },
+  {
+    "question": "What concept in behavioral economics, introduced by Richard Thaler, describes the tendency of people to treat money differently depending on its source or intended use?",
+    "correct_answer": "Mental accounting",
+    "domain": "economics",
+    "difficulty": "medium",
+    "accept_aliases": ""
+  },
+  {
+    "question": "What is the name of the economic model developed by Robert Solow and Trevor Swan that explains long-run economic growth through capital accumulation, labor growth, and technological progress?",
+    "correct_answer": "The Solow-Swan model",
+    "domain": "economics",
+    "difficulty": "medium",
+    "accept_aliases": "Solow model|Solow growth model|Solow-Swan growth model|neoclassical growth model"
+  },
+  {
+    "question": "In the Heckscher-Ohlin model of international trade, what theorem states that free trade will equalize factor prices across countries?",
+    "correct_answer": "The Factor Price Equalization Theorem",
+    "domain": "economics",
+    "difficulty": "medium",
+    "accept_aliases": "factor price equalization|Samuelson's factor price equalization theorem"
+  },
+  {
+    "question": "What was the peak annual inflation rate in Zimbabwe during its hyperinflation crisis in November 2008, as estimated by Steve Hanke and Alex Kwok?",
+    "correct_answer": "79.6 billion percent per month",
+    "domain": "economics",
+    "difficulty": "hard",
+    "accept_aliases": "79,600,000,000%|79.6 billion percent|8.97 × 10^22 percent per year"
+  },
+  {
+    "question": "Who was the first woman to serve as Chair of the Council of Economic Advisers in the United States?",
+    "correct_answer": "Laura D'Andrea Tyson",
+    "domain": "economics",
+    "difficulty": "hard",
+    "accept_aliases": "Laura Tyson|Laura D. Tyson"
+  },
+  {
+    "question": "What specific condition must hold for the Marshall-Lerner condition to ensure that a currency devaluation improves the trade balance?",
+    "correct_answer": "The sum of the absolute values of the price elasticities of demand for exports and imports must be greater than one",
+    "domain": "economics",
+    "difficulty": "hard",
+    "accept_aliases": "sum of export and import demand elasticities exceeds unity|elasticity of exports plus elasticity of imports greater than 1"
+  },
+  {
+    "question": "In what year did the Nobel Memorial Prize in Economic Sciences first have a sole female laureate?",
+    "correct_answer": "2009",
+    "domain": "economics",
+    "difficulty": "hard",
+    "accept_aliases": ""
+  },
+  {
+    "question": "What was the name of the 1978 U.S. legislation that formally added the goal of reducing unemployment to the Federal Reserve's mandate, creating the 'dual mandate'?",
+    "correct_answer": "The Humphrey-Hawkins Full Employment Act",
+    "domain": "economics",
+    "difficulty": "hard",
+    "accept_aliases": "Humphrey-Hawkins Act|Full Employment and Balanced Growth Act of 1978|Humphrey–Hawkins Full Employment Act"
+  },
+  {
+    "question": "What is the name of the paradox in economics where an increase in thrift (saving) by individuals can lead to a decrease in aggregate demand and thus total savings in the economy?",
+    "correct_answer": "The Paradox of Thrift",
+    "domain": "economics",
+    "difficulty": "hard",
+    "accept_aliases": "paradox of thrift|paradox of saving"
+  },
+  {
+    "question": "What was the exact date the European Central Bank first introduced a negative deposit facility rate?",
+    "correct_answer": "June 11, 2014",
+    "domain": "economics",
+    "difficulty": "hard",
+    "accept_aliases": "June 2014|11 June 2014"
+  },
+  {
+    "question": "In Kenneth Arrow's impossibility theorem, how many conditions (axioms) must a social welfare function satisfy, which Arrow proved cannot all be met simultaneously?",
+    "correct_answer": "Four conditions (plus the assumption of unrestricted domain)",
+    "domain": "economics",
+    "difficulty": "hard",
+    "accept_aliases": "4|five|5"
+  },
+  {
+    "question": "What specific model in monetary economics, developed in 1989, became the standard New Keynesian framework and is often referred to by a three-letter abbreviation representing its three core equations?",
+    "correct_answer": "The New Keynesian DSGE model (IS curve, Phillips curve, Taylor rule)",
+    "domain": "economics",
+    "difficulty": "hard",
+    "accept_aliases": "NK model|New Keynesian model|three-equation New Keynesian model"
+  },
+  {
+    "question": "Who co-authored the 1977 paper 'Monopolistic Competition and Optimum Product Diversity' that became foundational for the Dixit-Stiglitz model used in trade theory?",
+    "correct_answer": "Avinash Dixit and Joseph Stiglitz",
+    "domain": "economics",
+    "difficulty": "hard",
+    "accept_aliases": "Dixit and Stiglitz|Avinash Dixit & Joseph Stiglitz"
+  },
+  {
+    "question": "What was the exact U.S. unemployment rate in October 2009, the peak during the Great Recession?",
+    "correct_answer": "10.0%",
+    "domain": "economics",
+    "difficulty": "hard",
+    "accept_aliases": "10 percent|10.0 percent"
+  },
+  {
+    "question": "What is the name of the result in public finance, proven by Peter Diamond and James Mirrlees in 1971, which states that the optimal tax system should not distort production efficiency?",
+    "correct_answer": "The Diamond-Mirrlees Production Efficiency Theorem",
+    "domain": "economics",
+    "difficulty": "hard",
+    "accept_aliases": "Diamond-Mirrlees efficiency result|Diamond-Mirrlees theorem|production efficiency theorem"
+  },
+  {
+    "question": "In the original 1961 paper by John Muth that introduced the concept of rational expectations, what specific market did he use as his primary example?",
+    "correct_answer": "The hog (pork) market",
+    "domain": "economics",
+    "difficulty": "hard",
+    "accept_aliases": "hog market|pork market|cobweb model of hog prices"
+  },
+  {
+    "question": "What was the exact GDP per capita (in current US dollars) of Burundi in 2022 according to the World Bank, making it one of the poorest countries in the world?",
+    "correct_answer": "Approximately $259",
+    "domain": "economics",
+    "difficulty": "very_hard",
+    "accept_aliases": "$259|259 dollars|$258|$260"
+  },
+  {
+    "question": "Who served as the Director of the Cowles Commission from 1948 to 1952, overseeing its golden age of contributions to econometrics and general equilibrium theory?",
+    "correct_answer": "Tjalling Koopmans",
+    "domain": "economics",
+    "difficulty": "very_hard",
+    "accept_aliases": "Koopmans|Tjalling Charles Koopmans"
+  },
+  {
+    "question": "What was the exact repo rate set by the Reserve Bank of India's first monetary policy committee meeting in October 2016?",
+    "correct_answer": "6.25%",
+    "domain": "economics",
+    "difficulty": "very_hard",
+    "accept_aliases": "6.25 percent"
+  },
+  {
+    "question": "In the Stolper-Samuelson theorem, what was the exact year of publication of the original paper by Wolfgang Stolper and Paul Samuelson?",
+    "correct_answer": "1941",
+    "domain": "economics",
+    "difficulty": "very_hard",
+    "accept_aliases": ""
+  },
+  {
+    "question": "What was the name of the Swedish economist who, in 1898, distinguished between the 'natural rate of interest' and the 'money rate of interest' in his work 'Interest and Prices'?",
+    "correct_answer": "Knut Wicksell",
+    "domain": "economics",
+    "difficulty": "very_hard",
+    "accept_aliases": "Wicksell|Johan Gustaf Knut Wicksell"
+  },
+  {
+    "question": "What was the specific title of Maurice Allais's 1943 French-language treatise that independently developed general equilibrium theory but was largely ignored in the English-speaking world?",
+    "correct_answer": "À la Recherche d'une Discipline Économique (In Quest of an Economic Discipline)",
+    "domain": "economics",
+    "difficulty": "very_hard",
+    "accept_aliases": "A la Recherche d'une Discipline Economique|Traité d'économie pure"
+  },
+  {
+    "question": "What was the name of the Argentine economist who served as Secretary-General of UNCTAD from 1963 to 1969 and was a key proponent of the Prebisch-Singer hypothesis?",
+    "correct_answer": "Raúl Prebisch",
+    "domain": "economics",
+    "difficulty": "very_hard",
+    "accept_aliases": "Raul Prebisch|Prebisch"
+  },
+  {
+    "question": "In the original 1944 publication of 'Theory of Games and Economic Behavior' by von Neumann and Morgenstern, how many pages did the first edition contain?",
+    "correct_answer": "625 pages",
+    "domain": "economics",
+    "difficulty": "very_hard",
+    "accept_aliases": "625"
+  },
+  {
+    "question": "What was the exact peak federal funds rate target set by Fed Chairman Paul Volcker in June 1981 during his fight against inflation?",
+    "correct_answer": "20%",
+    "domain": "economics",
+    "difficulty": "very_hard",
+    "accept_aliases": "20 percent|20.0%"
+  },
+  {
+    "question": "What obscure 1956 paper by Robert Solow, published in the Quarterly Journal of Economics, had the exact title that launched the neoclassical growth model?",
+    "correct_answer": "A Contribution to the Theory of Economic Growth",
+    "domain": "economics",
+    "difficulty": "very_hard",
+    "accept_aliases": ""
+  },
+  {
+    "question": "What term describes a market structure in which there is only a single seller of a product with no close substitutes?",
+    "correct_answer": "Monopoly",
+    "domain": "economics",
+    "difficulty": "easy",
+    "accept_aliases": ""
+  },
+  {
+    "question": "What was the exact unemployment rate in the United States in October 2009, the peak during the Great Recession?",
+    "correct_answer": "10.0%",
+    "domain": "economics",
+    "difficulty": "hard",
+    "accept_aliases": "10 percent|10.0 percent"
+  },
+  {
+    "question": "Who was the first chief economist of the European Bank for Reconstruction and Development (EBRD), appointed when it was founded in 1991?",
+    "correct_answer": "Nicholas Stern",
+    "domain": "economics",
+    "difficulty": "very_hard",
+    "accept_aliases": "Nick Stern|Lord Stern|Nicholas Herbert Stern"
+  },
+  {
+    "question": "In economics, what does the abbreviation MPC stand for in the context of Keynesian consumption theory?",
+    "correct_answer": "Marginal Propensity to Consume",
+    "domain": "economics",
+    "difficulty": "medium",
+    "accept_aliases": ""
+  },
+  {
+    "question": "What organ in the human body produces insulin?",
+    "correct_answer": "Pancreas",
+    "domain": "medicine",
+    "difficulty": "easy",
+    "accept_aliases": ""
+  },
+  {
+    "question": "What is the medical term for high blood pressure?",
+    "correct_answer": "Hypertension",
+    "domain": "medicine",
+    "difficulty": "easy",
+    "accept_aliases": ""
+  },
+  {
+    "question": "Which vitamin deficiency causes scurvy?",
+    "correct_answer": "Vitamin C",
+    "domain": "medicine",
+    "difficulty": "easy",
+    "accept_aliases": "ascorbic acid"
+  },
+  {
+    "question": "What type of blood cell is primarily responsible for fighting infections?",
+    "correct_answer": "White blood cells",
+    "domain": "medicine",
+    "difficulty": "easy",
+    "accept_aliases": "leukocytes|WBCs"
+  },
+  {
+    "question": "What is the largest organ of the human body?",
+    "correct_answer": "Skin",
+    "domain": "medicine",
+    "difficulty": "easy",
+    "accept_aliases": "the skin|integument"
+  },
+  {
+    "question": "Penicillin was discovered by which scientist?",
+    "correct_answer": "Alexander Fleming",
+    "domain": "medicine",
+    "difficulty": "easy",
+    "accept_aliases": "Fleming"
+  },
+  {
+    "question": "What does the abbreviation 'CPR' stand for in emergency medicine?",
+    "correct_answer": "Cardiopulmonary resuscitation",
+    "domain": "medicine",
+    "difficulty": "easy",
+    "accept_aliases": ""
+  },
+  {
+    "question": "Which disease is characterized by the destruction of dopamine-producing neurons in the substantia nigra?",
+    "correct_answer": "Parkinson's disease",
+    "domain": "medicine",
+    "difficulty": "easy",
+    "accept_aliases": "Parkinson disease|PD"
+  },
+  {
+    "question": "What is the normal resting heart rate range for adults in beats per minute?",
+    "correct_answer": "60 to 100 beats per minute",
+    "domain": "medicine",
+    "difficulty": "easy",
+    "accept_aliases": "60-100 bpm|60–100"
+  },
+  {
+    "question": "What is the medical term for the voice box?",
+    "correct_answer": "Larynx",
+    "domain": "medicine",
+    "difficulty": "easy",
+    "accept_aliases": "the larynx"
+  },
+  {
+    "question": "What class of drug is metformin, commonly used as first-line treatment for type 2 diabetes?",
+    "correct_answer": "Biguanide",
+    "domain": "medicine",
+    "difficulty": "medium",
+    "accept_aliases": "biguanides"
+  },
+  {
+    "question": "Which cranial nerve is responsible for the sense of smell?",
+    "correct_answer": "Olfactory nerve",
+    "domain": "medicine",
+    "difficulty": "medium",
+    "accept_aliases": "cranial nerve I|CN I|first cranial nerve"
+  },
+  {
+    "question": "What autoimmune disease is diagnosed by the presence of anti-double-stranded DNA antibodies?",
+    "correct_answer": "Systemic lupus erythematosus",
+    "domain": "medicine",
+    "difficulty": "medium",
+    "accept_aliases": "SLE|lupus"
+  },
+  {
+    "question": "What is the name of the scoring system used to assess the severity of acute pancreatitis within 48 hours of admission?",
+    "correct_answer": "Ranson's criteria",
+    "domain": "medicine",
+    "difficulty": "medium",
+    "accept_aliases": "Ranson criteria|Ranson score"
+  },
+  {
+    "question": "Which electrolyte imbalance is most commonly associated with prolonged QT interval on an ECG?",
+    "correct_answer": "Hypokalemia",
+    "domain": "medicine",
+    "difficulty": "medium",
+    "accept_aliases": "low potassium|hypokalaemia"
+  },
+  {
+    "question": "What is the mechanism of action of omeprazole?",
+    "correct_answer": "Proton pump inhibitor",
+    "domain": "medicine",
+    "difficulty": "medium",
+    "accept_aliases": "PPI|inhibits the H+/K+ ATPase|irreversible inhibition of hydrogen-potassium ATPase"
+  },
+  {
+    "question": "Reed-Sternberg cells are the hallmark histological finding of which type of cancer?",
+    "correct_answer": "Hodgkin lymphoma",
+    "domain": "medicine",
+    "difficulty": "medium",
+    "accept_aliases": "Hodgkin's lymphoma|Hodgkin's disease|Hodgkin disease"
+  },
+  {
+    "question": "What is the name of the triad consisting of jaundice, fever with rigors, and right upper quadrant pain, indicative of ascending cholangitis?",
+    "correct_answer": "Charcot's triad",
+    "domain": "medicine",
+    "difficulty": "medium",
+    "accept_aliases": "Charcot triad"
+  },
+  {
+    "question": "Which embryonic germ layer gives rise to the nervous system?",
+    "correct_answer": "Ectoderm",
+    "domain": "medicine",
+    "difficulty": "medium",
+    "accept_aliases": "neuroectoderm"
+  },
+  {
+    "question": "What genetic mutation is most commonly associated with Factor V Leiden thrombophilia?",
+    "correct_answer": "A point mutation in the F5 gene (G1691A) making Factor V resistant to activated protein C",
+    "domain": "medicine",
+    "difficulty": "medium",
+    "accept_aliases": "G1691A|R506Q|Arg506Gln"
+  },
+  {
+    "question": "In pharmacology, what is the term for the dose of a drug that produces a therapeutic effect in 50% of the population?",
+    "correct_answer": "ED50",
+    "domain": "medicine",
+    "difficulty": "medium",
+    "accept_aliases": "median effective dose|effective dose 50"
+  },
+  {
+    "question": "Which hepatitis virus is a defective RNA virus that requires co-infection with hepatitis B to replicate?",
+    "correct_answer": "Hepatitis D",
+    "domain": "medicine",
+    "difficulty": "medium",
+    "accept_aliases": "Hepatitis delta virus|HDV|hepatitis D virus"
+  },
+  {
+    "question": "What is the name of the rare vasculitis characterized by granulomatous inflammation of the aorta and its major branches, predominantly affecting young women, also called 'pulseless disease'?",
+    "correct_answer": "Takayasu arteritis",
+    "domain": "medicine",
+    "difficulty": "medium",
+    "accept_aliases": "Takayasu's arteritis|Takayasu disease"
+  },
+  {
+    "question": "What is the approximate glomerular filtration rate (in mL/min) threshold used to define Stage 5 chronic kidney disease (kidney failure)?",
+    "correct_answer": "Less than 15 mL/min",
+    "domain": "medicine",
+    "difficulty": "medium",
+    "accept_aliases": "<15 mL/min|below 15|15 mL/min/1.73m2"
+  },
+  {
+    "question": "What specific chromosomal translocation is associated with Burkitt lymphoma?",
+    "correct_answer": "t(8;14)",
+    "domain": "medicine",
+    "difficulty": "hard",
+    "accept_aliases": "translocation 8;14|t(8;14)(q24;q32)"
+  },
+  {
+    "question": "What is the name of the eponymous sign in which compression of the jugular veins causes a paradoxical rise in jugular venous pressure, indicative of constrictive pericarditis or cardiac tamponade?",
+    "correct_answer": "Kussmaul's sign",
+    "domain": "medicine",
+    "difficulty": "hard",
+    "accept_aliases": "Kussmaul sign"
+  },
+  {
+    "question": "What specific enzyme deficiency causes Gaucher disease?",
+    "correct_answer": "Glucocerebrosidase",
+    "domain": "medicine",
+    "difficulty": "hard",
+    "accept_aliases": "acid beta-glucosidase|beta-glucocerebrosidase|GBA"
+  },
+  {
+    "question": "What is the name of the scoring system that uses five clinical criteria (fever, tonsillar exudates, tender anterior cervical lymphadenopathy, absence of cough, and age) to estimate the probability of streptococcal pharyngitis?",
+    "correct_answer": "Centor criteria",
+    "domain": "medicine",
+    "difficulty": "hard",
+    "accept_aliases": "Modified Centor score|McIsaac score|Centor score"
+  },
+  {
+    "question": "Which cytochrome P450 enzyme is responsible for metabolizing approximately 25% of all clinically used drugs, including warfarin and losartan?",
+    "correct_answer": "CYP2C9",
+    "domain": "medicine",
+    "difficulty": "hard",
+    "accept_aliases": "cytochrome P450 2C9"
+  },
+  {
+    "question": "What is the target INR range for a patient with a mechanical mitral valve prosthesis on warfarin therapy?",
+    "correct_answer": "2.5 to 3.5",
+    "domain": "medicine",
+    "difficulty": "hard",
+    "accept_aliases": "2.5–3.5|2.5-3.5"
+  },
+  {
+    "question": "What is the name of the phenomenon in which a patient with myasthenia gravis shows initial improvement followed by worsening of symptoms upon repetitive nerve stimulation, known as a decremental response?",
+    "correct_answer": "Decremental response on repetitive nerve stimulation",
+    "domain": "medicine",
+    "difficulty": "hard",
+    "accept_aliases": "decremental pattern|decrement on RNS"
+  },
+  {
+    "question": "In the WHO classification of pulmonary hypertension, what is Group 4 pulmonary hypertension caused by?",
+    "correct_answer": "Chronic thromboembolic pulmonary hypertension",
+    "domain": "medicine",
+    "difficulty": "hard",
+    "accept_aliases": "CTEPH|chronic thromboembolic disease"
+  },
+  {
+    "question": "What mutation in the JAK2 gene (specifically the amino acid substitution) is found in approximately 95% of patients with polycythemia vera?",
+    "correct_answer": "V617F",
+    "domain": "medicine",
+    "difficulty": "hard",
+    "accept_aliases": "JAK2 V617F|Val617Phe"
+  },
+  {
+    "question": "What is the specific antidote for heparin overdose?",
+    "correct_answer": "Protamine sulfate",
+    "domain": "medicine",
+    "difficulty": "hard",
+    "accept_aliases": "protamine|protamine sulphate"
+  },
+  {
+    "question": "What is the name of the rare syndrome characterized by the triad of encephalopathy, lactic acidosis, and stroke-like episodes caused by mitochondrial DNA mutations?",
+    "correct_answer": "MELAS syndrome",
+    "domain": "medicine",
+    "difficulty": "hard",
+    "accept_aliases": "MELAS|Mitochondrial encephalomyopathy, lactic acidosis, and stroke-like episodes"
+  },
+  {
+    "question": "Which specific HLA allele is most strongly associated with an increased risk of developing ankylosing spondylitis?",
+    "correct_answer": "HLA-B27",
+    "domain": "medicine",
+    "difficulty": "hard",
+    "accept_aliases": "B27|HLA B27"
+  },
+  {
+    "question": "What is the name of the rare congenital condition in which the ductus venosus fails to close, leading to portosystemic shunting classified by Morgan and Superina, and what is the specific classification system used?",
+    "correct_answer": "Abernethy malformation (classified as Type I and Type II by Morgan and Superina)",
+    "domain": "medicine",
+    "difficulty": "hard",
+    "accept_aliases": "Abernethy malformation|congenital portosystemic shunt"
+  },
+  {
+    "question": "What is the specific mitochondrial DNA point mutation (nucleotide position) most commonly associated with MELAS syndrome?",
+    "correct_answer": "m.3243A>G",
+    "domain": "medicine",
+    "difficulty": "hard",
+    "accept_aliases": "3243A>G|A3243G|nucleotide 3243"
+  },
+  {
+    "question": "What is the name of the extremely rare autosomal recessive condition caused by mutations in the ADAMTS13 gene, leading to congenital thrombotic thrombocytopenic purpura?",
+    "correct_answer": "Upshaw-Schulman syndrome",
+    "domain": "medicine",
+    "difficulty": "very_hard",
+    "accept_aliases": "USS|congenital TTP|Upshaw–Schulman syndrome"
+  },
+  {
+    "question": "What is the exact year that the first successful human heart transplant was performed by Christiaan Barnard at Groote Schuur Hospital in Cape Town?",
+    "correct_answer": "1967",
+    "domain": "medicine",
+    "difficulty": "very_hard",
+    "accept_aliases": "December 3, 1967"
+  },
+  {
+    "question": "What is the specific receptor subtype that sumatriptan primarily acts on to treat migraines?",
+    "correct_answer": "5-HT1B/1D",
+    "domain": "medicine",
+    "difficulty": "very_hard",
+    "accept_aliases": "serotonin 1B/1D|5-HT1B and 5-HT1D|5HT1B/1D"
+  },
+  {
+    "question": "What is the name of the extremely rare autosomal recessive lysosomal storage disorder caused by deficiency of alpha-galactosidase A, and what is the X-linked form called?",
+    "correct_answer": "The X-linked form is Fabry disease; the autosomal recessive form caused by deficiency of acid ceramidase is Farber disease",
+    "domain": "medicine",
+    "difficulty": "very_hard",
+    "accept_aliases": "Fabry disease|Farber disease|Farber lipogranulomatosis"
+  },
+  {
+    "question": "In the original 1977 Ranson criteria for acute pancreatitis, what is the specific serum LDH threshold at admission (in IU/L) used as one of the criteria?",
+    "correct_answer": "Greater than 350 IU/L",
+    "domain": "medicine",
+    "difficulty": "very_hard",
+    "accept_aliases": ">350 IU/L|350"
+  },
+  {
+    "question": "What is the name of the rare inherited disorder of bilirubin metabolism caused by complete absence of UDP-glucuronosyltransferase 1A1 activity, which can lead to fatal kernicterus if untreated?",
+    "correct_answer": "Crigler-Najjar syndrome type I",
+    "domain": "medicine",
+    "difficulty": "very_hard",
+    "accept_aliases": "Crigler–Najjar type 1|Crigler-Najjar type 1|CN1"
+  },
+  {
+    "question": "What is the specific chromosomal microdeletion associated with DiGeorge syndrome?",
+    "correct_answer": "22q11.2 deletion",
+    "domain": "medicine",
+    "difficulty": "very_hard",
+    "accept_aliases": "22q11.2|del(22)(q11.2)|chromosome 22q11.2 microdeletion"
+  },
+  {
+    "question": "What is the name of the eponymous triad of congenital syphilis consisting of Hutchinson's teeth, interstitial keratitis, and eighth nerve deafness?",
+    "correct_answer": "Hutchinson's triad",
+    "domain": "medicine",
+    "difficulty": "very_hard",
+    "accept_aliases": "Hutchinson triad"
+  },
+  {
+    "question": "What is the exact percentage of cardiac output that the kidneys receive under normal physiological conditions?",
+    "correct_answer": "Approximately 20-25%",
+    "domain": "medicine",
+    "difficulty": "very_hard",
+    "accept_aliases": "20%|25%|20-25%|~25%|about 20 to 25 percent"
+  },
+  {
+    "question": "What is the name of the rare paraneoplastic syndrome associated with thymoma characterized by pure red cell aplasia, and what approximate percentage of thymoma patients develop this condition?",
+    "correct_answer": "Pure red cell aplasia, occurring in approximately 5% of thymoma patients",
+    "domain": "medicine",
+    "difficulty": "very_hard",
+    "accept_aliases": "PRCA|5%|pure red cell aplasia"
+  },
+  {
+    "question": "What is the specific genetic locus and mutation responsible for the most common form of familial Mediterranean fever?",
+    "correct_answer": "MEFV gene on chromosome 16p13.3, most commonly the M694V mutation",
+    "domain": "medicine",
+    "difficulty": "very_hard",
+    "accept_aliases": "MEFV|M694V|16p13.3"
+  },
+  {
+    "question": "What is the exact year that Australian physician Barry Marshall ingested Helicobacter pylori culture to prove its role in causing gastric ulcers, and what was the specific strain he used?",
+    "correct_answer": "1984, using the strain isolated from a patient referred to as patient B (later identified as H. pylori strain 11637)",
+    "domain": "medicine",
+    "difficulty": "very_hard",
+    "accept_aliases": "1984|1984, strain 11637"
+  }
+]

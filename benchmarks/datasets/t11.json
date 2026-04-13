@@ -1,0 +1,1202 @@
+[
+  {
+    "question": "What is the capital of France?",
+    "correct_answer": "Paris",
+    "difficulty": "easy",
+    "accept_aliases": ""
+  },
+  {
+    "question": "What planet is known as the Red Planet?",
+    "correct_answer": "Mars",
+    "difficulty": "easy",
+    "accept_aliases": ""
+  },
+  {
+    "question": "What is the chemical symbol for water?",
+    "correct_answer": "H2O",
+    "difficulty": "easy",
+    "accept_aliases": "H₂O"
+  },
+  {
+    "question": "How many continents are there on Earth?",
+    "correct_answer": "7",
+    "difficulty": "easy",
+    "accept_aliases": "seven"
+  },
+  {
+    "question": "What is the largest ocean on Earth?",
+    "correct_answer": "Pacific Ocean",
+    "difficulty": "easy",
+    "accept_aliases": "Pacific|the Pacific Ocean|the Pacific"
+  },
+  {
+    "question": "Who wrote the play 'Romeo and Juliet'?",
+    "correct_answer": "William Shakespeare",
+    "difficulty": "easy",
+    "accept_aliases": "Shakespeare"
+  },
+  {
+    "question": "What gas do plants absorb from the atmosphere during photosynthesis?",
+    "correct_answer": "Carbon dioxide",
+    "difficulty": "easy",
+    "accept_aliases": "CO2|CO₂"
+  },
+  {
+    "question": "What is the currency of Japan?",
+    "correct_answer": "Yen",
+    "difficulty": "easy",
+    "accept_aliases": "Japanese yen|JPY"
+  },
+  {
+    "question": "How many days are in a standard (non-leap) year?",
+    "correct_answer": "365",
+    "difficulty": "easy",
+    "accept_aliases": "three hundred sixty-five"
+  },
+  {
+    "question": "What is the boiling point of water in degrees Celsius at sea level?",
+    "correct_answer": "100",
+    "difficulty": "easy",
+    "accept_aliases": "100°C|100 degrees Celsius|100 degrees"
+  },
+  {
+    "question": "What is the largest mammal on Earth?",
+    "correct_answer": "Blue whale",
+    "difficulty": "easy",
+    "accept_aliases": "the blue whale"
+  },
+  {
+    "question": "On which continent is Egypt located?",
+    "correct_answer": "Africa",
+    "difficulty": "easy",
+    "accept_aliases": ""
+  },
+  {
+    "question": "What language has the most native speakers in the world?",
+    "correct_answer": "Mandarin Chinese",
+    "difficulty": "easy",
+    "accept_aliases": "Mandarin|Chinese"
+  },
+  {
+    "question": "How many sides does a hexagon have?",
+    "correct_answer": "6",
+    "difficulty": "easy",
+    "accept_aliases": "six"
+  },
+  {
+    "question": "Who painted the Mona Lisa?",
+    "correct_answer": "Leonardo da Vinci",
+    "difficulty": "easy",
+    "accept_aliases": "Da Vinci|Leonardo"
+  },
+  {
+    "question": "What is the speed of light in a vacuum, approximately in kilometers per second?",
+    "correct_answer": "300,000",
+    "difficulty": "easy",
+    "accept_aliases": "300000|~300,000|about 300,000|299,792"
+  },
+  {
+    "question": "What is the chemical symbol for gold?",
+    "correct_answer": "Au",
+    "difficulty": "easy",
+    "accept_aliases": ""
+  },
+  {
+    "question": "Which country is home to the Great Barrier Reef?",
+    "correct_answer": "Australia",
+    "difficulty": "easy",
+    "accept_aliases": ""
+  },
+  {
+    "question": "How many strings does a standard guitar have?",
+    "correct_answer": "6",
+    "difficulty": "easy",
+    "accept_aliases": "six"
+  },
+  {
+    "question": "What is the smallest prime number?",
+    "correct_answer": "2",
+    "difficulty": "easy",
+    "accept_aliases": "two"
+  },
+  {
+    "question": "What is the capital of France?",
+    "correct_answer": "Paris",
+    "difficulty": "easy",
+    "accept_aliases": ""
+  },
+  {
+    "question": "How many planets are in our solar system?",
+    "correct_answer": "8",
+    "difficulty": "easy",
+    "accept_aliases": "eight"
+  },
+  {
+    "question": "What gas do plants absorb from the atmosphere during photosynthesis?",
+    "correct_answer": "Carbon dioxide",
+    "difficulty": "easy",
+    "accept_aliases": "CO2|carbon dioxide"
+  },
+  {
+    "question": "What is the largest ocean on Earth?",
+    "correct_answer": "Pacific Ocean",
+    "difficulty": "easy",
+    "accept_aliases": "Pacific|the Pacific"
+  },
+  {
+    "question": "Who wrote the play 'Romeo and Juliet'?",
+    "correct_answer": "William Shakespeare",
+    "difficulty": "easy",
+    "accept_aliases": "Shakespeare"
+  },
+  {
+    "question": "What is the boiling point of water in degrees Celsius at sea level?",
+    "correct_answer": "100",
+    "difficulty": "easy",
+    "accept_aliases": "100°C|100 degrees|100 degrees Celsius"
+  },
+  {
+    "question": "Which planet is known as the Red Planet?",
+    "correct_answer": "Mars",
+    "difficulty": "easy",
+    "accept_aliases": ""
+  },
+  {
+    "question": "How many days are in a standard (non-leap) year?",
+    "correct_answer": "365",
+    "difficulty": "easy",
+    "accept_aliases": "three hundred sixty-five"
+  },
+  {
+    "question": "What is the chemical formula for water?",
+    "correct_answer": "H2O",
+    "difficulty": "easy",
+    "accept_aliases": "H₂O"
+  },
+  {
+    "question": "Which organ in the human body pumps blood?",
+    "correct_answer": "Heart",
+    "difficulty": "easy",
+    "accept_aliases": "the heart"
+  },
+  {
+    "question": "What continent is Brazil located on?",
+    "correct_answer": "South America",
+    "difficulty": "easy",
+    "accept_aliases": ""
+  },
+  {
+    "question": "How many continents are there on Earth?",
+    "correct_answer": "7",
+    "difficulty": "easy",
+    "accept_aliases": "seven"
+  },
+  {
+    "question": "What is the currency of Japan?",
+    "correct_answer": "Yen",
+    "difficulty": "easy",
+    "accept_aliases": "Japanese yen|JPY"
+  },
+  {
+    "question": "Who was the first person to walk on the Moon?",
+    "correct_answer": "Neil Armstrong",
+    "difficulty": "easy",
+    "accept_aliases": "Armstrong"
+  },
+  {
+    "question": "What is the freezing point of water in degrees Fahrenheit?",
+    "correct_answer": "32",
+    "difficulty": "easy",
+    "accept_aliases": "32°F|32 degrees Fahrenheit"
+  },
+  {
+    "question": "What element does the chemical symbol 'O' represent?",
+    "correct_answer": "Oxygen",
+    "difficulty": "easy",
+    "accept_aliases": ""
+  },
+  {
+    "question": "Which country has the largest population in the world?",
+    "correct_answer": "India",
+    "difficulty": "easy",
+    "accept_aliases": ""
+  },
+  {
+    "question": "How many letters are in the English alphabet?",
+    "correct_answer": "26",
+    "difficulty": "easy",
+    "accept_aliases": "twenty-six"
+  },
+  {
+    "question": "What is the tallest mountain in the world?",
+    "correct_answer": "Mount Everest",
+    "difficulty": "easy",
+    "accept_aliases": "Everest|Mt. Everest|Mt Everest"
+  },
+  {
+    "question": "In which year did World War II end?",
+    "correct_answer": "1945",
+    "difficulty": "easy",
+    "accept_aliases": ""
+  },
+  {
+    "question": "What is the capital of France?",
+    "correct_answer": "Paris",
+    "difficulty": "easy",
+    "accept_aliases": ""
+  },
+  {
+    "question": "What planet is closest to the Sun?",
+    "correct_answer": "Mercury",
+    "difficulty": "easy",
+    "accept_aliases": ""
+  },
+  {
+    "question": "What gas do plants absorb from the atmosphere during photosynthesis?",
+    "correct_answer": "Carbon dioxide",
+    "difficulty": "easy",
+    "accept_aliases": "CO2|carbon dioxide"
+  },
+  {
+    "question": "How many sides does a triangle have?",
+    "correct_answer": "3",
+    "difficulty": "easy",
+    "accept_aliases": "three"
+  },
+  {
+    "question": "What is the largest ocean on Earth?",
+    "correct_answer": "Pacific Ocean",
+    "difficulty": "easy",
+    "accept_aliases": "Pacific|the Pacific Ocean"
+  },
+  {
+    "question": "What language is most widely spoken in Brazil?",
+    "correct_answer": "Portuguese",
+    "difficulty": "easy",
+    "accept_aliases": ""
+  },
+  {
+    "question": "Who wrote the play 'Romeo and Juliet'?",
+    "correct_answer": "William Shakespeare",
+    "difficulty": "easy",
+    "accept_aliases": "Shakespeare"
+  },
+  {
+    "question": "What is the chemical formula for water?",
+    "correct_answer": "H2O",
+    "difficulty": "easy",
+    "accept_aliases": "H₂O"
+  },
+  {
+    "question": "How many days are in a standard (non-leap) year?",
+    "correct_answer": "365",
+    "difficulty": "easy",
+    "accept_aliases": "three hundred sixty-five"
+  },
+  {
+    "question": "What is the speed of light in a vacuum, approximately in kilometers per second?",
+    "correct_answer": "300,000",
+    "difficulty": "easy",
+    "accept_aliases": "300000|~300,000 km/s|299,792"
+  },
+  {
+    "question": "What is the largest planet in our solar system?",
+    "correct_answer": "Jupiter",
+    "difficulty": "easy",
+    "accept_aliases": ""
+  },
+  {
+    "question": "What organ in the human body pumps blood?",
+    "correct_answer": "Heart",
+    "difficulty": "easy",
+    "accept_aliases": "The heart"
+  },
+  {
+    "question": "On which continent is Egypt located?",
+    "correct_answer": "Africa",
+    "difficulty": "easy",
+    "accept_aliases": ""
+  },
+  {
+    "question": "What is the boiling point of water in degrees Celsius at sea level?",
+    "correct_answer": "100",
+    "difficulty": "easy",
+    "accept_aliases": "100°C|100 degrees Celsius"
+  },
+  {
+    "question": "Who painted the Mona Lisa?",
+    "correct_answer": "Leonardo da Vinci",
+    "difficulty": "easy",
+    "accept_aliases": "Da Vinci|Leonardo"
+  },
+  {
+    "question": "How many players are on a standard soccer (football) team on the field at one time?",
+    "correct_answer": "11",
+    "difficulty": "easy",
+    "accept_aliases": "eleven"
+  },
+  {
+    "question": "What country gifted the Statue of Liberty to the United States?",
+    "correct_answer": "France",
+    "difficulty": "easy",
+    "accept_aliases": ""
+  },
+  {
+    "question": "What is the currency of the United Kingdom?",
+    "correct_answer": "Pound sterling",
+    "difficulty": "easy",
+    "accept_aliases": "British pound|pound|GBP|sterling"
+  },
+  {
+    "question": "What is the smallest prime number?",
+    "correct_answer": "2",
+    "difficulty": "easy",
+    "accept_aliases": "two"
+  },
+  {
+    "question": "Which planet is known as the Red Planet?",
+    "correct_answer": "Mars",
+    "difficulty": "easy",
+    "accept_aliases": ""
+  },
+  {
+    "question": "What is the chemical symbol for gold?",
+    "correct_answer": "Au",
+    "difficulty": "easy",
+    "accept_aliases": ""
+  },
+  {
+    "question": "How many continents are there on Earth?",
+    "correct_answer": "7",
+    "difficulty": "easy",
+    "accept_aliases": "seven"
+  },
+  {
+    "question": "What language is most widely spoken in Brazil?",
+    "correct_answer": "Portuguese",
+    "difficulty": "easy",
+    "accept_aliases": ""
+  },
+  {
+    "question": "What is the capital of Japan?",
+    "correct_answer": "Tokyo",
+    "difficulty": "easy",
+    "accept_aliases": ""
+  },
+  {
+    "question": "How many days are in a standard (non-leap) year?",
+    "correct_answer": "365",
+    "difficulty": "easy",
+    "accept_aliases": "three hundred sixty-five|three hundred and sixty-five"
+  },
+  {
+    "question": "What gas do plants absorb from the atmosphere during photosynthesis?",
+    "correct_answer": "Carbon dioxide",
+    "difficulty": "easy",
+    "accept_aliases": "CO2|CO₂"
+  },
+  {
+    "question": "What year was the European Exchange Rate Mechanism (ERM) crisis, often called 'Black Wednesday', when the British pound was forced out of the ERM?",
+    "correct_answer": "1992",
+    "difficulty": "medium",
+    "accept_aliases": ""
+  },
+  {
+    "question": "Who was the Chair of the Federal Reserve during the 2008 financial crisis?",
+    "correct_answer": "Ben Bernanke",
+    "difficulty": "medium",
+    "accept_aliases": "Bernanke|Benjamin Bernanke|Ben S. Bernanke"
+  },
+  {
+    "question": "What is the name of the economic phenomenon where increasing the money supply fails to stimulate growth because interest rates are already near zero?",
+    "correct_answer": "Liquidity trap",
+    "difficulty": "medium",
+    "accept_aliases": "liquidity trap|a liquidity trap"
+  },
+  {
+    "question": "In what year did China officially join the World Trade Organization (WTO)?",
+    "correct_answer": "2001",
+    "difficulty": "medium",
+    "accept_aliases": ""
+  },
+  {
+    "question": "What specific inflation rate does the Federal Reserve target as its long-run goal for the Personal Consumption Expenditures (PCE) price index?",
+    "correct_answer": "2 percent",
+    "difficulty": "medium",
+    "accept_aliases": "2%|2.0%|two percent"
+  },
+  {
+    "question": "The Plaza Accord of 1985, which aimed to depreciate the US dollar, was signed by the finance ministers and central bank governors of how many nations?",
+    "correct_answer": "5",
+    "difficulty": "medium",
+    "accept_aliases": "five|5 nations|G-5|G5"
+  },
+  {
+    "question": "What economist introduced the concept of 'creative destruction' to describe the process of industrial mutation within capitalism?",
+    "correct_answer": "Joseph Schumpeter",
+    "difficulty": "medium",
+    "accept_aliases": "Schumpeter|Joseph A. Schumpeter|Joseph Alois Schumpeter"
+  },
+  {
+    "question": "What is the term for the economic measure calculated as GDP divided by total hours worked in the economy?",
+    "correct_answer": "Labor productivity",
+    "difficulty": "medium",
+    "accept_aliases": "labour productivity|workforce productivity"
+  },
+  {
+    "question": "The Bretton Woods system of fixed exchange rates collapsed when President Nixon suspended the convertibility of the dollar into gold. In what year did this 'Nixon Shock' occur?",
+    "correct_answer": "1971",
+    "difficulty": "medium",
+    "accept_aliases": ""
+  },
+  {
+    "question": "What country experienced hyperinflation in 2008 that peaked at an estimated 79.6 billion percent month-on-month in November of that year?",
+    "correct_answer": "Zimbabwe",
+    "difficulty": "medium",
+    "accept_aliases": "Republic of Zimbabwe"
+  },
+  {
+    "question": "The Stolper-Samuelson theorem predicts that international trade benefits owners of which factor of production in a capital-abundant country?",
+    "correct_answer": "Capital",
+    "difficulty": "medium",
+    "accept_aliases": "the abundant factor|capital owners"
+  },
+  {
+    "question": "What was the peak US unemployment rate during the Great Recession, reached in October 2009?",
+    "correct_answer": "10.0%",
+    "difficulty": "medium",
+    "accept_aliases": "10%|10 percent|10.0 percent"
+  },
+  {
+    "question": "Which Nobel Prize-winning economist developed the theory of 'rational expectations' in a 1961 paper, though it was later popularized by Robert Lucas?",
+    "correct_answer": "John Muth",
+    "difficulty": "medium",
+    "accept_aliases": "John F. Muth|Muth|John Fraser Muth"
+  },
+  {
+    "question": "What is the name of the index, published by The Economist since 1986, that uses the price of a McDonald's hamburger to measure purchasing power parity between currencies?",
+    "correct_answer": "Big Mac Index",
+    "difficulty": "medium",
+    "accept_aliases": "The Big Mac Index|Big Mac index"
+  },
+  {
+    "question": "In the IS-LM model, what does the 'LM' stand for?",
+    "correct_answer": "Liquidity preference–Money supply",
+    "difficulty": "medium",
+    "accept_aliases": "Liquidity preference and Money supply|Liquidity Money"
+  },
+  {
+    "question": "What was the name of the US federal legislation passed in 1933 that separated commercial banking from investment banking, repealed in 1999?",
+    "correct_answer": "Glass-Steagall Act",
+    "difficulty": "medium",
+    "accept_aliases": "Glass Steagall Act|Glass-Steagall|Banking Act of 1933"
+  },
+  {
+    "question": "Which country became the first to implement a nationwide negative interest rate policy, doing so in 2012?",
+    "correct_answer": "Denmark",
+    "difficulty": "medium",
+    "accept_aliases": "Denmark's National Bank|Danmarks Nationalbank"
+  },
+  {
+    "question": "What specific debt-to-GDP threshold did Carmen Reinhart and Kenneth Rogoff controversially claim in their 2010 paper leads to sharply lower economic growth?",
+    "correct_answer": "90%",
+    "difficulty": "medium",
+    "accept_aliases": "90 percent|90"
+  },
+  {
+    "question": "The 'impossible trinity' or 'trilemma' in international economics states that a country cannot simultaneously maintain a fixed exchange rate, free capital movement, and what third policy?",
+    "correct_answer": "Independent monetary policy",
+    "difficulty": "medium",
+    "accept_aliases": "sovereign monetary policy|autonomous monetary policy|monetary policy independence|an independent monetary policy"
+  },
+  {
+    "question": "What was the annual GDP growth rate of the United States in 2019, the last full year before the COVID-19 pandemic, as reported by the Bureau of Economic Analysis (rounded to one decimal)?",
+    "correct_answer": "2.3%",
+    "difficulty": "medium",
+    "accept_aliases": "2.3 percent|2.3"
+  },
+  {
+    "question": "What is the name of the economic phenomenon where an increase in a country's revenue from natural resources leads to a decline in its manufacturing sector, named after a European country?",
+    "correct_answer": "Dutch Disease",
+    "difficulty": "medium",
+    "accept_aliases": "Dutch disease|the Dutch Disease"
+  },
+  {
+    "question": "In what year did the Bretton Woods system of fixed exchange rates officially collapse when President Nixon suspended the convertibility of the US dollar to gold?",
+    "correct_answer": "1971",
+    "difficulty": "medium",
+    "accept_aliases": ""
+  },
+  {
+    "question": "Which economist wrote 'The General Theory of Employment, Interest and Money' published in 1936?",
+    "correct_answer": "John Maynard Keynes",
+    "difficulty": "medium",
+    "accept_aliases": "Keynes|J.M. Keynes"
+  },
+  {
+    "question": "What is the term for the economic measure calculated as the percentage change in quantity demanded divided by the percentage change in price?",
+    "correct_answer": "Price elasticity of demand",
+    "difficulty": "medium",
+    "accept_aliases": "elasticity of demand|price elasticity"
+  },
+  {
+    "question": "The Phillips Curve originally described an inverse relationship between unemployment and what other macroeconomic variable?",
+    "correct_answer": "Wage inflation",
+    "difficulty": "medium",
+    "accept_aliases": "inflation|rate of change of money wages|wage growth"
+  },
+  {
+    "question": "What was the exact year the European Central Bank (ECB) began operations, taking over monetary policy for the Eurozone?",
+    "correct_answer": "1999",
+    "difficulty": "medium",
+    "accept_aliases": ""
+  },
+  {
+    "question": "Which economist is credited with the concept of 'creative destruction' to describe the process of industrial innovation in capitalist economies?",
+    "correct_answer": "Joseph Schumpeter",
+    "difficulty": "medium",
+    "accept_aliases": "Schumpeter|Joseph A. Schumpeter"
+  },
+  {
+    "question": "What is the name of the Federal Reserve's preferred measure of inflation, which excludes food and energy prices and is based on personal consumption expenditures?",
+    "correct_answer": "Core PCE",
+    "difficulty": "medium",
+    "accept_aliases": "Core PCE price index|core Personal Consumption Expenditures price index"
+  },
+  {
+    "question": "In game theory, what is the name of the equilibrium concept where no player can benefit by unilaterally changing their strategy, named after a Nobel laureate?",
+    "correct_answer": "Nash equilibrium",
+    "difficulty": "medium",
+    "accept_aliases": "Nash Equilibrium"
+  },
+  {
+    "question": "What specific US federal funds rate target range did the Federal Reserve set in December 2008 during the financial crisis, which remained in place until December 2015?",
+    "correct_answer": "0% to 0.25%",
+    "difficulty": "medium",
+    "accept_aliases": "0-0.25%|zero to 0.25 percent|0 to 25 basis points"
+  },
+  {
+    "question": "Which international organization, headquartered in Basel, Switzerland, is known as the 'central bank of central banks'?",
+    "correct_answer": "Bank for International Settlements",
+    "difficulty": "medium",
+    "accept_aliases": "BIS|the Bank for International Settlements"
+  },
+  {
+    "question": "What is the name of the economic principle stating that 'bad money drives out good money' when both are in circulation under legal tender laws?",
+    "correct_answer": "Gresham's Law",
+    "difficulty": "medium",
+    "accept_aliases": "Gresham's law"
+  },
+  {
+    "question": "Which country experienced hyperinflation in 2008 with a peak monthly inflation rate estimated at 79.6 billion percent in November of that year?",
+    "correct_answer": "Zimbabwe",
+    "difficulty": "medium",
+    "accept_aliases": ""
+  },
+  {
+    "question": "What is the name of the trade agreement that replaced NAFTA, signed in 2018 and entering into force on July 1, 2020?",
+    "correct_answer": "USMCA",
+    "difficulty": "medium",
+    "accept_aliases": "United States-Mexico-Canada Agreement|the USMCA"
+  },
+  {
+    "question": "The Laffer Curve illustrates the theoretical relationship between tax rates and what other variable?",
+    "correct_answer": "Tax revenue",
+    "difficulty": "medium",
+    "accept_aliases": "government tax revenue|tax revenues|government revenue"
+  },
+  {
+    "question": "Who served as Chair of the Federal Reserve from 1987 to 2006, presiding over the dot-com bubble and the response to the September 11 attacks?",
+    "correct_answer": "Alan Greenspan",
+    "difficulty": "medium",
+    "accept_aliases": "Greenspan"
+  },
+  {
+    "question": "What is the technical term for two consecutive quarters of negative real GDP growth, commonly used as a rule-of-thumb definition of recession?",
+    "correct_answer": "Technical recession",
+    "difficulty": "medium",
+    "accept_aliases": "a technical recession|recession (two consecutive quarters of negative GDP growth)"
+  },
+  {
+    "question": "Which Nobel Prize-winning economist developed the Black-Scholes option pricing model alongside Fischer Black, publishing the foundational paper in 1973?",
+    "correct_answer": "Myron Scholes",
+    "difficulty": "medium",
+    "accept_aliases": "Scholes"
+  },
+  {
+    "question": "What was the approximate peak year-over-year US Consumer Price Index (CPI) inflation rate in June 2022, rounded to the nearest whole number?",
+    "correct_answer": "9%",
+    "difficulty": "medium",
+    "accept_aliases": "9 percent|9.1%|9.1 percent"
+  },
+  {
+    "question": "In economics, what is the term for the additional cost incurred by producing one more unit of a good or service?",
+    "correct_answer": "Marginal cost",
+    "difficulty": "medium",
+    "accept_aliases": "marginal cost"
+  },
+  {
+    "question": "What is the name of the index, published by The Economist since 1986, that uses the price of a McDonald's Big Mac to compare purchasing power parity between countries?",
+    "correct_answer": "Big Mac Index",
+    "difficulty": "medium",
+    "accept_aliases": "The Big Mac Index|Big Mac index"
+  },
+  {
+    "question": "Which economist wrote the 1936 work 'The General Theory of Employment, Interest and Money', fundamentally reshaping macroeconomic thought?",
+    "correct_answer": "John Maynard Keynes",
+    "difficulty": "medium",
+    "accept_aliases": "Keynes|J.M. Keynes"
+  },
+  {
+    "question": "What is the name of the US federal legislation passed in 2010 in response to the 2008 financial crisis that overhauled financial regulation, including the creation of the Consumer Financial Protection Bureau?",
+    "correct_answer": "Dodd-Frank Wall Street Reform and Consumer Protection Act",
+    "difficulty": "medium",
+    "accept_aliases": "Dodd-Frank Act|Dodd-Frank"
+  },
+  {
+    "question": "In what year did the United Kingdom formally exit the European Union (Brexit day)?",
+    "correct_answer": "2020",
+    "difficulty": "medium",
+    "accept_aliases": "January 31, 2020|31 January 2020"
+  },
+  {
+    "question": "What specific term describes a market structure in which there are only two sellers or producers of a particular product?",
+    "correct_answer": "Duopoly",
+    "difficulty": "medium",
+    "accept_aliases": ""
+  },
+  {
+    "question": "Which US government-sponsored enterprise, placed into conservatorship in September 2008, has the official name Federal National Mortgage Association?",
+    "correct_answer": "Fannie Mae",
+    "difficulty": "medium",
+    "accept_aliases": "FNMA"
+  },
+  {
+    "question": "What was the approximate US federal funds effective rate target range upper bound set by the Federal Reserve in July 2023, after 11 rate hikes in the tightening cycle?",
+    "correct_answer": "5.50%",
+    "difficulty": "medium",
+    "accept_aliases": "5.5%|5.25-5.50%|5.25% to 5.50%|5.5 percent"
+  },
+  {
+    "question": "Which economist is credited with the concept of 'creative destruction', describing the process by which innovation renders old industries obsolete?",
+    "correct_answer": "Joseph Schumpeter",
+    "difficulty": "medium",
+    "accept_aliases": "Schumpeter|Joseph A. Schumpeter"
+  },
+  {
+    "question": "What is the name of the economic phenomenon where increasing the money supply beyond real economic growth leads to a general rise in prices, famously summarized by Milton Friedman as 'always and everywhere a monetary phenomenon'?",
+    "correct_answer": "Inflation",
+    "difficulty": "medium",
+    "accept_aliases": ""
+  },
+  {
+    "question": "The Plaza Accord of 1985, an agreement to depreciate the US dollar relative to the Japanese yen and German Deutsche Mark, was signed at a hotel in which city?",
+    "correct_answer": "New York City",
+    "difficulty": "medium",
+    "accept_aliases": "New York|NYC"
+  },
+  {
+    "question": "What is the three-letter ticker symbol for the exchange-traded fund managed by State Street that tracks the S&P 500 and is the largest ETF by assets under management?",
+    "correct_answer": "SPY",
+    "difficulty": "medium",
+    "accept_aliases": "SPDR S&P 500 ETF Trust"
+  },
+  {
+    "question": "Which country's central bank was the first major central bank to implement negative interest rates in 2012?",
+    "correct_answer": "Denmark",
+    "difficulty": "medium",
+    "accept_aliases": "Danmarks Nationalbank"
+  },
+  {
+    "question": "What is the term for the economic measure calculated as GDP divided by total population, often used as a proxy for average living standards?",
+    "correct_answer": "GDP per capita",
+    "difficulty": "medium",
+    "accept_aliases": "Per capita GDP|per-capita GDP"
+  },
+  {
+    "question": "Which 1944 conference established the International Monetary Fund and the World Bank, creating the post-World War II international monetary system?",
+    "correct_answer": "Bretton Woods Conference",
+    "difficulty": "medium",
+    "accept_aliases": "Bretton Woods|United Nations Monetary and Financial Conference"
+  },
+  {
+    "question": "What is the name of the economic paradox where a good's demand increases as its price increases, violating the basic law of demand, named after a 19th-century Scottish economist?",
+    "correct_answer": "Giffen good",
+    "difficulty": "medium",
+    "accept_aliases": "Giffen paradox|Giffen goods"
+  },
+  {
+    "question": "In which year did China officially join the World Trade Organization?",
+    "correct_answer": "2001",
+    "difficulty": "medium",
+    "accept_aliases": "December 2001|December 11, 2001"
+  },
+  {
+    "question": "What is the name of the ratio that measures a bank's core equity capital relative to its total risk-weighted assets, introduced under the Basel III framework with a minimum requirement of 4.5%?",
+    "correct_answer": "Common Equity Tier 1 ratio",
+    "difficulty": "medium",
+    "accept_aliases": "CET1 ratio|CET1"
+  },
+  {
+    "question": "Which Nobel laureate economist developed the theory of comparative advantage in international trade in his 1817 work 'On the Principles of Political Economy and Taxation'?",
+    "correct_answer": "David Ricardo",
+    "difficulty": "medium",
+    "accept_aliases": "Ricardo"
+  },
+  {
+    "question": "What is the name of the condition in which a country's total imports of goods and services exceed its total exports, resulting in a negative balance?",
+    "correct_answer": "Trade deficit",
+    "difficulty": "medium",
+    "accept_aliases": "Current account deficit|negative balance of trade"
+  },
+  {
+    "question": "What was the peak unemployment rate in the United States during the Great Recession, reached in October 2009, rounded to the nearest tenth of a percent?",
+    "correct_answer": "10.0%",
+    "difficulty": "medium",
+    "accept_aliases": "10%|10 percent"
+  },
+  {
+    "question": "What is the name of the economic phenomenon where increasing the money supply beyond a certain point leads to hyperinflation, as famously experienced by the Weimar Republic in 1923? Specifically, what was the peak monthly inflation rate in Germany in November 1923, expressed as a percentage to the nearest billion?",
+    "correct_answer": "29,500%",
+    "difficulty": "medium",
+    "accept_aliases": "29500%|29,500 percent|approximately 30000%"
+  },
+  {
+    "question": "Which economist introduced the concept of 'creative destruction' to describe the process of industrial mutation that revolutionizes the economic structure from within, in his 1942 book 'Capitalism, Socialism and Democracy'?",
+    "correct_answer": "Joseph Schumpeter",
+    "difficulty": "medium",
+    "accept_aliases": "Schumpeter|Joseph A. Schumpeter|Joseph Alois Schumpeter"
+  },
+  {
+    "question": "What is the name of the index, published by The Economist since 1986, that uses the price of a McDonald's Big Mac as a benchmark for measuring purchasing power parity between currencies?",
+    "correct_answer": "Big Mac Index",
+    "difficulty": "medium",
+    "accept_aliases": "The Big Mac Index|Big Mac index|BMI"
+  },
+  {
+    "question": "In the European Union's Maastricht convergence criteria, what is the maximum allowable government debt-to-GDP ratio for a country seeking to adopt the euro?",
+    "correct_answer": "60%",
+    "difficulty": "medium",
+    "accept_aliases": "60 percent|60%|sixty percent"
+  },
+  {
+    "question": "Which U.S. Federal Reserve Chair famously raised the federal funds rate to a peak of approximately 20% in June 1981 to combat stagflation?",
+    "correct_answer": "Paul Volcker",
+    "difficulty": "medium",
+    "accept_aliases": "Volcker|Paul A. Volcker|Paul Adolph Volcker"
+  },
+  {
+    "question": "What is the name of the theory proposed by Irving Fisher that describes the relationship between nominal interest rates, real interest rates, and expected inflation, stating that the nominal rate equals the real rate plus expected inflation?",
+    "correct_answer": "Fisher effect",
+    "difficulty": "medium",
+    "accept_aliases": "The Fisher Effect|Fisher equation|Fisher hypothesis"
+  },
+  {
+    "question": "In which year did the Plaza Accord — an agreement among the G-5 nations to depreciate the U.S. dollar relative to the Japanese yen and the German Deutsche Mark — take place?",
+    "correct_answer": "1985",
+    "difficulty": "medium",
+    "accept_aliases": "September 1985"
+  },
+  {
+    "question": "What was the exact closing value of the Dow Jones Industrial Average on Black Monday, October 19, 1987?",
+    "correct_answer": "1738.74",
+    "difficulty": "hard",
+    "accept_aliases": "1,738.74|1738.74 points"
+  },
+  {
+    "question": "Which country was the FIRST to issue paper currency backed by a central bank? (Not the first to use paper money generally.)",
+    "correct_answer": "Sweden",
+    "difficulty": "hard",
+    "accept_aliases": "Kingdom of Sweden"
+  },
+  {
+    "question": "What was the original name of the economic theory that John Maynard Keynes presented in his 1930 work before 'The General Theory'? (Title of his 1930 two-volume treatise.)",
+    "correct_answer": "A Treatise on Money",
+    "difficulty": "hard",
+    "accept_aliases": "Treatise on Money"
+  },
+  {
+    "question": "In what year did Albania officially abandon its policy of economic autarky and apply to join the IMF?",
+    "correct_answer": "1990",
+    "difficulty": "hard",
+    "accept_aliases": ""
+  },
+  {
+    "question": "What was the peak annual inflation rate in Zimbabwe in November 2008, as estimated by Steve Hanke of the Cato Institute (expressed as a percentage in scientific notation)?",
+    "correct_answer": "7.96 × 10^10 percent",
+    "difficulty": "hard",
+    "accept_aliases": "79.6 billion percent|79,600,000,000%|7.96e10|79.6 billion percent per month"
+  },
+  {
+    "question": "Who was the first woman to win the Nobel Memorial Prize in Economic Sciences? Most people incorrectly say Esther Duflo.",
+    "correct_answer": "Elinor Ostrom",
+    "difficulty": "hard",
+    "accept_aliases": "Elinor C. Ostrom|Lin Ostrom"
+  },
+  {
+    "question": "What specific commodity did the Dutch Republic use as the standard for its famous 1637 speculative bubble? Name the most expensive variety at the peak.",
+    "correct_answer": "Semper Augustus",
+    "difficulty": "hard",
+    "accept_aliases": "Semper Augustus tulip"
+  },
+  {
+    "question": "The Plaza Accord was signed in 1985 at the Plaza Hotel. How many nations were signatories?",
+    "correct_answer": "5",
+    "difficulty": "hard",
+    "accept_aliases": "five|5 nations|Group of Five|G5"
+  },
+  {
+    "question": "What was the exact GDP per capita (in current US dollars) of Burundi in 2022 according to the World Bank?",
+    "correct_answer": "259",
+    "difficulty": "hard",
+    "accept_aliases": "$259|259 USD|US$259"
+  },
+  {
+    "question": "Before the Euro, what was the currency of Slovenia? Many people incorrectly say the Yugoslav dinar.",
+    "correct_answer": "Slovenian tolar",
+    "difficulty": "hard",
+    "accept_aliases": "tolar|SIT"
+  },
+  {
+    "question": "In what year was the first known futures contract traded at the Dōjima Rice Exchange in Osaka, Japan?",
+    "correct_answer": "1697",
+    "difficulty": "hard",
+    "accept_aliases": ""
+  },
+  {
+    "question": "What was the exact federal funds rate target set by the Federal Reserve on June 25, 2003 — its lowest point before the 2008 crisis?",
+    "correct_answer": "1.00%",
+    "difficulty": "hard",
+    "accept_aliases": "1 percent|1%|1.00 percent"
+  },
+  {
+    "question": "Who was the Finance Minister of Thailand who was dismissed just weeks before the 1997 Asian Financial Crisis began with the baht's float?",
+    "correct_answer": "Amnuay Viravan",
+    "difficulty": "hard",
+    "accept_aliases": "Amnuay|Amnuay Wirawan"
+  },
+  {
+    "question": "What was the name of the Argentine economic plan introduced in 1991 that pegged the peso to the US dollar?",
+    "correct_answer": "Convertibility Plan",
+    "difficulty": "hard",
+    "accept_aliases": "Ley de Convertibilidad|Convertibility Law|Plan de Convertibilidad"
+  },
+  {
+    "question": "How many member countries did OPEC have at its founding in September 1960?",
+    "correct_answer": "5",
+    "difficulty": "hard",
+    "accept_aliases": "five"
+  },
+  {
+    "question": "What was the name of the Soviet economic reform program introduced by Premier Alexei Kosygin in 1965? Many people incorrectly attribute it to Gorbachev's perestroika.",
+    "correct_answer": "Kosygin reform",
+    "difficulty": "hard",
+    "accept_aliases": "Kosygin reforms|Lieberman reform|1965 Soviet economic reform"
+  },
+  {
+    "question": "In the original 1944 Bretton Woods Agreement, what was the exact fixed price of gold in US dollars per troy ounce?",
+    "correct_answer": "$35",
+    "difficulty": "hard",
+    "accept_aliases": "35|35 dollars|$35.00|35 USD"
+  },
+  {
+    "question": "What tiny Pacific island nation has the smallest GDP of any sovereign country according to most recent World Bank data?",
+    "correct_answer": "Tuvalu",
+    "difficulty": "hard",
+    "accept_aliases": ""
+  },
+  {
+    "question": "What was the exact year the Bank of England was nationalized?",
+    "correct_answer": "1946",
+    "difficulty": "hard",
+    "accept_aliases": ""
+  },
+  {
+    "question": "Friedrich Hayek shared the 1974 Nobel Prize in Economics with someone whose views were largely opposed to his own. Who was this co-laureate?",
+    "correct_answer": "Gunnar Myrdal",
+    "difficulty": "hard",
+    "accept_aliases": "Karl Gunnar Myrdal"
+  },
+  {
+    "question": "What was the exact peak closing value of the Nikkei 225 index on December 29, 1989, the highest point of the Japanese asset price bubble?",
+    "correct_answer": "38,915.87",
+    "difficulty": "hard",
+    "accept_aliases": "38915.87|38,916"
+  },
+  {
+    "question": "Who was the first woman to serve as Chair of the Council of Economic Advisers in the United States?",
+    "correct_answer": "Laura D'Andrea Tyson",
+    "difficulty": "hard",
+    "accept_aliases": "Laura Tyson|Laura D. Tyson"
+  },
+  {
+    "question": "What was the name of the currency that preceded the euro in Slovenia?",
+    "correct_answer": "Tolar",
+    "difficulty": "hard",
+    "accept_aliases": "Slovenian tolar|SIT"
+  },
+  {
+    "question": "In what year did China first surpass Japan to become the world's second-largest economy by nominal GDP?",
+    "correct_answer": "2010",
+    "difficulty": "hard",
+    "accept_aliases": ""
+  },
+  {
+    "question": "What was the exact duration in days of the longest US government shutdown, which ended on January 25, 2019?",
+    "correct_answer": "35 days",
+    "difficulty": "hard",
+    "accept_aliases": "35"
+  },
+  {
+    "question": "Who was the economist who coined the term 'creative destruction,' often misattributed to Joseph Schumpeter?",
+    "correct_answer": "Werner Sombart",
+    "difficulty": "hard",
+    "accept_aliases": "Sombart"
+  },
+  {
+    "question": "What was the original name of the World Trade Organization's predecessor agreement, signed in 1947, and in what specific city was it signed?",
+    "correct_answer": "General Agreement on Tariffs and Trade, signed in Geneva",
+    "difficulty": "hard",
+    "accept_aliases": "GATT, Geneva|GATT in Geneva"
+  },
+  {
+    "question": "What was the exact annual inflation rate in Zimbabwe in November 2008, as estimated by Steve Hanke of Johns Hopkins University?",
+    "correct_answer": "79.6 billion percent",
+    "difficulty": "hard",
+    "accept_aliases": "79,600,000,000%|7.96 × 10^10 percent|79.6 billion percent per month"
+  },
+  {
+    "question": "Which country was the LAST of the original 12 eurozone members to physically adopt euro banknotes and coins on January 1, 2002? Trick question — they all adopted on the same date. But which country was the last to formally JOIN the eurozone of those original 12, having been accepted last in the convergence process?",
+    "correct_answer": "Greece",
+    "difficulty": "hard",
+    "accept_aliases": ""
+  },
+  {
+    "question": "What was the name of the specific economic index created by Arthur Okun that adds the unemployment rate to the inflation rate?",
+    "correct_answer": "Misery Index",
+    "difficulty": "hard",
+    "accept_aliases": "The Misery Index|Economic Discomfort Index"
+  },
+  {
+    "question": "What was the exact percentage of the Smoot-Hawley Tariff Act's average ad valorem tariff rate on dutiable imports when it took full effect in 1932?",
+    "correct_answer": "59.1%",
+    "difficulty": "hard",
+    "accept_aliases": "59.1 percent|approximately 59%"
+  },
+  {
+    "question": "Who served as the Governor of the Reserve Bank of India immediately BEFORE Raghuram Rajan?",
+    "correct_answer": "Duvvuri Subbarao",
+    "difficulty": "hard",
+    "accept_aliases": "D. Subbarao|Subbarao"
+  },
+  {
+    "question": "The Phillips curve is named after A.W. Phillips, but what was his first name? Many assume it's 'Arthur' but that's incorrect.",
+    "correct_answer": "Alban William Phillips",
+    "difficulty": "hard",
+    "accept_aliases": "Alban|Alban William|Bill Phillips"
+  },
+  {
+    "question": "What was the exact name of the treaty that established the European Economic Community in 1957?",
+    "correct_answer": "Treaty of Rome",
+    "difficulty": "hard",
+    "accept_aliases": "Treaty establishing the European Economic Community|Treaties of Rome"
+  },
+  {
+    "question": "In what specific year did the Swedish Riksbank, often cited as the world's oldest central bank, first begin operating?",
+    "correct_answer": "1668",
+    "difficulty": "hard",
+    "accept_aliases": ""
+  },
+  {
+    "question": "What was the name of the French economist who served as the first Managing Director of the International Monetary Fund from 1946 to 1951?",
+    "correct_answer": "Camille Gutt",
+    "difficulty": "hard",
+    "accept_aliases": "Gutt"
+  },
+  {
+    "question": "How many basis points did the Federal Reserve cut the federal funds rate by in the emergency inter-meeting cut on January 22, 2008?",
+    "correct_answer": "75 basis points",
+    "difficulty": "hard",
+    "accept_aliases": "75 bps|75|0.75%"
+  },
+  {
+    "question": "What was the exact name of the economic stabilization program Brazil introduced in 1994 that successfully tamed hyperinflation?",
+    "correct_answer": "Plano Real",
+    "difficulty": "hard",
+    "accept_aliases": "Real Plan|Plan Real"
+  },
+  {
+    "question": "Commonly misidentified as American, what was the nationality of the economist W. Arthur Lewis, who won the Nobel Prize in Economics in 1979 for his work on development economics?",
+    "correct_answer": "Saint Lucian",
+    "difficulty": "hard",
+    "accept_aliases": "Saint Lucia|British (Saint Lucian-born)|from Saint Lucia"
+  },
+  {
+    "question": "What was the exact closing price of a single Bitcoin on the day the Chicago Board Options Exchange (CBOE) launched Bitcoin futures trading on December 10, 2017?",
+    "correct_answer": "Approximately $15,460",
+    "difficulty": "hard",
+    "accept_aliases": "15460|$15,460|around $15,000-$16,000"
+  },
+  {
+    "question": "What was the exact year the Bank of England was nationalized?",
+    "correct_answer": "1946",
+    "difficulty": "hard",
+    "accept_aliases": ""
+  },
+  {
+    "question": "Who was the first woman to win the Nobel Memorial Prize in Economic Sciences, and in what year?",
+    "correct_answer": "Elinor Ostrom in 2009",
+    "difficulty": "hard",
+    "accept_aliases": "Elinor Ostrom, 2009|Ostrom 2009|Elinor Ostrom (2009)"
+  },
+  {
+    "question": "The Bancor was a supranational currency proposed at Bretton Woods. What was the name of the alternative currency unit proposed by the American delegation led by Harry Dexter White?",
+    "correct_answer": "Unitas",
+    "difficulty": "hard",
+    "accept_aliases": "unitas"
+  },
+  {
+    "question": "What was the exact peak annual inflation rate (to the nearest whole percent) recorded in Zimbabwe in November 2008, according to Zimbabwe's Central Statistical Office's last published figure before they stopped reporting?",
+    "correct_answer": "79,600,000,000%",
+    "difficulty": "hard",
+    "accept_aliases": "79.6 billion percent|79,600,000,000 percent|7.96 × 10^10 percent"
+  },
+  {
+    "question": "Many people attribute the phrase 'irrational exuberance' to Alan Greenspan's 1996 speech. What was the exact date of that speech?",
+    "correct_answer": "December 5, 1996",
+    "difficulty": "hard",
+    "accept_aliases": "5 December 1996|Dec 5 1996|December 5th 1996"
+  },
+  {
+    "question": "What was the original name of the economic index now known as the Consumer Price Index (CPI) when it was first regularly published by the U.S. Bureau of Labor Statistics in 1919?",
+    "correct_answer": "Cost of Living Index",
+    "difficulty": "hard",
+    "accept_aliases": "cost-of-living index|Cost-of-Living Index"
+  },
+  {
+    "question": "The Stolper-Samuelson theorem is a key result in trade theory. What was Wolfgang Stolper's first academic appointment in the United States — specifically, which university?",
+    "correct_answer": "Swarthmore College",
+    "difficulty": "hard",
+    "accept_aliases": "Swarthmore"
+  },
+  {
+    "question": "In what year did France officially return to the gold standard under the Poincaré stabilization, legally fixing the franc's gold value?",
+    "correct_answer": "1928",
+    "difficulty": "hard",
+    "accept_aliases": ""
+  },
+  {
+    "question": "What was the exact number of member countries that signed the original General Agreement on Tariffs and Trade (GATT) in 1947?",
+    "correct_answer": "23",
+    "difficulty": "hard",
+    "accept_aliases": "twenty-three"
+  },
+  {
+    "question": "The term 'stagflation' is often attributed to Iain Macleod's 1965 speech to Parliament. However, what was the exact date (month and year) of the House of Commons speech in which he used the word?",
+    "correct_answer": "November 1965",
+    "difficulty": "hard",
+    "accept_aliases": "17 November 1965|November 17 1965|Nov 1965"
+  },
+  {
+    "question": "What was the name of the specific economic model published by William Baumol in 1967 that explains why costs in labor-intensive sectors rise relative to other sectors? Give the commonly used two-word name for the phenomenon.",
+    "correct_answer": "Baumol's cost disease",
+    "difficulty": "hard",
+    "accept_aliases": "cost disease|Baumol's disease|Baumol cost disease"
+  },
+  {
+    "question": "Many assume John Nash's Nobel Prize in Economics was awarded for game theory broadly. What was the exact title of his 1950 PhD dissertation at Princeton?",
+    "correct_answer": "Non-cooperative Games",
+    "difficulty": "hard",
+    "accept_aliases": "Non-Cooperative Games|Non cooperative Games"
+  },
+  {
+    "question": "What was the exact discount rate (in percent) that the Bank of Japan set when it introduced its Zero Interest Rate Policy (ZIRP) in February 1999?",
+    "correct_answer": "0.15%",
+    "difficulty": "hard",
+    "accept_aliases": "0.15 percent|0.15"
+  },
+  {
+    "question": "The Coase theorem is named after Ronald Coase, but the term 'Coase theorem' was actually coined by another economist. Who coined the term?",
+    "correct_answer": "George Stigler",
+    "difficulty": "hard",
+    "accept_aliases": "Stigler|George J. Stigler"
+  },
+  {
+    "question": "What was the exact name of the Mexican financial crisis of 1994-95, as it is commonly known in Mexico (give the Spanish name)?",
+    "correct_answer": "El error de diciembre",
+    "difficulty": "hard",
+    "accept_aliases": "Error de diciembre|error de diciembre|the December mistake"
+  },
+  {
+    "question": "How many volumes did Adam Smith's original 1776 first edition of 'The Wealth of Nations' consist of?",
+    "correct_answer": "2",
+    "difficulty": "hard",
+    "accept_aliases": "two|Two"
+  },
+  {
+    "question": "The Tinbergen Rule in economic policy is named after Jan Tinbergen. In what specific year did Tinbergen share the first-ever Nobel Memorial Prize in Economic Sciences?",
+    "correct_answer": "1969",
+    "difficulty": "hard",
+    "accept_aliases": ""
+  },
+  {
+    "question": "What was the exact name of the committee whose 1959 UK report on the working of the monetary system is commonly known as the 'Radcliffe Report'? Give the committee's full official name.",
+    "correct_answer": "Committee on the Working of the Monetary System",
+    "difficulty": "hard",
+    "accept_aliases": "Radcliffe Committee|Committee on the Working of the Monetary System (Radcliffe Committee)"
+  },
+  {
+    "question": "Friedrich Hayek and Gunnar Myrdal shared the 1974 Nobel Prize in Economics. Who presented the award — specifically, what was the name of the presenter from the Royal Swedish Academy of Sciences?",
+    "correct_answer": "Erik Lundberg",
+    "difficulty": "hard",
+    "accept_aliases": "Lundberg|Erik Filip Lundberg"
+  },
+  {
+    "question": "In the original 1944 Bretton Woods Agreement, what was the exact fixed price of gold in U.S. dollars per troy ounce?",
+    "correct_answer": "$35",
+    "difficulty": "hard",
+    "accept_aliases": "35|35 dollars|$35 per ounce|35 USD"
+  },
+  {
+    "question": "What was the exact annual membership fee (in Swiss francs) that the Bank for International Settlements charged its founding central bank shareholders when it was established in 1930?",
+    "correct_answer": "There was no annual membership fee; founding shareholders purchased shares at 2,500 Swiss gold francs per share with 25% paid up",
+    "difficulty": "hard",
+    "accept_aliases": "2500 Swiss gold francs per share|2,500 gold francs"
+  },
+  {
+    "question": "Most people attribute the phrase 'creative destruction' to Joseph Schumpeter. However, Schumpeter credited the concept to which earlier thinker, whose work he explicitly referenced in 'Capitalism, Socialism and Democracy' (1942)?",
+    "correct_answer": "Karl Marx",
+    "difficulty": "hard",
+    "accept_aliases": "Marx"
+  },
+  {
+    "question": "The Stolper-Samuelson theorem was published in a 1941 paper. What was the exact title of that paper as it appeared in The Review of Economic Studies?",
+    "correct_answer": "Protection and Real Wages",
+    "difficulty": "hard",
+    "accept_aliases": ""
+  },
+  {
+    "question": "What was the precise peak overnight call rate (in percent, to two decimal places) that Sweden's Riksbank briefly set during the defense of the krona in September 1992?",
+    "correct_answer": "500%",
+    "difficulty": "hard",
+    "accept_aliases": "500 percent|500"
+  },
+  {
+    "question": "The Debreu-Scarf theorem on the convergence of the core to competitive equilibrium was published in 1963. In which specific journal did Gerard Debreu and Herbert Scarf publish this result?",
+    "correct_answer": "International Economic Review",
+    "difficulty": "hard",
+    "accept_aliases": ""
+  },
+  {
+    "question": "Many assume the first central bank was the Bank of England (1694). However, the Sveriges Riksbank is generally considered older. In what exact year was the Riksbank's predecessor, Stockholms Banco, founded?",
+    "correct_answer": "1657",
+    "difficulty": "hard",
+    "accept_aliases": ""
+  },
+  {
+    "question": "In Kenneth Arrow's impossibility theorem, as presented in his 1951 book 'Social Choice and Individual Values,' how many specific conditions (axioms) did Arrow originally state that no social welfare function could simultaneously satisfy? Give the exact number from the first edition.",
+    "correct_answer": "5",
+    "difficulty": "hard",
+    "accept_aliases": "five"
+  }
+]

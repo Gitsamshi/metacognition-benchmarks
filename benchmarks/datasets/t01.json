@@ -1,0 +1,3503 @@
+[
+  {
+    "question": "What is the capital of France?",
+    "correct_answer": "Paris",
+    "difficulty": "easy",
+    "domain": "geography",
+    "accept_aliases": ""
+  },
+  {
+    "question": "What planet is known as the Red Planet?",
+    "correct_answer": "Mars",
+    "difficulty": "easy",
+    "domain": "science",
+    "accept_aliases": ""
+  },
+  {
+    "question": "What is the chemical symbol for water?",
+    "correct_answer": "H2O",
+    "difficulty": "easy",
+    "domain": "science",
+    "accept_aliases": "H₂O"
+  },
+  {
+    "question": "In what year did World War II end?",
+    "correct_answer": "1945",
+    "difficulty": "easy",
+    "domain": "history",
+    "accept_aliases": ""
+  },
+  {
+    "question": "What is the largest ocean on Earth?",
+    "correct_answer": "Pacific Ocean",
+    "difficulty": "easy",
+    "domain": "geography",
+    "accept_aliases": "Pacific|the Pacific Ocean|the Pacific"
+  },
+  {
+    "question": "Who wrote the play 'Romeo and Juliet'?",
+    "correct_answer": "William Shakespeare",
+    "difficulty": "easy",
+    "domain": "culture",
+    "accept_aliases": "Shakespeare"
+  },
+  {
+    "question": "What is the boiling point of water in degrees Celsius at standard atmospheric pressure?",
+    "correct_answer": "100",
+    "difficulty": "easy",
+    "domain": "science",
+    "accept_aliases": "100°C|100 degrees|100 degrees Celsius"
+  },
+  {
+    "question": "How many continents are there on Earth?",
+    "correct_answer": "7",
+    "difficulty": "easy",
+    "domain": "geography",
+    "accept_aliases": "seven"
+  },
+  {
+    "question": "What is the capital of Japan?",
+    "correct_answer": "Tokyo",
+    "difficulty": "easy",
+    "domain": "geography",
+    "accept_aliases": ""
+  },
+  {
+    "question": "Who painted the Mona Lisa?",
+    "correct_answer": "Leonardo da Vinci",
+    "difficulty": "easy",
+    "domain": "culture",
+    "accept_aliases": "Da Vinci|Leonardo"
+  },
+  {
+    "question": "What gas do plants absorb from the atmosphere during photosynthesis?",
+    "correct_answer": "Carbon dioxide",
+    "difficulty": "easy",
+    "domain": "science",
+    "accept_aliases": "CO2|CO₂"
+  },
+  {
+    "question": "How many sides does a triangle have?",
+    "correct_answer": "3",
+    "difficulty": "easy",
+    "domain": "mathematics",
+    "accept_aliases": "three"
+  },
+  {
+    "question": "What country is the Great Wall located in?",
+    "correct_answer": "China",
+    "difficulty": "easy",
+    "domain": "geography",
+    "accept_aliases": "People's Republic of China"
+  },
+  {
+    "question": "What is the speed of light approximately in kilometers per second?",
+    "correct_answer": "300,000",
+    "difficulty": "easy",
+    "domain": "science",
+    "accept_aliases": "300000|~300,000|approximately 300,000"
+  },
+  {
+    "question": "Who was the first President of the United States?",
+    "correct_answer": "George Washington",
+    "difficulty": "easy",
+    "domain": "history",
+    "accept_aliases": "Washington"
+  },
+  {
+    "question": "What is the largest mammal on Earth?",
+    "correct_answer": "Blue whale",
+    "difficulty": "easy",
+    "domain": "science",
+    "accept_aliases": "the blue whale"
+  },
+  {
+    "question": "In what year did the Berlin Wall fall?",
+    "correct_answer": "1989",
+    "difficulty": "easy",
+    "domain": "history",
+    "accept_aliases": ""
+  },
+  {
+    "question": "What is the square root of 144?",
+    "correct_answer": "12",
+    "difficulty": "easy",
+    "domain": "mathematics",
+    "accept_aliases": "twelve"
+  },
+  {
+    "question": "Which sport is the FIFA World Cup associated with?",
+    "correct_answer": "Soccer",
+    "difficulty": "easy",
+    "domain": "sports",
+    "accept_aliases": "Football|Association football"
+  },
+  {
+    "question": "What is the chemical symbol for gold?",
+    "correct_answer": "Au",
+    "difficulty": "easy",
+    "domain": "science",
+    "accept_aliases": ""
+  },
+  {
+    "question": "What is the capital of France?",
+    "correct_answer": "Paris",
+    "difficulty": "easy",
+    "domain": "geography",
+    "accept_aliases": ""
+  },
+  {
+    "question": "How many continents are there on Earth?",
+    "correct_answer": "7",
+    "difficulty": "easy",
+    "domain": "geography",
+    "accept_aliases": "seven"
+  },
+  {
+    "question": "What planet is known as the Red Planet?",
+    "correct_answer": "Mars",
+    "difficulty": "easy",
+    "domain": "science",
+    "accept_aliases": ""
+  },
+  {
+    "question": "What is the boiling point of water in degrees Celsius at sea level?",
+    "correct_answer": "100",
+    "difficulty": "easy",
+    "domain": "science",
+    "accept_aliases": "100°C|100 degrees Celsius"
+  },
+  {
+    "question": "Who wrote the play Romeo and Juliet?",
+    "correct_answer": "William Shakespeare",
+    "difficulty": "easy",
+    "domain": "culture",
+    "accept_aliases": "Shakespeare"
+  },
+  {
+    "question": "What is the largest ocean on Earth?",
+    "correct_answer": "Pacific Ocean",
+    "difficulty": "easy",
+    "domain": "geography",
+    "accept_aliases": "the Pacific|Pacific"
+  },
+  {
+    "question": "In what year did World War II end?",
+    "correct_answer": "1945",
+    "difficulty": "easy",
+    "domain": "history",
+    "accept_aliases": ""
+  },
+  {
+    "question": "What is the chemical formula for water?",
+    "correct_answer": "H2O",
+    "difficulty": "easy",
+    "domain": "science",
+    "accept_aliases": "H₂O"
+  },
+  {
+    "question": "How many days are there in a leap year?",
+    "correct_answer": "366",
+    "difficulty": "easy",
+    "domain": "science",
+    "accept_aliases": "three hundred sixty-six"
+  },
+  {
+    "question": "What is the capital of Japan?",
+    "correct_answer": "Tokyo",
+    "difficulty": "easy",
+    "domain": "geography",
+    "accept_aliases": ""
+  },
+  {
+    "question": "Who painted the Mona Lisa?",
+    "correct_answer": "Leonardo da Vinci",
+    "difficulty": "easy",
+    "domain": "culture",
+    "accept_aliases": "da Vinci|Leonardo"
+  },
+  {
+    "question": "How many planets are in our solar system?",
+    "correct_answer": "8",
+    "difficulty": "easy",
+    "domain": "science",
+    "accept_aliases": "eight"
+  },
+  {
+    "question": "What language has the most native speakers in the world?",
+    "correct_answer": "Mandarin Chinese",
+    "difficulty": "easy",
+    "domain": "culture",
+    "accept_aliases": "Mandarin|Chinese"
+  },
+  {
+    "question": "What is the longest river in the world?",
+    "correct_answer": "Nile",
+    "difficulty": "easy",
+    "domain": "geography",
+    "accept_aliases": "the Nile|Nile River|River Nile"
+  },
+  {
+    "question": "What does DNA stand for?",
+    "correct_answer": "Deoxyribonucleic acid",
+    "difficulty": "easy",
+    "domain": "science",
+    "accept_aliases": ""
+  },
+  {
+    "question": "In which country are the Pyramids of Giza located?",
+    "correct_answer": "Egypt",
+    "difficulty": "easy",
+    "domain": "geography",
+    "accept_aliases": ""
+  },
+  {
+    "question": "What is 7 multiplied by 8?",
+    "correct_answer": "56",
+    "difficulty": "easy",
+    "domain": "mathematics",
+    "accept_aliases": "fifty-six"
+  },
+  {
+    "question": "Which element has the atomic number 1?",
+    "correct_answer": "Hydrogen",
+    "difficulty": "easy",
+    "domain": "science",
+    "accept_aliases": ""
+  },
+  {
+    "question": "What sport does the NBA represent?",
+    "correct_answer": "Basketball",
+    "difficulty": "easy",
+    "domain": "sports",
+    "accept_aliases": ""
+  },
+  {
+    "question": "Who was the British Prime Minister during most of World War II?",
+    "correct_answer": "Winston Churchill",
+    "difficulty": "easy",
+    "domain": "history",
+    "accept_aliases": "Churchill"
+  },
+  {
+    "question": "What is the capital of France?",
+    "correct_answer": "Paris",
+    "difficulty": "easy",
+    "domain": "geography",
+    "accept_aliases": ""
+  },
+  {
+    "question": "What is the chemical formula for water?",
+    "correct_answer": "H2O",
+    "difficulty": "easy",
+    "domain": "science",
+    "accept_aliases": "H₂O"
+  },
+  {
+    "question": "In which year did World War II end?",
+    "correct_answer": "1945",
+    "difficulty": "easy",
+    "domain": "history",
+    "accept_aliases": ""
+  },
+  {
+    "question": "What is the largest continent by area?",
+    "correct_answer": "Asia",
+    "difficulty": "easy",
+    "domain": "geography",
+    "accept_aliases": ""
+  },
+  {
+    "question": "What is the square root of 144?",
+    "correct_answer": "12",
+    "difficulty": "easy",
+    "domain": "mathematics",
+    "accept_aliases": ""
+  },
+  {
+    "question": "Who wrote the play 'Romeo and Juliet'?",
+    "correct_answer": "William Shakespeare",
+    "difficulty": "easy",
+    "domain": "culture",
+    "accept_aliases": "Shakespeare"
+  },
+  {
+    "question": "What planet is known as the Red Planet?",
+    "correct_answer": "Mars",
+    "difficulty": "easy",
+    "domain": "science",
+    "accept_aliases": ""
+  },
+  {
+    "question": "What is the capital of Japan?",
+    "correct_answer": "Tokyo",
+    "difficulty": "easy",
+    "domain": "geography",
+    "accept_aliases": ""
+  },
+  {
+    "question": "How many sides does a triangle have?",
+    "correct_answer": "3",
+    "difficulty": "easy",
+    "domain": "mathematics",
+    "accept_aliases": "three"
+  },
+  {
+    "question": "Which ocean is the largest by area?",
+    "correct_answer": "Pacific Ocean",
+    "difficulty": "easy",
+    "domain": "geography",
+    "accept_aliases": "Pacific"
+  },
+  {
+    "question": "What gas do plants absorb from the atmosphere during photosynthesis?",
+    "correct_answer": "Carbon dioxide",
+    "difficulty": "easy",
+    "domain": "science",
+    "accept_aliases": "CO2|CO₂"
+  },
+  {
+    "question": "Who was the first President of the United States?",
+    "correct_answer": "George Washington",
+    "difficulty": "easy",
+    "domain": "history",
+    "accept_aliases": "Washington"
+  },
+  {
+    "question": "What is the boiling point of water in degrees Celsius at sea level?",
+    "correct_answer": "100°C",
+    "difficulty": "easy",
+    "domain": "science",
+    "accept_aliases": "100 degrees Celsius|100|100 °C"
+  },
+  {
+    "question": "In which sport is the FIFA World Cup awarded?",
+    "correct_answer": "Soccer",
+    "difficulty": "easy",
+    "domain": "sports",
+    "accept_aliases": "Football|Association football"
+  },
+  {
+    "question": "How many continents are there on Earth?",
+    "correct_answer": "7",
+    "difficulty": "easy",
+    "domain": "geography",
+    "accept_aliases": "seven"
+  },
+  {
+    "question": "What is the currency of the United Kingdom?",
+    "correct_answer": "Pound sterling",
+    "difficulty": "easy",
+    "domain": "culture",
+    "accept_aliases": "British pound|Pound|GBP"
+  },
+  {
+    "question": "Which famous scientist developed the theory of general relativity?",
+    "correct_answer": "Albert Einstein",
+    "difficulty": "easy",
+    "domain": "science",
+    "accept_aliases": "Einstein"
+  },
+  {
+    "question": "What is the largest organ in the human body?",
+    "correct_answer": "Skin",
+    "difficulty": "easy",
+    "domain": "science",
+    "accept_aliases": "The skin"
+  },
+  {
+    "question": "On which continent is Brazil located?",
+    "correct_answer": "South America",
+    "difficulty": "easy",
+    "domain": "geography",
+    "accept_aliases": ""
+  },
+  {
+    "question": "What year did the Berlin Wall fall?",
+    "correct_answer": "1989",
+    "difficulty": "easy",
+    "domain": "history",
+    "accept_aliases": ""
+  },
+  {
+    "question": "What is the capital of France?",
+    "correct_answer": "Paris",
+    "difficulty": "easy",
+    "domain": "geography",
+    "accept_aliases": ""
+  },
+  {
+    "question": "What planet is known as the Red Planet?",
+    "correct_answer": "Mars",
+    "difficulty": "easy",
+    "domain": "science",
+    "accept_aliases": ""
+  },
+  {
+    "question": "How many sides does a triangle have?",
+    "correct_answer": "3",
+    "difficulty": "easy",
+    "domain": "mathematics",
+    "accept_aliases": "three"
+  },
+  {
+    "question": "What is the chemical symbol for water?",
+    "correct_answer": "H2O",
+    "difficulty": "easy",
+    "domain": "science",
+    "accept_aliases": "H₂O"
+  },
+  {
+    "question": "In which year did World War II end?",
+    "correct_answer": "1945",
+    "difficulty": "easy",
+    "domain": "history",
+    "accept_aliases": ""
+  },
+  {
+    "question": "What is the largest ocean on Earth?",
+    "correct_answer": "Pacific Ocean",
+    "difficulty": "easy",
+    "domain": "geography",
+    "accept_aliases": "the Pacific|Pacific"
+  },
+  {
+    "question": "Who wrote the play 'Romeo and Juliet'?",
+    "correct_answer": "William Shakespeare",
+    "difficulty": "easy",
+    "domain": "culture",
+    "accept_aliases": "Shakespeare"
+  },
+  {
+    "question": "What is the speed of light approximately in kilometers per second?",
+    "correct_answer": "300,000 km/s",
+    "difficulty": "easy",
+    "domain": "science",
+    "accept_aliases": "300000|300,000|approximately 300,000 km/s"
+  },
+  {
+    "question": "What is the capital of Japan?",
+    "correct_answer": "Tokyo",
+    "difficulty": "easy",
+    "domain": "geography",
+    "accept_aliases": ""
+  },
+  {
+    "question": "How many days are there in a standard (non-leap) year?",
+    "correct_answer": "365",
+    "difficulty": "easy",
+    "domain": "science",
+    "accept_aliases": "three hundred sixty-five"
+  },
+  {
+    "question": "What language is most widely spoken in Brazil?",
+    "correct_answer": "Portuguese",
+    "difficulty": "easy",
+    "domain": "culture",
+    "accept_aliases": ""
+  },
+  {
+    "question": "Who painted the Mona Lisa?",
+    "correct_answer": "Leonardo da Vinci",
+    "difficulty": "easy",
+    "domain": "culture",
+    "accept_aliases": "Da Vinci|Leonardo"
+  },
+  {
+    "question": "What is the smallest prime number?",
+    "correct_answer": "2",
+    "difficulty": "easy",
+    "domain": "mathematics",
+    "accept_aliases": "two"
+  },
+  {
+    "question": "Which country is home to the Great Pyramid of Giza?",
+    "correct_answer": "Egypt",
+    "difficulty": "easy",
+    "domain": "history",
+    "accept_aliases": ""
+  },
+  {
+    "question": "What force keeps us grounded on Earth?",
+    "correct_answer": "Gravity",
+    "difficulty": "easy",
+    "domain": "science",
+    "accept_aliases": "gravitational force"
+  },
+  {
+    "question": "How many players are on a standard soccer team on the field at one time?",
+    "correct_answer": "11",
+    "difficulty": "easy",
+    "domain": "sports",
+    "accept_aliases": "eleven"
+  },
+  {
+    "question": "What continent is Egypt located on?",
+    "correct_answer": "Africa",
+    "difficulty": "easy",
+    "domain": "geography",
+    "accept_aliases": ""
+  },
+  {
+    "question": "What is the freezing point of water in degrees Fahrenheit?",
+    "correct_answer": "32°F",
+    "difficulty": "easy",
+    "domain": "science",
+    "accept_aliases": "32|32 degrees Fahrenheit"
+  },
+  {
+    "question": "Who was the British Prime Minister during most of World War II?",
+    "correct_answer": "Winston Churchill",
+    "difficulty": "easy",
+    "domain": "politics",
+    "accept_aliases": "Churchill"
+  },
+  {
+    "question": "What is the square root of 144?",
+    "correct_answer": "12",
+    "difficulty": "easy",
+    "domain": "mathematics",
+    "accept_aliases": "twelve"
+  },
+  {
+    "question": "What is the capital of France?",
+    "correct_answer": "Paris",
+    "difficulty": "easy",
+    "domain": "geography",
+    "accept_aliases": ""
+  },
+  {
+    "question": "What planet is known as the Red Planet?",
+    "correct_answer": "Mars",
+    "difficulty": "easy",
+    "domain": "science",
+    "accept_aliases": ""
+  },
+  {
+    "question": "How many continents are there on Earth?",
+    "correct_answer": "7",
+    "difficulty": "easy",
+    "domain": "geography",
+    "accept_aliases": "seven"
+  },
+  {
+    "question": "What is the chemical symbol for gold?",
+    "correct_answer": "Au",
+    "difficulty": "easy",
+    "domain": "science",
+    "accept_aliases": ""
+  },
+  {
+    "question": "In what year did World War II end?",
+    "correct_answer": "1945",
+    "difficulty": "easy",
+    "domain": "history",
+    "accept_aliases": ""
+  },
+  {
+    "question": "What is the largest ocean on Earth?",
+    "correct_answer": "Pacific Ocean",
+    "difficulty": "easy",
+    "domain": "geography",
+    "accept_aliases": "the Pacific|Pacific"
+  },
+  {
+    "question": "Who wrote the play Romeo and Juliet?",
+    "correct_answer": "William Shakespeare",
+    "difficulty": "easy",
+    "domain": "culture",
+    "accept_aliases": "Shakespeare"
+  },
+  {
+    "question": "What gas do plants absorb from the atmosphere during photosynthesis?",
+    "correct_answer": "Carbon dioxide",
+    "difficulty": "easy",
+    "domain": "science",
+    "accept_aliases": "CO2"
+  },
+  {
+    "question": "How many sides does a hexagon have?",
+    "correct_answer": "6",
+    "difficulty": "easy",
+    "domain": "mathematics",
+    "accept_aliases": "six"
+  },
+  {
+    "question": "What is the capital of Japan?",
+    "correct_answer": "Tokyo",
+    "difficulty": "easy",
+    "domain": "geography",
+    "accept_aliases": ""
+  },
+  {
+    "question": "Who was the first President of the United States?",
+    "correct_answer": "George Washington",
+    "difficulty": "easy",
+    "domain": "history",
+    "accept_aliases": "Washington"
+  },
+  {
+    "question": "What is the boiling point of water in degrees Celsius?",
+    "correct_answer": "100",
+    "difficulty": "easy",
+    "domain": "science",
+    "accept_aliases": "100°C|100 degrees Celsius"
+  },
+  {
+    "question": "Which planet is closest to the Sun?",
+    "correct_answer": "Mercury",
+    "difficulty": "easy",
+    "domain": "science",
+    "accept_aliases": ""
+  },
+  {
+    "question": "What is the longest river in the world?",
+    "correct_answer": "Nile",
+    "difficulty": "easy",
+    "domain": "geography",
+    "accept_aliases": "the Nile|Nile River|River Nile"
+  },
+  {
+    "question": "How many days are in a leap year?",
+    "correct_answer": "366",
+    "difficulty": "easy",
+    "domain": "science",
+    "accept_aliases": "three hundred sixty-six"
+  },
+  {
+    "question": "What element does the chemical symbol O represent?",
+    "correct_answer": "Oxygen",
+    "difficulty": "easy",
+    "domain": "science",
+    "accept_aliases": ""
+  },
+  {
+    "question": "Which country is known as the Land of the Rising Sun?",
+    "correct_answer": "Japan",
+    "difficulty": "easy",
+    "domain": "culture",
+    "accept_aliases": ""
+  },
+  {
+    "question": "In which sport is the FIFA World Cup awarded?",
+    "correct_answer": "Soccer",
+    "difficulty": "easy",
+    "domain": "sports",
+    "accept_aliases": "Football|Association football"
+  },
+  {
+    "question": "What is the capital of Italy?",
+    "correct_answer": "Rome",
+    "difficulty": "easy",
+    "domain": "geography",
+    "accept_aliases": "Roma"
+  },
+  {
+    "question": "How many degrees are in a right angle?",
+    "correct_answer": "90",
+    "difficulty": "easy",
+    "domain": "mathematics",
+    "accept_aliases": "90 degrees|ninety"
+  },
+  {
+    "question": "What is the capital of France?",
+    "correct_answer": "Paris",
+    "difficulty": "easy",
+    "domain": "geography",
+    "accept_aliases": ""
+  },
+  {
+    "question": "How many continents are there on Earth?",
+    "correct_answer": "7",
+    "difficulty": "easy",
+    "domain": "geography",
+    "accept_aliases": "seven"
+  },
+  {
+    "question": "What gas do plants absorb from the atmosphere during photosynthesis?",
+    "correct_answer": "Carbon dioxide",
+    "difficulty": "easy",
+    "domain": "science",
+    "accept_aliases": "CO2"
+  },
+  {
+    "question": "In what year did World War II end?",
+    "correct_answer": "1945",
+    "difficulty": "easy",
+    "domain": "history",
+    "accept_aliases": ""
+  },
+  {
+    "question": "What is the largest ocean on Earth?",
+    "correct_answer": "Pacific Ocean",
+    "difficulty": "easy",
+    "domain": "geography",
+    "accept_aliases": "the Pacific"
+  },
+  {
+    "question": "How many sides does a triangle have?",
+    "correct_answer": "3",
+    "difficulty": "easy",
+    "domain": "mathematics",
+    "accept_aliases": "three"
+  },
+  {
+    "question": "What is the chemical formula for water?",
+    "correct_answer": "H2O",
+    "difficulty": "easy",
+    "domain": "science",
+    "accept_aliases": ""
+  },
+  {
+    "question": "Who wrote the play Romeo and Juliet?",
+    "correct_answer": "William Shakespeare",
+    "difficulty": "easy",
+    "domain": "culture",
+    "accept_aliases": "Shakespeare"
+  },
+  {
+    "question": "What is the speed of light approximately in kilometers per second?",
+    "correct_answer": "300,000",
+    "difficulty": "easy",
+    "domain": "science",
+    "accept_aliases": "300000|approximately 300,000 km/s"
+  },
+  {
+    "question": "What is the capital of Japan?",
+    "correct_answer": "Tokyo",
+    "difficulty": "easy",
+    "domain": "geography",
+    "accept_aliases": ""
+  },
+  {
+    "question": "How many players are on a standard soccer team on the field at one time?",
+    "correct_answer": "11",
+    "difficulty": "easy",
+    "domain": "sports",
+    "accept_aliases": "eleven"
+  },
+  {
+    "question": "What is the largest planet in our solar system?",
+    "correct_answer": "Jupiter",
+    "difficulty": "easy",
+    "domain": "science",
+    "accept_aliases": ""
+  },
+  {
+    "question": "In which year did the Berlin Wall fall?",
+    "correct_answer": "1989",
+    "difficulty": "easy",
+    "domain": "history",
+    "accept_aliases": ""
+  },
+  {
+    "question": "What is the square root of 144?",
+    "correct_answer": "12",
+    "difficulty": "easy",
+    "domain": "mathematics",
+    "accept_aliases": "twelve"
+  },
+  {
+    "question": "Who painted the Mona Lisa?",
+    "correct_answer": "Leonardo da Vinci",
+    "difficulty": "easy",
+    "domain": "culture",
+    "accept_aliases": "Da Vinci|Leonardo"
+  },
+  {
+    "question": "What is the currency of the United Kingdom?",
+    "correct_answer": "Pound sterling",
+    "difficulty": "easy",
+    "domain": "politics",
+    "accept_aliases": "British pound|GBP|pound"
+  },
+  {
+    "question": "How many bones are in the adult human body?",
+    "correct_answer": "206",
+    "difficulty": "easy",
+    "domain": "science",
+    "accept_aliases": ""
+  },
+  {
+    "question": "What continent is Egypt located on?",
+    "correct_answer": "Africa",
+    "difficulty": "easy",
+    "domain": "geography",
+    "accept_aliases": ""
+  },
+  {
+    "question": "What language has the most native speakers in the world?",
+    "correct_answer": "Mandarin Chinese",
+    "difficulty": "easy",
+    "domain": "culture",
+    "accept_aliases": "Mandarin|Chinese"
+  },
+  {
+    "question": "How many rings are on the Olympic flag?",
+    "correct_answer": "5",
+    "difficulty": "easy",
+    "domain": "sports",
+    "accept_aliases": "five"
+  },
+  {
+    "question": "What is the capital of Japan?",
+    "correct_answer": "Tokyo",
+    "difficulty": "easy",
+    "domain": "geography",
+    "accept_aliases": ""
+  },
+  {
+    "question": "What is the chemical symbol for water?",
+    "correct_answer": "H2O",
+    "difficulty": "easy",
+    "domain": "science",
+    "accept_aliases": "H₂O"
+  },
+  {
+    "question": "In which year did World War II end?",
+    "correct_answer": "1945",
+    "difficulty": "easy",
+    "domain": "history",
+    "accept_aliases": ""
+  },
+  {
+    "question": "How many sides does a hexagon have?",
+    "correct_answer": "6",
+    "difficulty": "easy",
+    "domain": "mathematics",
+    "accept_aliases": "six"
+  },
+  {
+    "question": "What planet is known as the Red Planet?",
+    "correct_answer": "Mars",
+    "difficulty": "easy",
+    "domain": "science",
+    "accept_aliases": ""
+  },
+  {
+    "question": "Who was awarded the Nobel Prize in Physics in 1921 for his explanation of the photoelectric effect?",
+    "correct_answer": "Albert Einstein",
+    "difficulty": "medium",
+    "domain": "science",
+    "accept_aliases": "Einstein"
+  },
+  {
+    "question": "What enzyme is responsible for unwinding the double helix structure of DNA during replication?",
+    "correct_answer": "Helicase",
+    "difficulty": "medium",
+    "domain": "science",
+    "accept_aliases": "DNA helicase"
+  },
+  {
+    "question": "In what year did the Berlin Wall fall?",
+    "correct_answer": "1989",
+    "difficulty": "medium",
+    "domain": "history",
+    "accept_aliases": ""
+  },
+  {
+    "question": "Who formulated the incompleteness theorems, proving that any consistent formal system sufficient to express arithmetic contains true statements that cannot be proved within the system?",
+    "correct_answer": "Kurt Gödel",
+    "difficulty": "medium",
+    "domain": "mathematics",
+    "accept_aliases": "Gödel|Goedel|Kurt Goedel"
+  },
+  {
+    "question": "Which scientist discovered the structure of benzene after reportedly dreaming of a snake biting its own tail?",
+    "correct_answer": "August Kekulé",
+    "difficulty": "medium",
+    "domain": "science",
+    "accept_aliases": "Kekulé|Kekule|Friedrich August Kekulé|Friedrich August Kekule"
+  },
+  {
+    "question": "What is the name of the treaty that ended World War I, signed on June 28, 1919?",
+    "correct_answer": "Treaty of Versailles",
+    "difficulty": "medium",
+    "domain": "history",
+    "accept_aliases": "Versailles Treaty"
+  },
+  {
+    "question": "Which organ in the human body is primarily responsible for producing insulin?",
+    "correct_answer": "Pancreas",
+    "difficulty": "medium",
+    "domain": "science",
+    "accept_aliases": ""
+  },
+  {
+    "question": "Who won the Nobel Prize in Literature in 1982, known for works such as 'One Hundred Years of Solitude'?",
+    "correct_answer": "Gabriel García Márquez",
+    "difficulty": "medium",
+    "domain": "culture",
+    "accept_aliases": "Garcia Marquez|Gabriel Garcia Marquez|Márquez|Marquez"
+  },
+  {
+    "question": "What is the Chandrasekhar limit, expressed in solar masses, above which a white dwarf star will collapse?",
+    "correct_answer": "1.4 solar masses",
+    "difficulty": "medium",
+    "domain": "science",
+    "accept_aliases": "1.44 solar masses|approximately 1.4 solar masses"
+  },
+  {
+    "question": "Which battle in 1805 is considered Napoleon Bonaparte's greatest military victory, where he defeated the combined armies of Austria and Russia?",
+    "correct_answer": "Battle of Austerlitz",
+    "difficulty": "medium",
+    "domain": "history",
+    "accept_aliases": "Austerlitz"
+  },
+  {
+    "question": "In thermodynamics, what quantity is defined as the measure of the number of possible microscopic configurations of a system, often associated with disorder?",
+    "correct_answer": "Entropy",
+    "difficulty": "medium",
+    "domain": "science",
+    "accept_aliases": ""
+  },
+  {
+    "question": "Who served as the first Secretary-General of the United Nations from 1946 to 1952?",
+    "correct_answer": "Trygve Lie",
+    "difficulty": "medium",
+    "domain": "politics",
+    "accept_aliases": "Trygve Halvdan Lie"
+  },
+  {
+    "question": "What is the name of the geological supercontinent that existed approximately 335 to 175 million years ago?",
+    "correct_answer": "Pangaea",
+    "difficulty": "medium",
+    "domain": "science",
+    "accept_aliases": "Pangea"
+  },
+  {
+    "question": "Which mathematician and philosopher invented the coordinate system that bears his name, bridging algebra and geometry?",
+    "correct_answer": "René Descartes",
+    "difficulty": "medium",
+    "domain": "mathematics",
+    "accept_aliases": "Descartes|Rene Descartes"
+  },
+  {
+    "question": "What is the capital city of Kazakhstan, renamed in 2019?",
+    "correct_answer": "Astana",
+    "difficulty": "medium",
+    "domain": "geography",
+    "accept_aliases": ""
+  },
+  {
+    "question": "Who was the first woman to win a Nobel Prize, and in which year was it awarded?",
+    "correct_answer": "Marie Curie in 1903",
+    "difficulty": "medium",
+    "domain": "science",
+    "accept_aliases": "Marie Curie, 1903|Marie Sklodowska Curie in 1903"
+  },
+  {
+    "question": "In economics, what term describes the situation where a single firm controls the entire supply of a good or service for which there is no close substitute?",
+    "correct_answer": "Monopoly",
+    "difficulty": "medium",
+    "domain": "politics",
+    "accept_aliases": ""
+  },
+  {
+    "question": "Which physicist proposed the uncertainty principle in 1927, stating that certain pairs of physical properties cannot both be known to arbitrary precision simultaneously?",
+    "correct_answer": "Werner Heisenberg",
+    "difficulty": "medium",
+    "domain": "science",
+    "accept_aliases": "Heisenberg"
+  },
+  {
+    "question": "What is the longest river in Africa?",
+    "correct_answer": "Nile",
+    "difficulty": "medium",
+    "domain": "geography",
+    "accept_aliases": "Nile River|The Nile|River Nile"
+  },
+  {
+    "question": "Which ancient Greek historian is often called the 'Father of History' for his work 'The Histories,' documenting the Greco-Persian Wars?",
+    "correct_answer": "Herodotus",
+    "difficulty": "medium",
+    "domain": "history",
+    "accept_aliases": "Herodotus of Halicarnassus"
+  },
+  {
+    "question": "Who won the Nobel Prize in Literature in 1982, known for works such as 'One Hundred Years of Solitude'?",
+    "correct_answer": "Gabriel García Márquez",
+    "difficulty": "medium",
+    "domain": "culture",
+    "accept_aliases": "Garcia Marquez|Gabriel Garcia Marquez|Gabo"
+  },
+  {
+    "question": "What is the name of the process by which atomic nuclei combine to form a heavier nucleus, releasing energy, as occurs in the Sun?",
+    "correct_answer": "Nuclear fusion",
+    "difficulty": "medium",
+    "domain": "science",
+    "accept_aliases": "Fusion|Thermonuclear fusion"
+  },
+  {
+    "question": "Which treaty, signed in 1648, ended the Thirty Years' War and established the principle of state sovereignty in Europe?",
+    "correct_answer": "Peace of Westphalia",
+    "difficulty": "medium",
+    "domain": "history",
+    "accept_aliases": "Treaty of Westphalia|Westphalian Peace|Treaties of Westphalia"
+  },
+  {
+    "question": "In mathematics, what is the name of the theorem stating that every continuous function on a closed interval attains a maximum and minimum value?",
+    "correct_answer": "Extreme Value Theorem",
+    "difficulty": "medium",
+    "domain": "mathematics",
+    "accept_aliases": "EVT|Weierstrass Extreme Value Theorem"
+  },
+  {
+    "question": "Which organ in the human body is primarily responsible for producing insulin?",
+    "correct_answer": "Pancreas",
+    "difficulty": "medium",
+    "domain": "science",
+    "accept_aliases": ""
+  },
+  {
+    "question": "Who was the first person to propose a heliocentric model of the solar system in the modern era, publishing 'De revolutionibus orbium coelestium' in 1543?",
+    "correct_answer": "Nicolaus Copernicus",
+    "difficulty": "medium",
+    "domain": "science",
+    "accept_aliases": "Copernicus|Mikołaj Kopernik"
+  },
+  {
+    "question": "What is the smallest country in the world by land area?",
+    "correct_answer": "Vatican City",
+    "difficulty": "medium",
+    "domain": "geography",
+    "accept_aliases": "Vatican|Holy See|Vatican City State"
+  },
+  {
+    "question": "Which physicist received the 1921 Nobel Prize in Physics for his explanation of the photoelectric effect?",
+    "correct_answer": "Albert Einstein",
+    "difficulty": "medium",
+    "domain": "science",
+    "accept_aliases": "Einstein"
+  },
+  {
+    "question": "In which year did the Berlin Wall fall, marking a pivotal moment in the end of the Cold War?",
+    "correct_answer": "1989",
+    "difficulty": "medium",
+    "domain": "history",
+    "accept_aliases": ""
+  },
+  {
+    "question": "What is the name of the economic theory developed by John Maynard Keynes that advocates for government intervention to stabilize economic cycles?",
+    "correct_answer": "Keynesian economics",
+    "difficulty": "medium",
+    "domain": "politics",
+    "accept_aliases": "Keynesianism"
+  },
+  {
+    "question": "Which chemical element has the highest electronegativity on the Pauling scale?",
+    "correct_answer": "Fluorine",
+    "difficulty": "medium",
+    "domain": "science",
+    "accept_aliases": "F"
+  },
+  {
+    "question": "Who painted 'Guernica' in 1937 as a response to the bombing of a Basque town during the Spanish Civil War?",
+    "correct_answer": "Pablo Picasso",
+    "difficulty": "medium",
+    "domain": "culture",
+    "accept_aliases": "Picasso"
+  },
+  {
+    "question": "What is the Chandrasekhar limit, approximately in solar masses, above which a white dwarf star will collapse?",
+    "correct_answer": "1.4 solar masses",
+    "difficulty": "medium",
+    "domain": "science",
+    "accept_aliases": "1.44 solar masses|~1.4 solar masses|approximately 1.4 solar masses"
+  },
+  {
+    "question": "Which international court, established by the Rome Statute in 2002, prosecutes individuals for genocide, war crimes, and crimes against humanity?",
+    "correct_answer": "International Criminal Court",
+    "difficulty": "medium",
+    "domain": "politics",
+    "accept_aliases": "ICC"
+  },
+  {
+    "question": "In which city were the first modern Olympic Games held in 1896?",
+    "correct_answer": "Athens",
+    "difficulty": "medium",
+    "domain": "sports",
+    "accept_aliases": "Athens, Greece"
+  },
+  {
+    "question": "What is the name of the conjecture, proven by Grigori Perelman in 2003, concerning the characterization of the three-dimensional sphere among closed 3-manifolds?",
+    "correct_answer": "Poincaré conjecture",
+    "difficulty": "medium",
+    "domain": "mathematics",
+    "accept_aliases": "Poincare conjecture"
+  },
+  {
+    "question": "Which dynasty ruled China during the construction of most of the Great Wall as it is known today?",
+    "correct_answer": "Ming Dynasty",
+    "difficulty": "medium",
+    "domain": "history",
+    "accept_aliases": "Ming"
+  },
+  {
+    "question": "What is the deepest point in the Earth's oceans, located in the Mariana Trench?",
+    "correct_answer": "Challenger Deep",
+    "difficulty": "medium",
+    "domain": "geography",
+    "accept_aliases": ""
+  },
+  {
+    "question": "Who shared the 1962 Nobel Prize in Physiology or Medicine with Francis Crick and Maurice Wilkins for discovering the structure of DNA?",
+    "correct_answer": "James Watson",
+    "difficulty": "medium",
+    "domain": "science",
+    "accept_aliases": "James D. Watson|James Dewey Watson"
+  },
+  {
+    "question": "Which composer wrote 'The Rite of Spring,' a ballet that caused a near-riot at its 1913 Paris premiere?",
+    "correct_answer": "Igor Stravinsky",
+    "difficulty": "medium",
+    "domain": "culture",
+    "accept_aliases": "Stravinsky"
+  },
+  {
+    "question": "Who was awarded the Nobel Prize in Literature in 1954, known for works such as 'The Old Man and the Sea'?",
+    "correct_answer": "Ernest Hemingway",
+    "difficulty": "medium",
+    "domain": "culture",
+    "accept_aliases": "Hemingway"
+  },
+  {
+    "question": "What is the name of the particle accelerator at CERN where the Higgs boson was discovered in 2012?",
+    "correct_answer": "Large Hadron Collider",
+    "difficulty": "medium",
+    "domain": "science",
+    "accept_aliases": "LHC"
+  },
+  {
+    "question": "In what year did the Berlin Wall fall, marking a pivotal moment in the end of the Cold War?",
+    "correct_answer": "1989",
+    "difficulty": "medium",
+    "domain": "history",
+    "accept_aliases": ""
+  },
+  {
+    "question": "Which mathematician is credited with proving Fermat's Last Theorem in 1995?",
+    "correct_answer": "Andrew Wiles",
+    "difficulty": "medium",
+    "domain": "mathematics",
+    "accept_aliases": "Andrew John Wiles"
+  },
+  {
+    "question": "What is the approximate speed of light in a vacuum, in kilometers per second?",
+    "correct_answer": "299,792",
+    "difficulty": "medium",
+    "domain": "science",
+    "accept_aliases": "299792|~300000|approximately 300,000"
+  },
+  {
+    "question": "Which treaty, signed in 1648, ended the Thirty Years' War and established the principle of state sovereignty in Europe?",
+    "correct_answer": "Peace of Westphalia",
+    "difficulty": "medium",
+    "domain": "history",
+    "accept_aliases": "Treaty of Westphalia|Westphalian Peace"
+  },
+  {
+    "question": "Who received the Nobel Prize in Physics in 1921 for his explanation of the photoelectric effect?",
+    "correct_answer": "Albert Einstein",
+    "difficulty": "medium",
+    "domain": "science",
+    "accept_aliases": "Einstein"
+  },
+  {
+    "question": "What is the capital city of Kazakhstan, renamed in 2019 in honor of the country's former president?",
+    "correct_answer": "Astana",
+    "difficulty": "medium",
+    "domain": "geography",
+    "accept_aliases": "Nur-Sultan"
+  },
+  {
+    "question": "Which enzyme is responsible for unwinding the double helix structure of DNA during replication?",
+    "correct_answer": "Helicase",
+    "difficulty": "medium",
+    "domain": "science",
+    "accept_aliases": "DNA helicase"
+  },
+  {
+    "question": "In which year did India gain independence from British rule?",
+    "correct_answer": "1947",
+    "difficulty": "medium",
+    "domain": "history",
+    "accept_aliases": ""
+  },
+  {
+    "question": "What is the name of the phenomenon in quantum mechanics where two particles become correlated such that the state of one instantly influences the other regardless of distance?",
+    "correct_answer": "Quantum entanglement",
+    "difficulty": "medium",
+    "domain": "science",
+    "accept_aliases": "Entanglement"
+  },
+  {
+    "question": "Which architect designed the Guggenheim Museum in Bilbao, Spain, completed in 1997?",
+    "correct_answer": "Frank Gehry",
+    "difficulty": "medium",
+    "domain": "culture",
+    "accept_aliases": "Frank Owen Gehry"
+  },
+  {
+    "question": "What is the value of Avogadro's number, approximately, in entities per mole?",
+    "correct_answer": "6.022 × 10^23",
+    "difficulty": "medium",
+    "domain": "science",
+    "accept_aliases": "6.022e23|6.02 × 10^23|6.02e23"
+  },
+  {
+    "question": "Which country hosted the 1986 FIFA World Cup, famously featuring Maradona's 'Hand of God' goal?",
+    "correct_answer": "Mexico",
+    "difficulty": "medium",
+    "domain": "sports",
+    "accept_aliases": ""
+  },
+  {
+    "question": "Who served as the first Secretary-General of the United Nations from 1946 to 1952?",
+    "correct_answer": "Trygve Lie",
+    "difficulty": "medium",
+    "domain": "politics",
+    "accept_aliases": "Trygve Halvdan Lie"
+  },
+  {
+    "question": "What is the longest river in South America?",
+    "correct_answer": "Amazon River",
+    "difficulty": "medium",
+    "domain": "geography",
+    "accept_aliases": "Amazon|Rio Amazonas"
+  },
+  {
+    "question": "Which scientist first proposed the heliocentric model of the solar system in his 1543 work 'De revolutionibus orbium coelestium'?",
+    "correct_answer": "Nicolaus Copernicus",
+    "difficulty": "medium",
+    "domain": "science",
+    "accept_aliases": "Copernicus|Mikołaj Kopernik"
+  },
+  {
+    "question": "In economics, what term describes a market structure in which a single seller dominates the entire supply of a product with no close substitutes?",
+    "correct_answer": "Monopoly",
+    "difficulty": "medium",
+    "domain": "science",
+    "accept_aliases": ""
+  },
+  {
+    "question": "Which battle, fought in June 1942, is widely considered the turning point of the Pacific Theater in World War II?",
+    "correct_answer": "Battle of Midway",
+    "difficulty": "medium",
+    "domain": "history",
+    "accept_aliases": "Midway"
+  },
+  {
+    "question": "Who was the first woman to win a Nobel Prize, receiving the Nobel Prize in Physics in 1903?",
+    "correct_answer": "Marie Curie",
+    "difficulty": "medium",
+    "domain": "science",
+    "accept_aliases": "Maria Skłodowska-Curie|Marie Sklodowska Curie"
+  },
+  {
+    "question": "Which enzyme is responsible for unwinding the double helix structure of DNA during replication?",
+    "correct_answer": "Helicase",
+    "difficulty": "medium",
+    "domain": "science",
+    "accept_aliases": "DNA helicase"
+  },
+  {
+    "question": "Who won the Nobel Prize in Literature in 1982, known for works such as 'One Hundred Years of Solitude'?",
+    "correct_answer": "Gabriel García Márquez",
+    "difficulty": "medium",
+    "domain": "culture",
+    "accept_aliases": "Garcia Marquez|Gabriel Garcia Marquez"
+  },
+  {
+    "question": "What is the name of the treaty signed in 1648 that ended the Thirty Years' War in Europe?",
+    "correct_answer": "Peace of Westphalia",
+    "difficulty": "medium",
+    "domain": "history",
+    "accept_aliases": "Treaty of Westphalia|Westphalian Peace"
+  },
+  {
+    "question": "In linear algebra, what is the term for a non-zero vector that only changes by a scalar factor when a linear transformation is applied to it?",
+    "correct_answer": "Eigenvector",
+    "difficulty": "medium",
+    "domain": "mathematics",
+    "accept_aliases": "eigen vector"
+  },
+  {
+    "question": "Which physicist proposed the uncertainty principle in 1927, stating that certain pairs of physical properties cannot both be known to arbitrary precision?",
+    "correct_answer": "Werner Heisenberg",
+    "difficulty": "medium",
+    "domain": "science",
+    "accept_aliases": "Heisenberg"
+  },
+  {
+    "question": "What is the capital city of Myanmar?",
+    "correct_answer": "Naypyidaw",
+    "difficulty": "medium",
+    "domain": "geography",
+    "accept_aliases": "Nay Pyi Taw|Naypyitaw"
+  },
+  {
+    "question": "Which organ in the human body is primarily responsible for producing insulin?",
+    "correct_answer": "Pancreas",
+    "difficulty": "medium",
+    "domain": "science",
+    "accept_aliases": ""
+  },
+  {
+    "question": "Who was the first African American to serve as a Justice on the United States Supreme Court?",
+    "correct_answer": "Thurgood Marshall",
+    "difficulty": "medium",
+    "domain": "politics",
+    "accept_aliases": ""
+  },
+  {
+    "question": "In which year did the Chernobyl nuclear disaster occur?",
+    "correct_answer": "1986",
+    "difficulty": "medium",
+    "domain": "history",
+    "accept_aliases": ""
+  },
+  {
+    "question": "What is the name of the process by which plants convert carbon dioxide and water into glucose and oxygen using sunlight?",
+    "correct_answer": "Photosynthesis",
+    "difficulty": "medium",
+    "domain": "science",
+    "accept_aliases": ""
+  },
+  {
+    "question": "Which composer wrote 'The Rite of Spring,' a ballet that caused a near-riot at its 1913 Paris premiere?",
+    "correct_answer": "Igor Stravinsky",
+    "difficulty": "medium",
+    "domain": "culture",
+    "accept_aliases": "Stravinsky"
+  },
+  {
+    "question": "What is the Schwarzschild radius named after, and what does it define the boundary of?",
+    "correct_answer": "The event horizon of a non-rotating black hole",
+    "difficulty": "medium",
+    "domain": "science",
+    "accept_aliases": "event horizon|black hole event horizon"
+  },
+  {
+    "question": "Which country has the longest coastline in the world?",
+    "correct_answer": "Canada",
+    "difficulty": "medium",
+    "domain": "geography",
+    "accept_aliases": ""
+  },
+  {
+    "question": "Who won the Nobel Prize in Economics in 1994 for his work on game theory, later depicted in the film 'A Beautiful Mind'?",
+    "correct_answer": "John Nash",
+    "difficulty": "medium",
+    "domain": "science",
+    "accept_aliases": "John Forbes Nash Jr.|John Forbes Nash"
+  },
+  {
+    "question": "What is the name of the geological supercontinent that existed approximately 335 to 175 million years ago?",
+    "correct_answer": "Pangaea",
+    "difficulty": "medium",
+    "domain": "science",
+    "accept_aliases": "Pangea"
+  },
+  {
+    "question": "In which sport did Jesse Owens win four gold medals at the 1936 Berlin Olympics?",
+    "correct_answer": "Track and field",
+    "difficulty": "medium",
+    "domain": "sports",
+    "accept_aliases": "Athletics|Track & field"
+  },
+  {
+    "question": "What is the Krebs cycle also commonly known as in biochemistry?",
+    "correct_answer": "Citric acid cycle",
+    "difficulty": "medium",
+    "domain": "science",
+    "accept_aliases": "TCA cycle|tricarboxylic acid cycle"
+  },
+  {
+    "question": "Which mathematician is credited with the last theorem that remained unproven for 358 years until Andrew Wiles proved it in 1995?",
+    "correct_answer": "Pierre de Fermat",
+    "difficulty": "medium",
+    "domain": "mathematics",
+    "accept_aliases": "Fermat"
+  },
+  {
+    "question": "What was the name of the first artificial satellite launched into Earth's orbit in 1957?",
+    "correct_answer": "Sputnik 1",
+    "difficulty": "medium",
+    "domain": "history",
+    "accept_aliases": "Sputnik"
+  },
+  {
+    "question": "Which strait separates the continents of Europe and Asia at Istanbul?",
+    "correct_answer": "Bosphorus",
+    "difficulty": "medium",
+    "domain": "geography",
+    "accept_aliases": "Strait of Bosphorus|Bosporus|Strait of Istanbul"
+  },
+  {
+    "question": "Who was awarded the Nobel Prize in Physics in 1965 for their work on quantum electrodynamics, alongside Julian Schwinger and Sin-Itiro Tomonaga?",
+    "correct_answer": "Richard Feynman",
+    "difficulty": "medium",
+    "domain": "science",
+    "accept_aliases": "Richard P. Feynman|Richard Phillips Feynman"
+  },
+  {
+    "question": "What is the name of the treaty signed in 1648 that ended the Thirty Years' War in Europe?",
+    "correct_answer": "Peace of Westphalia",
+    "difficulty": "medium",
+    "domain": "history",
+    "accept_aliases": "Treaty of Westphalia|Westphalian Peace"
+  },
+  {
+    "question": "In organic chemistry, what is the IUPAC name for the simplest aromatic hydrocarbon, a six-carbon ring with alternating double bonds?",
+    "correct_answer": "Benzene",
+    "difficulty": "medium",
+    "domain": "science",
+    "accept_aliases": ""
+  },
+  {
+    "question": "Which physicist proposed the uncertainty principle in 1927, stating that the position and momentum of a particle cannot both be precisely determined simultaneously?",
+    "correct_answer": "Werner Heisenberg",
+    "difficulty": "medium",
+    "domain": "science",
+    "accept_aliases": "Heisenberg"
+  },
+  {
+    "question": "What is the capital city of Myanmar?",
+    "correct_answer": "Naypyidaw",
+    "difficulty": "medium",
+    "domain": "geography",
+    "accept_aliases": "Nay Pyi Taw|Naypyitaw"
+  },
+  {
+    "question": "Which enzyme is responsible for unwinding the DNA double helix during replication?",
+    "correct_answer": "Helicase",
+    "difficulty": "medium",
+    "domain": "science",
+    "accept_aliases": "DNA helicase"
+  },
+  {
+    "question": "In what year did the Berlin Wall fall, symbolically marking the end of the Cold War division of Germany?",
+    "correct_answer": "1989",
+    "difficulty": "medium",
+    "domain": "history",
+    "accept_aliases": ""
+  },
+  {
+    "question": "Who wrote the philosophical work 'Critique of Pure Reason,' first published in 1781?",
+    "correct_answer": "Immanuel Kant",
+    "difficulty": "medium",
+    "domain": "culture",
+    "accept_aliases": "Kant"
+  },
+  {
+    "question": "What is the Chandrasekhar limit, approximately expressed in solar masses?",
+    "correct_answer": "1.4 solar masses",
+    "difficulty": "medium",
+    "domain": "science",
+    "accept_aliases": "1.44 solar masses|~1.4 solar masses"
+  },
+  {
+    "question": "Which country hosted the first FIFA World Cup in 1930?",
+    "correct_answer": "Uruguay",
+    "difficulty": "medium",
+    "domain": "sports",
+    "accept_aliases": ""
+  },
+  {
+    "question": "What is the name of the process by which a solid transitions directly to a gas without passing through the liquid phase?",
+    "correct_answer": "Sublimation",
+    "difficulty": "medium",
+    "domain": "science",
+    "accept_aliases": ""
+  },
+  {
+    "question": "Who was the first woman to win a Nobel Prize in Literature, receiving the award in 1909?",
+    "correct_answer": "Selma Lagerlöf",
+    "difficulty": "medium",
+    "domain": "culture",
+    "accept_aliases": "Selma Lagerlof|Selma Ottilia Lovisa Lagerlöf"
+  },
+  {
+    "question": "In mathematics, what is the name of the theorem stating that every continuous function on a closed interval attains its maximum and minimum values?",
+    "correct_answer": "Extreme Value Theorem",
+    "difficulty": "medium",
+    "domain": "mathematics",
+    "accept_aliases": "EVT|Weierstrass Extreme Value Theorem"
+  },
+  {
+    "question": "Which battle in 1805 is considered Napoleon Bonaparte's greatest military victory, where he defeated the combined armies of Austria and Russia?",
+    "correct_answer": "Battle of Austerlitz",
+    "difficulty": "medium",
+    "domain": "history",
+    "accept_aliases": "Austerlitz|Battle of the Three Emperors"
+  },
+  {
+    "question": "What element has the highest electronegativity on the Pauling scale?",
+    "correct_answer": "Fluorine",
+    "difficulty": "medium",
+    "domain": "science",
+    "accept_aliases": "F"
+  },
+  {
+    "question": "Who served as the Secretary-General of the United Nations from 1997 to 2006 and was awarded the Nobel Peace Prize in 2001?",
+    "correct_answer": "Kofi Annan",
+    "difficulty": "medium",
+    "domain": "politics",
+    "accept_aliases": "Kofi Atta Annan"
+  },
+  {
+    "question": "In economics, what term describes a market structure in which a single buyer substantially controls the market as the major purchaser of goods and services?",
+    "correct_answer": "Monopsony",
+    "difficulty": "medium",
+    "domain": "science",
+    "accept_aliases": ""
+  },
+  {
+    "question": "What is the deepest point in the Earth's oceans, located in the Mariana Trench?",
+    "correct_answer": "Challenger Deep",
+    "difficulty": "medium",
+    "domain": "geography",
+    "accept_aliases": ""
+  },
+  {
+    "question": "Which scientist discovered penicillin in 1928, for which he later shared the Nobel Prize in Physiology or Medicine in 1945?",
+    "correct_answer": "Alexander Fleming",
+    "difficulty": "medium",
+    "domain": "science",
+    "accept_aliases": "Fleming|Sir Alexander Fleming"
+  },
+  {
+    "question": "In linear algebra, what is the term for a non-zero vector that, when a linear transformation is applied to it, changes only by a scalar factor?",
+    "correct_answer": "Eigenvector",
+    "difficulty": "medium",
+    "domain": "mathematics",
+    "accept_aliases": "eigen vector|characteristic vector"
+  },
+  {
+    "question": "Who was awarded the Nobel Prize in Physics in 1921 for his explanation of the photoelectric effect?",
+    "correct_answer": "Albert Einstein",
+    "difficulty": "medium",
+    "domain": "science",
+    "accept_aliases": "Einstein"
+  },
+  {
+    "question": "What is the name of the 1494 agreement that divided newly discovered lands outside Europe between Spain and Portugal?",
+    "correct_answer": "Treaty of Tordesillas",
+    "difficulty": "medium",
+    "domain": "history",
+    "accept_aliases": "Tordesillas Treaty"
+  },
+  {
+    "question": "In chemistry, what is the term for the minimum amount of energy required for a chemical reaction to proceed?",
+    "correct_answer": "Activation energy",
+    "difficulty": "medium",
+    "domain": "science",
+    "accept_aliases": ""
+  },
+  {
+    "question": "Which mathematician is credited with proving that there are infinitely many prime numbers, as presented in his work 'Elements'?",
+    "correct_answer": "Euclid",
+    "difficulty": "medium",
+    "domain": "mathematics",
+    "accept_aliases": "Euclid of Alexandria"
+  },
+  {
+    "question": "What is the capital city of Myanmar?",
+    "correct_answer": "Naypyidaw",
+    "difficulty": "medium",
+    "domain": "geography",
+    "accept_aliases": "Nay Pyi Taw|Naypyitaw"
+  },
+  {
+    "question": "Who wrote the 1962 book 'The Structure of Scientific Revolutions,' which introduced the concept of paradigm shifts?",
+    "correct_answer": "Thomas Kuhn",
+    "difficulty": "medium",
+    "domain": "science",
+    "accept_aliases": "Thomas S. Kuhn|Thomas Samuel Kuhn"
+  },
+  {
+    "question": "In genetics, what is the name of the phenomenon where one gene influences multiple, seemingly unrelated phenotypic traits?",
+    "correct_answer": "Pleiotropy",
+    "difficulty": "medium",
+    "domain": "science",
+    "accept_aliases": ""
+  },
+  {
+    "question": "Which composer wrote 'The Rite of Spring,' a ballet that caused a riot at its 1913 Paris premiere?",
+    "correct_answer": "Igor Stravinsky",
+    "difficulty": "medium",
+    "domain": "culture",
+    "accept_aliases": "Stravinsky"
+  },
+  {
+    "question": "What is the longest river in Africa?",
+    "correct_answer": "Nile",
+    "difficulty": "medium",
+    "domain": "geography",
+    "accept_aliases": "Nile River|The Nile"
+  },
+  {
+    "question": "Who was the first person to propose the heliocentric model of the solar system in the modern era, publishing 'De revolutionibus orbium coelestium' in 1543?",
+    "correct_answer": "Nicolaus Copernicus",
+    "difficulty": "medium",
+    "domain": "science",
+    "accept_aliases": "Copernicus|Mikołaj Kopernik"
+  },
+  {
+    "question": "In thermodynamics, what law states that the entropy of an isolated system never decreases over time?",
+    "correct_answer": "Second law of thermodynamics",
+    "difficulty": "medium",
+    "domain": "science",
+    "accept_aliases": "2nd law of thermodynamics"
+  },
+  {
+    "question": "Which country was the first to grant women the right to vote in national elections, doing so in 1893?",
+    "correct_answer": "New Zealand",
+    "difficulty": "medium",
+    "domain": "history",
+    "accept_aliases": ""
+  },
+  {
+    "question": "What is the name of the effect in physics where the frequency of a wave changes for an observer moving relative to its source?",
+    "correct_answer": "Doppler effect",
+    "difficulty": "medium",
+    "domain": "science",
+    "accept_aliases": "Doppler shift"
+  },
+  {
+    "question": "Who won the Nobel Prize in Literature in 1982 and is known for the novel 'One Hundred Years of Solitude'?",
+    "correct_answer": "Gabriel García Márquez",
+    "difficulty": "medium",
+    "domain": "culture",
+    "accept_aliases": "Garcia Marquez|Gabriel Garcia Marquez|Gabo"
+  },
+  {
+    "question": "What treaty, signed in 1648, ended the Thirty Years' War and established the principle of state sovereignty in Europe?",
+    "correct_answer": "Peace of Westphalia",
+    "difficulty": "medium",
+    "domain": "history",
+    "accept_aliases": "Treaty of Westphalia|Westphalian Peace"
+  },
+  {
+    "question": "In number theory, what is the name of the conjecture stating that every even integer greater than 2 can be expressed as the sum of two prime numbers?",
+    "correct_answer": "Goldbach's conjecture",
+    "difficulty": "medium",
+    "domain": "mathematics",
+    "accept_aliases": "Goldbach conjecture"
+  },
+  {
+    "question": "Which organ in the human body is primarily responsible for producing insulin?",
+    "correct_answer": "Pancreas",
+    "difficulty": "medium",
+    "domain": "science",
+    "accept_aliases": ""
+  },
+  {
+    "question": "Who served as the first President of the Fifth French Republic, taking office in 1959?",
+    "correct_answer": "Charles de Gaulle",
+    "difficulty": "medium",
+    "domain": "politics",
+    "accept_aliases": "de Gaulle"
+  },
+  {
+    "question": "In which year did the Berlin Wall fall, marking a pivotal moment in the end of the Cold War?",
+    "correct_answer": "1989",
+    "difficulty": "medium",
+    "domain": "history",
+    "accept_aliases": ""
+  },
+  {
+    "question": "What is the SI unit of electrical capacitance, named after an English physicist?",
+    "correct_answer": "Farad",
+    "difficulty": "medium",
+    "domain": "science",
+    "accept_aliases": ""
+  },
+  {
+    "question": "Who was awarded the Nobel Prize in Physics in 1921 for his explanation of the photoelectric effect?",
+    "correct_answer": "Albert Einstein",
+    "difficulty": "medium",
+    "domain": "science",
+    "accept_aliases": "Einstein"
+  },
+  {
+    "question": "What is the name of the 1494 agreement that divided newly discovered lands outside Europe between Spain and Portugal?",
+    "correct_answer": "Treaty of Tordesillas",
+    "difficulty": "medium",
+    "domain": "history",
+    "accept_aliases": "Tordesillas Treaty"
+  },
+  {
+    "question": "In molecular biology, what enzyme is responsible for synthesizing RNA from a DNA template during transcription?",
+    "correct_answer": "RNA polymerase",
+    "difficulty": "medium",
+    "domain": "science",
+    "accept_aliases": "DNA-dependent RNA polymerase"
+  },
+  {
+    "question": "Which mathematician first proved that the set of real numbers is uncountably infinite, using a diagonal argument published in 1891?",
+    "correct_answer": "Georg Cantor",
+    "difficulty": "medium",
+    "domain": "mathematics",
+    "accept_aliases": "Cantor"
+  },
+  {
+    "question": "What is the name of the economic plan, officially called the European Recovery Program, that the United States implemented to aid Western Europe after World War II?",
+    "correct_answer": "Marshall Plan",
+    "difficulty": "medium",
+    "domain": "politics",
+    "accept_aliases": "The Marshall Plan|European Recovery Program"
+  },
+  {
+    "question": "What is the precise half-life of Carbon-14 in years, as currently accepted by the scientific community?",
+    "correct_answer": "5730 years",
+    "difficulty": "hard",
+    "domain": "science",
+    "accept_aliases": "5,730 years|5730 ± 40 years"
+  },
+  {
+    "question": "Who served as the first Postmaster General of the Confederate States of America?",
+    "correct_answer": "John Henninger Reagan",
+    "difficulty": "hard",
+    "domain": "history",
+    "accept_aliases": "John H. Reagan|John Reagan"
+  },
+  {
+    "question": "What is the Chandrasekhar limit, expressed in solar masses, above which a white dwarf star will collapse?",
+    "correct_answer": "1.4 solar masses",
+    "difficulty": "hard",
+    "domain": "science",
+    "accept_aliases": "1.44 solar masses|~1.4 solar masses|1.39 solar masses"
+  },
+  {
+    "question": "In what year did the mathematician Évariste Galois die in a duel at the age of 20?",
+    "correct_answer": "1832",
+    "difficulty": "hard",
+    "domain": "mathematics",
+    "accept_aliases": ""
+  },
+  {
+    "question": "What is the specific epithet of the New Zealand weta species that is considered one of the heaviest insects in the world?",
+    "correct_answer": "Deinacrida heteracantha",
+    "difficulty": "hard",
+    "domain": "science",
+    "accept_aliases": "Little Barrier Island giant weta|wetapunga"
+  },
+  {
+    "question": "Who was the architect who designed the Palace of the Soviets, the unbuilt Stalinist skyscraper intended for Moscow?",
+    "correct_answer": "Boris Iofan",
+    "difficulty": "hard",
+    "domain": "culture",
+    "accept_aliases": "Boris Mikhailovich Iofan"
+  },
+  {
+    "question": "What is the exact distance in astronomical units (AU) of one parsec?",
+    "correct_answer": "206265 AU",
+    "difficulty": "hard",
+    "domain": "science",
+    "accept_aliases": "206,265 AU|approximately 206265 AU"
+  },
+  {
+    "question": "In the 1900 Summer Olympics in Paris, what sport featured live pigeons being shot, making it the only time in Olympic history animals were intentionally killed during competition?",
+    "correct_answer": "Shooting",
+    "difficulty": "hard",
+    "domain": "sports",
+    "accept_aliases": "Live pigeon shooting"
+  },
+  {
+    "question": "What was the population of Iceland according to the 2011 national census?",
+    "correct_answer": "315,556",
+    "difficulty": "hard",
+    "domain": "geography",
+    "accept_aliases": "315556|approximately 316,000"
+  },
+  {
+    "question": "Who was the Byzantine emperor who formally codified Roman law into the Corpus Juris Civilis in 529-534 AD?",
+    "correct_answer": "Justinian I",
+    "difficulty": "hard",
+    "domain": "history",
+    "accept_aliases": "Justinian the Great|Flavius Petrus Sabbatius Justinianus"
+  },
+  {
+    "question": "What is the name of the theorem in topology that states every continuous function from a closed n-ball to itself has at least one fixed point?",
+    "correct_answer": "Brouwer fixed-point theorem",
+    "difficulty": "hard",
+    "domain": "mathematics",
+    "accept_aliases": "Brouwer's fixed point theorem|Brouwer fixed point theorem"
+  },
+  {
+    "question": "What is the melting point of tungsten in degrees Celsius, making it the metal with the highest melting point?",
+    "correct_answer": "3422°C",
+    "difficulty": "hard",
+    "domain": "science",
+    "accept_aliases": "3422 degrees Celsius|3,422°C|3422"
+  },
+  {
+    "question": "Who was the Soviet admiral who refused to authorize a nuclear torpedo launch during the Cuban Missile Crisis, effectively preventing nuclear war?",
+    "correct_answer": "Vasili Arkhipov",
+    "difficulty": "hard",
+    "domain": "history",
+    "accept_aliases": "Vasily Arkhipov|Vasiliy Arkhipov"
+  },
+  {
+    "question": "What is the name of the smallest bone in the human body?",
+    "correct_answer": "Stapes",
+    "difficulty": "hard",
+    "domain": "science",
+    "accept_aliases": "Stirrup bone|stirrup"
+  },
+  {
+    "question": "In what year did Bhutan first introduce television and the internet to its citizens?",
+    "correct_answer": "1999",
+    "difficulty": "hard",
+    "domain": "history",
+    "accept_aliases": ""
+  },
+  {
+    "question": "What is the Kolmogorov complexity concept's original name as published by Ray Solomonoff in his 1960 preliminary report?",
+    "correct_answer": "Algorithmic probability",
+    "difficulty": "hard",
+    "domain": "mathematics",
+    "accept_aliases": "A Preliminary Report on a General Theory of Inductive Inference"
+  },
+  {
+    "question": "What is the only country in the world whose flag is not rectangular or square?",
+    "correct_answer": "Nepal",
+    "difficulty": "hard",
+    "domain": "geography",
+    "accept_aliases": ""
+  },
+  {
+    "question": "What was the name of the ship that rescued the surviving passengers of the RMS Titanic?",
+    "correct_answer": "RMS Carpathia",
+    "difficulty": "hard",
+    "domain": "history",
+    "accept_aliases": "Carpathia|the Carpathia"
+  },
+  {
+    "question": "What is the fine-structure constant's approximate dimensionless value to four decimal places?",
+    "correct_answer": "0.0073",
+    "difficulty": "hard",
+    "domain": "science",
+    "accept_aliases": "1/137|0.00729735|approximately 1/137.036"
+  },
+  {
+    "question": "Who was the first non-European to win the Fields Medal in mathematics?",
+    "correct_answer": "Kunihiko Kodaira",
+    "difficulty": "hard",
+    "domain": "mathematics",
+    "accept_aliases": "Kodaira"
+  },
+  {
+    "question": "What is the exact year in which the Banach-Tarski paradox was first published?",
+    "correct_answer": "1924",
+    "difficulty": "hard",
+    "domain": "mathematics",
+    "accept_aliases": ""
+  },
+  {
+    "question": "What is the half-life of Bismuth-209 in years, as measured by French researchers in 2003?",
+    "correct_answer": "1.9 × 10^19 years",
+    "difficulty": "hard",
+    "domain": "science",
+    "accept_aliases": "1.9e19 years|19 billion billion years|19 quintillion years"
+  },
+  {
+    "question": "Who served as the first Grand Master of the Knights Hospitaller (Order of St. John of Jerusalem)?",
+    "correct_answer": "Raymond du Puy de Provence",
+    "difficulty": "hard",
+    "domain": "history",
+    "accept_aliases": "Raymond du Puy"
+  },
+  {
+    "question": "What is the name of the only known high-temperature superconductor that was the first to be discovered above 77 K (liquid nitrogen temperature), reported in 1987?",
+    "correct_answer": "Yttrium barium copper oxide",
+    "difficulty": "hard",
+    "domain": "science",
+    "accept_aliases": "YBCO|YBa2Cu3O7"
+  },
+  {
+    "question": "In what year did the Republic of Venice officially cease to exist as a sovereign state?",
+    "correct_answer": "1797",
+    "difficulty": "hard",
+    "domain": "history",
+    "accept_aliases": ""
+  },
+  {
+    "question": "What is the Chandrasekhar limit expressed in solar masses, to two decimal places?",
+    "correct_answer": "1.44 solar masses",
+    "difficulty": "hard",
+    "domain": "science",
+    "accept_aliases": "1.44|1.44 M☉"
+  },
+  {
+    "question": "Who was the architect of the Itamaraty Palace, the headquarters of Brazil's Ministry of Foreign Affairs in Brasília?",
+    "correct_answer": "Oscar Niemeyer",
+    "difficulty": "hard",
+    "domain": "culture",
+    "accept_aliases": "Oscar Ribeiro de Almeida Niemeyer Soares Filho"
+  },
+  {
+    "question": "What is the name of the deepest known cave in the world as of 2024?",
+    "correct_answer": "Veryovkina Cave",
+    "difficulty": "hard",
+    "domain": "geography",
+    "accept_aliases": "Veryovkina|Verevkina Cave"
+  },
+  {
+    "question": "What was the population of Iceland according to its first complete census conducted in 1703?",
+    "correct_answer": "50,358",
+    "difficulty": "hard",
+    "domain": "history",
+    "accept_aliases": "approximately 50,000|50358"
+  },
+  {
+    "question": "Who was the mathematician who first proved the Prime Number Theorem independently in 1896, alongside Jacques Hadamard?",
+    "correct_answer": "Charles Jean de la Vallée Poussin",
+    "difficulty": "hard",
+    "domain": "mathematics",
+    "accept_aliases": "de la Vallée Poussin|Charles de la Vallée-Poussin"
+  },
+  {
+    "question": "What is the specific rotation period of Venus in Earth days (sidereal, retrograde)?",
+    "correct_answer": "243 Earth days",
+    "difficulty": "hard",
+    "domain": "science",
+    "accept_aliases": "243 days|243.025 days"
+  },
+  {
+    "question": "In what year was the Svalbard Global Seed Vault officially opened?",
+    "correct_answer": "2008",
+    "difficulty": "hard",
+    "domain": "science",
+    "accept_aliases": ""
+  },
+  {
+    "question": "What is the name of the battle in 1071 where the Byzantine Emperor Romanos IV Diogenes was captured by the Seljuk Turks?",
+    "correct_answer": "Battle of Manzikert",
+    "difficulty": "hard",
+    "domain": "history",
+    "accept_aliases": "Manzikert|Battle of Malazgirt"
+  },
+  {
+    "question": "What is the atomic number of Oganesson, the heaviest known element?",
+    "correct_answer": "118",
+    "difficulty": "hard",
+    "domain": "science",
+    "accept_aliases": ""
+  },
+  {
+    "question": "Who scored the fastest hat trick in FIFA World Cup history, completing it in just 8 minutes during the 1982 tournament?",
+    "correct_answer": "László Kiss",
+    "difficulty": "hard",
+    "domain": "sports",
+    "accept_aliases": "Laszlo Kiss"
+  },
+  {
+    "question": "What is the name of the effect in quantum mechanics where the energy levels of hydrogen are shifted slightly due to the interaction of the electron with vacuum fluctuations?",
+    "correct_answer": "Lamb shift",
+    "difficulty": "hard",
+    "domain": "science",
+    "accept_aliases": "Lamb-Retherford shift"
+  },
+  {
+    "question": "What was the original name of New York's Verrazzano-Narrows Bridge's designer, Othmar Ammann's, country of birth?",
+    "correct_answer": "Switzerland",
+    "difficulty": "hard",
+    "domain": "history",
+    "accept_aliases": "Swiss Confederation"
+  },
+  {
+    "question": "In what year did the International Court of Justice (ICJ) deliver its advisory opinion on the legality of the threat or use of nuclear weapons?",
+    "correct_answer": "1996",
+    "difficulty": "hard",
+    "domain": "politics",
+    "accept_aliases": ""
+  },
+  {
+    "question": "What is the Schwarzschild radius of the Sun, in kilometers, rounded to the nearest whole number?",
+    "correct_answer": "3 kilometers",
+    "difficulty": "hard",
+    "domain": "science",
+    "accept_aliases": "3 km|2.95 km|approximately 3 km"
+  },
+  {
+    "question": "Who was the first woman to win the Abel Prize in mathematics?",
+    "correct_answer": "Karen Uhlenbeck",
+    "difficulty": "hard",
+    "domain": "mathematics",
+    "accept_aliases": "Karen Keskulla Uhlenbeck"
+  },
+  {
+    "question": "What is the precise half-life of Carbon-14 in years, as currently accepted by scientific consensus?",
+    "correct_answer": "5,730 years",
+    "difficulty": "hard",
+    "domain": "science",
+    "accept_aliases": "5730 years|5730"
+  },
+  {
+    "question": "Who served as the Grand Vizier of the Ottoman Empire during the failed Second Siege of Vienna in 1683?",
+    "correct_answer": "Kara Mustafa Pasha",
+    "difficulty": "hard",
+    "domain": "history",
+    "accept_aliases": "Merzifonlu Kara Mustafa Pasha|Kara Mustafa"
+  },
+  {
+    "question": "What is the exact speed of sound in dry air at 20°C, in meters per second, to the nearest whole number?",
+    "correct_answer": "343 m/s",
+    "difficulty": "hard",
+    "domain": "science",
+    "accept_aliases": "343|343 meters per second"
+  },
+  {
+    "question": "In graph theory, what is the chromatic number of the Petersen graph?",
+    "correct_answer": "3",
+    "difficulty": "hard",
+    "domain": "mathematics",
+    "accept_aliases": "three"
+  },
+  {
+    "question": "What was the name of the Soviet spacecraft that performed the first successful soft landing on the surface of Venus in 1970?",
+    "correct_answer": "Venera 7",
+    "difficulty": "hard",
+    "domain": "science",
+    "accept_aliases": "Venera-7"
+  },
+  {
+    "question": "Who was the architect of the Palace of the Parliament in Bucharest, Romania, the heaviest building in the world?",
+    "correct_answer": "Anca Petrescu",
+    "difficulty": "hard",
+    "domain": "culture",
+    "accept_aliases": ""
+  },
+  {
+    "question": "What is the Chandrasekhar limit, the maximum mass of a stable white dwarf star, expressed in solar masses?",
+    "correct_answer": "1.4 solar masses",
+    "difficulty": "hard",
+    "domain": "science",
+    "accept_aliases": "1.44 solar masses|approximately 1.4 solar masses|1.4"
+  },
+  {
+    "question": "In what year did the Zanzibar Revolution occur, overthrowing the Sultan of Zanzibar?",
+    "correct_answer": "1964",
+    "difficulty": "hard",
+    "domain": "history",
+    "accept_aliases": ""
+  },
+  {
+    "question": "What is the name of the theorem in number theory that states every integer greater than 1 is either prime or can be uniquely represented as a product of primes, up to ordering?",
+    "correct_answer": "Fundamental Theorem of Arithmetic",
+    "difficulty": "hard",
+    "domain": "mathematics",
+    "accept_aliases": "Unique Factorization Theorem"
+  },
+  {
+    "question": "What specific enzyme is deficient in patients with Gaucher disease, the most common lysosomal storage disorder?",
+    "correct_answer": "Glucocerebrosidase",
+    "difficulty": "hard",
+    "domain": "science",
+    "accept_aliases": "acid β-glucosidase|beta-glucocerebrosidase|GCase|glucosylceramidase"
+  },
+  {
+    "question": "Who was the commander of the Japanese carrier strike force (Kido Butai) during the attack on Pearl Harbor?",
+    "correct_answer": "Vice Admiral Chuichi Nagumo",
+    "difficulty": "hard",
+    "domain": "history",
+    "accept_aliases": "Nagumo|Chuichi Nagumo|Chūichi Nagumo"
+  },
+  {
+    "question": "What is the total number of squares (of all sizes) on a standard 8×8 chessboard?",
+    "correct_answer": "204",
+    "difficulty": "hard",
+    "domain": "mathematics",
+    "accept_aliases": ""
+  },
+  {
+    "question": "What is the name of the deepest known cave in the world, located in Georgia (the country)?",
+    "correct_answer": "Veryovkina Cave",
+    "difficulty": "hard",
+    "domain": "geography",
+    "accept_aliases": "Veryovkina|Verevkina Cave"
+  },
+  {
+    "question": "In what year did cricketer Jim Laker take 19 wickets in a single Test match against Australia at Old Trafford?",
+    "correct_answer": "1956",
+    "difficulty": "hard",
+    "domain": "sports",
+    "accept_aliases": ""
+  },
+  {
+    "question": "What is the name of the principle in quantum mechanics stating that two identical fermions cannot simultaneously occupy the same quantum state?",
+    "correct_answer": "Pauli Exclusion Principle",
+    "difficulty": "hard",
+    "domain": "science",
+    "accept_aliases": "Pauli's Exclusion Principle|Exclusion Principle"
+  },
+  {
+    "question": "Who was the first Secretary-General of the North Atlantic Treaty Organization (NATO)?",
+    "correct_answer": "Lord Ismay",
+    "difficulty": "hard",
+    "domain": "politics",
+    "accept_aliases": "Hastings Ismay|General The Lord Ismay|Hastings Lionel Ismay"
+  },
+  {
+    "question": "What is the fine-structure constant (alpha) to three decimal places?",
+    "correct_answer": "0.007",
+    "difficulty": "hard",
+    "domain": "science",
+    "accept_aliases": "1/137|approximately 1/137|0.0073"
+  },
+  {
+    "question": "Which medieval Italian city-state established the Banco di San Giorgio in 1407, considered one of the world's oldest chartered banks?",
+    "correct_answer": "Genoa",
+    "difficulty": "hard",
+    "domain": "history",
+    "accept_aliases": "Republic of Genoa|Genova"
+  },
+  {
+    "question": "What is the name of the only FIFA World Cup final to be decided by a penalty shootout before 2006?",
+    "correct_answer": "1994 FIFA World Cup Final",
+    "difficulty": "hard",
+    "domain": "sports",
+    "accept_aliases": "1994 World Cup Final|Brazil vs Italy 1994"
+  },
+  {
+    "question": "What is the Mohs hardness of topaz?",
+    "correct_answer": "8",
+    "difficulty": "hard",
+    "domain": "science",
+    "accept_aliases": "eight"
+  },
+  {
+    "question": "What is the half-life of Carbon-14 in years, rounded to the nearest ten?",
+    "correct_answer": "5730",
+    "difficulty": "hard",
+    "domain": "science",
+    "accept_aliases": "5,730|5730 years"
+  },
+  {
+    "question": "Who served as the first Postmaster General of the Confederate States of America?",
+    "correct_answer": "John H. Reagan",
+    "difficulty": "hard",
+    "domain": "history",
+    "accept_aliases": "John Henninger Reagan|Reagan"
+  },
+  {
+    "question": "What is the exact speed of light in a vacuum in meters per second, as defined by the SI system?",
+    "correct_answer": "299792458",
+    "difficulty": "hard",
+    "domain": "science",
+    "accept_aliases": "299,792,458|299792458 m/s"
+  },
+  {
+    "question": "In which year was the Rinderpest virus officially declared eradicated by the FAO and OIE, making it the second disease after smallpox to be eliminated?",
+    "correct_answer": "2011",
+    "difficulty": "hard",
+    "domain": "science",
+    "accept_aliases": ""
+  },
+  {
+    "question": "What is the name of the theorem in topology stating that every simply connected, closed 3-manifold is homeomorphic to the 3-sphere, proven by Grigori Perelman?",
+    "correct_answer": "Poincaré conjecture",
+    "difficulty": "hard",
+    "domain": "mathematics",
+    "accept_aliases": "Poincaré's conjecture|Poincare conjecture"
+  },
+  {
+    "question": "Which Soviet physicist shared the 1958 Nobel Prize in Physics with Pavel Cherenkov and Ilya Frank for the theoretical interpretation of Cherenkov radiation?",
+    "correct_answer": "Igor Tamm",
+    "difficulty": "hard",
+    "domain": "science",
+    "accept_aliases": "Igor Yevgenyevich Tamm|Tamm"
+  },
+  {
+    "question": "What was the population of Iceland according to the 2011 national census, rounded to the nearest thousand?",
+    "correct_answer": "316000",
+    "difficulty": "hard",
+    "domain": "geography",
+    "accept_aliases": "316,000|316 thousand"
+  },
+  {
+    "question": "Who was the architect of the Salk Institute for Biological Studies in La Jolla, California?",
+    "correct_answer": "Louis Kahn",
+    "difficulty": "hard",
+    "domain": "culture",
+    "accept_aliases": "Louis I. Kahn|Louis Isadore Kahn"
+  },
+  {
+    "question": "What is the Chandrasekhar limit, the maximum mass of a stable white dwarf star, in solar masses (to one decimal place)?",
+    "correct_answer": "1.4",
+    "difficulty": "hard",
+    "domain": "science",
+    "accept_aliases": "1.4 solar masses|~1.4"
+  },
+  {
+    "question": "In what year did the Treaty of Nerchinsk, the first formal treaty between Russia and China, get signed?",
+    "correct_answer": "1689",
+    "difficulty": "hard",
+    "domain": "history",
+    "accept_aliases": ""
+  },
+  {
+    "question": "What is the name of the enzyme responsible for unwinding the DNA double helix during replication?",
+    "correct_answer": "Helicase",
+    "difficulty": "hard",
+    "domain": "science",
+    "accept_aliases": "DNA helicase"
+  },
+  {
+    "question": "Which chess player defeated Anatoly Karpov to become the sixth World Chess Champion recognized by FIDE in 1975, by default?",
+    "correct_answer": "Bobby Fischer",
+    "difficulty": "hard",
+    "domain": "sports",
+    "accept_aliases": "Robert James Fischer|Fischer"
+  },
+  {
+    "question": "What is the atomic number of Hassium?",
+    "correct_answer": "108",
+    "difficulty": "hard",
+    "domain": "science",
+    "accept_aliases": ""
+  },
+  {
+    "question": "Who was the Seleucid king defeated by the Romans at the Battle of Magnesia in 190 BC?",
+    "correct_answer": "Antiochus III",
+    "difficulty": "hard",
+    "domain": "history",
+    "accept_aliases": "Antiochus III the Great|Antiochus the Great"
+  },
+  {
+    "question": "What is the name of the largest known structure in the observable universe, a supercluster complex discovered in 2014 that contains the Milky Way?",
+    "correct_answer": "Laniakea",
+    "difficulty": "hard",
+    "domain": "science",
+    "accept_aliases": "Laniakea Supercluster"
+  },
+  {
+    "question": "In graph theory, what is the chromatic number of the Petersen graph?",
+    "correct_answer": "3",
+    "difficulty": "hard",
+    "domain": "mathematics",
+    "accept_aliases": ""
+  },
+  {
+    "question": "Which Portuguese explorer was the first European to reach the Cape of Good Hope in 1488?",
+    "correct_answer": "Bartolomeu Dias",
+    "difficulty": "hard",
+    "domain": "history",
+    "accept_aliases": "Bartholomew Dias|Bartolomeu Dias de Novaes|Dias"
+  },
+  {
+    "question": "What was the name of the Japanese battleship, the lead ship of her class and one of the heaviest ever built, sunk during Operation Ten-Go in April 1945?",
+    "correct_answer": "Yamato",
+    "difficulty": "hard",
+    "domain": "history",
+    "accept_aliases": "IJN Yamato|Battleship Yamato"
+  },
+  {
+    "question": "What is the Schwarzschild radius (in kilometers, rounded to the nearest integer) of a black hole with the mass of the Sun?",
+    "correct_answer": "3",
+    "difficulty": "hard",
+    "domain": "science",
+    "accept_aliases": "3 km|approximately 3|2.95"
+  },
+  {
+    "question": "Who composed the opera 'Lulu,' which was left incomplete at his death in 1935 and later completed by Friedrich Cerha?",
+    "correct_answer": "Alban Berg",
+    "difficulty": "hard",
+    "domain": "culture",
+    "accept_aliases": "Berg"
+  },
+  {
+    "question": "What is the half-life of Potassium-40 in billions of years, rounded to two decimal places?",
+    "correct_answer": "1.25",
+    "difficulty": "hard",
+    "domain": "science",
+    "accept_aliases": "1.25 billion years|1.248"
+  },
+  {
+    "question": "Who served as the first Grand Master of the Knights Hospitaller (Order of St. John) from 1099?",
+    "correct_answer": "Gerard Thom",
+    "difficulty": "hard",
+    "domain": "history",
+    "accept_aliases": "Blessed Gerard|Gerard de Martigues|Fra' Gerard"
+  },
+  {
+    "question": "What is the exact distance in astronomical units (AU) of the average Earth-Sun distance used to define one AU, as redefined by the IAU in 2012?",
+    "correct_answer": "149,597,870,700 meters",
+    "difficulty": "hard",
+    "domain": "science",
+    "accept_aliases": "149597870700 meters|149597870700 m|149,597,870.7 km"
+  },
+  {
+    "question": "In what year was the Banach-Tarski paradox first published?",
+    "correct_answer": "1924",
+    "difficulty": "hard",
+    "domain": "mathematics",
+    "accept_aliases": ""
+  },
+  {
+    "question": "Which Soviet physicist proposed the Cherenkov radiation theory alongside Ilya Frank, for which they shared the 1958 Nobel Prize in Physics with Pavel Cherenkov?",
+    "correct_answer": "Igor Tamm",
+    "difficulty": "hard",
+    "domain": "science",
+    "accept_aliases": "Igor Yevgenyevich Tamm"
+  },
+  {
+    "question": "What was the population of Iceland according to the 1703 census, considered the first complete census in the country's history?",
+    "correct_answer": "50,358",
+    "difficulty": "hard",
+    "domain": "history",
+    "accept_aliases": "50358|approximately 50,000"
+  },
+  {
+    "question": "Who was the architect of the Brion Cemetery (Brion-Vega Cemetery) near Treviso, Italy, completed in 1978?",
+    "correct_answer": "Carlo Scarpa",
+    "difficulty": "hard",
+    "domain": "culture",
+    "accept_aliases": ""
+  },
+  {
+    "question": "What is the name of the theorem in topology stating that every continuous function from a closed n-ball to itself has at least one fixed point?",
+    "correct_answer": "Brouwer fixed-point theorem",
+    "difficulty": "hard",
+    "domain": "mathematics",
+    "accept_aliases": "Brouwer's fixed-point theorem|Brouwer fixed point theorem"
+  },
+  {
+    "question": "In what year did the Aleppo Codex, one of the oldest surviving manuscripts of the Hebrew Bible, suffer damage during anti-Jewish riots in Syria?",
+    "correct_answer": "1947",
+    "difficulty": "hard",
+    "domain": "history",
+    "accept_aliases": ""
+  },
+  {
+    "question": "What is the specific epithet of the New Zealand bird commonly known as the kākāpō?",
+    "correct_answer": "habroptila",
+    "difficulty": "hard",
+    "domain": "science",
+    "accept_aliases": "Strigops habroptila|habroptilus"
+  },
+  {
+    "question": "Who scored the winning goal in the 1953 FA Cup Final, known as the 'Matthews Final'?",
+    "correct_answer": "Bill Perry",
+    "difficulty": "hard",
+    "domain": "sports",
+    "accept_aliases": "William Perry"
+  },
+  {
+    "question": "What is the Mohs hardness of topaz?",
+    "correct_answer": "8",
+    "difficulty": "hard",
+    "domain": "science",
+    "accept_aliases": ""
+  },
+  {
+    "question": "Which Byzantine emperor issued the Ecloga, a revised legal code, in 741 AD?",
+    "correct_answer": "Leo III the Isaurian",
+    "difficulty": "hard",
+    "domain": "history",
+    "accept_aliases": "Leo III|Leo the Isaurian"
+  },
+  {
+    "question": "What is the name of the smallest bone in the human body by mass?",
+    "correct_answer": "Stapes",
+    "difficulty": "hard",
+    "domain": "science",
+    "accept_aliases": "stirrup bone"
+  },
+  {
+    "question": "In how many dimensions does the E8 lattice exist?",
+    "correct_answer": "8",
+    "difficulty": "hard",
+    "domain": "mathematics",
+    "accept_aliases": "eight"
+  },
+  {
+    "question": "Who was the first person to translate the entire Bible into English from the original Hebrew and Greek texts, publishing his Old Testament in 1535?",
+    "correct_answer": "Miles Coverdale",
+    "difficulty": "hard",
+    "domain": "history",
+    "accept_aliases": "Myles Coverdale"
+  },
+  {
+    "question": "What was the maximum sustained wind speed in knots of Typhoon Tip (1979), the most intense tropical cyclone ever recorded by central pressure?",
+    "correct_answer": "165 knots",
+    "difficulty": "hard",
+    "domain": "science",
+    "accept_aliases": "165|190 mph|305 km/h"
+  },
+  {
+    "question": "Which French mathematician first proved that e (Euler's number) is transcendental, and in what year?",
+    "correct_answer": "Charles Hermite in 1873",
+    "difficulty": "hard",
+    "domain": "mathematics",
+    "accept_aliases": "Hermite|Charles Hermite, 1873"
+  },
+  {
+    "question": "What is the name of the largest lake by surface area on the island of Borneo?",
+    "correct_answer": "Danau Sentarum",
+    "difficulty": "hard",
+    "domain": "geography",
+    "accept_aliases": "Lake Sentarum|Sentarum"
+  },
+  {
+    "question": "Who was the losing presidential candidate in the 1876 United States presidential election, which was resolved by the Compromise of 1877?",
+    "correct_answer": "Samuel Tilden",
+    "difficulty": "hard",
+    "domain": "politics",
+    "accept_aliases": "Samuel J. Tilden|Samuel Jones Tilden"
+  },
+  {
+    "question": "What is the exact melting point of tungsten in degrees Celsius?",
+    "correct_answer": "3422°C",
+    "difficulty": "hard",
+    "domain": "science",
+    "accept_aliases": "3422|3,422°C"
+  },
+  {
+    "question": "Who served as the first Grand Master of the Order of the Star of India when it was founded in 1861?",
+    "correct_answer": "Queen Victoria",
+    "difficulty": "hard",
+    "domain": "history",
+    "accept_aliases": "Victoria"
+  },
+  {
+    "question": "What is the half-life of Plutonium-239 in years, rounded to the nearest thousand?",
+    "correct_answer": "24,000 years",
+    "difficulty": "hard",
+    "domain": "science",
+    "accept_aliases": "24000|24,000|24100"
+  },
+  {
+    "question": "Which Swedish chemist discovered the element cerium in 1803?",
+    "correct_answer": "Jöns Jacob Berzelius",
+    "difficulty": "hard",
+    "domain": "science",
+    "accept_aliases": "Berzelius|Wilhelm Hisinger and Berzelius"
+  },
+  {
+    "question": "What was the population of Iceland according to the 1703 census, the first complete census of the entire country?",
+    "correct_answer": "50,358",
+    "difficulty": "hard",
+    "domain": "history",
+    "accept_aliases": "50358|approximately 50,000"
+  },
+  {
+    "question": "In which year did the mathematician Évariste Galois write down his foundational work on group theory the night before his fatal duel?",
+    "correct_answer": "1832",
+    "difficulty": "hard",
+    "domain": "mathematics",
+    "accept_aliases": ""
+  },
+  {
+    "question": "What is the name of the deepest point in the Indian Ocean?",
+    "correct_answer": "Java Trench",
+    "difficulty": "hard",
+    "domain": "geography",
+    "accept_aliases": "Sunda Trench|Java Deep|Diamantina Deep"
+  },
+  {
+    "question": "Who was the architect of the Basilica of Superga near Turin, completed in 1731?",
+    "correct_answer": "Filippo Juvarra",
+    "difficulty": "hard",
+    "domain": "culture",
+    "accept_aliases": "Juvarra"
+  },
+  {
+    "question": "What is the orbital period of Haumea, the dwarf planet in the Kuiper Belt, in Earth years (rounded to the nearest year)?",
+    "correct_answer": "284 years",
+    "difficulty": "hard",
+    "domain": "science",
+    "accept_aliases": "284|283|285"
+  },
+  {
+    "question": "Which battle in 636 AD resulted in the decisive Muslim Arab conquest of the Levant from the Byzantine Empire?",
+    "correct_answer": "Battle of Yarmouk",
+    "difficulty": "hard",
+    "domain": "history",
+    "accept_aliases": "Yarmouk|Yarmuk|Battle of the Yarmuk"
+  },
+  {
+    "question": "What is the Shannon number, the estimated lower bound for the number of possible chess games (expressed as 10 to what power)?",
+    "correct_answer": "10^120",
+    "difficulty": "hard",
+    "domain": "mathematics",
+    "accept_aliases": "120|10 to the 120th power"
+  },
+  {
+    "question": "Who was the governor-general of the Dutch East Indies who ordered the construction of the Grote Postweg (Great Post Road) across Java in 1808?",
+    "correct_answer": "Herman Willem Daendels",
+    "difficulty": "hard",
+    "domain": "history",
+    "accept_aliases": "Daendels"
+  },
+  {
+    "question": "What is the record low temperature ever recorded in Africa, measured at Ifrane, Morocco, and in what year?",
+    "correct_answer": "-23.9°C in 1935",
+    "difficulty": "hard",
+    "domain": "geography",
+    "accept_aliases": "-23.9°C|−24°C in 1935|February 11, 1935"
+  },
+  {
+    "question": "What is the specific impulse (Isp) in seconds of the RS-25 engine (Space Shuttle Main Engine) at sea level?",
+    "correct_answer": "366 seconds",
+    "difficulty": "hard",
+    "domain": "science",
+    "accept_aliases": "366|366s"
+  },
+  {
+    "question": "Which 14th-century Persian poet wrote the Divan that reportedly contains 495 ghazals and is buried in a famous garden in Shiraz?",
+    "correct_answer": "Hafez",
+    "difficulty": "hard",
+    "domain": "culture",
+    "accept_aliases": "Hafiz|Khwāja Shams-ud-Dīn Muḥammad Ḥāfeẓ-e Shīrāzī"
+  },
+  {
+    "question": "What is the Chandrasekhar limit expressed in solar masses?",
+    "correct_answer": "1.4 solar masses",
+    "difficulty": "hard",
+    "domain": "science",
+    "accept_aliases": "1.44|1.4|approximately 1.4 solar masses"
+  },
+  {
+    "question": "In which year did the Republic of Ragusa (Dubrovnik) officially abolish the slave trade, making it one of the first European states to do so?",
+    "correct_answer": "1416",
+    "difficulty": "hard",
+    "domain": "history",
+    "accept_aliases": ""
+  },
+  {
+    "question": "What is the name of the only Test cricket ground in Rawalpindi, Pakistan?",
+    "correct_answer": "Rawalpindi Cricket Stadium",
+    "difficulty": "hard",
+    "domain": "sports",
+    "accept_aliases": "Pindi Cricket Stadium|Rawalpindi Stadium"
+  },
+  {
+    "question": "Who was the first woman to win a Fields Medal, and in what year was it awarded?",
+    "correct_answer": "Maryam Mirzakhani in 2014",
+    "difficulty": "hard",
+    "domain": "mathematics",
+    "accept_aliases": "Maryam Mirzakhani|Mirzakhani, 2014"
+  },
+  {
+    "question": "What is the total length in kilometers of the Gotthard Base Tunnel, the world's longest railway tunnel?",
+    "correct_answer": "57.09 km",
+    "difficulty": "hard",
+    "domain": "geography",
+    "accept_aliases": "57 km|57.1 km|57.09"
+  },
+  {
+    "question": "What is the half-life of bismuth-209, the least radioactive naturally occurring radioisotope, in years (order of magnitude)?",
+    "correct_answer": "1.9 × 10^19 years",
+    "difficulty": "hard",
+    "domain": "science",
+    "accept_aliases": "1.9e19 years|19 billion billion years|approximately 2 × 10^19 years"
+  },
+  {
+    "question": "Who served as the first Grand Master of the Order of the Star, the short-lived chivalric order founded by King John II of France in 1351?",
+    "correct_answer": "King John II of France himself",
+    "difficulty": "hard",
+    "domain": "history",
+    "accept_aliases": "John II of France|Jean II le Bon|John the Good"
+  },
+  {
+    "question": "What is the exact distance in astronomical units (AU) of the Sun's gravitational lens focal point, the minimum distance at which the Sun's gravity can focus light from a distant source?",
+    "correct_answer": "550 AU",
+    "difficulty": "hard",
+    "domain": "science",
+    "accept_aliases": "~550 AU|approximately 550 AU"
+  },
+  {
+    "question": "What was the population of Nauru according to the 2021 census, making it one of the least populous sovereign nations?",
+    "correct_answer": "12,511",
+    "difficulty": "hard",
+    "domain": "geography",
+    "accept_aliases": "12511|approximately 12,500"
+  },
+  {
+    "question": "Who was the Danish physicist who first predicted the existence of the neutrino's helicity (that neutrinos are left-handed) through a landmark 1958 experiment at Brookhaven National Laboratory?",
+    "correct_answer": "Maurice Goldhaber",
+    "difficulty": "hard",
+    "domain": "science",
+    "accept_aliases": "Goldhaber|M. Goldhaber"
+  },
+  {
+    "question": "What was the exact population of the municipality of Lom u Mostu in the Czech Republic according to the 2021 census?",
+    "correct_answer": "1,932",
+    "difficulty": "extreme",
+    "domain": "geography",
+    "accept_aliases": "1932"
+  },
+  {
+    "question": "What was the total mine production of gallium (in metric tons) worldwide in 2017 according to the USGS Mineral Commodity Summaries?",
+    "correct_answer": "315",
+    "difficulty": "extreme",
+    "domain": "science",
+    "accept_aliases": "315 metric tons|315 tonnes"
+  },
+  {
+    "question": "What is the molecular weight of riboflavin (vitamin B2) to three decimal places in g/mol?",
+    "correct_answer": "376.364",
+    "difficulty": "extreme",
+    "domain": "science",
+    "accept_aliases": "376.364 g/mol"
+  },
+  {
+    "question": "Who won the mayoral election in Sorong, West Papua, Indonesia in 2017?",
+    "correct_answer": "Lamberthus Jitmau",
+    "difficulty": "extreme",
+    "domain": "politics",
+    "accept_aliases": "Lambert Jitmau|L. Jitmau"
+  },
+  {
+    "question": "What was the US patent number granted to Nikola Tesla for his 'System of Electrical Distribution' filed in 1888 that described a polyphase alternating current system?",
+    "correct_answer": "US381970",
+    "difficulty": "extreme",
+    "domain": "history",
+    "accept_aliases": "381970|US Patent 381,970|381,970"
+  },
+  {
+    "question": "How many home runs did Boise Hawks outfielder Jared Simon hit during the 2013 Northwest League season?",
+    "correct_answer": "3",
+    "difficulty": "extreme",
+    "domain": "sports",
+    "accept_aliases": ""
+  },
+  {
+    "question": "What was the voter turnout percentage in the 2019 Bangladeshi Dhaka-5 by-election?",
+    "correct_answer": "5.28%",
+    "difficulty": "extreme",
+    "domain": "politics",
+    "accept_aliases": "5.28|5.28 percent"
+  },
+  {
+    "question": "What is the elevation in meters of the summit of Mount Merbabu in Central Java, Indonesia?",
+    "correct_answer": "3,145",
+    "difficulty": "extreme",
+    "domain": "geography",
+    "accept_aliases": "3145|3,145 m|3145 meters"
+  },
+  {
+    "question": "What was the total production of refined selenium (in metric tons) in Japan in 2016 according to USGS data?",
+    "correct_answer": "785",
+    "difficulty": "extreme",
+    "domain": "science",
+    "accept_aliases": "785 metric tons"
+  },
+  {
+    "question": "What is the molecular weight of azithromycin to three decimal places in g/mol?",
+    "correct_answer": "748.984",
+    "difficulty": "extreme",
+    "domain": "science",
+    "accept_aliases": "748.984 g/mol"
+  },
+  {
+    "question": "Who was elected as the chairman of the Chitwan District Coordination Committee in the 2017 Nepal local elections?",
+    "correct_answer": "Babu Ram Shrestha",
+    "difficulty": "extreme",
+    "domain": "politics",
+    "accept_aliases": "Baburam Shrestha"
+  },
+  {
+    "question": "What was the population of the commune of Auvillars-sur-Saône in Côte-d'Or, France, according to the 2020 census?",
+    "correct_answer": "233",
+    "difficulty": "extreme",
+    "domain": "geography",
+    "accept_aliases": ""
+  },
+  {
+    "question": "What was the batting average of pitcher Masahiro Tanaka during the 2014 Tohoku Rakuten Golden Eagles season in NPB before his move to MLB?",
+    "correct_answer": "He did not play for Rakuten in 2014; he signed with the New York Yankees before the 2014 season.",
+    "correct_answer_revised": "He joined the Yankees in 2014 and did not play NPB that year",
+    "difficulty": "extreme",
+    "domain": "sports",
+    "accept_aliases": ""
+  },
+  {
+    "question": "What is the CAS registry number for perfluorooctanoic acid (PFOA)?",
+    "correct_answer": "335-67-1",
+    "difficulty": "extreme",
+    "domain": "science",
+    "accept_aliases": "335671"
+  },
+  {
+    "question": "How many seats did the Mizo National Front win in the 2013 Mizoram Legislative Assembly election in India?",
+    "correct_answer": "5",
+    "difficulty": "extreme",
+    "domain": "politics",
+    "accept_aliases": "five"
+  },
+  {
+    "question": "What was the total world mine production of tellurium in metric tons in 2018 according to USGS estimates?",
+    "correct_answer": "470",
+    "difficulty": "extreme",
+    "domain": "science",
+    "accept_aliases": "470 metric tons"
+  },
+  {
+    "question": "What was the exact area in square kilometers of the former municipality of Leivonmäki in Finland before it was merged into Joutsa in 2008?",
+    "correct_answer": "415.52",
+    "difficulty": "extreme",
+    "domain": "geography",
+    "accept_aliases": "415.52 km²|415.52 km2"
+  },
+  {
+    "question": "What was the jersey number of midfielder Daisuke Takahashi who played for Montedio Yamagata in the 2015 J2 League season?",
+    "correct_answer": "14",
+    "difficulty": "extreme",
+    "domain": "sports",
+    "accept_aliases": ""
+  },
+  {
+    "question": "What is the molecular weight of verapamil hydrochloride to three decimal places in g/mol?",
+    "correct_answer": "491.061",
+    "difficulty": "extreme",
+    "domain": "science",
+    "accept_aliases": "491.061 g/mol"
+  },
+  {
+    "question": "How many total votes did the winning candidate receive in the 2016 municipal election for mayor of San Fernando, Pampanga, Philippines?",
+    "correct_answer": "88,762",
+    "difficulty": "extreme",
+    "domain": "politics",
+    "accept_aliases": "88762"
+  },
+  {
+    "question": "What was the population of the commune of Vaux-en-Dieulet in the Ardennes department, France, according to the 2019 census?",
+    "correct_answer": "68",
+    "difficulty": "extreme",
+    "domain": "geography",
+    "accept_aliases": ""
+  },
+  {
+    "question": "What was the total mine production of gallium in kilograms worldwide in 2017 according to USGS estimates?",
+    "correct_answer": "315000",
+    "difficulty": "extreme",
+    "domain": "science",
+    "accept_aliases": "315,000|315000 kg"
+  },
+  {
+    "question": "What is the molecular weight of atorvastatin calcium trihydrate to three decimal places in g/mol?",
+    "correct_answer": "1209.399",
+    "difficulty": "extreme",
+    "domain": "science",
+    "accept_aliases": ""
+  },
+  {
+    "question": "How many seats did the Jharkhand Vikas Morcha (Prajatantrik) win in the 2014 Jharkhand Legislative Assembly election?",
+    "correct_answer": "8",
+    "difficulty": "extreme",
+    "domain": "politics",
+    "accept_aliases": "eight"
+  },
+  {
+    "question": "What was the jersey number of Yūya Ōsako during the 2013 Kashima Antlers season in the J1 League?",
+    "correct_answer": "15",
+    "difficulty": "extreme",
+    "domain": "sports",
+    "accept_aliases": ""
+  },
+  {
+    "question": "What is the US patent number for the original PageRank algorithm filed by Larry Page in 1998?",
+    "correct_answer": "US6285999B1",
+    "difficulty": "extreme",
+    "domain": "science",
+    "accept_aliases": "6285999|US6285999|6,285,999"
+  },
+  {
+    "question": "What was the population of the municipality of Tržič in Slovenia according to the 2002 census?",
+    "correct_answer": "14895",
+    "difficulty": "extreme",
+    "domain": "geography",
+    "accept_aliases": "14,895"
+  },
+  {
+    "question": "How many total votes did Bhumjaithai Party receive in the Nakhon Ratchasima constituency in the 2011 Thai general election?",
+    "correct_answer": "198633",
+    "difficulty": "extreme",
+    "domain": "politics",
+    "accept_aliases": "198,633"
+  },
+  {
+    "question": "What was the exact area in square kilometers of the former municipality of Vuolijoki in Finland before its merger into Kajaani in 2007?",
+    "correct_answer": "672.86",
+    "difficulty": "extreme",
+    "domain": "geography",
+    "accept_aliases": "672.9"
+  },
+  {
+    "question": "What was the batting average of catcher Yuhei Nakamura for the Yokohama DeNA BayStars in the 2016 NPB season?",
+    "correct_answer": ".178",
+    "difficulty": "extreme",
+    "domain": "sports",
+    "accept_aliases": "0.178"
+  },
+  {
+    "question": "What is the CAS registry number for sodium perfluorobutanesulfonate (PFBS sodium salt)?",
+    "correct_answer": "29420-49-3",
+    "difficulty": "extreme",
+    "domain": "science",
+    "accept_aliases": ""
+  },
+  {
+    "question": "How many seats did the Sikkim Democratic Front win in the 2009 Sikkim Legislative Assembly election?",
+    "correct_answer": "32",
+    "difficulty": "extreme",
+    "domain": "politics",
+    "accept_aliases": "thirty-two"
+  },
+  {
+    "question": "What was the world mine production of bismuth in metric tons in 2016 according to USGS Mineral Commodity Summaries?",
+    "correct_answer": "10200",
+    "difficulty": "extreme",
+    "domain": "science",
+    "accept_aliases": "10,200|10200 metric tons"
+  },
+  {
+    "question": "What was the population of the commune of Bannes in the Haute-Marne department, France, according to the 2019 census?",
+    "correct_answer": "406",
+    "difficulty": "extreme",
+    "domain": "geography",
+    "accept_aliases": ""
+  },
+  {
+    "question": "What is the molecular weight of rilpivirine hydrochloride to three decimal places in g/mol?",
+    "correct_answer": "402.878",
+    "difficulty": "extreme",
+    "domain": "science",
+    "accept_aliases": ""
+  },
+  {
+    "question": "How many runs did Abahani Limited score in total in the 2014–15 Dhaka Premier Division Cricket League season?",
+    "correct_answer": "3412",
+    "difficulty": "extreme",
+    "domain": "sports",
+    "accept_aliases": "3,412"
+  },
+  {
+    "question": "What was the total number of registered voters in the municipality of Tubungan, Iloilo, Philippines, during the 2013 barangay elections?",
+    "correct_answer": "18742",
+    "difficulty": "extreme",
+    "domain": "politics",
+    "accept_aliases": "18,742"
+  },
+  {
+    "question": "What was the elevation in meters of the triangulation point at the summit of Mount Kaikoma in the Akaishi Mountains of Japan?",
+    "correct_answer": "2967",
+    "difficulty": "extreme",
+    "domain": "geography",
+    "accept_aliases": "2,967|2967 m|2967m"
+  },
+  {
+    "question": "What was the total production of refined indium in metric tons in South Korea in 2015 according to USGS data?",
+    "correct_answer": "195",
+    "difficulty": "extreme",
+    "domain": "science",
+    "accept_aliases": "195 metric tons"
+  },
+  {
+    "question": "How many goals did striker Hérold Goulon score for AC Ajaccio during the 2012–13 Ligue 2 season?",
+    "correct_answer": "5",
+    "difficulty": "extreme",
+    "domain": "sports",
+    "accept_aliases": "five"
+  },
+  {
+    "question": "What was the population of the commune of Autrechêne in the Territoire de Belfort department, France, according to the 2020 census?",
+    "correct_answer": "233",
+    "difficulty": "extreme",
+    "domain": "geography",
+    "accept_aliases": ""
+  },
+  {
+    "question": "What is the molecular weight of amifostine (WR-2721) as the free thiol form to three decimal places in g/mol?",
+    "correct_answer": "214.224",
+    "difficulty": "extreme",
+    "domain": "science",
+    "accept_aliases": ""
+  },
+  {
+    "question": "How many seats did the Mizo National Front win in the 2003 Mizoram Legislative Assembly election?",
+    "correct_answer": "12",
+    "difficulty": "extreme",
+    "domain": "politics",
+    "accept_aliases": ""
+  },
+  {
+    "question": "What was the world mine production of gallium in metric tons in 2018 according to USGS Mineral Commodity Summaries?",
+    "correct_answer": "410",
+    "difficulty": "extreme",
+    "domain": "science",
+    "accept_aliases": ""
+  },
+  {
+    "question": "What is the US patent number for the original Keurig single-cup brewing system invented by John Sylvan and Peter Dragone?",
+    "correct_answer": "5,325,765",
+    "difficulty": "extreme",
+    "domain": "history",
+    "accept_aliases": "US5325765|5325765"
+  },
+  {
+    "question": "What was the total number of votes received by the USDP party in the Mandalay Region for the 2015 Myanmar Pyithu Hluttaw election?",
+    "correct_answer": "396,043",
+    "difficulty": "extreme",
+    "domain": "politics",
+    "accept_aliases": "396043"
+  },
+  {
+    "question": "How many home runs did first baseman Chris Marrero hit for the Syracuse Chiefs (AAA) during the 2013 International League season?",
+    "correct_answer": "14",
+    "difficulty": "extreme",
+    "domain": "sports",
+    "accept_aliases": ""
+  },
+  {
+    "question": "What is the molecular weight of velpatasvir to three decimal places in g/mol?",
+    "correct_answer": "883.017",
+    "difficulty": "extreme",
+    "domain": "science",
+    "accept_aliases": ""
+  },
+  {
+    "question": "What was the population of the municipality of Ribeira de Pena in the Vila Real district, Portugal, according to the 2021 census?",
+    "correct_answer": "6,087",
+    "difficulty": "extreme",
+    "domain": "geography",
+    "accept_aliases": "6087"
+  },
+  {
+    "question": "What was the total refined production of tellurium in metric tons in Japan in 2017 according to USGS data?",
+    "correct_answer": "40",
+    "difficulty": "extreme",
+    "domain": "science",
+    "accept_aliases": ""
+  },
+  {
+    "question": "How many goals did Atsushi Yanagisawa score for Vegalta Sendai during the 2011 J.League Division 1 season?",
+    "correct_answer": "3",
+    "difficulty": "extreme",
+    "domain": "sports",
+    "accept_aliases": ""
+  },
+  {
+    "question": "What was the elevation in meters of the highest point of the municipality of Sarroca de Bellera in the Pallars Jussà comarca, Catalonia?",
+    "correct_answer": "2,876",
+    "difficulty": "extreme",
+    "domain": "geography",
+    "accept_aliases": "2876"
+  },
+  {
+    "question": "What is the CAS registry number for perfluorooctanoic acid (PFOA)?",
+    "correct_answer": "335-67-1",
+    "difficulty": "extreme",
+    "domain": "science",
+    "accept_aliases": "335671"
+  },
+  {
+    "question": "How many seats did the Janata Dal (Secular) win in the 2004 Karnataka Legislative Assembly election?",
+    "correct_answer": "58",
+    "difficulty": "extreme",
+    "domain": "politics",
+    "accept_aliases": ""
+  },
+  {
+    "question": "What was the population of the commune of Vaux-en-Dieulet in the Ardennes department, France, according to the 2020 census?",
+    "correct_answer": "79",
+    "difficulty": "extreme",
+    "domain": "geography",
+    "accept_aliases": ""
+  },
+  {
+    "question": "What is the molecular weight of cabozantinib (free base) to three decimal places in g/mol?",
+    "correct_answer": "501.510",
+    "difficulty": "extreme",
+    "domain": "science",
+    "accept_aliases": ""
+  },
+  {
+    "question": "How many wickets did left-arm spinner Agar Saleem take in the 2008–09 Quaid-e-Azam Trophy first-class cricket season in Pakistan?",
+    "correct_answer": "31",
+    "difficulty": "extreme",
+    "domain": "sports",
+    "accept_aliases": ""
+  },
+  {
+    "question": "What was the world mine production of natural graphite in thousand metric tons in 2019 according to USGS Mineral Commodity Summaries?",
+    "correct_answer": "1,100",
+    "difficulty": "extreme",
+    "domain": "science",
+    "accept_aliases": "1100"
+  },
+  {
+    "question": "What was the total number of valid votes cast in the 2017 gubernatorial election in Benue State, Nigeria?",
+    "correct_answer": "Not applicable — no gubernatorial election in Benue in 2017; the next was 2019",
+    "difficulty": "extreme",
+    "domain": "politics",
+    "accept_aliases": ""
+  },
+  {
+    "question": "What is the US patent number for the PageRank algorithm originally filed by Larry Page in 1998?",
+    "correct_answer": "6,285,999",
+    "difficulty": "extreme",
+    "domain": "history",
+    "accept_aliases": "US6285999|6285999"
+  },
+  {
+    "question": "What was the population of the commune of Aunat in the Aude department, France, according to the 2019 census?",
+    "correct_answer": "28",
+    "difficulty": "extreme",
+    "domain": "geography",
+    "accept_aliases": ""
+  },
+  {
+    "question": "What is the molecular weight of rilpivirine (free base) to three decimal places in g/mol?",
+    "correct_answer": "366.422",
+    "difficulty": "extreme",
+    "domain": "science",
+    "accept_aliases": ""
+  },
+  {
+    "question": "How many seats did the Sikkim Democratic Front win in the 2009 Sikkim Legislative Assembly election?",
+    "correct_answer": "32",
+    "difficulty": "extreme",
+    "domain": "politics",
+    "accept_aliases": ""
+  },
+  {
+    "question": "What was the world mine production of bismuth in metric tons in 2018 according to USGS Mineral Commodity Summaries 2020?",
+    "correct_answer": "17,000",
+    "difficulty": "extreme",
+    "domain": "science",
+    "accept_aliases": "17000"
+  },
+  {
+    "question": "What was the total number of votes received by the winning candidate in the 2019 Ondo East State Constituency by-election for the Ondo State House of Assembly, Nigeria?",
+    "correct_answer": "14,679",
+    "difficulty": "extreme",
+    "domain": "politics",
+    "accept_aliases": "14679"
+  },
+  {
+    "question": "What is the US patent number for the original RSA cryptographic algorithm patent filed by Rivest, Shamir, and Adleman?",
+    "correct_answer": "US4405829",
+    "difficulty": "extreme",
+    "domain": "science",
+    "accept_aliases": "4405829|US4,405,829|4,405,829"
+  },
+  {
+    "question": "What was the population of the municipality of Villar del Cobo in Teruel province, Aragon, Spain, according to the 2020 INE census?",
+    "correct_answer": "106",
+    "difficulty": "extreme",
+    "domain": "geography",
+    "accept_aliases": ""
+  },
+  {
+    "question": "How many home runs did outfielder Tyrone Horne hit during the 1998 Arkansas Travelers (AA) season?",
+    "correct_answer": "4",
+    "difficulty": "extreme",
+    "domain": "sports",
+    "accept_aliases": ""
+  },
+  {
+    "question": "What is the CAS registry number for sodium hexafluorosilicate?",
+    "correct_answer": "16893-85-9",
+    "difficulty": "extreme",
+    "domain": "science",
+    "accept_aliases": ""
+  },
+  {
+    "question": "In the 2015 municipal elections in Moalboal, Cebu, Philippines, how many votes did the winning mayoral candidate receive?",
+    "correct_answer": "12,088",
+    "difficulty": "extreme",
+    "domain": "politics",
+    "accept_aliases": "12088"
+  },
+  {
+    "question": "What was the global mine production of tellurium in metric tons in 2017 according to USGS estimates?",
+    "correct_answer": "420",
+    "difficulty": "extreme",
+    "domain": "science",
+    "accept_aliases": ""
+  },
+  {
+    "question": "What is the molecular weight of eribulin mesylate to three decimal places in g/mol?",
+    "correct_answer": "826.005",
+    "difficulty": "extreme",
+    "domain": "science",
+    "accept_aliases": ""
+  },
+  {
+    "question": "What was the population of the commune of Trémouille-Saint-Loup in the Puy-de-Dôme department, France, according to the 2019 census?",
+    "correct_answer": "79",
+    "difficulty": "extreme",
+    "domain": "geography",
+    "accept_aliases": ""
+  },
+  {
+    "question": "How many total points did guard Elmer Bennett score during the 1995-96 Cleveland Cavaliers NBA season?",
+    "correct_answer": "199",
+    "difficulty": "extreme",
+    "domain": "sports",
+    "accept_aliases": ""
+  },
+  {
+    "question": "What is the US patent number for Willis Carrier's original 'Apparatus for Treating Air' patent filed in 1906?",
+    "correct_answer": "808897",
+    "difficulty": "extreme",
+    "domain": "history",
+    "accept_aliases": "US808897|808,897"
+  },
+  {
+    "question": "How many seats did the Mizo National Front win in the 2008 Mizoram Legislative Assembly election?",
+    "correct_answer": "3",
+    "difficulty": "extreme",
+    "domain": "politics",
+    "accept_aliases": ""
+  },
+  {
+    "question": "What was the elevation in meters of the summit of Pico Mucuñuque in the Sierra Nevada de Mérida, Venezuela?",
+    "correct_answer": "4609",
+    "difficulty": "extreme",
+    "domain": "geography",
+    "accept_aliases": "4,609"
+  },
+  {
+    "question": "What was China's mine production of indium in metric tons in 2019 according to USGS Mineral Commodity Summaries 2021?",
+    "correct_answer": "300",
+    "difficulty": "extreme",
+    "domain": "science",
+    "accept_aliases": ""
+  },
+  {
+    "question": "What is the CAS registry number for tris(2-chloroethyl) phosphate (TCEP)?",
+    "correct_answer": "115-96-8",
+    "difficulty": "extreme",
+    "domain": "science",
+    "accept_aliases": ""
+  },
+  {
+    "question": "How many first-class runs did cricketer Rajinder Goel score in his entire career?",
+    "correct_answer": "3082",
+    "difficulty": "extreme",
+    "domain": "sports",
+    "accept_aliases": "3,082"
+  },
+  {
+    "question": "What was the population of the municipality of Sučany in the Žilina district of Slovakia according to the 2021 census?",
+    "correct_answer": "4,342",
+    "difficulty": "extreme",
+    "domain": "geography",
+    "accept_aliases": "4342"
+  },
+  {
+    "question": "What is the molecular weight of venetoclax (ABT-199) to three decimal places in g/mol?",
+    "correct_answer": "868.443",
+    "difficulty": "extreme",
+    "domain": "science",
+    "accept_aliases": ""
+  },
+  {
+    "question": "What was the total world mine production of gallium in metric tons in 2020 according to USGS Mineral Commodity Summaries 2022?",
+    "correct_answer": "300",
+    "difficulty": "extreme",
+    "domain": "science",
+    "accept_aliases": "300 metric tons"
+  },
+  {
+    "question": "How many seats did the Sikkim Democratic Front (SDF) win in the 2004 Sikkim Legislative Assembly election?",
+    "correct_answer": "31",
+    "difficulty": "extreme",
+    "domain": "politics",
+    "accept_aliases": ""
+  },
+  {
+    "question": "What is the US patent number for Philo Farnsworth's 1930 patent for a 'Television System'?",
+    "correct_answer": "US1773980",
+    "difficulty": "extreme",
+    "domain": "history",
+    "accept_aliases": "1,773,980|1773980|US1,773,980"
+  },
+  {
+    "question": "What was the population of the commune of Auribeau-sur-Siagne in the Alpes-Maritimes department, France, according to the 2020 census?",
+    "correct_answer": "3,098",
+    "difficulty": "extreme",
+    "domain": "geography",
+    "accept_aliases": "3098"
+  },
+  {
+    "question": "How many goals did striker Moussa Sow score for Fenerbahçe in the 2013-14 Turkish Süper Lig season?",
+    "correct_answer": "11",
+    "difficulty": "extreme",
+    "domain": "sports",
+    "accept_aliases": ""
+  },
+  {
+    "question": "What is the CAS registry number for perfluorooctanesulfonic acid (PFOS)?",
+    "correct_answer": "1763-23-1",
+    "difficulty": "extreme",
+    "domain": "science",
+    "accept_aliases": ""
+  },
+  {
+    "question": "What was the total bauxite mine production of Guinea in thousands of metric tons in 2021 according to USGS Mineral Commodity Summaries 2023?",
+    "correct_answer": "87,000",
+    "difficulty": "extreme",
+    "domain": "science",
+    "accept_aliases": "87000"
+  },
+  {
+    "question": "How many votes did the UDPS party receive in the Kasaï-Central province during the 2018 Democratic Republic of the Congo legislative elections?",
+    "correct_answer": "672,914",
+    "difficulty": "extreme",
+    "domain": "politics",
+    "accept_aliases": "672914"
+  },
+  {
+    "question": "What is the molecular weight of cabozantinib (free base) to three decimal places in g/mol?",
+    "correct_answer": "501.510",
+    "difficulty": "extreme",
+    "domain": "science",
+    "accept_aliases": "501.51"
+  },
+  {
+    "question": "What was the population of the town of Kičevo (Kichevo) in North Macedonia according to the 2002 census?",
+    "correct_answer": "30,138",
+    "difficulty": "extreme",
+    "domain": "geography",
+    "accept_aliases": "30138"
+  },
+  {
+    "question": "How many first-class wickets did English cricketer Don Shepherd take in his entire career?",
+    "correct_answer": "2,218",
+    "difficulty": "extreme",
+    "domain": "sports",
+    "accept_aliases": "2218"
+  },
+  {
+    "question": "What was the mine production of bismuth in China in metric tons in 2019 according to USGS estimates?",
+    "correct_answer": "6,000",
+    "difficulty": "extreme",
+    "domain": "science",
+    "accept_aliases": "6000"
+  },
+  {
+    "question": "What is the US patent number for Edwin Land's first instant photography patent titled 'Photographic Product Comprising a Rupturable Container Carrying a Photographic Processing Liquid'?",
+    "correct_answer": "US2543181",
+    "difficulty": "extreme",
+    "domain": "history",
+    "accept_aliases": "2543181|2,543,181"
+  },
+  {
+    "question": "How many seats did the Mongolian People's Party win in the 2016 Mongolian parliamentary election?",
+    "correct_answer": "65",
+    "difficulty": "extreme",
+    "domain": "politics",
+    "accept_aliases": ""
+  },
+  {
+    "question": "What was the population of the municipality of Brezno in the Banská Bystrica region of Slovakia according to the 2021 census?",
+    "correct_answer": "20,658",
+    "difficulty": "extreme",
+    "domain": "geography",
+    "accept_aliases": "20658"
+  },
+  {
+    "question": "What is the molecular weight of osimertinib (free base, AZD9291) to three decimal places in g/mol?",
+    "correct_answer": "499.619",
+    "difficulty": "extreme",
+    "domain": "science",
+    "accept_aliases": ""
+  },
+  {
+    "question": "How many runs did batsman Arun Lal score in the 1989-90 Ranji Trophy season for Bengal?",
+    "correct_answer": "625",
+    "difficulty": "extreme",
+    "domain": "sports",
+    "accept_aliases": ""
+  },
+  {
+    "question": "What was the total mine production of natural graphite in Brazil in metric tons in 2020 according to USGS Mineral Commodity Summaries 2022?",
+    "correct_answer": "68,000",
+    "difficulty": "extreme",
+    "domain": "science",
+    "accept_aliases": "68000"
+  },
+  {
+    "question": "What was the population of the municipality of Lüchow (Wendland) in Lower Saxony, Germany, according to the December 31, 2021 official figure?",
+    "correct_answer": "9,422",
+    "difficulty": "extreme",
+    "domain": "geography",
+    "accept_aliases": "9422"
+  },
+  {
+    "question": "What is the molecular weight of venetoclax (free base) to three decimal places in g/mol?",
+    "correct_answer": "868.443",
+    "difficulty": "extreme",
+    "domain": "science",
+    "accept_aliases": ""
+  },
+  {
+    "question": "How many seats did the Prosperous Justice Party (PKS) win in the 2019 Indonesian legislative election for the People's Representative Council (DPR)?",
+    "correct_answer": "50",
+    "difficulty": "extreme",
+    "domain": "politics",
+    "accept_aliases": ""
+  },
+  {
+    "question": "What was the mine production of tungsten concentrate (in metric tons of tungsten content) in Bolivia in 2019 according to USGS estimates?",
+    "correct_answer": "1,400",
+    "difficulty": "extreme",
+    "domain": "science",
+    "accept_aliases": "1400"
+  },
+  {
+    "question": "What is the US patent number for the original PageRank patent filed by Lawrence Page and assigned to Stanford University?",
+    "correct_answer": "US6285999B1",
+    "difficulty": "extreme",
+    "domain": "science",
+    "accept_aliases": "6285999|US6285999|6,285,999"
+  },
+  {
+    "question": "What was the population of the commune of Contes in the Alpes-Maritimes département of France according to the 2020 census?",
+    "correct_answer": "7,339",
+    "difficulty": "extreme",
+    "domain": "geography",
+    "accept_aliases": "7339"
+  },
+  {
+    "question": "How many goals did Zambian footballer Kalusha Bwalya score in his full international career for the Zambia national team?",
+    "correct_answer": "54",
+    "difficulty": "extreme",
+    "domain": "sports",
+    "accept_aliases": ""
+  },
+  {
+    "question": "What was the total mine production of beryllium (in metric tons) in the United States in 2020 according to USGS Mineral Commodity Summaries 2022?",
+    "correct_answer": "170",
+    "difficulty": "extreme",
+    "domain": "science",
+    "accept_aliases": ""
+  },
+  {
+    "question": "What is the molecular weight of ponatinib (free base) to three decimal places in g/mol?",
+    "correct_answer": "532.564",
+    "difficulty": "extreme",
+    "domain": "science",
+    "accept_aliases": ""
+  },
+  {
+    "question": "How many seats did the Muttahida Qaumi Movement-Pakistan (MQM-P) win in the 2018 Pakistani general election for the National Assembly?",
+    "correct_answer": "7",
+    "difficulty": "extreme",
+    "domain": "politics",
+    "accept_aliases": ""
+  },
+  {
+    "question": "What was the population of the town of Valkeakoski in the Pirkanmaa region of Finland as of December 31, 2022?",
+    "correct_answer": "20,868",
+    "difficulty": "extreme",
+    "domain": "geography",
+    "accept_aliases": "20868"
+  },
+  {
+    "question": "How many first-class matches did South African cricketer Jimmy Cook play in his entire career?",
+    "correct_answer": "234",
+    "difficulty": "extreme",
+    "domain": "sports",
+    "accept_aliases": ""
+  },
+  {
+    "question": "What was the mine production of antimony (in metric tons of antimony content) in Russia in 2019 according to USGS estimates?",
+    "correct_answer": "30,000",
+    "difficulty": "extreme",
+    "domain": "science",
+    "accept_aliases": "30000"
+  },
+  {
+    "question": "What is the US patent number for Nikola Tesla's patent titled 'Apparatus for Transmitting Electrical Energy' filed in 1902?",
+    "correct_answer": "US1119732A",
+    "difficulty": "extreme",
+    "domain": "science",
+    "accept_aliases": "1119732|1,119,732|US1119732"
+  },
+  {
+    "question": "What was the population of the municipality of Strumica in North Macedonia according to the 2002 census?",
+    "correct_answer": "54,676",
+    "difficulty": "extreme",
+    "domain": "geography",
+    "accept_aliases": "54676"
+  },
+  {
+    "question": "How many seats did the Druk Phuensum Tshogpa party win in the 2018 Bhutanese National Assembly election?",
+    "correct_answer": "3",
+    "difficulty": "extreme",
+    "domain": "politics",
+    "accept_aliases": ""
+  },
+  {
+    "question": "What is the molecular weight of lorlatinib (free base) to three decimal places in g/mol?",
+    "correct_answer": "406.414",
+    "difficulty": "extreme",
+    "domain": "science",
+    "accept_aliases": ""
+  },
+  {
+    "question": "How many career regular-season games did pitcher Steve Barber win in the International League during the 1966 season while playing for the Rochester Red Wings?",
+    "correct_answer": "5",
+    "difficulty": "extreme",
+    "domain": "sports",
+    "accept_aliases": ""
+  },
+  {
+    "question": "What was the total mine production of gallium (in metric tons) worldwide in 2020 according to USGS Mineral Commodity Summaries 2022?",
+    "correct_answer": "300",
+    "difficulty": "extreme",
+    "domain": "science",
+    "accept_aliases": ""
+  },
+  {
+    "question": "What was the population of the municipality of Kotor in Montenegro according to the 2011 census?",
+    "correct_answer": "22,601",
+    "difficulty": "extreme",
+    "domain": "geography",
+    "accept_aliases": "22601"
+  },
+  {
+    "question": "What was the population of the municipality of Kičevo in North Macedonia according to the 2002 census?",
+    "correct_answer": "30,138",
+    "difficulty": "extreme",
+    "domain": "geography",
+    "accept_aliases": "30138"
+  },
+  {
+    "question": "What was the mine production of beryllium (in metric tons of beryllium content) in the United States in 2021 according to USGS Mineral Commodity Summaries 2023?",
+    "correct_answer": "170",
+    "difficulty": "extreme",
+    "domain": "science",
+    "accept_aliases": ""
+  },
+  {
+    "question": "What is the molecular weight of venetoclax (free base, C46H50ClN7O7S) to three decimal places in g/mol?",
+    "correct_answer": "868.440",
+    "difficulty": "extreme",
+    "domain": "science",
+    "accept_aliases": "868.44"
+  },
+  {
+    "question": "How many seats did the Maldivian Democratic Party (MDP) win in the 2014 Maldivian parliamentary election?",
+    "correct_answer": "26",
+    "difficulty": "extreme",
+    "domain": "politics",
+    "accept_aliases": ""
+  },
+  {
+    "question": "What is the US patent number for the patent titled 'Art of Compressing Gases' granted to Carl von Linde in 1903?",
+    "correct_answer": "727,650",
+    "difficulty": "extreme",
+    "domain": "history",
+    "accept_aliases": "727650|US727650"
+  }
+]

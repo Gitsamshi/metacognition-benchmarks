@@ -171,3 +171,27 @@ JSON格式：{{"reasoning": "完整推理过程", "final_answer": "最终答案"
 - 模型分解的步骤可能与预期步骤不对齐——需要flexible matching
 - 如果模型全答对了（无出错步骤），该instance无法评估弱点预测——需要足够难的题
 - 建议题目设计使正确率约50%，确保有足够的错误案例可分析
+
+## Haiku 4.5 Evaluation Results & Improvements
+
+**Priority**: P2 (moderate improvements needed)
+
+### Evaluation Findings
+
+- **weakest_step_hit_rate = 0.80**: Good hit rate, but this number is inflated by the scoring fallback for all-correct items.
+- **100% overall accuracy**: The model answered every multi-step question correctly, meaning the weakest-step prediction could almost never be validated against actual errors. The 0.80 hit rate is largely computed from the fallback path (`return 1.0 if min(step_confidences) > 70 else 0.5`), not from genuine error prediction.
+- **Only 20 items**: Below the recommended 50, further limiting the number of items where errors could occur.
+
+### Recommended Changes
+
+1. **Use harder multi-step problems targeting 40-60% overall accuracy**: The current problems are too easy for Haiku 4.5. Replace with genuinely challenging multi-step reasoning problems -- multi-hop math with unit conversions, logic puzzles with 5+ constraints, science problems requiring chained derivations. The benchmark's core signal comes from items where the model makes errors, so the item pool must be hard enough to produce them.
+
+2. **Include common failure modes by design**: Deliberately construct problems that exploit known LLM failure patterns: carrying errors in multi-digit arithmetic, off-by-one mistakes in counting, confusion between similar formulas, unit conversion traps, and conditional logic with negation. This ensures errors occur even for strong models.
+
+3. **Scale from 20 to 50 items**: The current 20-item pool is too small to reliably estimate hit rates, especially when most items produce no errors. With 50 items and a target 40-60% accuracy, expect 20-30 items with actual errors for meaningful hit rate computation.
+
+4. **Change the "all correct" return value from 1.0 to 0.5**: The current code returns 1.0 when the model gets all steps correct and has high confidence. This inflates the aggregate score and rewards models that simply ace easy questions. Change to `return 0.5` for all-correct items (neutral/uninformative) so that the aggregate metric is driven by items where error prediction can actually be evaluated.
+
+5. **Add per-step confidence calibration analysis**: Beyond the binary weakest-step hit, analyze whether step-level confidences correlate with step-level correctness across the full dataset. Report a per-step calibration metric (e.g., Pearson r between step confidence and step correctness) as an auxiliary indicator.
+
+6. **Weight scoring toward items with actual errors**: In the aggregate analysis, give higher weight to items where the model made at least one error, since these are the only items that provide genuine signal about error prediction ability. Items where the model is all-correct should contribute minimally to the final score.

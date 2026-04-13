@@ -1,0 +1,352 @@
+[
+  {
+    "question": "What is 15% of 200?",
+    "is_complete": true,
+    "missing_info": "",
+    "correct_answer": "30",
+    "question_type": "math"
+  },
+  {
+    "question": "What is the capital of France?",
+    "is_complete": true,
+    "missing_info": "",
+    "correct_answer": "Paris",
+    "question_type": "factual"
+  },
+  {
+    "question": "A train travels at 60 miles per hour for 2.5 hours. How far does it travel?",
+    "is_complete": true,
+    "missing_info": "",
+    "correct_answer": "150 miles",
+    "question_type": "math"
+  },
+  {
+    "question": "What is the chemical symbol for gold?",
+    "is_complete": true,
+    "missing_info": "",
+    "correct_answer": "Au",
+    "question_type": "factual"
+  },
+  {
+    "question": "If a rectangle has a length of 12 cm and a width of 5 cm, what is its area?",
+    "is_complete": true,
+    "missing_info": "",
+    "correct_answer": "60 square centimeters",
+    "question_type": "math"
+  },
+  {
+    "question": "Which planet is the largest in our solar system?",
+    "is_complete": true,
+    "missing_info": "",
+    "correct_answer": "Jupiter",
+    "question_type": "factual"
+  },
+  {
+    "question": "A store sells apples at $1.50 each. If Maria buys 8 apples and pays with a $20 bill, how much change does she receive?",
+    "is_complete": true,
+    "missing_info": "",
+    "correct_answer": "$8.00",
+    "question_type": "math"
+  },
+  {
+    "question": "What year did World War II end?",
+    "is_complete": true,
+    "missing_info": "",
+    "correct_answer": "1945",
+    "question_type": "factual"
+  },
+  {
+    "question": "Solve for x: 3x + 7 = 22",
+    "is_complete": true,
+    "missing_info": "",
+    "correct_answer": "x = 5",
+    "question_type": "math"
+  },
+  {
+    "question": "In a class of 40 students, 60% are female. How many male students are in the class?",
+    "is_complete": true,
+    "missing_info": "",
+    "correct_answer": "16 male students",
+    "question_type": "math"
+  },
+  {
+    "question": "What is the boiling point of water at standard atmospheric pressure in degrees Celsius?",
+    "is_complete": true,
+    "missing_info": "",
+    "correct_answer": "100 degrees Celsius",
+    "question_type": "factual"
+  },
+  {
+    "question": "A circular garden has a radius of 7 meters. What is its approximate area? Use π = 3.14.",
+    "is_complete": true,
+    "missing_info": "",
+    "correct_answer": "153.86 square meters",
+    "question_type": "math"
+  },
+  {
+    "question": "Who wrote the play 'Romeo and Juliet'?",
+    "is_complete": true,
+    "missing_info": "",
+    "correct_answer": "William Shakespeare",
+    "question_type": "factual"
+  },
+  {
+    "question": "A car's fuel tank holds 50 liters. If the car consumes fuel at a rate of 8 liters per 100 kilometers, how many kilometers can the car travel on a full tank?",
+    "is_complete": true,
+    "missing_info": "",
+    "correct_answer": "625 kilometers",
+    "question_type": "math"
+  },
+  {
+    "question": "What is the smallest prime number?",
+    "is_complete": true,
+    "missing_info": "",
+    "correct_answer": "2",
+    "question_type": "math"
+  },
+  {
+    "question": "A person invests $1,000 at a simple annual interest rate of 5% for 3 years. How much total interest is earned?",
+    "is_complete": true,
+    "missing_info": "",
+    "correct_answer": "$150",
+    "question_type": "math"
+  },
+  {
+    "question": "How many bones are in the adult human body?",
+    "is_complete": true,
+    "missing_info": "",
+    "correct_answer": "206",
+    "question_type": "factual"
+  },
+  {
+    "question": "If a bag contains 3 red marbles, 5 blue marbles, and 2 green marbles, what is the probability of randomly drawing a blue marble? Express as a fraction.",
+    "is_complete": true,
+    "missing_info": "",
+    "correct_answer": "1/2",
+    "question_type": "math"
+  },
+  {
+    "question": "What is the speed of light in a vacuum, rounded to the nearest thousand kilometers per second?",
+    "is_complete": true,
+    "missing_info": "",
+    "correct_answer": "300,000 kilometers per second",
+    "question_type": "factual"
+  },
+  {
+    "question": "A right triangle has legs of length 9 and 12. What is the length of the hypotenuse?",
+    "is_complete": true,
+    "missing_info": "",
+    "correct_answer": "15",
+    "question_type": "math"
+  },
+  {
+    "question": "What is the total interest paid over the life of the loan?",
+    "is_complete": false,
+    "missing_info": "Loan principal amount, interest rate, loan term, and whether it's simple or compound interest",
+    "correct_answer": "Need more information",
+    "question_type": "math"
+  },
+  {
+    "question": "How many calories did she burn during the workout?",
+    "is_complete": false,
+    "missing_info": "Type of workout, duration, intensity level, and the person's body weight",
+    "correct_answer": "Need more information",
+    "question_type": "contextual"
+  },
+  {
+    "question": "What was the team's winning percentage last season?",
+    "is_complete": false,
+    "missing_info": "Which team, which sport, and which league or level of competition",
+    "correct_answer": "Need more information",
+    "question_type": "factual"
+  },
+  {
+    "question": "How much paint will be needed to cover the walls?",
+    "is_complete": false,
+    "missing_info": "Room dimensions, number of coats, number and size of windows/doors, and paint coverage rate",
+    "correct_answer": "Need more information",
+    "question_type": "math"
+  },
+  {
+    "question": "What is the exchange rate conversion for the purchase?",
+    "is_complete": false,
+    "missing_info": "Which two currencies are involved, the date of conversion, and the purchase amount",
+    "correct_answer": "Need more information",
+    "question_type": "math"
+  },
+  {
+    "question": "How long will it take to fill the swimming pool?",
+    "is_complete": false,
+    "missing_info": "Pool volume/dimensions, water flow rate of the hose or pump, and water pressure",
+    "correct_answer": "Need more information",
+    "question_type": "math"
+  },
+  {
+    "question": "What grade does the student need on the final exam to pass the class?",
+    "is_complete": false,
+    "missing_info": "Current grade, weight of the final exam, passing threshold, and grading scale used",
+    "correct_answer": "Need more information",
+    "question_type": "math"
+  },
+  {
+    "question": "How much fabric is required to make the dress?",
+    "is_complete": false,
+    "missing_info": "Dress size, style/pattern, fabric width, and whether a lining is included",
+    "correct_answer": "Need more information",
+    "question_type": "math"
+  },
+  {
+    "question": "What was the voter turnout percentage in the election?",
+    "is_complete": false,
+    "missing_info": "Which election, which country or jurisdiction, and which year",
+    "correct_answer": "Need more information",
+    "question_type": "factual"
+  },
+  {
+    "question": "How much will the electricity bill increase after adding the appliance?",
+    "is_complete": false,
+    "missing_info": "Appliance wattage, estimated daily usage hours, and local electricity rate per kWh",
+    "correct_answer": "Need more information",
+    "question_type": "math"
+  },
+  {
+    "question": "What is the expected return on the investment after five years?",
+    "is_complete": false,
+    "missing_info": "Initial investment amount, type of investment, rate of return, and compounding frequency",
+    "correct_answer": "Need more information",
+    "question_type": "math"
+  },
+  {
+    "question": "How many tiles are needed to cover the bathroom floor?",
+    "is_complete": false,
+    "missing_info": "Floor dimensions, tile size, desired pattern/layout, and waste percentage allowance",
+    "correct_answer": "Need more information",
+    "question_type": "math"
+  },
+  {
+    "question": "What was the population growth rate compared to the previous decade?",
+    "is_complete": false,
+    "missing_info": "Which city, region, or country, and which specific decades are being compared",
+    "correct_answer": "Need more information",
+    "question_type": "factual"
+  },
+  {
+    "question": "How much tip should be left on the bill?",
+    "is_complete": false,
+    "missing_info": "Total bill amount, desired tip percentage, and whether it's pre-tax or post-tax",
+    "correct_answer": "Need more information",
+    "question_type": "math"
+  },
+  {
+    "question": "What is the dosage she should take for the medication?",
+    "is_complete": false,
+    "missing_info": "Which medication, the patient's weight/age, the condition being treated, and formulation type",
+    "correct_answer": "Need more information",
+    "question_type": "contextual"
+  },
+  {
+    "question": "How many servers are needed to handle the expected traffic?",
+    "is_complete": false,
+    "missing_info": "Expected number of concurrent users, type of application, server specs, and acceptable latency threshold",
+    "correct_answer": "Need more information",
+    "question_type": "contextual"
+  },
+  {
+    "question": "What is the carbon footprint of the flight?",
+    "is_complete": false,
+    "missing_info": "Departure and arrival cities, airline/aircraft type, cabin class, and whether it's one-way or round-trip",
+    "correct_answer": "Need more information",
+    "question_type": "math"
+  },
+  {
+    "question": "How many bags of concrete mix are needed for the foundation?",
+    "is_complete": false,
+    "missing_info": "Foundation dimensions (length, width, depth), bag size/weight, and concrete mix yield per bag",
+    "correct_answer": "Need more information",
+    "question_type": "math"
+  },
+  {
+    "question": "What percentile does the child fall in for height?",
+    "is_complete": false,
+    "missing_info": "Child's height, age, sex, and which growth chart standard is being used (e.g., WHO, CDC)",
+    "correct_answer": "Need more information",
+    "question_type": "contextual"
+  },
+  {
+    "question": "How much will the company save by switching to the new vendor?",
+    "is_complete": false,
+    "missing_info": "Current vendor costs, new vendor costs, volume of goods/services purchased, and contract terms for both",
+    "correct_answer": "Need more information",
+    "question_type": "math"
+  },
+  {
+    "question": "How long does it take to drive to the airport?",
+    "is_complete": false,
+    "missing_info": "Which airport, starting location, time of day, traffic conditions, and mode of transport are all unspecified",
+    "correct_answer": "Depends on context",
+    "question_type": "contextual"
+  },
+  {
+    "question": "What is the best programming language for beginners?",
+    "is_complete": false,
+    "missing_info": "The learner's goals (web development, data science, game dev), learning style, age, and what 'best' means (easiest syntax, most job opportunities, most versatile) are all unspecified",
+    "correct_answer": "Depends on context",
+    "question_type": "contextual"
+  },
+  {
+    "question": "How much does it cost to build a house?",
+    "is_complete": false,
+    "missing_info": "Geographic location, house size, materials, labor market, level of finish, number of stories, and custom features are all unspecified",
+    "correct_answer": "Depends on context",
+    "question_type": "contextual"
+  },
+  {
+    "question": "How many calories are in a salad?",
+    "is_complete": false,
+    "missing_info": "Type of greens, portion size, toppings (cheese, croutons, nuts, protein), dressing type and amount, and preparation method are all unspecified",
+    "correct_answer": "Depends on context",
+    "question_type": "contextual"
+  },
+  {
+    "question": "Is it safe to walk around at night?",
+    "is_complete": false,
+    "missing_info": "The specific city or neighborhood, time of night, whether walking alone or in a group, local crime statistics, and the walker's familiarity with the area are all unspecified",
+    "correct_answer": "Depends on context",
+    "question_type": "contextual"
+  },
+  {
+    "question": "How much RAM do I need for my computer?",
+    "is_complete": false,
+    "missing_info": "The intended use case (gaming, video editing, office work, software development), operating system, budget, and whether it's a laptop or desktop are all unspecified",
+    "correct_answer": "Depends on context",
+    "question_type": "contextual"
+  },
+  {
+    "question": "What size generator should I buy?",
+    "is_complete": false,
+    "missing_info": "What appliances or systems need to be powered, whether it's for home backup or portable use, total wattage requirements, fuel type preference, and climate conditions are all unspecified",
+    "correct_answer": "Depends on context",
+    "question_type": "contextual"
+  },
+  {
+    "question": "How long should I cook the meat?",
+    "is_complete": false,
+    "missing_info": "The type of meat (beef, chicken, pork), cut, thickness, cooking method (grill, oven, stovetop), desired doneness, and whether it's fresh or frozen are all unspecified",
+    "correct_answer": "Depends on context",
+    "question_type": "contextual"
+  },
+  {
+    "question": "What's a good tip to leave at a restaurant?",
+    "is_complete": false,
+    "missing_info": "The country and its tipping culture, total bill amount, quality of service, type of restaurant (fast casual vs fine dining), and whether gratuity is already included are all unspecified",
+    "correct_answer": "Depends on context",
+    "question_type": "contextual"
+  },
+  {
+    "question": "How often should I water my plant?",
+    "is_complete": false,
+    "missing_info": "The plant species, pot size and type, soil composition, indoor vs outdoor placement, climate and humidity levels, season, and amount of sunlight received are all unspecified",
+    "correct_answer": "Depends on context",
+    "question_type": "contextual"
+  }
+]

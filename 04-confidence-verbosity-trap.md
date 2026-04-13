@@ -135,3 +135,21 @@ def analyze_verbosity_trap(results_with_metadata):
 - A类和B类题目的领域分布应该平衡，避免领域作为confound
 - 答案长度的测量应该用字符数或token数（不是句子数）
 - 需要用偏相关而非简单相关——因为简单场景下长度和正确率本身可能有合理相关
+
+## Haiku 4.5 Evaluation Results & Improvements
+
+**Evaluation Summary (P3 — working as designed, incremental improvements only):**
+- partial_r = -0.05, no verbosity contamination detected.
+- The benchmark is functioning correctly: Haiku 4.5's confidence is not meaningfully correlated with output length after controlling for accuracy.
+
+**Recommended Changes:**
+
+1. **Add more short_hard items with genuinely obscure answers.** The current short_hard items may not be challenging enough to stress-test calibration at the low end. Include items with answers that require rare factual knowledge (e.g., specific historical dates, niche scientific constants, minor geographical facts) where even well-calibrated models should show low confidence.
+
+2. **Add trick long_easy items where verbose format masks uncertainty.** Design long_easy items that invite extended output but where the model might subtly err on details within the lengthy response. This tests whether verbosity creates a false sense of correctness.
+
+3. **Scale from 80 to 160 items.** Double the dataset size (80 per question_type) to improve statistical power, especially for detecting small partial correlations that may emerge with more capable models.
+
+4. **Add conditional analysis (partial correlation for correct vs incorrect separately).** Compute partial_corr(confidence, length | question_type) separately for correct and incorrect responses. Verbosity contamination may manifest differently when the model is right vs. wrong.
+
+5. **Add verbosity inflation metric.** Define and report a verbosity inflation metric: the mean confidence difference between long-output and short-output items after matching on accuracy. This provides an intuitive, interpretable complement to the partial correlation.

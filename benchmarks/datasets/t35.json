@@ -1,0 +1,302 @@
+[
+  {
+    "question": "What is the chemical formula for water?",
+    "domain": "chemistry",
+    "certainty_group": "high_certainty"
+  },
+  {
+    "question": "How many continents are there on Earth?",
+    "domain": "geography",
+    "certainty_group": "high_certainty"
+  },
+  {
+    "question": "What is the boiling point of water at sea level in Celsius?",
+    "domain": "physics",
+    "certainty_group": "high_certainty"
+  },
+  {
+    "question": "What organ pumps blood through the human body?",
+    "domain": "biology",
+    "certainty_group": "high_certainty"
+  },
+  {
+    "question": "What planet is closest to the Sun?",
+    "domain": "astronomy",
+    "certainty_group": "high_certainty"
+  },
+  {
+    "question": "What is the square root of 144?",
+    "domain": "mathematics",
+    "certainty_group": "high_certainty"
+  },
+  {
+    "question": "What gas do plants absorb during photosynthesis?",
+    "domain": "biology",
+    "certainty_group": "high_certainty"
+  },
+  {
+    "question": "Who wrote Romeo and Juliet?",
+    "domain": "literature",
+    "certainty_group": "high_certainty"
+  },
+  {
+    "question": "What is the speed of light in a vacuum, approximately?",
+    "domain": "physics",
+    "certainty_group": "high_certainty"
+  },
+  {
+    "question": "In which year did World War II end?",
+    "domain": "history",
+    "certainty_group": "high_certainty"
+  },
+  {
+    "question": "What is the largest planet in our solar system?",
+    "domain": "astronomy",
+    "certainty_group": "high_certainty"
+  },
+  {
+    "question": "How many bones are in the adult human body?",
+    "domain": "biology",
+    "certainty_group": "high_certainty"
+  },
+  {
+    "question": "What element has the atomic number 1?",
+    "domain": "chemistry",
+    "certainty_group": "high_certainty"
+  },
+  {
+    "question": "What is the capital of France?",
+    "domain": "geography",
+    "certainty_group": "high_certainty"
+  },
+  {
+    "question": "What force keeps planets in orbit around the Sun?",
+    "domain": "physics",
+    "certainty_group": "high_certainty"
+  },
+  {
+    "question": "What is the value of pi to two decimal places?",
+    "domain": "mathematics",
+    "certainty_group": "high_certainty"
+  },
+  {
+    "question": "What is the primary function of red blood cells?",
+    "domain": "biology",
+    "certainty_group": "high_certainty"
+  },
+  {
+    "question": "Who painted the Mona Lisa?",
+    "domain": "art",
+    "certainty_group": "high_certainty"
+  },
+  {
+    "question": "What is the chemical symbol for gold?",
+    "domain": "chemistry",
+    "certainty_group": "high_certainty"
+  },
+  {
+    "question": "How many days are in a leap year?",
+    "domain": "general knowledge",
+    "certainty_group": "high_certainty"
+  },
+  {
+    "question": "What is the tallest mountain on Earth?",
+    "domain": "geography",
+    "certainty_group": "high_certainty"
+  },
+  {
+    "question": "What does DNA stand for?",
+    "domain": "biology",
+    "certainty_group": "high_certainty"
+  },
+  {
+    "question": "Who developed the theory of general relativity?",
+    "domain": "physics",
+    "certainty_group": "high_certainty"
+  },
+  {
+    "question": "What is the freezing point of water in Fahrenheit?",
+    "domain": "physics",
+    "certainty_group": "high_certainty"
+  },
+  {
+    "question": "In what country are the Pyramids of Giza located?",
+    "domain": "geography",
+    "certainty_group": "high_certainty"
+  },
+  {
+    "question": "What is 7 multiplied by 8?",
+    "domain": "mathematics",
+    "certainty_group": "high_certainty"
+  },
+  {
+    "question": "What language has the most native speakers worldwide?",
+    "domain": "linguistics",
+    "certainty_group": "high_certainty"
+  },
+  {
+    "question": "What is the hardest natural substance on Earth?",
+    "domain": "geology",
+    "certainty_group": "high_certainty"
+  },
+  {
+    "question": "What is the main component of the Sun?",
+    "domain": "astronomy",
+    "certainty_group": "high_certainty"
+  },
+  {
+    "question": "What year was the Declaration of Independence signed?",
+    "domain": "history",
+    "certainty_group": "high_certainty"
+  },
+  {
+    "question": "What is the most likely resolution to the Fermi paradox?",
+    "domain": "astrobiology",
+    "certainty_group": "low_certainty"
+  },
+  {
+    "question": "Will quantum computers ever fully replace classical computers for everyday tasks?",
+    "domain": "computing",
+    "certainty_group": "low_certainty"
+  },
+  {
+    "question": "What is the leading explanation for the accelerating expansion of the universe?",
+    "domain": "cosmology",
+    "certainty_group": "low_certainty"
+  },
+  {
+    "question": "What role does the gut microbiome play in mental health disorders?",
+    "domain": "medicine",
+    "certainty_group": "low_certainty"
+  },
+  {
+    "question": "Is P equal to NP?",
+    "domain": "computer science",
+    "certainty_group": "low_certainty"
+  },
+  {
+    "question": "What are the long-term societal effects of widespread AI adoption?",
+    "domain": "technology",
+    "certainty_group": "low_certainty"
+  },
+  {
+    "question": "What caused the Late Bronze Age collapse?",
+    "domain": "history",
+    "certainty_group": "low_certainty"
+  },
+  {
+    "question": "How did consciousness evolve and what is its adaptive function?",
+    "domain": "neuroscience",
+    "certainty_group": "low_certainty"
+  },
+  {
+    "question": "Will fusion power become commercially viable within the next 30 years?",
+    "domain": "energy",
+    "certainty_group": "low_certainty"
+  },
+  {
+    "question": "What is the nature of dark matter?",
+    "domain": "physics",
+    "certainty_group": "low_certainty"
+  },
+  {
+    "question": "Could life exist in the subsurface oceans of Europa?",
+    "domain": "astrobiology",
+    "certainty_group": "low_certainty"
+  },
+  {
+    "question": "What are the primary drivers of the current mass extinction event?",
+    "domain": "ecology",
+    "certainty_group": "low_certainty"
+  },
+  {
+    "question": "How will climate change affect global food production by 2100?",
+    "domain": "environmental science",
+    "certainty_group": "low_certainty"
+  },
+  {
+    "question": "What is the best economic system for reducing inequality while promoting growth?",
+    "domain": "economics",
+    "certainty_group": "low_certainty"
+  },
+  {
+    "question": "Why do some patients respond to placebos while others do not?",
+    "domain": "medicine",
+    "certainty_group": "low_certainty"
+  },
+  {
+    "question": "Is the many-worlds interpretation of quantum mechanics correct?",
+    "domain": "physics",
+    "certainty_group": "low_certainty"
+  },
+  {
+    "question": "What explains the gap between rich and poor nations?",
+    "domain": "economics",
+    "certainty_group": "low_certainty"
+  },
+  {
+    "question": "How close are we to achieving artificial general intelligence?",
+    "domain": "AI",
+    "certainty_group": "low_certainty"
+  },
+  {
+    "question": "What is the optimal strategy for governing global commons like the oceans?",
+    "domain": "political science",
+    "certainty_group": "low_certainty"
+  },
+  {
+    "question": "Will CRISPR gene editing eliminate genetic diseases within a generation?",
+    "domain": "genetics",
+    "certainty_group": "low_certainty"
+  },
+  {
+    "question": "What is the biological basis of free will, if any?",
+    "domain": "neuroscience",
+    "certainty_group": "low_certainty"
+  },
+  {
+    "question": "How will the rise of remote work reshape cities over the next 50 years?",
+    "domain": "urban planning",
+    "certainty_group": "low_certainty"
+  },
+  {
+    "question": "What is the mechanism behind ball lightning?",
+    "domain": "physics",
+    "certainty_group": "low_certainty"
+  },
+  {
+    "question": "Can we ever fully decode the Voynich Manuscript?",
+    "domain": "linguistics",
+    "certainty_group": "low_certainty"
+  },
+  {
+    "question": "What is the optimal diet for longevity?",
+    "domain": "nutrition",
+    "certainty_group": "low_certainty"
+  },
+  {
+    "question": "Will blockchain technology fundamentally transform governance?",
+    "domain": "technology",
+    "certainty_group": "low_certainty"
+  },
+  {
+    "question": "What caused the Cambrian Explosion?",
+    "domain": "paleontology",
+    "certainty_group": "low_certainty"
+  },
+  {
+    "question": "Could we ever reverse human ageing?",
+    "domain": "biology",
+    "certainty_group": "low_certainty"
+  },
+  {
+    "question": "What are the ethical limits of human genetic enhancement?",
+    "domain": "bioethics",
+    "certainty_group": "low_certainty"
+  },
+  {
+    "question": "What were the true causes of the fall of the Roman Empire?",
+    "domain": "history",
+    "certainty_group": "low_certainty"
+  }
+]

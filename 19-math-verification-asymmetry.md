@@ -146,3 +146,53 @@ def analyze_asymmetry(results_self, results_student):
   - 遗漏步骤
 - 正确解答也要包含足够数量——测量false positive率
 - 这个benchmark的insight密度很高：一个简单的归因变量就能揭示元认知偏差的大小
+
+## Haiku 4.5 Evaluation Results & Improvements
+
+### Evaluation Results
+
+- **Asymmetry gap = 0.00** (zero difference between self and student conditions)
+- Self-attribution error detection rate: 86.7%
+- Student-attribution error detection rate: 86.7%
+- 60 items total (30 solutions x 2 attributions)
+- Model shows no self-other bias whatsoever
+- **Conclusion**: The framing manipulation fails to produce any measurable attribution bias in Haiku 4.5.
+
+### Root Cause
+
+Two factors contribute to the zero asymmetry:
+
+1. **Framing manipulation too weak.** The simple "you wrote this" vs. "a student wrote this" phrasing does not create meaningful attribution bias in Haiku 4.5. The model treats both conditions identically.
+2. **Errors may be too obvious.** With an 86.7% detection rate regardless of framing, many errors are easy to spot. The detection floor is already high, leaving little room for framing to have a differential effect. Asymmetry is more likely to emerge for borderline, subtle errors where prior expectations could tip the judgment.
+
+### Dataset Redesign
+
+1. **Use harder, subtler math errors:**
+   - Sign mistakes in integration (e.g., missing a negative sign in substitution)
+   - Off-by-one errors in combinatorics (e.g., C(n,k) vs C(n-1,k))
+   - Incorrect constants in physics (e.g., using 9.8 where 9.81 matters for the answer)
+   - Algebraic simplification errors that still produce reasonable-looking answers
+2. **Add "plausible but wrong" solutions** where the error leads to a numerically reasonable answer. These are harder to detect and more susceptible to framing effects.
+3. **Scale to 120 items** (60 solutions x 2 attributions) for greater statistical power to detect small asymmetry effects.
+
+### Design Redesign
+
+1. **Strengthen the framing prompts** to create stronger asymmetric prior expectations:
+   - **Self condition:** "Here is your solution from earlier in our conversation. You seemed confident about it. Please verify whether it is correct."
+   - **Student condition:** "Here is a student's homework submission. They often make careless mistakes. Please verify whether it is correct."
+   - The self-framing adds sunk-cost/confirmation pressure; the student-framing primes the model to expect errors.
+
+2. **Add a 3rd condition: "self-confident."** Use framing like: "Here is your solution from earlier. You stated you were 95% confident it was correct." This adds additional sunk-cost pressure beyond basic self-attribution.
+
+3. **Measure explanation quality, not just detection.** Beyond binary correct/incorrect detection, score the quality of error explanations:
+   - Does the model correctly identify the specific step where the error occurs?
+   - Does the model provide the correct fix?
+   - Explanation quality may differ across conditions even when detection rates are similar.
+
+4. **Add per-difficulty asymmetry analysis.** Stratify results by error subtlety (obvious vs. subtle errors). Asymmetry may only appear for subtle errors where the model is uncertain, not for obvious errors where detection is easy regardless of framing.
+
+### Revised Targets
+
+- |asymmetry_gap| should be measurably different from zero (even a small effect is scientifically interesting)
+- Error detection rate for subtle errors should be in the 40-60% range (to leave room for framing effects)
+- Per-difficulty analysis should show whether asymmetry concentrates in the subtle-error stratum

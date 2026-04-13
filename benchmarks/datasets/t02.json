@@ -1,0 +1,3602 @@
+[
+  {
+    "question": "What is the name of the reaction in which an aldehyde or ketone reacts with a primary amine to form an imine (Schiff base) with loss of water?",
+    "correct_answer": "Imine formation (Schiff base formation)",
+    "domain": "organic chemistry",
+    "accept_aliases": "Schiff base reaction|imine condensation|Schiff base formation"
+  },
+  {
+    "question": "What is the IUPAC name of the simplest aromatic hydrocarbon, C₆H₆?",
+    "correct_answer": "Benzene",
+    "domain": "organic chemistry",
+    "accept_aliases": "benzene|[6]annulene"
+  },
+  {
+    "question": "In the Diels-Alder reaction, what term describes the 4π-electron component that provides the conjugated diene system?",
+    "correct_answer": "Diene",
+    "domain": "organic chemistry",
+    "accept_aliases": "the diene"
+  },
+  {
+    "question": "What named reaction converts a carboxylic acid to an acyl azide and then, via Curtius rearrangement, to an isocyanate with loss of nitrogen gas?",
+    "correct_answer": "Curtius rearrangement",
+    "domain": "organic chemistry",
+    "accept_aliases": "Curtius reaction|Curtius degradation"
+  },
+  {
+    "question": "Who first proposed the concept of the tetrahedral carbon atom in 1874, simultaneously with J.H. van 't Hoff?",
+    "correct_answer": "Joseph Achille Le Bel",
+    "domain": "organic chemistry",
+    "accept_aliases": "Le Bel|Joseph Le Bel|J.A. Le Bel"
+  },
+  {
+    "question": "What is the product when propylene is treated with a peroxy acid such as mCPBA?",
+    "correct_answer": "Propylene oxide (1,2-epoxypropane)",
+    "domain": "organic chemistry",
+    "accept_aliases": "propylene oxide|methyloxirane|1,2-epoxypropane"
+  },
+  {
+    "question": "The Barton reaction, developed by Sir Derek Barton, involves the photolysis of what type of functional group to generate an alkoxy radical for remote C–H functionalization?",
+    "correct_answer": "Nitrite ester",
+    "domain": "organic chemistry",
+    "accept_aliases": "organic nitrite|alkyl nitrite|nitrite esters"
+  },
+  {
+    "question": "In the Woodward–Hoffmann rules, a [1,5]-sigmatropic hydrogen shift in a conjugated system is thermally allowed when it proceeds through which topological mode — suprafacial or antarafacial?",
+    "correct_answer": "Suprafacial",
+    "domain": "organic chemistry",
+    "accept_aliases": "suprafacial shift|suprafacially"
+  },
+  {
+    "question": "What is the name of the organopalladium-catalyzed cross-coupling reaction between an organotin compound (organostannane) and an organic halide?",
+    "correct_answer": "Stille coupling",
+    "domain": "organic chemistry",
+    "accept_aliases": "Stille reaction|Migita–Kosugi–Stille coupling|Stille cross-coupling"
+  },
+  {
+    "question": "In 1828, Friedrich Wöhler synthesized which organic compound from ammonium cyanate, an event often cited as disproving vitalism?",
+    "correct_answer": "Urea",
+    "domain": "organic chemistry",
+    "accept_aliases": "carbamide|urea"
+  },
+  {
+    "question": "What is the general formula for acyclic alkanes?",
+    "correct_answer": "CnH2n+2",
+    "domain": "organic chemistry",
+    "accept_aliases": "C_nH_(2n+2)"
+  },
+  {
+    "question": "What type of bond is formed between two carbon atoms in ethylene (ethene)?",
+    "correct_answer": "Double bond",
+    "domain": "organic chemistry",
+    "accept_aliases": "carbon-carbon double bond|C=C double bond"
+  },
+  {
+    "question": "What is the IUPAC name for the simplest aromatic hydrocarbon, C6H6?",
+    "correct_answer": "Benzene",
+    "domain": "organic chemistry",
+    "accept_aliases": ""
+  },
+  {
+    "question": "What functional group is characterized by a hydroxyl group (-OH) attached to a saturated carbon atom?",
+    "correct_answer": "Alcohol",
+    "domain": "organic chemistry",
+    "accept_aliases": "hydroxyl group"
+  },
+  {
+    "question": "What is the IUPAC name of CH3COOH?",
+    "correct_answer": "Acetic acid",
+    "domain": "organic chemistry",
+    "accept_aliases": "ethanoic acid"
+  },
+  {
+    "question": "What type of isomerism do molecules with the same molecular formula but different connectivity of atoms exhibit?",
+    "correct_answer": "Structural isomerism",
+    "domain": "organic chemistry",
+    "accept_aliases": "constitutional isomerism"
+  },
+  {
+    "question": "What is the hybridization of the carbon atoms in acetylene (ethyne)?",
+    "correct_answer": "sp",
+    "domain": "organic chemistry",
+    "accept_aliases": "sp hybridized|sp hybridization"
+  },
+  {
+    "question": "What reagent is commonly used to oxidize a primary alcohol to an aldehyde without further oxidation to a carboxylic acid?",
+    "correct_answer": "Pyridinium chlorochromate (PCC)",
+    "domain": "organic chemistry",
+    "accept_aliases": "PCC|pyridinium chlorochromate"
+  },
+  {
+    "question": "In Markovnikov's rule, when HBr adds to propene, to which carbon does the bromine atom preferentially attach?",
+    "correct_answer": "The more substituted carbon (C-2)",
+    "domain": "organic chemistry",
+    "accept_aliases": "the internal carbon|the secondary carbon|C2"
+  },
+  {
+    "question": "What is the name of the reaction in which a carboxylic acid reacts with an alcohol in the presence of an acid catalyst to form an ester and water?",
+    "correct_answer": "Fischer esterification",
+    "domain": "organic chemistry",
+    "accept_aliases": "esterification|Fischer–Speier esterification"
+  },
+  {
+    "question": "What rule is used to predict the major product of an elimination reaction, stating that the more substituted alkene is the predominant product?",
+    "correct_answer": "Zaitsev's rule",
+    "domain": "organic chemistry",
+    "accept_aliases": "Saytzeff's rule|Saytzev's rule"
+  },
+  {
+    "question": "In the E/Z naming system, what rule is used to assign priority to substituents on a double bond?",
+    "correct_answer": "Cahn–Ingold–Prelog priority rules",
+    "domain": "organic chemistry",
+    "accept_aliases": "CIP rules|CIP priority rules|Cahn-Ingold-Prelog rules"
+  },
+  {
+    "question": "What is the name of the organic reaction in which a Grignard reagent (RMgX) reacts with a carbonyl compound to form an alcohol after aqueous workup?",
+    "correct_answer": "Grignard reaction",
+    "domain": "organic chemistry",
+    "accept_aliases": "Grignard addition"
+  },
+  {
+    "question": "What is the product when benzene undergoes Friedel–Crafts acylation with acetyl chloride and AlCl3?",
+    "correct_answer": "Acetophenone",
+    "domain": "organic chemistry",
+    "accept_aliases": "methyl phenyl ketone|1-phenylethanone"
+  },
+  {
+    "question": "Which named reaction involves the palladium-catalyzed cross-coupling of an aryl or vinyl halide with an organoboron compound?",
+    "correct_answer": "Suzuki reaction",
+    "domain": "organic chemistry",
+    "accept_aliases": "Suzuki coupling|Suzuki–Miyaura coupling|Suzuki-Miyaura reaction"
+  },
+  {
+    "question": "What is the Woodward–Hoffmann classification of a thermal [4+2] cycloaddition (Diels–Alder reaction) — is it symmetry-allowed or symmetry-forbidden?",
+    "correct_answer": "Symmetry-allowed",
+    "domain": "organic chemistry",
+    "accept_aliases": "thermally allowed|allowed"
+  },
+  {
+    "question": "In the Sharpless asymmetric epoxidation, what metal catalyst is used in combination with a chiral tartrate ester and tert-butyl hydroperoxide?",
+    "correct_answer": "Titanium tetraisopropoxide",
+    "domain": "organic chemistry",
+    "accept_aliases": "Ti(OiPr)4|titanium(IV) isopropoxide|TTIP"
+  },
+  {
+    "question": "What is the name of the rearrangement in which a 1,2-diol (vicinal diol) is treated with acid to form a carbonyl compound via a 1,2-shift?",
+    "correct_answer": "Pinacol rearrangement",
+    "domain": "organic chemistry",
+    "accept_aliases": "pinacol–pinacolone rearrangement|pinacol-pinacolone rearrangement"
+  },
+  {
+    "question": "In the Swern oxidation, what reagent combination is used to convert primary and secondary alcohols to aldehydes and ketones under mild conditions?",
+    "correct_answer": "Oxalyl chloride and dimethyl sulfoxide, followed by a base (triethylamine)",
+    "domain": "organic chemistry",
+    "accept_aliases": "(COCl)2 / DMSO / Et3N|oxalyl chloride, DMSO, triethylamine"
+  },
+  {
+    "question": "In the Corey–Bakshi–Shibata (CBS) reduction, what is the chiral catalyst derived from, and what reducing agent is typically used?",
+    "correct_answer": "The catalyst is a chiral oxazaborolidine derived from proline, and the reducing agent is borane (BH3·THF or catecholborane)",
+    "domain": "organic chemistry",
+    "accept_aliases": "oxazaborolidine catalyst from proline with borane|proline-derived oxazaborolidine and BH3"
+  },
+  {
+    "question": "What is the IUPAC name for the simplest aromatic hydrocarbon, commonly known as benzene?",
+    "correct_answer": "benzene",
+    "domain": "organic chemistry",
+    "accept_aliases": "cyclohexatriene|benzol"
+  },
+  {
+    "question": "What type of bond is formed between two amino acids during protein synthesis?",
+    "correct_answer": "peptide bond",
+    "domain": "organic chemistry",
+    "accept_aliases": "peptide linkage|amide bond"
+  },
+  {
+    "question": "What is the general formula for an acyclic alkene with one double bond?",
+    "correct_answer": "CnH2n",
+    "domain": "organic chemistry",
+    "accept_aliases": "C_nH_2n"
+  },
+  {
+    "question": "Which functional group is characterized by a carbonyl group bonded to a hydroxyl group?",
+    "correct_answer": "carboxyl group",
+    "domain": "organic chemistry",
+    "accept_aliases": "carboxylic acid group|-COOH"
+  },
+  {
+    "question": "In Markovnikov's rule, when HBr adds across a double bond, to which carbon does the hydrogen preferentially add?",
+    "correct_answer": "the more substituted carbon receives the bromine; hydrogen adds to the carbon with more hydrogen atoms already attached",
+    "domain": "organic chemistry",
+    "accept_aliases": "the less substituted carbon|the carbon bearing more hydrogens"
+  },
+  {
+    "question": "What is the name of the reaction in which an ester is hydrolyzed under basic conditions to yield a carboxylate salt and an alcohol?",
+    "correct_answer": "saponification",
+    "domain": "organic chemistry",
+    "accept_aliases": "base-catalyzed ester hydrolysis"
+  },
+  {
+    "question": "What reagent is commonly used to oxidize a primary alcohol to an aldehyde without further oxidation to a carboxylic acid?",
+    "correct_answer": "pyridinium chlorochromate",
+    "domain": "organic chemistry",
+    "accept_aliases": "PCC|Corey-Suggs reagent"
+  },
+  {
+    "question": "Which Nobel Prize-winning reaction couples an organoboron compound with an organic halide using a palladium catalyst?",
+    "correct_answer": "Suzuki reaction",
+    "domain": "organic chemistry",
+    "accept_aliases": "Suzuki coupling|Suzuki-Miyaura reaction|Suzuki-Miyaura coupling"
+  },
+  {
+    "question": "What is the name of the effect by which substituents on a benzene ring direct incoming electrophiles to the ortho/para or meta positions?",
+    "correct_answer": "directing effects",
+    "domain": "organic chemistry",
+    "accept_aliases": "substituent directing effects|ortho-para and meta directing effects"
+  },
+  {
+    "question": "What term describes a pair of stereoisomers that are non-superimposable mirror images of each other?",
+    "correct_answer": "enantiomers",
+    "domain": "organic chemistry",
+    "accept_aliases": "optical isomers|enantiomorphs"
+  },
+  {
+    "question": "In the Diels-Alder reaction, what electronic property should the diene and dienophile ideally have to maximize reaction rate under normal electron-demand conditions?",
+    "correct_answer": "the diene should be electron-rich and the dienophile should be electron-poor",
+    "domain": "organic chemistry",
+    "accept_aliases": "electron-rich diene and electron-poor dienophile"
+  },
+  {
+    "question": "What is the name of the rearrangement in which an alkyl or aryl group migrates from carbon to an electron-deficient nitrogen, typically from an oxime under acidic conditions?",
+    "correct_answer": "Beckmann rearrangement",
+    "domain": "organic chemistry",
+    "accept_aliases": "Beckmann reaction"
+  },
+  {
+    "question": "Which rule states that in an electrocyclic reaction, the stereochemical outcome depends on whether the number of electron pairs is odd or even and whether the reaction is thermal or photochemical?",
+    "correct_answer": "Woodward-Hoffmann rules",
+    "domain": "organic chemistry",
+    "accept_aliases": "Woodward–Hoffmann rules|orbital symmetry rules"
+  },
+  {
+    "question": "What is the name of the organocatalytic cycle in which a secondary amine catalyst forms an enamine intermediate to facilitate alpha-functionalization of aldehydes?",
+    "correct_answer": "enamine catalysis",
+    "domain": "organic chemistry",
+    "accept_aliases": "enamine activation"
+  },
+  {
+    "question": "In the Sharpless asymmetric epoxidation, which metal catalyst is used in combination with diethyl tartrate and tert-butyl hydroperoxide?",
+    "correct_answer": "titanium tetraisopropoxide",
+    "domain": "organic chemistry",
+    "accept_aliases": "Ti(OiPr)4|titanium(IV) isopropoxide"
+  },
+  {
+    "question": "What is the name of the sigmatropic rearrangement involving a [3,3] shift of an allyl vinyl ether to produce a γ,δ-unsaturated carbonyl compound?",
+    "correct_answer": "Claisen rearrangement",
+    "domain": "organic chemistry",
+    "accept_aliases": "aliphatic Claisen rearrangement"
+  },
+  {
+    "question": "In Grubbs' first-generation olefin metathesis catalyst, what metal center is employed?",
+    "correct_answer": "ruthenium",
+    "domain": "organic chemistry",
+    "accept_aliases": "Ru"
+  },
+  {
+    "question": "What is the Curtin-Hammett principle in conformational analysis?",
+    "correct_answer": "The product ratio is determined by the difference in free energies of the competing transition states, not by the relative populations of the ground-state conformers, provided interconversion of conformers is fast relative to product formation.",
+    "domain": "organic chemistry",
+    "accept_aliases": ""
+  },
+  {
+    "question": "In the Barton reaction, what type of reactive intermediate is generated by photolysis of a nitrite ester, and what functional group transformation does it ultimately achieve?",
+    "correct_answer": "An alkoxy radical is generated, which undergoes a 1,5-hydrogen atom transfer (delta-hydrogen abstraction) leading to a gamma-functionalized alcohol, typically converting a remote C–H bond into a C–NO and then a C=NOH (oxime) group.",
+    "domain": "organic chemistry",
+    "accept_aliases": "alkoxyl radical|alkoxy radical with delta-hydrogen abstraction"
+  },
+  {
+    "question": "In the Corey-Bakshi-Shibata (CBS) reduction, what is the structure of the chiral catalyst, and from which amino acid is it derived?",
+    "correct_answer": "The CBS catalyst is a chiral oxazaborolidine derived from proline (specifically from diphenylprolinol), which activates borane for enantioselective ketone reduction.",
+    "domain": "organic chemistry",
+    "accept_aliases": "oxazaborolidine from proline|diphenylprolinol-derived oxazaborolidine"
+  },
+  {
+    "question": "Which team drafted Kobe Bryant in the 1996 NBA Draft before he was traded to the Los Angeles Lakers?",
+    "correct_answer": "Charlotte Hornets",
+    "domain": "NBA history",
+    "accept_aliases": "Hornets|Charlotte"
+  },
+  {
+    "question": "Who holds the NBA record for most assists in a single game with 30?",
+    "correct_answer": "Scott Skiles",
+    "domain": "NBA history",
+    "accept_aliases": ""
+  },
+  {
+    "question": "What year did the NBA introduce the three-point line?",
+    "correct_answer": "1979",
+    "domain": "NBA history",
+    "accept_aliases": "1979-80 season|1979–80 season"
+  },
+  {
+    "question": "Which player scored 100 points in a single NBA game on March 2, 1962?",
+    "correct_answer": "Wilt Chamberlain",
+    "domain": "NBA history",
+    "accept_aliases": "Wilt|Chamberlain"
+  },
+  {
+    "question": "Who was the first European-born player to be drafted first overall in the NBA Draft?",
+    "correct_answer": "Andrea Bargnani",
+    "domain": "NBA history",
+    "accept_aliases": "Bargnani"
+  },
+  {
+    "question": "What was the original name of the Oklahoma City Thunder franchise when it was established in 1967?",
+    "correct_answer": "Seattle SuperSonics",
+    "domain": "NBA history",
+    "accept_aliases": "Seattle Supersonics|SuperSonics|Sonics"
+  },
+  {
+    "question": "Which NBA coach holds the record for most career regular-season wins?",
+    "correct_answer": "Don Nelson",
+    "domain": "NBA history",
+    "accept_aliases": "Nellie|Don Nelson"
+  },
+  {
+    "question": "In what year did the ABA merge with the NBA, bringing in four ABA teams?",
+    "correct_answer": "1976",
+    "domain": "NBA history",
+    "accept_aliases": ""
+  },
+  {
+    "question": "Who hit the famous 'Memorial Day Miracle' buzzer-beater for the San Antonio Spurs against the Portland Trail Blazers in the 1999 playoffs?",
+    "correct_answer": "Sean Elliott",
+    "domain": "NBA history",
+    "accept_aliases": "Elliott"
+  },
+  {
+    "question": "What is the NBA record for most consecutive games played, set by A.C. Green?",
+    "correct_answer": "1,192",
+    "domain": "NBA history",
+    "accept_aliases": "1192"
+  },
+  {
+    "question": "Which team drafted Michael Jordan with the 3rd overall pick in 1984?",
+    "correct_answer": "Chicago Bulls",
+    "domain": "NBA history",
+    "accept_aliases": "Bulls|Chicago"
+  },
+  {
+    "question": "Who holds the NBA record for most points scored in a single game with 100 points?",
+    "correct_answer": "Wilt Chamberlain",
+    "domain": "NBA history",
+    "accept_aliases": "Wilt|Chamberlain"
+  },
+  {
+    "question": "Which team won the first NBA championship in 1947 (then called the BAA)?",
+    "correct_answer": "Philadelphia Warriors",
+    "domain": "NBA history",
+    "accept_aliases": "Warriors|Philadelphia Warriors"
+  },
+  {
+    "question": "How many championships did Michael Jordan win with the Chicago Bulls?",
+    "correct_answer": "6",
+    "domain": "NBA history",
+    "accept_aliases": "six"
+  },
+  {
+    "question": "Who is the NBA's all-time leading scorer as of 2024?",
+    "correct_answer": "LeBron James",
+    "domain": "NBA history",
+    "accept_aliases": "LeBron|James"
+  },
+  {
+    "question": "Which player was known as 'The Dream' and led the Houston Rockets to back-to-back championships in 1994 and 1995?",
+    "correct_answer": "Hakeem Olajuwon",
+    "domain": "NBA history",
+    "accept_aliases": "Olajuwon|Hakeem"
+  },
+  {
+    "question": "What year did the NBA introduce the three-point line?",
+    "correct_answer": "1979",
+    "domain": "NBA history",
+    "accept_aliases": "1979-80 season"
+  },
+  {
+    "question": "Which player holds the record for most career assists in NBA history?",
+    "correct_answer": "John Stockton",
+    "domain": "NBA history",
+    "accept_aliases": "Stockton"
+  },
+  {
+    "question": "Who was named the first-ever NBA Most Valuable Player in the 1955-56 season?",
+    "correct_answer": "Bob Pettit",
+    "domain": "NBA history",
+    "accept_aliases": "Pettit"
+  },
+  {
+    "question": "Which team completed a then-record 72-10 regular season in 1995-96?",
+    "correct_answer": "Chicago Bulls",
+    "domain": "NBA history",
+    "accept_aliases": "Bulls|Chicago"
+  },
+  {
+    "question": "In what year did the NBA and ABA merge?",
+    "correct_answer": "1976",
+    "domain": "NBA history",
+    "accept_aliases": ""
+  },
+  {
+    "question": "Which player scored 81 points against the Toronto Raptors on January 22, 2006?",
+    "correct_answer": "Kobe Bryant",
+    "domain": "NBA history",
+    "accept_aliases": "Kobe|Bryant"
+  },
+  {
+    "question": "Who was the first player in NBA history to be unanimously selected as MVP, achieving it in the 2015-16 season?",
+    "correct_answer": "Stephen Curry",
+    "domain": "NBA history",
+    "accept_aliases": "Steph Curry|Curry"
+  },
+  {
+    "question": "Which player holds the NBA record for most rebounds in a single game with 55?",
+    "correct_answer": "Wilt Chamberlain",
+    "domain": "NBA history",
+    "accept_aliases": "Wilt|Chamberlain"
+  },
+  {
+    "question": "What was the name of the NBA's first commissioner, who served from 1946 to 1963?",
+    "correct_answer": "Maurice Podoloff",
+    "domain": "NBA history",
+    "accept_aliases": "Podoloff"
+  },
+  {
+    "question": "On what specific date did Wilt Chamberlain score his 100-point game?",
+    "correct_answer": "March 2, 1962",
+    "domain": "NBA history",
+    "accept_aliases": "3/2/1962|March 2 1962"
+  },
+  {
+    "question": "Who was the first African American player to play in the NBA, debuting on October 31, 1950?",
+    "correct_answer": "Earl Lloyd",
+    "domain": "NBA history",
+    "accept_aliases": "Lloyd"
+  },
+  {
+    "question": "Which player recorded a quadruple-double with 18 points, 16 rebounds, 10 assists, and 11 blocks on March 29, 1990?",
+    "correct_answer": "Hakeem Olajuwon",
+    "domain": "NBA history",
+    "accept_aliases": "Olajuwon|Hakeem"
+  },
+  {
+    "question": "Who holds the NBA record for the longest consecutive games played streak at 1,192 games?",
+    "correct_answer": "A.C. Green",
+    "domain": "NBA history",
+    "accept_aliases": "AC Green|A.C. Green Jr."
+  },
+  {
+    "question": "In the 1950 NBA Draft, who became the first African American player to be drafted, selected by the Boston Celtics in the second round?",
+    "correct_answer": "Chuck Cooper",
+    "domain": "NBA history",
+    "accept_aliases": "Charles Cooper|Cooper"
+  },
+  {
+    "question": "Which team drafted Kobe Bryant in the 1996 NBA Draft before he was traded to the Los Angeles Lakers?",
+    "correct_answer": "Charlotte Hornets",
+    "domain": "NBA history",
+    "accept_aliases": "Hornets|Charlotte"
+  },
+  {
+    "question": "Who holds the NBA record for most assists in a single game with 30?",
+    "correct_answer": "Scott Skiles",
+    "domain": "NBA history",
+    "accept_aliases": ""
+  },
+  {
+    "question": "Which player won the NBA Most Valuable Player award in both 2015 and 2016?",
+    "correct_answer": "Stephen Curry",
+    "domain": "NBA history",
+    "accept_aliases": "Steph Curry|Curry"
+  },
+  {
+    "question": "What was the original city of the franchise now known as the Oklahoma City Thunder?",
+    "correct_answer": "Seattle",
+    "domain": "NBA history",
+    "accept_aliases": "Seattle SuperSonics|Seattle Supersonics|SuperSonics"
+  },
+  {
+    "question": "In what year did the NBA introduce the three-point line?",
+    "correct_answer": "1979",
+    "domain": "NBA history",
+    "accept_aliases": "1979-80 season|1979–80"
+  },
+  {
+    "question": "Who was named Finals MVP when the Dallas Mavericks won the 2011 NBA Championship?",
+    "correct_answer": "Dirk Nowitzki",
+    "domain": "NBA history",
+    "accept_aliases": "Nowitzki|Dirk"
+  },
+  {
+    "question": "Which player scored 100 points in a single NBA game on March 2, 1962?",
+    "correct_answer": "Wilt Chamberlain",
+    "domain": "NBA history",
+    "accept_aliases": "Wilt|Chamberlain"
+  },
+  {
+    "question": "What is the name of the trophy awarded to the NBA champion, named after a former commissioner?",
+    "correct_answer": "Larry O'Brien Championship Trophy",
+    "domain": "NBA history",
+    "accept_aliases": "Larry O'Brien Trophy|O'Brien Trophy"
+  },
+  {
+    "question": "Who was the first European-born player to be selected as the number one overall pick in the NBA Draft?",
+    "correct_answer": "Andrea Bargnani",
+    "domain": "NBA history",
+    "accept_aliases": "Bargnani"
+  },
+  {
+    "question": "Which NBA coach holds the all-time record for most regular-season wins?",
+    "correct_answer": "Don Nelson",
+    "domain": "NBA history",
+    "accept_aliases": "Nellie|Don Nelson"
+  },
+  {
+    "question": "What specific jersey number did Bill Russell wear throughout his career with the Boston Celtics?",
+    "correct_answer": "6",
+    "domain": "NBA history",
+    "accept_aliases": "#6|No. 6"
+  },
+  {
+    "question": "Which player hit 'The Shot' over Craig Ehlo to eliminate the Cleveland Cavaliers in the 1989 NBA Playoffs?",
+    "correct_answer": "Michael Jordan",
+    "domain": "NBA history",
+    "accept_aliases": "Jordan|MJ"
+  },
+  {
+    "question": "Who was the head coach of the Houston Rockets during their back-to-back championships in 1994 and 1995?",
+    "correct_answer": "Rudy Tomjanovich",
+    "domain": "NBA history",
+    "accept_aliases": "Rudy T|Tomjanovich"
+  },
+  {
+    "question": "On November 19, 2004, a brawl broke out between players and fans during a game between the Indiana Pacers and which team, in the incident known as 'Malice at the Palace'?",
+    "correct_answer": "Detroit Pistons",
+    "domain": "NBA history",
+    "accept_aliases": "Pistons|Detroit"
+  },
+  {
+    "question": "Which player, selected 15th overall in the 1998 NBA Draft by the Milwaukee Bucks, became the only player in NBA history to win Defensive Player of the Year and Sixth Man of the Year awards?",
+    "correct_answer": "Dirk Nowitzki",
+    "domain": "NBA history",
+    "accept_aliases": ""
+  },
+  {
+    "question": "What was the exact final score of the lowest-scoring game in the shot-clock era, played on November 22, 1950, when the Fort Wayne Pistons defeated the Minneapolis Lakers?",
+    "correct_answer": "19-18",
+    "domain": "NBA history",
+    "accept_aliases": "19 to 18"
+  },
+  {
+    "question": "Who holds the NBA record for the most consecutive games played with 1,192 from 1986 to 2001?",
+    "correct_answer": "A.C. Green",
+    "domain": "NBA history",
+    "accept_aliases": "AC Green|A.C. Green Jr."
+  },
+  {
+    "question": "Which referee wrote the 2009 book 'Personal Foul' after being convicted for betting on NBA games he officiated?",
+    "correct_answer": "Tim Donaghy",
+    "domain": "NBA history",
+    "accept_aliases": "Donaghy"
+  },
+  {
+    "question": "In the 1993 NBA Draft, which team selected Chris Webber first overall before immediately trading him to the Golden State Warriors for the third pick, Anfernee Hardaway, and future draft picks?",
+    "correct_answer": "Orlando Magic",
+    "domain": "NBA history",
+    "accept_aliases": "Magic|Orlando"
+  },
+  {
+    "question": "Who served as the first commissioner of the NBA (originally the BAA) when it was founded in 1946?",
+    "correct_answer": "Maurice Podoloff",
+    "domain": "NBA history",
+    "accept_aliases": "Podoloff"
+  },
+  {
+    "question": "What was the name of the legislative assembly established in Iceland in 930 AD, often considered one of the oldest parliaments in the world?",
+    "correct_answer": "Althing",
+    "domain": "medieval European history",
+    "accept_aliases": "Alþingi|Allthing|Alpingi"
+  },
+  {
+    "question": "In what year did the Byzantine emperor Basil II decisively defeat the Bulgarian army at the Battle of Kleidion, earning him the epithet 'the Bulgar Slayer'?",
+    "correct_answer": "1014",
+    "domain": "medieval European history",
+    "accept_aliases": ""
+  },
+  {
+    "question": "What was the name of the monastic rule written by St. Benedict of Nursia around 530 AD that became the foundational guide for Western monasticism?",
+    "correct_answer": "The Rule of Saint Benedict",
+    "domain": "medieval European history",
+    "accept_aliases": "Rule of St. Benedict|Regula Benedicti|Benedictine Rule"
+  },
+  {
+    "question": "Which Polish duke successfully defended Christendom at the Battle of Legnica in 1241 against the Mongol invasion, dying in the process?",
+    "correct_answer": "Henry II the Pious",
+    "domain": "medieval European history",
+    "accept_aliases": "Henry the Pious|Henryk II Pobożny|Henry II of Silesia|Duke Henry II"
+  },
+  {
+    "question": "What was the name of the Byzantine incendiary weapon, a closely guarded state secret, used to devastating effect against Arab fleets in the 7th and 8th centuries?",
+    "correct_answer": "Greek fire",
+    "domain": "medieval European history",
+    "accept_aliases": "Greek Fire|sea fire|liquid fire"
+  },
+  {
+    "question": "Who was the Aragonese king that presided over the 'Sicilian Vespers' aftermath and became King of Sicily in 1282 after the island's population revolted against Charles of Anjou?",
+    "correct_answer": "Peter III of Aragon",
+    "domain": "medieval European history",
+    "accept_aliases": "Pedro III|Peter III|Pere III|Pedro el Grande|Peter the Great of Aragon"
+  },
+  {
+    "question": "What was the name of the 1302 papal bull issued by Pope Boniface VIII that asserted supreme papal authority over all secular rulers, precipitating a crisis with King Philip IV of France?",
+    "correct_answer": "Unam Sanctam",
+    "domain": "medieval European history",
+    "accept_aliases": "Unam sanctam"
+  },
+  {
+    "question": "Which Scandinavian king unified Denmark, Norway, and parts of Sweden under the Kalmar Union, though the union was formally established under his widow, Queen Margaret I?",
+    "correct_answer": "Eric of Pomerania",
+    "domain": "medieval European history",
+    "accept_aliases": "Erik of Pomerania|Erik VII|Erik III"
+  },
+  {
+    "question": "What was the approximate population of Europe immediately before the Black Death arrived in 1347, according to most modern demographic estimates?",
+    "correct_answer": "75 million",
+    "domain": "medieval European history",
+    "accept_aliases": "70 million|70-75 million|75-80 million|approximately 75 million"
+  },
+  {
+    "question": "Who was the Byzantine scholar and philosopher whose teaching in Florence from 1397 onward is credited with helping spark the revival of Greek learning in Renaissance Italy, and who also advised at the Council of Florence in 1439?",
+    "correct_answer": "Gemistos Plethon",
+    "domain": "medieval European history",
+    "accept_aliases": "George Gemistos Plethon|Georgios Gemistos Plethon|Plethon|Gemistus Pletho|Georgius Gemistus"
+  },
+  {
+    "question": "In what year did William the Conqueror win the Battle of Hastings?",
+    "correct_answer": "1066",
+    "domain": "medieval European history",
+    "accept_aliases": "AD 1066"
+  },
+  {
+    "question": "What was the name of the devastating pandemic that swept through Europe in the mid-14th century, killing an estimated one-third or more of the population?",
+    "correct_answer": "The Black Death",
+    "domain": "medieval European history",
+    "accept_aliases": "Black Death|Black Plague|Bubonic Plague|The Great Pestilence"
+  },
+  {
+    "question": "Which document, sealed by King John of England in 1215, is considered a foundational charter of English liberties?",
+    "correct_answer": "Magna Carta",
+    "domain": "medieval European history",
+    "accept_aliases": "Magna Carta Libertatum|The Great Charter"
+  },
+  {
+    "question": "What was the name of the emperor crowned by Pope Leo III on Christmas Day, 800 AD, often called the 'Father of Europe'?",
+    "correct_answer": "Charlemagne",
+    "domain": "medieval European history",
+    "accept_aliases": "Charles the Great|Carolus Magnus|Karl der Große"
+  },
+  {
+    "question": "Which Pope launched the First Crusade with a famous speech at the Council of Clermont in 1095?",
+    "correct_answer": "Pope Urban II",
+    "domain": "medieval European history",
+    "accept_aliases": "Urban II|Odo of Châtillon|Otto de Lagery"
+  },
+  {
+    "question": "What was the primary language of scholarship, the Church, and official documents throughout most of medieval Western Europe?",
+    "correct_answer": "Latin",
+    "domain": "medieval European history",
+    "accept_aliases": "Medieval Latin"
+  },
+  {
+    "question": "What name is given to the series of religious wars sanctioned by the Latin Church to reclaim the Holy Land from Islamic rule?",
+    "correct_answer": "The Crusades",
+    "domain": "medieval European history",
+    "accept_aliases": "Crusades"
+  },
+  {
+    "question": "Which English king is famous for his role in the Third Crusade and his nickname 'the Lionheart'?",
+    "correct_answer": "Richard I",
+    "domain": "medieval European history",
+    "accept_aliases": "Richard the Lionheart|Richard Coeur de Lion|Richard I of England"
+  },
+  {
+    "question": "What socio-economic system, based on land held in exchange for service or labour, dominated medieval European society?",
+    "correct_answer": "Feudalism",
+    "domain": "medieval European history",
+    "accept_aliases": "The feudal system"
+  },
+  {
+    "question": "Which French heroine, later canonized as a saint, led French forces to several victories during the Hundred Years' War before being burned at the stake in 1431?",
+    "correct_answer": "Joan of Arc",
+    "domain": "medieval European history",
+    "accept_aliases": "Jeanne d'Arc|The Maid of Orléans"
+  },
+  {
+    "question": "The Great Schism of 1054 formally divided Christianity into which two major branches?",
+    "correct_answer": "Roman Catholic Church and Eastern Orthodox Church",
+    "domain": "medieval European history",
+    "accept_aliases": "Catholicism and Eastern Orthodoxy|Latin Church and Greek Church|Western and Eastern Christianity"
+  },
+  {
+    "question": "What was the name of the Anglo-Saxon epic poem, composed between the 8th and early 11th centuries, that tells the story of a Scandinavian hero who slays the monster Grendel?",
+    "correct_answer": "Beowulf",
+    "domain": "medieval European history",
+    "accept_aliases": ""
+  },
+  {
+    "question": "In what year did the fall of Constantinople to the Ottoman Turks occur, an event often used to mark the end of the Middle Ages?",
+    "correct_answer": "1453",
+    "domain": "medieval European history",
+    "accept_aliases": "AD 1453"
+  },
+  {
+    "question": "Which medieval monastic order, founded by St. Bruno in 1084 near Grenoble, is known for its strict rule of silence and solitary living in individual cells called 'cells of the charterhouse'?",
+    "correct_answer": "The Carthusians",
+    "domain": "medieval European history",
+    "accept_aliases": "Carthusian Order|Order of Saint Bruno"
+  },
+  {
+    "question": "What was the name of the treaty signed in 843 that divided the Carolingian Empire among the three surviving sons of Louis the Pious?",
+    "correct_answer": "The Treaty of Verdun",
+    "domain": "medieval European history",
+    "accept_aliases": "Treaty of Verdun"
+  },
+  {
+    "question": "Which Byzantine emperor, ruling from 527 to 565 AD, is famous for his ambitious reconquest of former Western Roman territories and for commissioning the Corpus Juris Civilis?",
+    "correct_answer": "Justinian I",
+    "domain": "medieval European history",
+    "accept_aliases": "Justinian the Great|Emperor Justinian"
+  },
+  {
+    "question": "At the Battle of Crécy in 1346, which technological weapon, used en masse by the English, proved devastatingly effective against French knights and crossbowmen?",
+    "correct_answer": "The English longbow",
+    "domain": "medieval European history",
+    "accept_aliases": "Longbow|Welsh longbow"
+  },
+  {
+    "question": "What was the name of the medieval Italian banker and political theorist who wrote 'De Monarchia', arguing for a universal monarchy separate from papal authority?",
+    "correct_answer": "Dante Alighieri",
+    "domain": "medieval European history",
+    "accept_aliases": "Dante"
+  },
+  {
+    "question": "Which specific church council, held from 1414 to 1418, ended the Western Schism by deposing or accepting the resignation of three rival popes and electing Martin V?",
+    "correct_answer": "The Council of Constance",
+    "domain": "medieval European history",
+    "accept_aliases": "Council of Constance|Concilium Constantiense"
+  },
+  {
+    "question": "In the complex succession disputes of the Holy Roman Empire, what was the name of the 1356 decree issued by Emperor Charles IV that established the formal procedure for electing the King of the Romans by seven prince-electors?",
+    "correct_answer": "The Golden Bull of 1356",
+    "domain": "medieval European history",
+    "accept_aliases": "Golden Bull|Bulla Aurea"
+  },
+  {
+    "question": "What was the name of the legislative assembly established in Iceland in 930 AD, considered one of the oldest parliaments in the world?",
+    "correct_answer": "Althing",
+    "domain": "medieval European history",
+    "accept_aliases": "Alþingi|Allthingi|Althingi"
+  },
+  {
+    "question": "Which monastic order was founded by St. Bruno of Cologne in 1084 in the Chartreuse Mountains?",
+    "correct_answer": "Carthusian Order",
+    "domain": "medieval European history",
+    "accept_aliases": "Carthusians|Order of Carthusians"
+  },
+  {
+    "question": "What was the name of the treaty signed in 843 AD that divided the Carolingian Empire among the three surviving sons of Louis the Pious?",
+    "correct_answer": "Treaty of Verdun",
+    "domain": "medieval European history",
+    "accept_aliases": "Verdun Treaty"
+  },
+  {
+    "question": "Which medieval English king was forced to sign the Magna Carta in 1215?",
+    "correct_answer": "King John",
+    "domain": "medieval European history",
+    "accept_aliases": "John of England|John Lackland|King John of England"
+  },
+  {
+    "question": "What was the primary language of scholarship and the Church throughout medieval Western Europe?",
+    "correct_answer": "Latin",
+    "domain": "medieval European history",
+    "accept_aliases": ""
+  },
+  {
+    "question": "In what year did the Ottoman Turks capture Constantinople, ending the Byzantine Empire?",
+    "correct_answer": "1453",
+    "domain": "medieval European history",
+    "accept_aliases": ""
+  },
+  {
+    "question": "Who was the Byzantine emperor who commissioned the Corpus Juris Civilis, a comprehensive codification of Roman law?",
+    "correct_answer": "Justinian I",
+    "domain": "medieval European history",
+    "accept_aliases": "Justinian the Great|Justinian|Emperor Justinian"
+  },
+  {
+    "question": "What was the name of the fortified bridge in medieval Prague, commissioned by Charles IV in 1357, that still stands today?",
+    "correct_answer": "Charles Bridge",
+    "domain": "medieval European history",
+    "accept_aliases": "Karlův most|Karluv most"
+  },
+  {
+    "question": "Which Iberian kingdom's ruler Alfonso VI captured the city of Toledo from the Moors in 1085?",
+    "correct_answer": "Kingdom of León and Castile",
+    "domain": "medieval European history",
+    "accept_aliases": "Castile|León-Castile|Castile and León|Kingdom of Castile"
+  },
+  {
+    "question": "What term describes the medieval economic system in which peasants were bound to work on a lord's estate in exchange for protection and the use of land?",
+    "correct_answer": "Feudalism",
+    "domain": "medieval European history",
+    "accept_aliases": "manorialism|the feudal system|serfdom"
+  },
+  {
+    "question": "Who served as the regent of France during the minority of Louis IX and is credited with successfully defending the crown against a baronial revolt in 1226–1234?",
+    "correct_answer": "Blanche of Castile",
+    "domain": "medieval European history",
+    "accept_aliases": "Blanche de Castille"
+  },
+  {
+    "question": "At the Battle of Lechfeld in 955 AD, which king of East Francia decisively defeated the Magyars, ending their raids into Western Europe?",
+    "correct_answer": "Otto I",
+    "domain": "medieval European history",
+    "accept_aliases": "Otto the Great|King Otto I|Otto I of Germany"
+  },
+  {
+    "question": "What was the name of the Norwegian king who won the Battle of Stiklestad's opposing side — specifically, who killed King Olaf II at Stiklestad in 1030, leading the rebel army backed by Cnut the Great?",
+    "correct_answer": "Thorir Hund",
+    "domain": "medieval European history",
+    "accept_aliases": "Þórir hundr|Thorir the Hound|Torir Hund"
+  },
+  {
+    "question": "Which ecumenical council, held in 1215 under Pope Innocent III, mandated annual confession for all Christians and defined the doctrine of transubstantiation?",
+    "correct_answer": "Fourth Lateran Council",
+    "domain": "medieval European history",
+    "accept_aliases": "Fourth Council of the Lateran|Lateran IV|4th Lateran Council"
+  },
+  {
+    "question": "What was the name of the Byzantine incendiary weapon, a closely guarded state secret, used to devastating effect in naval warfare from the 7th century onward?",
+    "correct_answer": "Greek fire",
+    "domain": "medieval European history",
+    "accept_aliases": "Greek Fire|Byzantine fire|liquid fire"
+  },
+  {
+    "question": "In the Domesday Book of 1086, approximately how many people were recorded as living in England?",
+    "correct_answer": "Approximately 2 million",
+    "domain": "medieval European history",
+    "accept_aliases": "about 2 million|around 2 million|1.5 to 2 million|2 million"
+  },
+  {
+    "question": "Who was the Italian jurist from Bologna whose compilation of Church law, the Decretum (c. 1140), became the foundational text of canon law studies?",
+    "correct_answer": "Gratian",
+    "domain": "medieval European history",
+    "accept_aliases": "Johannes Gratianus|Gratianus"
+  },
+  {
+    "question": "What was the specific name of the tax levied by the English crown on all movable property at a rate of one-fifteenth in rural areas and one-tenth in urban areas, standardized from 1334?",
+    "correct_answer": "The Lay Subsidy",
+    "domain": "medieval European history",
+    "accept_aliases": "Fifteenth and Tenth|lay subsidy|the tenth and fifteenth"
+  },
+  {
+    "question": "Which Serbian ruler was defeated and killed at the Battle of Kosovo in 1389, an event that became central to Serbian national mythology?",
+    "correct_answer": "Prince Lazar",
+    "domain": "medieval European history",
+    "accept_aliases": "Lazar Hrebeljanović|Lazar Hrebeljanovic|Knez Lazar|Tsar Lazar"
+  },
+  {
+    "question": "What was the name of the Flemish mystic and poet, active in the 13th century, who wrote visionary works in Middle Dutch and is considered one of the greatest medieval women writers of the Low Countries?",
+    "correct_answer": "Hadewijch",
+    "domain": "medieval European history",
+    "accept_aliases": "Hadewijch of Antwerp|Hadewijch of Brabant"
+  },
+  {
+    "question": "What is the name of the Korean variety show where celebrities are given missions and must avoid being eliminated by 'running' and tearing off name tags?",
+    "correct_answer": "Running Man",
+    "domain": "Korean pop culture",
+    "accept_aliases": "런닝맨"
+  },
+  {
+    "question": "Which K-pop girl group released the 2020 hit song 'Dumdi Dumdi' and is known for members Soyeon, Miyeon, Minnie, Soojin, Yuqi, and Shuhua?",
+    "correct_answer": "(G)I-DLE",
+    "domain": "Korean pop culture",
+    "accept_aliases": "G I-DLE|GIDLE|아이들|여자아이들"
+  },
+  {
+    "question": "In the 2022 Korean drama 'Extraordinary Attorney Woo', what marine animal is the protagonist Woo Young-woo famously obsessed with?",
+    "correct_answer": "Whales",
+    "domain": "Korean pop culture",
+    "accept_aliases": "Whale|고래"
+  },
+  {
+    "question": "Which South Korean rapper and producer, a member of the hip-hop group Epik High, also served as a judge on the competition show 'Show Me the Money'?",
+    "correct_answer": "Tablo",
+    "domain": "Korean pop culture",
+    "accept_aliases": "Lee Seon-woong|Daniel Armand Lee"
+  },
+  {
+    "question": "What was the exact date BTS's single 'Dynamite' debuted at number one on the Billboard Hot 100, making them the first all-South Korean act to top the chart?",
+    "correct_answer": "August 31, 2020",
+    "domain": "Korean pop culture",
+    "accept_aliases": "2020-08-31|September 5, 2020 chart dated|August 31 2020"
+  },
+  {
+    "question": "Which Korean webtoon, written by ONE and illustrated by a Korean artist for the LINE Webtoon platform, was adapted into the globally popular K-drama 'Sweet Home'?",
+    "correct_answer": "Sweet Home (webtoon by Kim Carnby and Hwang Young-chan)",
+    "domain": "Korean pop culture",
+    "accept_aliases": "Sweet Home|스위트홈"
+  },
+  {
+    "question": "In the Korean music industry award system, what is the name of the prestigious year-end ceremony hosted by Mnet that is often referred to by the acronym 'MAMA'?",
+    "correct_answer": "Mnet Asian Music Awards",
+    "domain": "Korean pop culture",
+    "accept_aliases": "MAMA|MAMA Awards|Mnet Asian Music Awards"
+  },
+  {
+    "question": "Which former YG Entertainment producer and composer, known by the stage name Teddy, is credited with writing and producing the majority of BLACKPINK's discography as well as iconic 2NE1 tracks like 'I Am the Best'?",
+    "correct_answer": "Teddy Park",
+    "domain": "Korean pop culture",
+    "accept_aliases": "Teddy|Park Hong-jun|테디"
+  },
+  {
+    "question": "On which specific date did the Korean drama 'Squid Game' premiere on Netflix, eventually becoming the platform's most-watched series at the time?",
+    "correct_answer": "September 17, 2021",
+    "domain": "Korean pop culture",
+    "accept_aliases": "2021-09-17|September 17 2021|17 September 2021"
+  },
+  {
+    "question": "In the first season of the Korean survival audition show 'Produce 101' (2016), how many total trainees initially competed for a spot in the final debut group I.O.I?",
+    "correct_answer": "101",
+    "domain": "Korean pop culture",
+    "accept_aliases": "101 trainees"
+  },
+  {
+    "question": "Which South Korean boy band, formed by Big Hit Entertainment, released the album 'Map of the Soul: 7' in 2020?",
+    "correct_answer": "BTS",
+    "domain": "Korean pop culture",
+    "accept_aliases": "Bangtan Sonyeondan|Beyond The Scene|방탄소년단"
+  },
+  {
+    "question": "Which 2019 South Korean film, directed by Bong Joon-ho, became the first non-English-language film to win the Academy Award for Best Picture?",
+    "correct_answer": "Parasite",
+    "domain": "Korean pop culture",
+    "accept_aliases": "기생충|Gisaengchung"
+  },
+  {
+    "question": "What is the name of the four-member K-pop girl group under YG Entertainment that debuted in 2016 with the single 'Boombayah'?",
+    "correct_answer": "BLACKPINK",
+    "domain": "Korean pop culture",
+    "accept_aliases": "블랙핑크|Black Pink"
+  },
+  {
+    "question": "Which Korean survival drama series became Netflix's most-watched series of all time upon its release in September 2021?",
+    "correct_answer": "Squid Game",
+    "domain": "Korean pop culture",
+    "accept_aliases": "오징어 게임"
+  },
+  {
+    "question": "What is the stage name of the South Korean rapper and music producer whose real name is Park Jae-sang, known worldwide for his 2012 viral hit 'Gangnam Style'?",
+    "correct_answer": "PSY",
+    "domain": "Korean pop culture",
+    "accept_aliases": "싸이|Psy"
+  },
+  {
+    "question": "Which K-pop entertainment company, founded by Lee Soo-man in 1995, manages groups such as EXO, Red Velvet, and aespa?",
+    "correct_answer": "SM Entertainment",
+    "domain": "Korean pop culture",
+    "accept_aliases": "SM|에스엠 엔터테인먼트"
+  },
+  {
+    "question": "In the 2020 K-drama 'Crash Landing on You,' a South Korean heiress accidentally paraglides into which country?",
+    "correct_answer": "North Korea",
+    "domain": "Korean pop culture",
+    "accept_aliases": "DPRK|Democratic People's Republic of Korea|북한"
+  },
+  {
+    "question": "Which BTS member released the solo album 'Indigo' in December 2022, the group's first official solo album under their 'Chapter 2' era?",
+    "correct_answer": "RM",
+    "domain": "Korean pop culture",
+    "accept_aliases": "Kim Namjoon|Kim Nam-joon|랩몬스터|Rap Monster|김남준"
+  },
+  {
+    "question": "What was the name of the Mnet survival show that formed the project girl group I.O.I in 2016?",
+    "correct_answer": "Produce 101",
+    "domain": "Korean pop culture",
+    "accept_aliases": "프로듀스 101"
+  },
+  {
+    "question": "Which BLACKPINK member starred as the lead in the HBO series 'The Idol' (2023) alongside The Weeknd?",
+    "correct_answer": "Jennie",
+    "domain": "Korean pop culture",
+    "accept_aliases": "Jennie Kim|김제니|Kim Jennie"
+  },
+  {
+    "question": "On what exact date did BTS's 'Dynamite' music video premiere on YouTube, setting a record for the most-viewed YouTube premiere at that time?",
+    "correct_answer": "August 21, 2020",
+    "domain": "Korean pop culture",
+    "accept_aliases": "21 August 2020|2020-08-21|Aug 21 2020"
+  },
+  {
+    "question": "Which South Korean director's 2003 film 'Oldboy' won the Grand Prix at the 2004 Cannes Film Festival?",
+    "correct_answer": "Park Chan-wook",
+    "domain": "Korean pop culture",
+    "accept_aliases": "박찬욱|Park Chanwook"
+  },
+  {
+    "question": "Which K-pop group performed the song 'My Pace' and is known for their self-producing system, with leader Bang Chan heading their in-house production team called 3RACHA?",
+    "correct_answer": "Stray Kids",
+    "domain": "Korean pop culture",
+    "accept_aliases": "스트레이 키즈|SKZ"
+  },
+  {
+    "question": "What is the Korean term for the wave of South Korean cultural exports — including music, drama, and film — that has spread globally since the late 1990s?",
+    "correct_answer": "Hallyu",
+    "domain": "Korean pop culture",
+    "accept_aliases": "한류|Korean Wave|Hanryu"
+  },
+  {
+    "question": "Which K-pop soloist, a former member of 2NE1, released the solo track 'SOLO' in November 2018, which became the first song by a K-pop solo artist to surpass 100 million streams on Spotify?",
+    "correct_answer": "Jennie",
+    "domain": "Korean pop culture",
+    "accept_aliases": "Jennie Kim|김제니"
+  },
+  {
+    "question": "In what year was the annual MAMA (Mnet Asian Music Awards) ceremony first held, originally under the name 'Mnet Music Video Festival'?",
+    "correct_answer": "1999",
+    "domain": "Korean pop culture",
+    "accept_aliases": ""
+  },
+  {
+    "question": "Which South Korean webtoon platform, launched by Naver in 2004, became the basis for the global service rebranded as 'Webtoon' and has been the source material for K-dramas such as 'True Beauty' and 'Sweet Home'?",
+    "correct_answer": "Naver Webtoon",
+    "domain": "Korean pop culture",
+    "accept_aliases": "네이버 웹툰|LINE Webtoon|Webtoon"
+  },
+  {
+    "question": "What was the exact peak Billboard Hot 100 chart position achieved by BIGBANG's 'Fantastic Baby' upon its release in 2012?",
+    "correct_answer": "It did not chart on the Billboard Hot 100",
+    "domain": "Korean pop culture",
+    "accept_aliases": "Did not chart|N/A"
+  },
+  {
+    "question": "Which composer created the original score for the 2020 Korean film 'Minari,' earning an Academy Award nomination for Best Original Score?",
+    "correct_answer": "Emile Mosseri",
+    "domain": "Korean pop culture",
+    "accept_aliases": ""
+  },
+  {
+    "question": "In the SM Entertainment trainee system, what is the internal name of the pre-debut training program through which artists like BoA and TVXQ were developed, often cited as the model for modern K-pop idol training?",
+    "correct_answer": "SM Rookies",
+    "domain": "Korean pop culture",
+    "accept_aliases": "에스엠 루키즈|SMRookies"
+  },
+  {
+    "question": "Which K-pop girl group released the hit song 'TT' in 2016?",
+    "correct_answer": "TWICE",
+    "domain": "Korean pop culture",
+    "accept_aliases": "트와이스"
+  },
+  {
+    "question": "What is the name of the Korean variety show where celebrities compete in physical games and missions, hosted by Yoo Jae-suk, that has been airing since 2010?",
+    "correct_answer": "Running Man",
+    "domain": "Korean pop culture",
+    "accept_aliases": "런닝맨"
+  },
+  {
+    "question": "Which actor starred as the lead in the 2020 K-drama 'It's Okay to Not Be Okay'?",
+    "correct_answer": "Kim Soo-hyun",
+    "domain": "Korean pop culture",
+    "accept_aliases": "김수현"
+  },
+  {
+    "question": "What was the name of EXO's debut single released in 2012?",
+    "correct_answer": "MAMA",
+    "domain": "Korean pop culture",
+    "accept_aliases": ""
+  },
+  {
+    "question": "Which Korean film directed by Park Chan-wook won the Grand Prix at the 2004 Cannes Film Festival?",
+    "correct_answer": "Oldboy",
+    "domain": "Korean pop culture",
+    "accept_aliases": "올드보이"
+  },
+  {
+    "question": "Which K-pop soloist released the album 'Lilac' in 2021 as a farewell before her military-era hiatus from solo activities?",
+    "correct_answer": "IU",
+    "domain": "Korean pop culture",
+    "accept_aliases": "아이유|Lee Ji-eun|이지은"
+  },
+  {
+    "question": "In the Korean webtoon and Netflix series 'Sweet Home', what do humans transform into?",
+    "correct_answer": "Monsters",
+    "domain": "Korean pop culture",
+    "accept_aliases": "괴물"
+  },
+  {
+    "question": "What specific date did BTS's 'Dynamite' debut at number one on the Billboard Hot 100, making them the first all-South Korean act to top the chart?",
+    "correct_answer": "August 31, 2020",
+    "domain": "Korean pop culture",
+    "accept_aliases": "August 31 2020|2020-08-31"
+  },
+  {
+    "question": "Which entertainment company, founded by Yang Hyun-suk, manages BLACKPINK and BIGBANG?",
+    "correct_answer": "YG Entertainment",
+    "domain": "Korean pop culture",
+    "accept_aliases": "YG|YG엔터테인먼트"
+  },
+  {
+    "question": "What is the Korean term for the system of entertainment companies training young performers for years before their official debut?",
+    "correct_answer": "Trainee system",
+    "domain": "Korean pop culture",
+    "accept_aliases": "연습생 시스템|연습생"
+  },
+  {
+    "question": "Which Korean drama OST singer performed 'My Love from the Star' and is known as the 'OST Queen'?",
+    "correct_answer": "Lyn",
+    "domain": "Korean pop culture",
+    "accept_aliases": "린|Lee Se-jin"
+  },
+  {
+    "question": "How many members were in the final lineup of the project group I.O.I, formed through the first season of 'Produce 101' in 2016?",
+    "correct_answer": "11",
+    "domain": "Korean pop culture",
+    "accept_aliases": "eleven"
+  },
+  {
+    "question": "Which Korean manhwa artist created 'Tower of God', one of the first webtoons to be adapted into a Japanese-produced anime?",
+    "correct_answer": "SIU",
+    "domain": "Korean pop culture",
+    "accept_aliases": "Slave.In"
+  },
+  {
+    "question": "What was the name of BIGBANG's Taeyang's solo debut album released in 2008?",
+    "correct_answer": "HOT",
+    "domain": "Korean pop culture",
+    "accept_aliases": "Hot|Solar"
+  },
+  {
+    "question": "Which actress won the Grand Bell Award for Best Actress for her role in the 2016 film 'The Handmaiden'?",
+    "correct_answer": "Kim Min-hee",
+    "domain": "Korean pop culture",
+    "accept_aliases": "김민희"
+  },
+  {
+    "question": "In what year did SM Entertainment debut its 'virtual member' concept with the group aespa, and what are the virtual counterparts called?",
+    "correct_answer": "2020, and the virtual counterparts are called ae",
+    "domain": "Korean pop culture",
+    "accept_aliases": "2020; ae members|2020, ae"
+  },
+  {
+    "question": "Which Korean indie band, known for the song 'Galaxy', won the Korean Music Award for Best Rock Album in 2013?",
+    "correct_answer": "Galaxy Express",
+    "domain": "Korean pop culture",
+    "accept_aliases": "갤럭시 익스프레스"
+  },
+  {
+    "question": "What was the exact worldwide revenue in US dollars of the 2019 film 'Parasite' at the global box office, rounded to the nearest million?",
+    "correct_answer": "$263 million",
+    "domain": "Korean pop culture",
+    "accept_aliases": "263 million|$263M|263M"
+  },
+  {
+    "question": "Which Korean composer and music director scored the soundtrack for the K-drama 'Goblin' (2016), including the arrangement of the iconic 'Round and Round'?",
+    "correct_answer": "Nam Hye-seung",
+    "domain": "Korean pop culture",
+    "accept_aliases": "남혜승"
+  },
+  {
+    "question": "On the Mnet competition show 'Kingdom: Legendary War' (2021), which group won the final ranking?",
+    "correct_answer": "Stray Kids",
+    "domain": "Korean pop culture",
+    "accept_aliases": "스트레이 키즈|SKZ"
+  },
+  {
+    "question": "What amendment to the US Constitution protects against unreasonable searches and seizures?",
+    "correct_answer": "Fourth Amendment",
+    "domain": "US criminal law",
+    "accept_aliases": "4th Amendment|Amendment IV"
+  },
+  {
+    "question": "What is the legal term for a serious criminal offense typically punishable by more than one year in prison?",
+    "correct_answer": "Felony",
+    "domain": "US criminal law",
+    "accept_aliases": ""
+  },
+  {
+    "question": "What landmark 1966 Supreme Court case established that suspects must be informed of their rights before custodial interrogation?",
+    "correct_answer": "Miranda v. Arizona",
+    "domain": "US criminal law",
+    "accept_aliases": "Miranda v Arizona|Miranda"
+  },
+  {
+    "question": "What amendment to the US Constitution guarantees the right to a speedy and public trial?",
+    "correct_answer": "Sixth Amendment",
+    "domain": "US criminal law",
+    "accept_aliases": "6th Amendment|Amendment VI"
+  },
+  {
+    "question": "What is the standard of proof required for a criminal conviction in the United States?",
+    "correct_answer": "Beyond a reasonable doubt",
+    "domain": "US criminal law",
+    "accept_aliases": "Proof beyond a reasonable doubt|Beyond reasonable doubt"
+  },
+  {
+    "question": "What amendment protects against double jeopardy and compelled self-incrimination?",
+    "correct_answer": "Fifth Amendment",
+    "domain": "US criminal law",
+    "accept_aliases": "5th Amendment|Amendment V"
+  },
+  {
+    "question": "What is the legal term for the mental state or intent element required to establish criminal liability?",
+    "correct_answer": "Mens rea",
+    "domain": "US criminal law",
+    "accept_aliases": "Guilty mind|Criminal intent"
+  },
+  {
+    "question": "What is the term for the physical act element of a crime?",
+    "correct_answer": "Actus reus",
+    "domain": "US criminal law",
+    "accept_aliases": "Guilty act"
+  },
+  {
+    "question": "What is the name of the constitutional rule that excludes evidence obtained in violation of a defendant's constitutional rights?",
+    "correct_answer": "Exclusionary rule",
+    "domain": "US criminal law",
+    "accept_aliases": "The exclusionary rule"
+  },
+  {
+    "question": "In what 1963 Supreme Court case was the right to appointed counsel for indigent defendants in felony cases established?",
+    "correct_answer": "Gideon v. Wainwright",
+    "domain": "US criminal law",
+    "accept_aliases": "Gideon v Wainwright|Gideon"
+  },
+  {
+    "question": "Under the Model Penal Code, what are the four levels of culpability (mens rea) in descending order of blameworthiness?",
+    "correct_answer": "Purposely, knowingly, recklessly, negligently",
+    "domain": "US criminal law",
+    "accept_aliases": "Purpose, knowledge, recklessness, negligence|Purposefully, knowingly, recklessly, negligently"
+  },
+  {
+    "question": "What 1984 federal statute established the US Sentencing Commission and led to the creation of the Federal Sentencing Guidelines?",
+    "correct_answer": "Sentencing Reform Act of 1984",
+    "domain": "US criminal law",
+    "accept_aliases": "Sentencing Reform Act|SRA"
+  },
+  {
+    "question": "In what Supreme Court case did the Court rule that the Eighth Amendment prohibits the execution of intellectually disabled individuals?",
+    "correct_answer": "Atkins v. Virginia",
+    "domain": "US criminal law",
+    "accept_aliases": "Atkins v Virginia"
+  },
+  {
+    "question": "What 2005 Supreme Court case made the Federal Sentencing Guidelines advisory rather than mandatory?",
+    "correct_answer": "United States v. Booker",
+    "domain": "US criminal law",
+    "accept_aliases": "US v. Booker|United States v Booker"
+  },
+  {
+    "question": "What legal doctrine allows evidence obtained through an illegal search to be admitted if it would have inevitably been discovered through lawful means?",
+    "correct_answer": "Inevitable discovery doctrine",
+    "domain": "US criminal law",
+    "accept_aliases": "Inevitable discovery exception|Inevitable discovery"
+  },
+  {
+    "question": "What 1968 Supreme Court case established that police may conduct a brief pat-down search for weapons based on reasonable suspicion?",
+    "correct_answer": "Terry v. Ohio",
+    "domain": "US criminal law",
+    "accept_aliases": "Terry v Ohio|Terry stop case"
+  },
+  {
+    "question": "Under federal law (18 U.S.C. § 1111), what distinguishes first-degree murder from second-degree murder?",
+    "correct_answer": "Premeditation and deliberation",
+    "domain": "US criminal law",
+    "accept_aliases": "Premeditation|Willful, deliberate, and premeditated killing|Premeditated and deliberate"
+  },
+  {
+    "question": "In what year was the Model Penal Code first published by the American Law Institute?",
+    "correct_answer": "1962",
+    "domain": "US criminal law",
+    "accept_aliases": ""
+  },
+  {
+    "question": "What Supreme Court case established the 'fruit of the poisonous tree' doctrine, holding that evidence derived from an illegal search is also inadmissible?",
+    "correct_answer": "Silverthorne Lumber Co. v. United States",
+    "domain": "US criminal law",
+    "accept_aliases": "Silverthorne Lumber Co. v. US|Silverthorne Lumber v United States"
+  },
+  {
+    "question": "In Apprendi v. New Jersey (2000), the Supreme Court held that any fact that increases a criminal sentence beyond the statutory maximum must be determined by what body and under what standard?",
+    "correct_answer": "A jury, beyond a reasonable doubt",
+    "domain": "US criminal law",
+    "accept_aliases": "Jury beyond a reasonable doubt|Submitted to a jury and proved beyond a reasonable doubt"
+  },
+  {
+    "question": "What is the legal term for a formal written accusation of a crime issued by a grand jury?",
+    "correct_answer": "Indictment",
+    "domain": "US criminal law",
+    "accept_aliases": "true bill|bill of indictment"
+  },
+  {
+    "question": "In the landmark 1963 Supreme Court case Gideon v. Wainwright, what fundamental right was established for criminal defendants?",
+    "correct_answer": "The right to court-appointed counsel for indigent defendants in felony cases",
+    "domain": "US criminal law",
+    "accept_aliases": "right to an attorney|right to counsel|right to a lawyer"
+  },
+  {
+    "question": "What is the name of the doctrine that allows police to search a vehicle without a warrant if they have probable cause, established in Carroll v. United States (1925)?",
+    "correct_answer": "The automobile exception",
+    "domain": "US criminal law",
+    "accept_aliases": "Carroll doctrine|motor vehicle exception|vehicle exception"
+  },
+  {
+    "question": "Under the federal Speedy Trial Act of 1974, within how many days of arrest must a federal criminal trial generally commence?",
+    "correct_answer": "70 days",
+    "domain": "US criminal law",
+    "accept_aliases": "seventy days"
+  },
+  {
+    "question": "What 1984 Supreme Court case established the 'inevitable discovery' exception to the exclusionary rule, involving the murder of a young girl in Iowa?",
+    "correct_answer": "Nix v. Williams",
+    "domain": "US criminal law",
+    "accept_aliases": "Nix v Williams|Williams II"
+  },
+  {
+    "question": "In federal sentencing, what is the name of the advisory guidelines system created by the Sentencing Reform Act of 1984, which became advisory after United States v. Booker (2005)?",
+    "correct_answer": "The United States Sentencing Guidelines",
+    "domain": "US criminal law",
+    "accept_aliases": "USSG|Federal Sentencing Guidelines|U.S. Sentencing Guidelines"
+  },
+  {
+    "question": "What specific constitutional amendment protects against being tried twice for the same offense by the same sovereign?",
+    "correct_answer": "The Fifth Amendment",
+    "domain": "US criminal law",
+    "accept_aliases": "5th Amendment|Double Jeopardy Clause of the Fifth Amendment"
+  },
+  {
+    "question": "In Batson v. Kentucky (1986), the Supreme Court prohibited the use of peremptory challenges to exclude jurors on the basis of what?",
+    "correct_answer": "Race",
+    "domain": "US criminal law",
+    "accept_aliases": "racial discrimination|race of the juror"
+  },
+  {
+    "question": "What is the three-part test established in Strickland v. Washington (1984) shorthand name for evaluating claims of ineffective assistance of counsel, and what two prongs must a defendant satisfy?",
+    "correct_answer": "The Strickland test, requiring proof of deficient performance and prejudice",
+    "domain": "US criminal law",
+    "accept_aliases": "Strickland standard|deficient performance prong and prejudice prong"
+  },
+  {
+    "question": "Under 18 U.S.C. § 1962, the federal RICO statute requires a defendant to have committed at least how many predicate acts of racketeering activity within a ten-year period to establish a pattern of racketeering?",
+    "correct_answer": "Two",
+    "domain": "US criminal law",
+    "accept_aliases": "2|at least two|a minimum of two"
+  },
+  {
+    "question": "What is the legal term for a killing committed in the sudden heat of passion after adequate provocation?",
+    "correct_answer": "Voluntary manslaughter",
+    "domain": "US criminal law",
+    "accept_aliases": "voluntary manslaughter|manslaughter in the first degree"
+  },
+  {
+    "question": "What amendment to the US Constitution protects against double jeopardy?",
+    "correct_answer": "Fifth Amendment",
+    "domain": "US criminal law",
+    "accept_aliases": "5th Amendment|the Fifth"
+  },
+  {
+    "question": "What is the standard of proof required to convict a defendant in a criminal trial?",
+    "correct_answer": "Beyond a reasonable doubt",
+    "domain": "US criminal law",
+    "accept_aliases": "proof beyond a reasonable doubt|beyond reasonable doubt"
+  },
+  {
+    "question": "What is the name of the doctrine that allows police to search a vehicle without a warrant if they have probable cause?",
+    "correct_answer": "The automobile exception",
+    "domain": "US criminal law",
+    "accept_aliases": "Carroll doctrine|motor vehicle exception|vehicle exception"
+  },
+  {
+    "question": "In which 1966 Supreme Court case was it established that suspects must be informed of their right to remain silent and right to an attorney before custodial interrogation?",
+    "correct_answer": "Miranda v. Arizona",
+    "domain": "US criminal law",
+    "accept_aliases": "Miranda v Arizona|Miranda vs. Arizona|384 U.S. 436"
+  },
+  {
+    "question": "What federal statute, codified at 18 U.S.C. § 1961–1968, targets organized crime by allowing prosecution for patterns of racketeering activity?",
+    "correct_answer": "The Racketeer Influenced and Corrupt Organizations Act",
+    "domain": "US criminal law",
+    "accept_aliases": "RICO|RICO Act|Racketeer Influenced and Corrupt Organizations Act"
+  },
+  {
+    "question": "What is the minimum number of jurors required for a federal criminal trial under Federal Rule of Criminal Procedure 23?",
+    "correct_answer": "12",
+    "domain": "US criminal law",
+    "accept_aliases": "twelve|12 jurors"
+  },
+  {
+    "question": "What is the legal term for an agreement between two or more persons to commit a crime, even if the crime itself is never completed?",
+    "correct_answer": "Conspiracy",
+    "domain": "US criminal law",
+    "accept_aliases": "criminal conspiracy"
+  },
+  {
+    "question": "Under the Model Penal Code, what are the four levels of culpability (mens rea) in descending order of blameworthiness?",
+    "correct_answer": "Purposely, knowingly, recklessly, and negligently",
+    "domain": "US criminal law",
+    "accept_aliases": "purpose, knowledge, recklessness, negligence|purposeful, knowing, reckless, negligent"
+  },
+  {
+    "question": "What 1963 Supreme Court case established the right of indigent defendants to court-appointed counsel in felony cases?",
+    "correct_answer": "Gideon v. Wainwright",
+    "domain": "US criminal law",
+    "accept_aliases": "Gideon v Wainwright|372 U.S. 335"
+  },
+  {
+    "question": "Under the federal Sentencing Guidelines, what is the name of the calculation that assigns a numerical score to a defendant's prior criminal record?",
+    "correct_answer": "Criminal history category",
+    "domain": "US criminal law",
+    "accept_aliases": "criminal history score|criminal history calculation"
+  },
+  {
+    "question": "In Batson v. Kentucky (1986), the Supreme Court prohibited the use of peremptory challenges to exclude jurors on what basis?",
+    "correct_answer": "Race",
+    "domain": "US criminal law",
+    "accept_aliases": "racial discrimination|on the basis of race"
+  },
+  {
+    "question": "What is the name of the rule, established in Weeks v. United States (1914) and later applied to the states in Mapp v. Ohio (1961), that prohibits the use of illegally obtained evidence at trial?",
+    "correct_answer": "The exclusionary rule",
+    "domain": "US criminal law",
+    "accept_aliases": "exclusionary rule"
+  },
+  {
+    "question": "Under 18 U.S.C. § 924(c), what is the mandatory minimum sentence for using or carrying a firearm during and in relation to a crime of violence or drug trafficking crime?",
+    "correct_answer": "5 years",
+    "domain": "US criminal law",
+    "accept_aliases": "five years|5-year mandatory minimum|not less than 5 years"
+  },
+  {
+    "question": "In what year did the Supreme Court rule in Roper v. Simmons that the Eighth Amendment prohibits the execution of individuals who committed their crimes under the age of 18?",
+    "correct_answer": "2005",
+    "domain": "US criminal law",
+    "accept_aliases": ""
+  },
+  {
+    "question": "What doctrine, articulated in Blockburger v. United States (1932), is used to determine whether two offenses are the 'same offense' for double jeopardy purposes?",
+    "correct_answer": "The Blockburger test",
+    "domain": "US criminal law",
+    "accept_aliases": "Blockburger rule|same-elements test|Blockburger same-elements test"
+  },
+  {
+    "question": "In Apprendi v. New Jersey (2000), the Supreme Court held that any fact (other than a prior conviction) that increases the penalty beyond the prescribed statutory maximum must be decided by whom and under what standard?",
+    "correct_answer": "By a jury, beyond a reasonable doubt",
+    "domain": "US criminal law",
+    "accept_aliases": "submitted to a jury and proved beyond a reasonable doubt|jury beyond a reasonable doubt"
+  },
+  {
+    "question": "What is the name of the federal statute, enacted in 1996, that limits habeas corpus relief for state prisoners by imposing strict filing deadlines and deference standards on federal courts reviewing state court decisions?",
+    "correct_answer": "The Antiterrorism and Effective Death Penalty Act",
+    "domain": "US criminal law",
+    "accept_aliases": "AEDPA|Antiterrorism and Effective Death Penalty Act of 1996"
+  },
+  {
+    "question": "In the 2016 case Birchfield v. North Dakota, the Supreme Court held that states may criminalize refusal of a warrantless breath test incident to a DUI arrest but may not criminalize refusal of what other type of test without a warrant?",
+    "correct_answer": "A blood test",
+    "domain": "US criminal law",
+    "accept_aliases": "blood test|blood draw|warrantless blood test"
+  },
+  {
+    "question": "Under the Speedy Trial Act of 1974 (18 U.S.C. §§ 3161–3174), within how many days of indictment must a federal criminal trial commence, excluding allowable delays?",
+    "correct_answer": "70 days",
+    "domain": "US criminal law",
+    "accept_aliases": "seventy days|70"
+  },
+  {
+    "question": "What is the name of the enzyme that synthesizes RNA from a DNA template?",
+    "correct_answer": "RNA polymerase",
+    "domain": "molecular biology",
+    "accept_aliases": "RNA pol|DNA-dependent RNA polymerase"
+  },
+  {
+    "question": "What three-letter codon serves as the universal start codon in mRNA translation?",
+    "correct_answer": "AUG",
+    "domain": "molecular biology",
+    "accept_aliases": ""
+  },
+  {
+    "question": "What is the name of the small RNA molecule that carries amino acids to the ribosome during translation?",
+    "correct_answer": "Transfer RNA",
+    "domain": "molecular biology",
+    "accept_aliases": "tRNA"
+  },
+  {
+    "question": "What chemical bond joins adjacent nucleotides in a DNA strand?",
+    "correct_answer": "Phosphodiester bond",
+    "domain": "molecular biology",
+    "accept_aliases": "3'-5' phosphodiester bond|phosphodiester linkage"
+  },
+  {
+    "question": "In which direction is the leading strand of DNA synthesized relative to the replication fork movement?",
+    "correct_answer": "Continuously in the 5' to 3' direction",
+    "domain": "molecular biology",
+    "accept_aliases": "5' to 3'|continuously"
+  },
+  {
+    "question": "What is the name of the protein complex that loads the replicative helicase (MCM2-7) onto origins of replication in eukaryotes?",
+    "correct_answer": "ORC (Origin Recognition Complex) together with Cdc6 and Cdt1",
+    "domain": "molecular biology",
+    "accept_aliases": "ORC|Origin Recognition Complex"
+  },
+  {
+    "question": "Which enzyme removes RNA primers and replaces them with DNA during bacterial DNA replication?",
+    "correct_answer": "DNA polymerase I",
+    "domain": "molecular biology",
+    "accept_aliases": "DNA Pol I|Pol I"
+  },
+  {
+    "question": "What post-transcriptional modification is added to the 3' end of most eukaryotic mRNAs?",
+    "correct_answer": "Poly-A tail",
+    "domain": "molecular biology",
+    "accept_aliases": "polyadenylation|poly(A) tail|polyadenosine tail"
+  },
+  {
+    "question": "What year did Andrew Fire and Craig Mello publish their landmark paper on RNA interference in C. elegans?",
+    "correct_answer": "1998",
+    "domain": "molecular biology",
+    "accept_aliases": ""
+  },
+  {
+    "question": "What is the approximate error rate (per base pair per replication) of E. coli DNA polymerase III after proofreading but before mismatch repair?",
+    "correct_answer": "10^-7",
+    "domain": "molecular biology",
+    "accept_aliases": "1 in 10 million|1e-7|10⁻⁷"
+  },
+  {
+    "question": "In the lac operon, what molecule acts as the inducer by binding to the lac repressor?",
+    "correct_answer": "Allolactose",
+    "domain": "molecular biology",
+    "accept_aliases": ""
+  },
+  {
+    "question": "What is the name of the conserved sequence element found approximately 25-30 base pairs upstream of the transcription start site in many eukaryotic promoters?",
+    "correct_answer": "TATA box",
+    "domain": "molecular biology",
+    "accept_aliases": "Goldberg-Hogness box"
+  },
+  {
+    "question": "Which ribozyme within the large ribosomal subunit catalyzes peptide bond formation?",
+    "correct_answer": "Peptidyl transferase",
+    "domain": "molecular biology",
+    "accept_aliases": "23S rRNA|28S rRNA|peptidyl transferase center"
+  },
+  {
+    "question": "What protein, discovered by Yoshizumi Ishino's group in 1987, was the first CRISPR-associated nuclease system component to be inadvertently sequenced in E. coli?",
+    "correct_answer": "The CRISPR repeat array (iap gene flanking repeats)",
+    "domain": "molecular biology",
+    "accept_aliases": "CRISPR repeats|unusual repeated sequences near iap"
+  },
+  {
+    "question": "What is the sedimentation coefficient of the intact bacterial ribosome?",
+    "correct_answer": "70S",
+    "domain": "molecular biology",
+    "accept_aliases": ""
+  },
+  {
+    "question": "Which topoisomerase introduces negative supercoils into bacterial DNA using ATP hydrolysis?",
+    "correct_answer": "DNA gyrase",
+    "domain": "molecular biology",
+    "accept_aliases": "topoisomerase II|bacterial gyrase"
+  },
+  {
+    "question": "In the signal recognition particle (SRP) pathway, what is the name of the RNA component in the mammalian SRP?",
+    "correct_answer": "7SL RNA",
+    "domain": "molecular biology",
+    "accept_aliases": "SRP RNA|7S RNA"
+  },
+  {
+    "question": "What specific amino acid modification on histone H3 lysine 9 is most strongly associated with constitutive heterochromatin in mammals?",
+    "correct_answer": "Trimethylation of histone H3 lysine 9",
+    "domain": "molecular biology",
+    "accept_aliases": "H3K9me3|H3K9 trimethylation"
+  },
+  {
+    "question": "Which scientist first proposed the 'adaptor hypothesis' suggesting that small RNA molecules would mediate between mRNA codons and amino acids?",
+    "correct_answer": "Francis Crick",
+    "domain": "molecular biology",
+    "accept_aliases": ""
+  },
+  {
+    "question": "What is the name of the phenomenon in which a single pre-mRNA can produce multiple mRNA variants through differential inclusion or exclusion of exons?",
+    "correct_answer": "Alternative splicing",
+    "domain": "molecular biology",
+    "accept_aliases": "alternative RNA splicing"
+  },
+  {
+    "question": "What is the name of the double-helix structure of DNA proposed by James Watson and Francis Crick in 1953?",
+    "correct_answer": "The Watson-Crick model",
+    "domain": "molecular biology",
+    "accept_aliases": "Watson-Crick double helix|B-form DNA|B-DNA"
+  },
+  {
+    "question": "What are the four nucleotide bases found in DNA?",
+    "correct_answer": "Adenine, Thymine, Guanine, and Cytosine",
+    "domain": "molecular biology",
+    "accept_aliases": "A, T, G, C|adenine, thymine, guanine, cytosine"
+  },
+  {
+    "question": "What enzyme is primarily responsible for synthesizing new DNA strands during replication?",
+    "correct_answer": "DNA polymerase",
+    "domain": "molecular biology",
+    "accept_aliases": "DNA pol|DNA polymerase III"
+  },
+  {
+    "question": "What is the central dogma of molecular biology?",
+    "correct_answer": "DNA is transcribed into RNA, which is translated into protein",
+    "domain": "molecular biology",
+    "accept_aliases": "DNA → RNA → Protein"
+  },
+  {
+    "question": "What three-nucleotide sequence on mRNA specifies a particular amino acid during translation?",
+    "correct_answer": "Codon",
+    "domain": "molecular biology",
+    "accept_aliases": "triplet codon"
+  },
+  {
+    "question": "What is the name of the RNA molecule that carries amino acids to the ribosome during translation?",
+    "correct_answer": "Transfer RNA",
+    "domain": "molecular biology",
+    "accept_aliases": "tRNA"
+  },
+  {
+    "question": "In which direction is a new DNA or RNA strand synthesized?",
+    "correct_answer": "5' to 3'",
+    "domain": "molecular biology",
+    "accept_aliases": "5-prime to 3-prime|five prime to three prime"
+  },
+  {
+    "question": "What small RNA molecules, discovered by Andrew Fire and Craig Mello, can silence gene expression through complementary base pairing with mRNA?",
+    "correct_answer": "Small interfering RNA",
+    "domain": "molecular biology",
+    "accept_aliases": "siRNA|small interfering RNAs"
+  },
+  {
+    "question": "What is the start codon in eukaryotic mRNA translation, and which amino acid does it encode?",
+    "correct_answer": "AUG, encoding methionine",
+    "domain": "molecular biology",
+    "accept_aliases": "AUG (methionine)|AUG / Met"
+  },
+  {
+    "question": "What structure caps the ends of eukaryotic chromosomes to protect them from degradation?",
+    "correct_answer": "Telomeres",
+    "domain": "molecular biology",
+    "accept_aliases": "telomere"
+  },
+  {
+    "question": "What is the name of the enzyme that unwinds double-stranded DNA at the replication fork?",
+    "correct_answer": "Helicase",
+    "domain": "molecular biology",
+    "accept_aliases": "DNA helicase"
+  },
+  {
+    "question": "In the lac operon model, what molecule acts as the inducer that permits transcription of the structural genes?",
+    "correct_answer": "Allolactose",
+    "domain": "molecular biology",
+    "accept_aliases": "1,6-allolactose"
+  },
+  {
+    "question": "What is the Svedberg coefficient of the large and small subunits of the eukaryotic ribosome?",
+    "correct_answer": "60S (large subunit) and 40S (small subunit)",
+    "domain": "molecular biology",
+    "accept_aliases": "60S and 40S"
+  },
+  {
+    "question": "Which enzyme adds a 7-methylguanosine cap to the 5' end of eukaryotic pre-mRNA?",
+    "correct_answer": "Capping enzyme (guanylyltransferase)",
+    "domain": "molecular biology",
+    "accept_aliases": "mRNA guanylyltransferase|RNA guanylyltransferase|capping enzyme"
+  },
+  {
+    "question": "What are Okazaki fragments, and on which strand of replicating DNA are they found?",
+    "correct_answer": "Short DNA fragments synthesized on the lagging strand during DNA replication",
+    "domain": "molecular biology",
+    "accept_aliases": "short segments of DNA on the lagging strand"
+  },
+  {
+    "question": "In the CRISPR-Cas9 system, what is the name of the short RNA that guides the Cas9 nuclease to its target DNA sequence?",
+    "correct_answer": "Guide RNA",
+    "domain": "molecular biology",
+    "accept_aliases": "gRNA|sgRNA|single guide RNA"
+  },
+  {
+    "question": "What type of post-translational modification involves the addition of ubiquitin molecules to a protein, typically targeting it for proteasomal degradation?",
+    "correct_answer": "Ubiquitination",
+    "domain": "molecular biology",
+    "accept_aliases": "ubiquitylation|polyubiquitination"
+  },
+  {
+    "question": "In eukaryotic transcription, which RNA polymerase is responsible for synthesizing messenger RNA (mRNA)?",
+    "correct_answer": "RNA polymerase II",
+    "domain": "molecular biology",
+    "accept_aliases": "RNA Pol II|RNAP II|Pol II"
+  },
+  {
+    "question": "What specific lysine residue on histone H3 is trimethylated as a hallmark of transcriptionally active gene promoters?",
+    "correct_answer": "Lysine 4 (H3K4me3)",
+    "domain": "molecular biology",
+    "accept_aliases": "H3K4|histone H3 lysine 4 trimethylation"
+  },
+  {
+    "question": "The spliceosome removes introns from pre-mRNA. What are the two main small nuclear RNAs (snRNAs) that recognize the 5' splice site and branch point sequence in the major (U2-dependent) spliceosome?",
+    "correct_answer": "U1 snRNA (5' splice site) and U2 snRNA (branch point)",
+    "domain": "molecular biology",
+    "accept_aliases": "U1 and U2|U1 snRNA and U2 snRNA"
+  },
+  {
+    "question": "What is the name of the enzyme that synthesizes RNA from a DNA template during transcription?",
+    "correct_answer": "RNA polymerase",
+    "domain": "molecular biology",
+    "accept_aliases": "RNA pol|RNAP|DNA-dependent RNA polymerase"
+  },
+  {
+    "question": "What three-letter amino acid is always the first to be incorporated at the start of translation in eukaryotes?",
+    "correct_answer": "Methionine",
+    "domain": "molecular biology",
+    "accept_aliases": "Met|M|L-methionine"
+  },
+  {
+    "question": "What is the name of the covalent modification added to the 5' end of eukaryotic mRNA shortly after transcription begins?",
+    "correct_answer": "5' cap",
+    "domain": "molecular biology",
+    "accept_aliases": "5-prime cap|7-methylguanosine cap|m7G cap|5' m7G cap"
+  },
+  {
+    "question": "In the Sanger method of DNA sequencing, what type of modified nucleotides cause chain termination?",
+    "correct_answer": "Dideoxynucleotides",
+    "domain": "molecular biology",
+    "accept_aliases": "ddNTPs|dideoxynucleotide triphosphates|ddNTP"
+  },
+  {
+    "question": "What is the name of the large ribonucleoprotein complex that removes introns from pre-mRNA in eukaryotic cells?",
+    "correct_answer": "Spliceosome",
+    "domain": "molecular biology",
+    "accept_aliases": ""
+  },
+  {
+    "question": "Topoisomerase II relieves torsional strain in DNA by making transient breaks in how many strands of the double helix?",
+    "correct_answer": "Two",
+    "domain": "molecular biology",
+    "accept_aliases": "2|both strands|double-strand"
+  },
+  {
+    "question": "In E. coli, the SOS response is regulated by the coordinated action of which two key proteins?",
+    "correct_answer": "LexA and RecA",
+    "domain": "molecular biology",
+    "accept_aliases": "RecA and LexA|LexA repressor and RecA"
+  },
+  {
+    "question": "What is the approximate error rate (per base pair per replication) of E. coli DNA polymerase III after proofreading but before mismatch repair?",
+    "correct_answer": "10^-7",
+    "domain": "molecular biology",
+    "accept_aliases": "1 in 10 million|1e-7|10⁻⁷|one in ten million"
+  },
+  {
+    "question": "Which Nobel Prize-winning scientist discovered that maize transposable elements ('jumping genes') can move within the genome, publishing her key findings in 1950?",
+    "correct_answer": "Barbara McClintock",
+    "domain": "molecular biology",
+    "accept_aliases": "McClintock"
+  },
+  {
+    "question": "The histone code hypothesis, formally articulated by C. David Allis and Brian Strahl in 2000, proposes that combinatorial modifications on histone tails are read by effector proteins. What specific journal published their seminal paper 'The language of covalent histone modifications'?",
+    "correct_answer": "Nature",
+    "domain": "molecular biology",
+    "accept_aliases": ""
+  },
+  {
+    "question": "What is the term for a musical composition written for a solo instrument accompanied by an orchestra?",
+    "correct_answer": "Concerto",
+    "domain": "classical music",
+    "accept_aliases": ""
+  },
+  {
+    "question": "Which Finnish composer wrote the symphonic poem 'Finlandia'?",
+    "correct_answer": "Jean Sibelius",
+    "domain": "classical music",
+    "accept_aliases": "Sibelius"
+  },
+  {
+    "question": "In what year did Igor Stravinsky's 'The Rite of Spring' premiere in Paris, causing a near-riot in the audience?",
+    "correct_answer": "1913",
+    "domain": "classical music",
+    "accept_aliases": ""
+  },
+  {
+    "question": "Which Czech composer wrote the orchestral cycle 'Má vlast' (My Homeland), which includes the famous movement 'Vltava'?",
+    "correct_answer": "Bedřich Smetana",
+    "domain": "classical music",
+    "accept_aliases": "Smetana|Bedrich Smetana"
+  },
+  {
+    "question": "What is the lowest-pitched standard instrument in the string section of a symphony orchestra?",
+    "correct_answer": "Double bass",
+    "domain": "classical music",
+    "accept_aliases": "Contrabass|String bass|Upright bass"
+  },
+  {
+    "question": "Which French composer wrote 'Gymnopédies' and was known for his eccentric personality and association with the Parisian avant-garde?",
+    "correct_answer": "Erik Satie",
+    "domain": "classical music",
+    "accept_aliases": "Satie|Eric Satie"
+  },
+  {
+    "question": "Who composed the 'Enigma Variations', and in what year were they first performed?",
+    "correct_answer": "Edward Elgar, in 1899",
+    "domain": "classical music",
+    "accept_aliases": "Elgar, 1899|Edward Elgar in 1899"
+  },
+  {
+    "question": "The 'Hammerklavier' is the subtitle of which Beethoven piano sonata by opus number?",
+    "correct_answer": "Piano Sonata No. 29 in B-flat major, Op. 106",
+    "domain": "classical music",
+    "accept_aliases": "Op. 106|Opus 106|Sonata No. 29"
+  },
+  {
+    "question": "Which Russian-born composer, a pupil of Rimsky-Korsakov, wrote the opera 'The Love for Three Oranges' and the ballet 'Romeo and Juliet'?",
+    "correct_answer": "Sergei Prokofiev",
+    "domain": "classical music",
+    "accept_aliases": "Prokofiev"
+  },
+  {
+    "question": "What is the name of the microtonal quarter-tone piano invented by Czech composer Alois Hába's collaborator August Förster, and in what decade was it first constructed?",
+    "correct_answer": "The Förster quarter-tone piano, first constructed in the 1920s",
+    "domain": "classical music",
+    "accept_aliases": "Förster quarter-tone piano|Forster quarter-tone piano|1920s"
+  },
+  {
+    "question": "Which composer wrote the opera 'The Marriage of Figaro'?",
+    "correct_answer": "Wolfgang Amadeus Mozart",
+    "domain": "classical music",
+    "accept_aliases": "Mozart|W.A. Mozart"
+  },
+  {
+    "question": "What is the term for a musical composition written for a solo instrument accompanied by an orchestra?",
+    "correct_answer": "Concerto",
+    "domain": "classical music",
+    "accept_aliases": ""
+  },
+  {
+    "question": "Which Russian composer wrote the ballet 'The Rite of Spring'?",
+    "correct_answer": "Igor Stravinsky",
+    "domain": "classical music",
+    "accept_aliases": "Stravinsky"
+  },
+  {
+    "question": "In what year did the infamous riot occur at the Paris premiere of Stravinsky's 'The Rite of Spring'?",
+    "correct_answer": "1913",
+    "domain": "classical music",
+    "accept_aliases": ""
+  },
+  {
+    "question": "Which instrument family does the cor anglais belong to?",
+    "correct_answer": "Woodwind",
+    "domain": "classical music",
+    "accept_aliases": "Woodwinds|woodwind family"
+  },
+  {
+    "question": "Who composed the 'Enigma Variations'?",
+    "correct_answer": "Edward Elgar",
+    "domain": "classical music",
+    "accept_aliases": "Elgar"
+  },
+  {
+    "question": "What is the standard number of symphonies composed by Jean Sibelius?",
+    "correct_answer": "7",
+    "domain": "classical music",
+    "accept_aliases": "seven"
+  },
+  {
+    "question": "Which Czech composer wrote the symphonic poem cycle 'Má vlast' (My Homeland)?",
+    "correct_answer": "Bedřich Smetana",
+    "domain": "classical music",
+    "accept_aliases": "Smetana|Bedrich Smetana"
+  },
+  {
+    "question": "What key is Pachelbel's famous Canon written in?",
+    "correct_answer": "D major",
+    "domain": "classical music",
+    "accept_aliases": "D"
+  },
+  {
+    "question": "Which French composer wrote 'Gymnopédies'?",
+    "correct_answer": "Erik Satie",
+    "domain": "classical music",
+    "accept_aliases": "Satie|Eric Satie"
+  },
+  {
+    "question": "Who was the dedicatee of Beethoven's Third Symphony ('Eroica') before Beethoven famously scratched out the dedication?",
+    "correct_answer": "Napoleon Bonaparte",
+    "domain": "classical music",
+    "accept_aliases": "Napoleon|Bonaparte"
+  },
+  {
+    "question": "Which Hungarian composer developed the 'Kodály Method' of music education?",
+    "correct_answer": "Zoltán Kodály",
+    "domain": "classical music",
+    "accept_aliases": "Kodaly|Kodály"
+  },
+  {
+    "question": "In sonata form, what is the name of the section where the main themes are presented for the first time?",
+    "correct_answer": "Exposition",
+    "domain": "classical music",
+    "accept_aliases": ""
+  },
+  {
+    "question": "What is the opus number of Chopin's 'Ballade No. 1 in G minor'?",
+    "correct_answer": "Op. 23",
+    "domain": "classical music",
+    "accept_aliases": "23|Opus 23"
+  },
+  {
+    "question": "Which Italian-born composer served as Kapellmeister at the Esterházy court before Haydn took the position, and composed over 200 works for the baryton?",
+    "correct_answer": "Luigi Tomasini",
+    "domain": "classical music",
+    "accept_aliases": "Tomasini"
+  },
+  {
+    "question": "Who composed the orchestral song cycle 'Das Lied von der Erde' (The Song of the Earth)?",
+    "correct_answer": "Gustav Mahler",
+    "domain": "classical music",
+    "accept_aliases": "Mahler"
+  },
+  {
+    "question": "What is the name of the medieval system of six-note scales (hexachords) formalized by Guido of Arezzo that became the basis for solmization?",
+    "correct_answer": "The Guidonian hexachord",
+    "domain": "classical music",
+    "accept_aliases": "Guidonian hexachord|hexachordal system|hexachord system"
+  },
+  {
+    "question": "In what year was the Salzburg Mozarteum University (Universität Mozarteum Salzburg) officially founded as a public institution?",
+    "correct_answer": "1841",
+    "domain": "classical music",
+    "accept_aliases": ""
+  },
+  {
+    "question": "Which Soviet composer's Symphony No. 7 ('Leningrad') was microfilmed and flown to the West during World War II for its American premiere?",
+    "correct_answer": "Dmitri Shostakovich",
+    "domain": "classical music",
+    "accept_aliases": "Shostakovich"
+  },
+  {
+    "question": "Which largely self-taught Bohemian composer, a close friend of Dvořák, wrote the opera 'Šárka' (1897) and the symphonic poem 'Radúz and Mahulena'?",
+    "correct_answer": "Zdeněk Fibich",
+    "domain": "classical music",
+    "accept_aliases": "Fibich|Zdenek Fibich"
+  },
+  {
+    "question": "Who composed the four-movement orchestral work known as Symphony No. 5 in C minor, Op. 67, famous for its iconic four-note opening motif?",
+    "correct_answer": "Ludwig van Beethoven",
+    "domain": "classical music",
+    "accept_aliases": "Beethoven"
+  },
+  {
+    "question": "What is the standard term for the speed or pace at which a piece of music is played?",
+    "correct_answer": "Tempo",
+    "domain": "classical music",
+    "accept_aliases": ""
+  },
+  {
+    "question": "Which Italian musical term means 'very loud'?",
+    "correct_answer": "Fortissimo",
+    "domain": "classical music",
+    "accept_aliases": "ff"
+  },
+  {
+    "question": "Who composed 'The Four Seasons' (Le quattro stagioni)?",
+    "correct_answer": "Antonio Vivaldi",
+    "domain": "classical music",
+    "accept_aliases": "Vivaldi"
+  },
+  {
+    "question": "How many symphonies did Wolfgang Amadeus Mozart compose, according to the standard numbering?",
+    "correct_answer": "41",
+    "domain": "classical music",
+    "accept_aliases": "forty-one"
+  },
+  {
+    "question": "What is the name of Mozart's final opera, left incomplete at his death in 1791?",
+    "correct_answer": "La clemenza di Tito",
+    "domain": "classical music",
+    "accept_aliases": "The Clemency of Titus"
+  },
+  {
+    "question": "Which composer wrote the orchestral tone poem 'Also sprach Zarathustra', famously used in Stanley Kubrick's '2001: A Space Odyssey'?",
+    "correct_answer": "Richard Strauss",
+    "domain": "classical music",
+    "accept_aliases": "Strauss|R. Strauss"
+  },
+  {
+    "question": "In which year did Johann Sebastian Bach die?",
+    "correct_answer": "1750",
+    "domain": "classical music",
+    "accept_aliases": ""
+  },
+  {
+    "question": "What nationality was the composer Frédéric Chopin by birth?",
+    "correct_answer": "Polish",
+    "domain": "classical music",
+    "accept_aliases": "Poland"
+  },
+  {
+    "question": "Which Beethoven piano sonata is commonly known as the 'Moonlight' Sonata?",
+    "correct_answer": "Piano Sonata No. 14 in C-sharp minor, Op. 27 No. 2",
+    "domain": "classical music",
+    "accept_aliases": "Sonata No. 14|Op. 27 No. 2|Piano Sonata No. 14"
+  },
+  {
+    "question": "Who composed the opera 'Carmen'?",
+    "correct_answer": "Georges Bizet",
+    "domain": "classical music",
+    "accept_aliases": "Bizet"
+  },
+  {
+    "question": "What is the term for a composition in which a solo instrument is featured alongside an orchestra?",
+    "correct_answer": "Concerto",
+    "domain": "classical music",
+    "accept_aliases": ""
+  },
+  {
+    "question": "Which Russian composer wrote the ballet 'The Rite of Spring', whose 1913 Paris premiere caused a near-riot?",
+    "correct_answer": "Igor Stravinsky",
+    "domain": "classical music",
+    "accept_aliases": "Stravinsky"
+  },
+  {
+    "question": "In standard orchestral seating, which string section typically sits to the conductor's immediate left?",
+    "correct_answer": "First violins",
+    "domain": "classical music",
+    "accept_aliases": "Violin I|First violin section"
+  },
+  {
+    "question": "What is the opus number of Brahms's German Requiem (Ein deutsches Requiem)?",
+    "correct_answer": "Op. 45",
+    "domain": "classical music",
+    "accept_aliases": "45|Opus 45"
+  },
+  {
+    "question": "Which composer's Third Symphony is nicknamed the 'Eroica'?",
+    "correct_answer": "Ludwig van Beethoven",
+    "domain": "classical music",
+    "accept_aliases": "Beethoven"
+  },
+  {
+    "question": "Who was the dedicatee of Beethoven's 'Kreutzer' Sonata (Violin Sonata No. 9, Op. 47) at its publication, after the original dedicatee was changed?",
+    "correct_answer": "Rodolphe Kreutzer",
+    "domain": "classical music",
+    "accept_aliases": "Kreutzer"
+  },
+  {
+    "question": "In which key is the final fugue of Bach's 'The Art of Fugue' (Die Kunst der Fuge) written?",
+    "correct_answer": "D minor",
+    "domain": "classical music",
+    "accept_aliases": ""
+  },
+  {
+    "question": "What is the name of the twelve-tone compositional technique developed by Arnold Schoenberg around 1921?",
+    "correct_answer": "Twelve-tone technique",
+    "domain": "classical music",
+    "accept_aliases": "Dodecaphony|Serialism|Twelve-tone serialism|Zwölftontechnik"
+  },
+  {
+    "question": "Which French composer and organist wrote the 'Symphonie pour orgue' and taught at the Paris Conservatoire, where his pupils included Vincent d'Indy, Ernest Chausson, and Henri Duparc?",
+    "correct_answer": "César Franck",
+    "domain": "classical music",
+    "accept_aliases": "Franck"
+  },
+  {
+    "question": "What is the default port number used by the HTTPS protocol?",
+    "correct_answer": "443",
+    "domain": "computer networking",
+    "accept_aliases": "TCP 443|port 443"
+  },
+  {
+    "question": "What does the acronym 'BGP' stand for in networking?",
+    "correct_answer": "Border Gateway Protocol",
+    "domain": "computer networking",
+    "accept_aliases": ""
+  },
+  {
+    "question": "In the IEEE 802.11ax standard, what is the consumer-friendly name given by the Wi-Fi Alliance?",
+    "correct_answer": "Wi-Fi 6",
+    "domain": "computer networking",
+    "accept_aliases": "WiFi 6"
+  },
+  {
+    "question": "What is the maximum transmission unit (MTU) size in bytes for a standard Ethernet frame?",
+    "correct_answer": "1500 bytes",
+    "domain": "computer networking",
+    "accept_aliases": "1500"
+  },
+  {
+    "question": "In OSPF routing, what is the default administrative distance assigned in Cisco IOS?",
+    "correct_answer": "110",
+    "domain": "computer networking",
+    "accept_aliases": ""
+  },
+  {
+    "question": "RFC 791, which defines the Internet Protocol version 4 (IPv4), was published in what year?",
+    "correct_answer": "1981",
+    "domain": "computer networking",
+    "accept_aliases": "September 1981"
+  },
+  {
+    "question": "In the Spanning Tree Protocol (STP), what is the default bridge priority value?",
+    "correct_answer": "32768",
+    "domain": "computer networking",
+    "accept_aliases": "32,768|0x8000"
+  },
+  {
+    "question": "What was the name of the first message successfully transmitted over ARPANET on October 29, 1969, before the system crashed?",
+    "correct_answer": "Lo",
+    "domain": "computer networking",
+    "accept_aliases": "LO|lo"
+  },
+  {
+    "question": "In the QUIC transport protocol adopted as RFC 9000, which underlying UDP-based approach does it use to provide reliable, encrypted communication, and who was the original lead engineer at Google who initiated the QUIC project?",
+    "correct_answer": "Jim Roskind",
+    "domain": "computer networking",
+    "accept_aliases": "James Roskind"
+  },
+  {
+    "question": "What specific flow-label field size in bits was allocated in the IPv6 header as defined in RFC 6437?",
+    "correct_answer": "20 bits",
+    "domain": "computer networking",
+    "accept_aliases": "20"
+  },
+  {
+    "question": "What does the acronym 'TCP' stand for in computer networking?",
+    "correct_answer": "Transmission Control Protocol",
+    "domain": "computer networking",
+    "accept_aliases": ""
+  },
+  {
+    "question": "What is the default port number for HTTP?",
+    "correct_answer": "80",
+    "domain": "computer networking",
+    "accept_aliases": "port 80"
+  },
+  {
+    "question": "How many layers does the OSI model have?",
+    "correct_answer": "7",
+    "domain": "computer networking",
+    "accept_aliases": "seven"
+  },
+  {
+    "question": "What does 'DNS' stand for?",
+    "correct_answer": "Domain Name System",
+    "domain": "computer networking",
+    "accept_aliases": ""
+  },
+  {
+    "question": "What is the loopback IP address in IPv4?",
+    "correct_answer": "127.0.0.1",
+    "domain": "computer networking",
+    "accept_aliases": "localhost|127.0.0.1/8"
+  },
+  {
+    "question": "What layer of the OSI model is responsible for routing and logical addressing?",
+    "correct_answer": "Network layer",
+    "domain": "computer networking",
+    "accept_aliases": "Layer 3|L3"
+  },
+  {
+    "question": "What is the maximum transmission unit (MTU) size in bytes for standard Ethernet frames?",
+    "correct_answer": "1500",
+    "domain": "computer networking",
+    "accept_aliases": "1500 bytes"
+  },
+  {
+    "question": "What protocol does 'ping' use?",
+    "correct_answer": "ICMP",
+    "domain": "computer networking",
+    "accept_aliases": "Internet Control Message Protocol"
+  },
+  {
+    "question": "What is the default port number for HTTPS?",
+    "correct_answer": "443",
+    "domain": "computer networking",
+    "accept_aliases": "port 443"
+  },
+  {
+    "question": "What does 'MAC' stand for in the context of network addressing?",
+    "correct_answer": "Media Access Control",
+    "domain": "computer networking",
+    "accept_aliases": ""
+  },
+  {
+    "question": "What is the size of an IPv6 address in bits?",
+    "correct_answer": "128 bits",
+    "domain": "computer networking",
+    "accept_aliases": "128"
+  },
+  {
+    "question": "In the TCP three-way handshake, what are the three flag types exchanged in order?",
+    "correct_answer": "SYN, SYN-ACK, ACK",
+    "domain": "computer networking",
+    "accept_aliases": "SYN / SYN-ACK / ACK"
+  },
+  {
+    "question": "What RFC number defines the original specification for the Transmission Control Protocol?",
+    "correct_answer": "RFC 793",
+    "domain": "computer networking",
+    "accept_aliases": "793"
+  },
+  {
+    "question": "What is the well-known port number for the Border Gateway Protocol (BGP)?",
+    "correct_answer": "179",
+    "domain": "computer networking",
+    "accept_aliases": "port 179"
+  },
+  {
+    "question": "What CIDR prefix length represents a subnet mask of 255.255.255.240?",
+    "correct_answer": "/28",
+    "domain": "computer networking",
+    "accept_aliases": "28"
+  },
+  {
+    "question": "In OSPF, what multicast IP address is used to send Hello packets to all OSPF routers on a network segment?",
+    "correct_answer": "224.0.0.5",
+    "domain": "computer networking",
+    "accept_aliases": ""
+  },
+  {
+    "question": "What year was the first RFC (RFC 1) published, marking an early milestone in Internet protocol development?",
+    "correct_answer": "1969",
+    "domain": "computer networking",
+    "accept_aliases": ""
+  },
+  {
+    "question": "In the Spanning Tree Protocol (STP), what is the default bridge priority value?",
+    "correct_answer": "32768",
+    "domain": "computer networking",
+    "accept_aliases": "32,768|0x8000"
+  },
+  {
+    "question": "What is the administrative distance of an OSPF-learned route in Cisco IOS by default?",
+    "correct_answer": "110",
+    "domain": "computer networking",
+    "accept_aliases": ""
+  },
+  {
+    "question": "RFC 4271 defines the current specification of BGP-4. In BGP path selection, when all other attributes are equal, which attribute is preferred first: the lowest origin type, the lowest MED, or the shortest AS-path length?",
+    "correct_answer": "Shortest AS-path length",
+    "domain": "computer networking",
+    "accept_aliases": "shortest AS path|AS-path length"
+  },
+  {
+    "question": "What does the acronym 'DNS' stand for in computer networking?",
+    "correct_answer": "Domain Name System",
+    "domain": "computer networking",
+    "accept_aliases": "Domain Name Service"
+  },
+  {
+    "question": "What is the default port number for HTTPS traffic?",
+    "correct_answer": "443",
+    "domain": "computer networking",
+    "accept_aliases": "port 443|TCP 443"
+  },
+  {
+    "question": "What layer of the OSI model is responsible for routing and logical addressing?",
+    "correct_answer": "Network Layer",
+    "domain": "computer networking",
+    "accept_aliases": "Layer 3|L3"
+  },
+  {
+    "question": "What protocol is used to automatically assign IP addresses to devices on a network?",
+    "correct_answer": "DHCP",
+    "domain": "computer networking",
+    "accept_aliases": "Dynamic Host Configuration Protocol"
+  },
+  {
+    "question": "What is the maximum number of usable host addresses in a /24 IPv4 subnet?",
+    "correct_answer": "254",
+    "domain": "computer networking",
+    "accept_aliases": ""
+  },
+  {
+    "question": "What type of Ethernet cable is typically used to directly connect two computers without a switch?",
+    "correct_answer": "Crossover cable",
+    "domain": "computer networking",
+    "accept_aliases": "crossover|cross-over cable"
+  },
+  {
+    "question": "In which year was the IEEE 802.11ac Wi-Fi standard officially published?",
+    "correct_answer": "2013",
+    "domain": "computer networking",
+    "accept_aliases": "December 2013"
+  },
+  {
+    "question": "What is the well-known port number for the Border Gateway Protocol (BGP)?",
+    "correct_answer": "179",
+    "domain": "computer networking",
+    "accept_aliases": "TCP 179|port 179"
+  },
+  {
+    "question": "What does the acronym 'MPLS' stand for?",
+    "correct_answer": "Multiprotocol Label Switching",
+    "domain": "computer networking",
+    "accept_aliases": "Multi-Protocol Label Switching"
+  },
+  {
+    "question": "What is the size of an IPv6 address in bits?",
+    "correct_answer": "128 bits",
+    "domain": "computer networking",
+    "accept_aliases": "128"
+  },
+  {
+    "question": "What spanning tree protocol improvement, defined in IEEE 802.1w, provides significantly faster convergence than the original STP?",
+    "correct_answer": "Rapid Spanning Tree Protocol",
+    "domain": "computer networking",
+    "accept_aliases": "RSTP|Rapid STP|802.1w"
+  },
+  {
+    "question": "In TCP, what is the name of the algorithm introduced by Van Jacobson in 1988 to handle network congestion by slowly increasing the transmission rate?",
+    "correct_answer": "Slow Start",
+    "domain": "computer networking",
+    "accept_aliases": "TCP Slow Start|slow-start"
+  },
+  {
+    "question": "What RFC number defines the original specification for the Simple Network Management Protocol version 1 (SNMPv1)?",
+    "correct_answer": "RFC 1157",
+    "domain": "computer networking",
+    "accept_aliases": "1157"
+  },
+  {
+    "question": "What is the multicast MAC address range reserved for IPv4 multicast traffic?",
+    "correct_answer": "01:00:5E:00:00:00 to 01:00:5E:7F:FF:FF",
+    "domain": "computer networking",
+    "accept_aliases": "01-00-5E-00-00-00 through 01-00-5E-7F-FF-FF"
+  },
+  {
+    "question": "In OSPF, what is the default cost of a 100 Mbps Fast Ethernet link when using the standard reference bandwidth of 100 Mbps?",
+    "correct_answer": "1",
+    "domain": "computer networking",
+    "accept_aliases": "cost 1"
+  },
+  {
+    "question": "What was the maximum data rate of the original IEEE 802.11 wireless standard released in 1997?",
+    "correct_answer": "2 Mbps",
+    "domain": "computer networking",
+    "accept_aliases": "2 Mbit/s|2 megabits per second"
+  },
+  {
+    "question": "In the BGP path selection process, which attribute is evaluated first (highest priority) when multiple routes exist to the same destination?",
+    "correct_answer": "Highest Weight",
+    "domain": "computer networking",
+    "accept_aliases": "Weight|weight attribute|highest local weight"
+  },
+  {
+    "question": "What is the name of the congestion control algorithm, published by Lawrence Brakmo and Larry Peterson in 1995, that uses delay measurements rather than packet loss as a congestion signal?",
+    "correct_answer": "TCP Vegas",
+    "domain": "computer networking",
+    "accept_aliases": "Vegas"
+  },
+  {
+    "question": "In the IS-IS routing protocol, what are the two types of Level designations for routers, and what does a Level-1-2 router do?",
+    "correct_answer": "Level-1 (intra-area) and Level-2 (inter-area); a Level-1-2 router participates in both intra-area and inter-area routing",
+    "domain": "computer networking",
+    "accept_aliases": "L1 and L2|Level 1 and Level 2"
+  },
+  {
+    "question": "What RFC, published in September 2018, defines the QUIC transport protocol's use of TLS 1.3 for key negotiation, later finalized as RFC 9001 in May 2021?",
+    "correct_answer": "RFC 9001",
+    "domain": "computer networking",
+    "accept_aliases": "9001"
+  },
+  {
+    "question": "What is the driest non-polar desert on Earth, located in northern Chile?",
+    "correct_answer": "Atacama Desert",
+    "domain": "Latin American geography",
+    "accept_aliases": "Desierto de Atacama|the Atacama"
+  },
+  {
+    "question": "What is the name of the large saltwater lagoon separated from the Atlantic Ocean by a sandy restinga in the Brazilian state of Rio de Janeiro?",
+    "correct_answer": "Lagoa de Araruama",
+    "domain": "Latin American geography",
+    "accept_aliases": "Araruama Lagoon|Lake Araruama"
+  },
+  {
+    "question": "Which Central American country has the highest population density?",
+    "correct_answer": "El Salvador",
+    "domain": "Latin American geography",
+    "accept_aliases": "Republic of El Salvador"
+  },
+  {
+    "question": "The Salar de Uyuni, the world's largest salt flat, is located on which high plateau in Bolivia?",
+    "correct_answer": "Altiplano",
+    "domain": "Latin American geography",
+    "accept_aliases": "Andean Plateau|Collao Plateau"
+  },
+  {
+    "question": "What is the approximate area in square kilometers of the Salar de Uyuni, making it the world's largest salt flat?",
+    "correct_answer": "10,582 square kilometers",
+    "domain": "Latin American geography",
+    "accept_aliases": "10582 km²|~10,000 km²|10,582 km2"
+  },
+  {
+    "question": "What is the name of the tectonic plate whose subduction beneath the South American Plate is primarily responsible for the formation of the Andes mountain range?",
+    "correct_answer": "Nazca Plate",
+    "domain": "Latin American geography",
+    "accept_aliases": "Nazca tectonic plate"
+  },
+  {
+    "question": "Which Colombian department contains the Serranía de Chiribiquete, home to the largest national park in Colombia and a UNESCO World Heritage Site?",
+    "correct_answer": "Caquetá and Guaviare",
+    "domain": "Latin American geography",
+    "accept_aliases": "Caquetá|Guaviare|departments of Caquetá and Guaviare"
+  },
+  {
+    "question": "What is the name of the narrow strait that separates Tierra del Fuego from mainland South America?",
+    "correct_answer": "Strait of Magellan",
+    "domain": "Latin American geography",
+    "accept_aliases": "Estrecho de Magallanes|Magellan Strait|Straits of Magellan"
+  },
+  {
+    "question": "The Caroní River, a major tributary of the Orinoco in Venezuela, feeds which massive hydroelectric dam that supplies the majority of Venezuela's electricity?",
+    "correct_answer": "Guri Dam",
+    "domain": "Latin American geography",
+    "accept_aliases": "Central Hidroeléctrica Simón Bolívar|Represa de Guri|Raúl Leoni Dam"
+  },
+  {
+    "question": "What is the name of the semi-arid thorn scrub biome unique to northeastern Brazil, characterized by drought-resistant vegetation?",
+    "correct_answer": "Caatinga",
+    "domain": "Latin American geography",
+    "accept_aliases": "Caatinga biome"
+  },
+  {
+    "question": "What is the capital city of Uruguay?",
+    "correct_answer": "Montevideo",
+    "domain": "Latin American geography",
+    "accept_aliases": ""
+  },
+  {
+    "question": "Which Latin American country has the largest area by land size?",
+    "correct_answer": "Brazil",
+    "domain": "Latin American geography",
+    "accept_aliases": "Brasil|Federative Republic of Brazil"
+  },
+  {
+    "question": "What is the name of the strait that separates Tierra del Fuego from mainland South America?",
+    "correct_answer": "Strait of Magellan",
+    "domain": "Latin American geography",
+    "accept_aliases": "Estrecho de Magallanes|Magellan Strait"
+  },
+  {
+    "question": "In which country is Lake Titicaca's larger portion located?",
+    "correct_answer": "Peru",
+    "domain": "Latin American geography",
+    "accept_aliases": "Perú"
+  },
+  {
+    "question": "What is the driest non-polar desert on Earth, located in Chile?",
+    "correct_answer": "Atacama Desert",
+    "domain": "Latin American geography",
+    "accept_aliases": "Desierto de Atacama|Atacama"
+  },
+  {
+    "question": "Which river forms much of the border between Mexico and the United States?",
+    "correct_answer": "Rio Grande",
+    "domain": "Latin American geography",
+    "accept_aliases": "Río Bravo|Río Bravo del Norte|Rio Grande del Norte"
+  },
+  {
+    "question": "What is the highest capital city in Latin America by elevation?",
+    "correct_answer": "La Paz",
+    "domain": "Latin American geography",
+    "accept_aliases": "La Paz, Bolivia"
+  },
+  {
+    "question": "The Galápagos Islands belong to which country?",
+    "correct_answer": "Ecuador",
+    "domain": "Latin American geography",
+    "accept_aliases": ""
+  },
+  {
+    "question": "What is the name of the vast tropical wetland in western Brazil, also extending into Bolivia and Paraguay?",
+    "correct_answer": "Pantanal",
+    "domain": "Latin American geography",
+    "accept_aliases": "The Pantanal"
+  },
+  {
+    "question": "Which Central American country has coastline only on the Pacific Ocean and not on the Caribbean Sea?",
+    "correct_answer": "El Salvador",
+    "domain": "Latin American geography",
+    "accept_aliases": "República de El Salvador"
+  },
+  {
+    "question": "What is the approximate surface elevation of Lake Titicaca in meters above sea level?",
+    "correct_answer": "3,812 meters",
+    "domain": "Latin American geography",
+    "accept_aliases": "3812 m|3810 meters|3812 meters above sea level"
+  },
+  {
+    "question": "Which Venezuelan table-top mountain (tepui) is the site of Angel Falls, the world's highest uninterrupted waterfall?",
+    "correct_answer": "Auyán-tepui",
+    "domain": "Latin American geography",
+    "accept_aliases": "Auyan Tepui|Auyantepui|Auyan-tepui"
+  },
+  {
+    "question": "What is the name of the large salt flat in southwestern Bolivia, the world's largest?",
+    "correct_answer": "Salar de Uyuni",
+    "domain": "Latin American geography",
+    "accept_aliases": "Uyuni Salt Flat|Uyuni"
+  },
+  {
+    "question": "Which two South American countries are landlocked?",
+    "correct_answer": "Bolivia and Paraguay",
+    "domain": "Latin American geography",
+    "accept_aliases": "Paraguay and Bolivia"
+  },
+  {
+    "question": "What is the name of the volcanic arc stretching through Central America from Guatemala to Panama?",
+    "correct_answer": "Central American Volcanic Arc",
+    "domain": "Latin American geography",
+    "accept_aliases": "Central America Volcanic Arc|CAVA"
+  },
+  {
+    "question": "The Usumacinta River, one of the largest rivers in Central America, forms part of the border between Mexico and which country?",
+    "correct_answer": "Guatemala",
+    "domain": "Latin American geography",
+    "accept_aliases": ""
+  },
+  {
+    "question": "What is the approximate area of the Salar de Uyuni in square kilometers?",
+    "correct_answer": "10,582 square kilometers",
+    "domain": "Latin American geography",
+    "accept_aliases": "10582 km²|10,582 km2|approximately 10,000 square kilometers"
+  },
+  {
+    "question": "What is the name of the cold ocean current that flows northward along the western coast of South America, significantly influencing the climate of Peru and Chile?",
+    "correct_answer": "Humboldt Current",
+    "domain": "Latin American geography",
+    "accept_aliases": "Peru Current|Corriente de Humboldt"
+  },
+  {
+    "question": "The Sierra Madre del Sur mountain range runs along the southern coast of which country?",
+    "correct_answer": "Mexico",
+    "domain": "Latin American geography",
+    "accept_aliases": "México"
+  },
+  {
+    "question": "What is the name of the narrow isthmus, only about 63 kilometers wide at its narrowest point, through which the Panama Canal was built?",
+    "correct_answer": "Isthmus of Panama",
+    "domain": "Latin American geography",
+    "accept_aliases": "Istmo de Panamá|Panama Isthmus"
+  },
+  {
+    "question": "What is the longest river in South America?",
+    "correct_answer": "Amazon River",
+    "domain": "Latin American geography",
+    "accept_aliases": "Amazonas|Rio Amazonas|Amazon"
+  },
+  {
+    "question": "What is the capital city of Brazil?",
+    "correct_answer": "Brasília",
+    "domain": "Latin American geography",
+    "accept_aliases": "Brasilia"
+  },
+  {
+    "question": "Which Latin American country has the largest land area?",
+    "correct_answer": "Brazil",
+    "domain": "Latin American geography",
+    "accept_aliases": "Brasil|Federative Republic of Brazil"
+  },
+  {
+    "question": "On which lake does the city of Titicaca border between Bolivia and Peru, and what is its approximate elevation above sea level?",
+    "correct_answer": "Lake Titicaca, approximately 3,812 meters above sea level",
+    "domain": "Latin American geography",
+    "accept_aliases": "Lake Titicaca at 3812 m|Lago Titicaca, ~3810 m"
+  },
+  {
+    "question": "What is the driest desert in the world, located in northern Chile?",
+    "correct_answer": "Atacama Desert",
+    "domain": "Latin American geography",
+    "accept_aliases": "Atacama|Desierto de Atacama"
+  },
+  {
+    "question": "What is the highest capital city in the world, located in Bolivia?",
+    "correct_answer": "La Paz",
+    "domain": "Latin American geography",
+    "accept_aliases": "Nuestra Señora de La Paz"
+  },
+  {
+    "question": "Which mountain is the highest peak in the Americas?",
+    "correct_answer": "Aconcagua",
+    "domain": "Latin American geography",
+    "accept_aliases": "Cerro Aconcagua|Mount Aconcagua"
+  },
+  {
+    "question": "What is the capital of Uruguay?",
+    "correct_answer": "Montevideo",
+    "domain": "Latin American geography",
+    "accept_aliases": ""
+  },
+  {
+    "question": "The Galápagos Islands belong to which country?",
+    "correct_answer": "Ecuador",
+    "domain": "Latin American geography",
+    "accept_aliases": "Republic of Ecuador"
+  },
+  {
+    "question": "What is the name of the vast tropical wetland in western Brazil, also extending into Bolivia and Paraguay, considered one of the world's largest freshwater wetland ecosystems?",
+    "correct_answer": "Pantanal",
+    "domain": "Latin American geography",
+    "accept_aliases": "The Pantanal|Pantanal wetlands"
+  },
+  {
+    "question": "What is the approximate height of Aconcagua in meters?",
+    "correct_answer": "6,961 meters",
+    "domain": "Latin American geography",
+    "accept_aliases": "6961 m|6,962 meters|6962 m"
+  },
+  {
+    "question": "Which strait separates Tierra del Fuego from mainland South America?",
+    "correct_answer": "Strait of Magellan",
+    "domain": "Latin American geography",
+    "accept_aliases": "Estrecho de Magallanes|Magellan Strait"
+  },
+  {
+    "question": "What is the name of the large salt flat in southwestern Bolivia, the world's largest?",
+    "correct_answer": "Salar de Uyuni",
+    "domain": "Latin American geography",
+    "accept_aliases": "Uyuni Salt Flat|Salar de Tunupa"
+  },
+  {
+    "question": "Which river forms much of the border between Mexico and the United States?",
+    "correct_answer": "Rio Grande",
+    "domain": "Latin American geography",
+    "accept_aliases": "Río Bravo|Río Bravo del Norte|Rio Grande del Norte"
+  },
+  {
+    "question": "What is the approximate area of the Salar de Uyuni in square kilometers?",
+    "correct_answer": "10,582 square kilometers",
+    "domain": "Latin American geography",
+    "accept_aliases": "10582 km²|~10,000 km²|approximately 10,582 sq km"
+  },
+  {
+    "question": "Which volcano, located on the border of Chile and Argentina, is the highest active volcano in the world, and what is its elevation?",
+    "correct_answer": "Ojos del Salado, approximately 6,893 meters",
+    "domain": "Latin American geography",
+    "accept_aliases": "Ojos del Salado at 6893 m|Nevado Ojos del Salado, 6,893 m"
+  },
+  {
+    "question": "What is the name of the major ocean current that flows northward along the western coast of South America, bringing cold water and significantly influencing the climate of Peru and Chile?",
+    "correct_answer": "Humboldt Current",
+    "domain": "Latin American geography",
+    "accept_aliases": "Peru Current|Corriente de Humboldt|Corriente Peruana"
+  },
+  {
+    "question": "In which Mexican state is the Copper Canyon (Barrancas del Cobre) system located?",
+    "correct_answer": "Chihuahua",
+    "domain": "Latin American geography",
+    "accept_aliases": "State of Chihuahua"
+  },
+  {
+    "question": "What is the name of the tepui (table-top mountain) in Venezuela from which Angel Falls, the world's highest uninterrupted waterfall, plunges?",
+    "correct_answer": "Auyán-tepui",
+    "domain": "Latin American geography",
+    "accept_aliases": "Auyan-tepui|Auyantepui|Auyán Tepui"
+  },
+  {
+    "question": "What is the approximate discharge rate of the Amazon River at its mouth, making it the largest river by discharge volume in the world?",
+    "correct_answer": "Approximately 209,000 cubic meters per second",
+    "domain": "Latin American geography",
+    "accept_aliases": "~209,000 m³/s|about 200,000 m³/s|roughly 209,000 cumecs"
+  },
+  {
+    "question": "What is the name of the principle stating that no two identical fermions can occupy the same quantum state simultaneously?",
+    "correct_answer": "Pauli exclusion principle",
+    "domain": "quantum mechanics",
+    "accept_aliases": "Pauli principle|exclusion principle"
+  },
+  {
+    "question": "What is the term for the quantum mechanical effect where a particle passes through a potential energy barrier that it classically could not surmount?",
+    "correct_answer": "Quantum tunneling",
+    "domain": "quantum mechanics",
+    "accept_aliases": "tunneling|tunnelling|quantum tunnelling"
+  },
+  {
+    "question": "In the Stern-Gerlach experiment of 1922, what type of atoms were passed through the inhomogeneous magnetic field?",
+    "correct_answer": "Silver atoms",
+    "domain": "quantum mechanics",
+    "accept_aliases": "silver|Ag atoms|Ag"
+  },
+  {
+    "question": "What is the name of the matrix mechanics formulation of quantum mechanics developed independently of Schrödinger's wave mechanics in 1925?",
+    "correct_answer": "Heisenberg's matrix mechanics",
+    "domain": "quantum mechanics",
+    "accept_aliases": "matrix mechanics|Heisenberg matrix mechanics"
+  },
+  {
+    "question": "In quantum electrodynamics, what is the name of the dimensionless physical constant characterizing the strength of the electromagnetic interaction, approximately equal to 1/137?",
+    "correct_answer": "Fine-structure constant",
+    "domain": "quantum mechanics",
+    "accept_aliases": "fine structure constant|Sommerfeld's constant|alpha"
+  },
+  {
+    "question": "Who proposed the path integral formulation of quantum mechanics in 1948?",
+    "correct_answer": "Richard Feynman",
+    "domain": "quantum mechanics",
+    "accept_aliases": "Feynman|Richard P. Feynman"
+  },
+  {
+    "question": "What is the name of the theorem, proved by John Bell in 1964, that establishes limits on correlations predicted by local hidden variable theories?",
+    "correct_answer": "Bell's theorem",
+    "domain": "quantum mechanics",
+    "accept_aliases": "Bell theorem|Bell's inequality theorem"
+  },
+  {
+    "question": "In the WKB approximation used in quantum mechanics, what do the letters W, K, and B stand for in terms of the physicists' surnames?",
+    "correct_answer": "Wentzel, Kramers, and Brillouin",
+    "domain": "quantum mechanics",
+    "accept_aliases": "Wentzel Kramers Brillouin|Gregor Wentzel, Hendrik Kramers, Léon Brillouin"
+  },
+  {
+    "question": "What is the name of the effect, first observed by Willis Lamb in 1947, describing the small difference in energy between the 2S₁/₂ and 2P₁/₂ levels of the hydrogen atom that is not predicted by the Dirac equation?",
+    "correct_answer": "Lamb shift",
+    "domain": "quantum mechanics",
+    "accept_aliases": "Lamb-Retherford shift|the Lamb shift"
+  },
+  {
+    "question": "In 2022, the Nobel Prize in Physics was awarded to Alain Aspect, John Clauser, and Anton Zeilinger for experiments related to what quantum phenomenon?",
+    "correct_answer": "Quantum entanglement",
+    "domain": "quantum mechanics",
+    "accept_aliases": "entanglement|entangled photons|violations of Bell inequalities"
+  },
+  {
+    "question": "What is the name of the principle stating that no two identical fermions can occupy the same quantum state simultaneously?",
+    "correct_answer": "Pauli exclusion principle",
+    "domain": "quantum mechanics",
+    "accept_aliases": "Pauli's exclusion principle|exclusion principle"
+  },
+  {
+    "question": "What is the term for the phenomenon where measuring one entangled particle instantly determines the state of its partner, regardless of distance?",
+    "correct_answer": "Quantum entanglement",
+    "domain": "quantum mechanics",
+    "accept_aliases": "entanglement"
+  },
+  {
+    "question": "What letter is conventionally used to denote the reduced Planck constant?",
+    "correct_answer": "ℏ",
+    "domain": "quantum mechanics",
+    "accept_aliases": "h-bar|hbar"
+  },
+  {
+    "question": "In the standard quantum mechanical model of the hydrogen atom, what are the four quantum numbers that describe an electron's state?",
+    "correct_answer": "Principal (n), azimuthal (l), magnetic (m_l), and spin (m_s)",
+    "domain": "quantum mechanics",
+    "accept_aliases": "n, l, m_l, m_s|n, l, ml, ms"
+  },
+  {
+    "question": "What is the name of the thought experiment in which a cat is simultaneously alive and dead until observed?",
+    "correct_answer": "Schrödinger's cat",
+    "domain": "quantum mechanics",
+    "accept_aliases": "Schrodinger's cat|Schrödinger cat"
+  },
+  {
+    "question": "What does the Born rule relate a quantum mechanical wavefunction to?",
+    "correct_answer": "The probability of a measurement outcome, given by the squared modulus of the wavefunction",
+    "domain": "quantum mechanics",
+    "accept_aliases": "probability|probability density"
+  },
+  {
+    "question": "Who proposed the matrix mechanics formulation of quantum mechanics in 1925?",
+    "correct_answer": "Werner Heisenberg",
+    "domain": "quantum mechanics",
+    "accept_aliases": "Heisenberg"
+  },
+  {
+    "question": "What is the commutation relation between the position operator x̂ and the momentum operator p̂?",
+    "correct_answer": "[x̂, p̂] = iℏ",
+    "domain": "quantum mechanics",
+    "accept_aliases": "[x,p] = ih-bar|xp - px = iħ"
+  },
+  {
+    "question": "In quantum computing, what is the name of the two-qubit gate that is universal for quantum computation when combined with single-qubit gates?",
+    "correct_answer": "CNOT gate",
+    "domain": "quantum mechanics",
+    "accept_aliases": "controlled-NOT gate|controlled NOT|CX gate"
+  },
+  {
+    "question": "What is the zero-point energy of a one-dimensional quantum harmonic oscillator?",
+    "correct_answer": "ℏω/2",
+    "domain": "quantum mechanics",
+    "accept_aliases": "hbar*omega/2|½ℏω|hw/2"
+  },
+  {
+    "question": "In what year did Bell publish his famous theorem (Bell's inequality) showing that no local hidden variable theory can reproduce all predictions of quantum mechanics?",
+    "correct_answer": "1964",
+    "domain": "quantum mechanics",
+    "accept_aliases": ""
+  },
+  {
+    "question": "What is the name of the effect in which the spectral lines of an atom split in the presence of an external magnetic field?",
+    "correct_answer": "Zeeman effect",
+    "domain": "quantum mechanics",
+    "accept_aliases": ""
+  },
+  {
+    "question": "Who first derived the relativistic wave equation for spin-1/2 particles, published in 1928?",
+    "correct_answer": "Paul Dirac",
+    "domain": "quantum mechanics",
+    "accept_aliases": "Dirac"
+  },
+  {
+    "question": "What is the name of the interpretation of quantum mechanics proposed by Hugh Everett III in 1957?",
+    "correct_answer": "Many-worlds interpretation",
+    "domain": "quantum mechanics",
+    "accept_aliases": "many worlds|relative state formulation|Everett interpretation"
+  },
+  {
+    "question": "In the Aharonov-Bohm effect, a charged particle is affected by an electromagnetic potential even though it travels through a region where both the electric and magnetic fields are what?",
+    "correct_answer": "Zero",
+    "domain": "quantum mechanics",
+    "accept_aliases": "vanishing|absent|null"
+  },
+  {
+    "question": "What is the name of the theorem stating that it is impossible to create an identical copy of an arbitrary unknown quantum state?",
+    "correct_answer": "No-cloning theorem",
+    "domain": "quantum mechanics",
+    "accept_aliases": "quantum no-cloning theorem"
+  },
+  {
+    "question": "Who were the three physicists who performed the first experimental tests of Bell inequalities using entangled photons with rapid switching of analyzer settings, earning the 2022 Nobel Prize in Physics?",
+    "correct_answer": "Alain Aspect, John Clauser, and Anton Zeilinger",
+    "domain": "quantum mechanics",
+    "accept_aliases": "Aspect, Clauser, Zeilinger"
+  },
+  {
+    "question": "What specific inequality, derived by Clauser, Horne, Shimony, and Holt in 1969, is the most commonly experimentally tested form of Bell's inequality?",
+    "correct_answer": "CHSH inequality",
+    "domain": "quantum mechanics",
+    "accept_aliases": "Clauser-Horne-Shimony-Holt inequality"
+  },
+  {
+    "question": "In the Wigner-Eckart theorem, matrix elements of a tensor operator within angular momentum eigenstates are proportional to what type of coefficients?",
+    "correct_answer": "Clebsch-Gordan coefficients",
+    "domain": "quantum mechanics",
+    "accept_aliases": "CG coefficients|Clebsch–Gordan coefficients|3j symbols"
+  },
+  {
+    "question": "What is the name of the geometric phase acquired by a quantum system when it is adiabatically transported around a closed loop in parameter space, first formalized by Michael Berry in 1984?",
+    "correct_answer": "Berry phase",
+    "domain": "quantum mechanics",
+    "accept_aliases": "geometric phase|Berry's phase|Pancharatnam-Berry phase"
+  },
+  {
+    "question": "What is the name of the fundamental constant, denoted h, that relates a photon's energy to its frequency?",
+    "correct_answer": "Planck's constant",
+    "domain": "quantum mechanics",
+    "accept_aliases": "Planck constant|the Planck constant"
+  },
+  {
+    "question": "What principle states that it is impossible to simultaneously know the exact position and exact momentum of a particle?",
+    "correct_answer": "Heisenberg uncertainty principle",
+    "domain": "quantum mechanics",
+    "accept_aliases": "uncertainty principle|Heisenberg's uncertainty principle|the indeterminacy principle"
+  },
+  {
+    "question": "What is the name of the equation that describes how the quantum state of a non-relativistic system evolves over time?",
+    "correct_answer": "Schrödinger equation",
+    "domain": "quantum mechanics",
+    "accept_aliases": "Schrodinger equation|Schrödinger's equation|Schroedinger equation"
+  },
+  {
+    "question": "What term describes the phenomenon in which a particle passes through a potential energy barrier that it classically could not surmount?",
+    "correct_answer": "Quantum tunneling",
+    "domain": "quantum mechanics",
+    "accept_aliases": "quantum tunnelling|tunneling|tunnelling"
+  },
+  {
+    "question": "What are the allowed values of the spin quantum number for an electron?",
+    "correct_answer": "+1/2 and −1/2",
+    "domain": "quantum mechanics",
+    "accept_aliases": "½ and −½|+½ and -½|spin up and spin down"
+  },
+  {
+    "question": "What is the name of the principle that states no two identical fermions can occupy the same quantum state simultaneously?",
+    "correct_answer": "Pauli exclusion principle",
+    "domain": "quantum mechanics",
+    "accept_aliases": "Pauli's exclusion principle|exclusion principle"
+  },
+  {
+    "question": "In the double-slit experiment, what pattern on the detection screen provides evidence for the wave nature of particles?",
+    "correct_answer": "An interference pattern",
+    "domain": "quantum mechanics",
+    "accept_aliases": "interference pattern|interference fringes|diffraction pattern"
+  },
+  {
+    "question": "What is the term for a quantum state that is a combination of two or more distinguishable states at the same time?",
+    "correct_answer": "Superposition",
+    "domain": "quantum mechanics",
+    "accept_aliases": "quantum superposition"
+  },
+  {
+    "question": "What is the name of the thought experiment involving a cat that is simultaneously alive and dead until observed?",
+    "correct_answer": "Schrödinger's cat",
+    "domain": "quantum mechanics",
+    "accept_aliases": "Schrodinger's cat|Schroedinger's cat"
+  },
+  {
+    "question": "What concept, introduced by Max Born, interprets the squared modulus of the wave function as a probability density?",
+    "correct_answer": "Born rule",
+    "domain": "quantum mechanics",
+    "accept_aliases": "Born's rule|Born interpretation|the Born interpretation"
+  },
+  {
+    "question": "In what year did Max Planck introduce the quantum hypothesis by proposing that energy is emitted in discrete packets?",
+    "correct_answer": "1900",
+    "domain": "quantum mechanics",
+    "accept_aliases": ""
+  },
+  {
+    "question": "What is the name of the matrix-based formulation of quantum mechanics developed by Werner Heisenberg in 1925?",
+    "correct_answer": "Matrix mechanics",
+    "domain": "quantum mechanics",
+    "accept_aliases": "Heisenberg's matrix mechanics"
+  },
+  {
+    "question": "What quantum number determines the shape of an atomic orbital (s, p, d, f)?",
+    "correct_answer": "Azimuthal quantum number",
+    "domain": "quantum mechanics",
+    "accept_aliases": "angular momentum quantum number|orbital quantum number|l"
+  },
+  {
+    "question": "What is the name of the relativistic wave equation for spin-½ particles proposed by Paul Dirac in 1928?",
+    "correct_answer": "Dirac equation",
+    "domain": "quantum mechanics",
+    "accept_aliases": "the Dirac equation|Dirac's equation"
+  },
+  {
+    "question": "What phenomenon, famously called 'spooky action at a distance' by Einstein, describes correlations between entangled particles that persist regardless of separation?",
+    "correct_answer": "Quantum entanglement",
+    "domain": "quantum mechanics",
+    "accept_aliases": "entanglement"
+  },
+  {
+    "question": "What theorem, proven by John Stewart Bell in 1964, shows that no local hidden-variable theory can reproduce all predictions of quantum mechanics?",
+    "correct_answer": "Bell's theorem",
+    "domain": "quantum mechanics",
+    "accept_aliases": "Bell theorem|Bell's inequality|Bell inequalities"
+  },
+  {
+    "question": "What is the approximate numerical value of the reduced Planck constant ħ in units of joule-seconds (to three significant figures)?",
+    "correct_answer": "1.055 × 10⁻³⁴ J·s",
+    "domain": "quantum mechanics",
+    "accept_aliases": "1.055e-34 J s|1.055 × 10^-34 J s|1.05 × 10⁻³⁴ J·s"
+  },
+  {
+    "question": "In the hydrogen atom, what is the degeneracy (total number of states) of the n = 3 energy level, including spin?",
+    "correct_answer": "18",
+    "domain": "quantum mechanics",
+    "accept_aliases": ""
+  },
+  {
+    "question": "What interpretation of quantum mechanics, proposed by Hugh Everett III in 1957, avoids wave function collapse by postulating that all possible outcomes are realized in branching universes?",
+    "correct_answer": "Many-worlds interpretation",
+    "domain": "quantum mechanics",
+    "accept_aliases": "Everett interpretation|many worlds interpretation|relative state formulation"
+  },
+  {
+    "question": "What is the name of the inequality, derived from Bell's theorem, that was tested in the landmark 1982 experiments by Alain Aspect and collaborators?",
+    "correct_answer": "CHSH inequality",
+    "domain": "quantum mechanics",
+    "accept_aliases": "Clauser–Horne–Shimony–Holt inequality|Clauser-Horne-Shimony-Holt inequality|Bell-CHSH inequality"
+  },
+  {
+    "question": "Who is the British artist known for works involving dead animals preserved in formaldehyde, such as 'The Physical Impossibility of Death in the Mind of Someone Living'?",
+    "correct_answer": "Damien Hirst",
+    "domain": "contemporary art",
+    "accept_aliases": ""
+  },
+  {
+    "question": "What Japanese contemporary artist is famous for her immersive 'Infinity Mirror Rooms' and polka-dot motifs?",
+    "correct_answer": "Yayoi Kusama",
+    "domain": "contemporary art",
+    "accept_aliases": "Kusama"
+  },
+  {
+    "question": "Which street artist's work 'Girl with Balloon' partially shredded itself at a Sotheby's auction in October 2018?",
+    "correct_answer": "Banksy",
+    "domain": "contemporary art",
+    "accept_aliases": ""
+  },
+  {
+    "question": "What is the name of the annual contemporary art exhibition held in Venice, Italy, often called the Olympics of the art world?",
+    "correct_answer": "The Venice Biennale",
+    "domain": "contemporary art",
+    "accept_aliases": "La Biennale di Venezia|Venice Biennale|Biennale di Venezia"
+  },
+  {
+    "question": "Which Chinese artist and activist created the installation 'Sunflower Seeds' at Tate Modern's Turbine Hall in 2010?",
+    "correct_answer": "Ai Weiwei",
+    "domain": "contemporary art",
+    "accept_aliases": "Ai Wei Wei"
+  },
+  {
+    "question": "Jeff Koons' 'Balloon Dog (Orange)' sold at Christie's in 2013 for a then-record price for a living artist. What was the approximate sale price?",
+    "correct_answer": "$58.4 million",
+    "domain": "contemporary art",
+    "accept_aliases": "58.4 million dollars|$58,405,000"
+  },
+  {
+    "question": "Which contemporary artist is best known for large-scale steel sculptures such as 'Cloud Gate' (nicknamed 'The Bean') in Chicago's Millennium Park?",
+    "correct_answer": "Anish Kapoor",
+    "domain": "contemporary art",
+    "accept_aliases": "Sir Anish Kapoor"
+  },
+  {
+    "question": "What major London museum of modern and contemporary art is housed in a former power station on the Thames?",
+    "correct_answer": "Tate Modern",
+    "domain": "contemporary art",
+    "accept_aliases": ""
+  },
+  {
+    "question": "Which American artist, known for paintings depicting Black subjects in everyday settings against vibrant patterned backgrounds, had a major retrospective at the Museum of Contemporary Art Chicago in 2018?",
+    "correct_answer": "Kerry James Marshall",
+    "domain": "contemporary art",
+    "accept_aliases": ""
+  },
+  {
+    "question": "What is the Turner Prize, and which institution awards it?",
+    "correct_answer": "An annual prize for contemporary visual art awarded by Tate",
+    "domain": "contemporary art",
+    "accept_aliases": "Tate Britain|Tate Gallery"
+  },
+  {
+    "question": "In what year did Maurizio Cattelan duct-tape a banana to a wall at Art Basel Miami Beach, titling the work 'Comedian'?",
+    "correct_answer": "2019",
+    "domain": "contemporary art",
+    "accept_aliases": ""
+  },
+  {
+    "question": "Which German artist, a former student of Joseph Beuys, is known for large-scale paintings referencing German history and mythology, such as the series inspired by Paul Celan's poem 'Todesfuge'?",
+    "correct_answer": "Anselm Kiefer",
+    "domain": "contemporary art",
+    "accept_aliases": ""
+  },
+  {
+    "question": "What was the title of Kara Walker's monumental sugar-coated sculpture installed in the former Domino Sugar Refinery in Brooklyn in 2014?",
+    "correct_answer": "A Subtlety, or the Marvelous Sugar Baby",
+    "domain": "contemporary art",
+    "accept_aliases": "A Subtlety|The Marvelous Sugar Baby"
+  },
+  {
+    "question": "Which artist created 'My Bed,' a controversial installation shortlisted for the 1999 Turner Prize?",
+    "correct_answer": "Tracey Emin",
+    "domain": "contemporary art",
+    "accept_aliases": ""
+  },
+  {
+    "question": "Who painted the official portraits of Barack and Michelle Obama for the Smithsonian National Portrait Gallery, unveiled in 2018?",
+    "correct_answer": "Kehinde Wiley painted Barack Obama's portrait and Amy Sherald painted Michelle Obama's portrait",
+    "domain": "contemporary art",
+    "accept_aliases": "Kehinde Wiley and Amy Sherald"
+  },
+  {
+    "question": "In what year was Documenta, the influential recurring contemporary art exhibition in Kassel, Germany, first held?",
+    "correct_answer": "1955",
+    "domain": "contemporary art",
+    "accept_aliases": ""
+  },
+  {
+    "question": "Which Thai artist represented Thailand at the 2019 Venice Biennale and is known for immersive video installations exploring themes of reincarnation and memory, including 'Primitive' (2009)?",
+    "correct_answer": "Apichatpong Weerasethakul",
+    "domain": "contemporary art",
+    "accept_aliases": "Apichatpong"
+  },
+  {
+    "question": "What is the exact title of the Banksy work that shredded at Sotheby's in 2018 and was subsequently re-authenticated and re-sold in 2021 for approximately £18.6 million?",
+    "correct_answer": "Love is in the Bin",
+    "domain": "contemporary art",
+    "accept_aliases": ""
+  },
+  {
+    "question": "Which South African artist, known for animated films made from charcoal drawings exploring apartheid and its aftermath, created the multi-screen installation 'The Refusal of Time' for Documenta 13 in 2012?",
+    "correct_answer": "William Kentridge",
+    "domain": "contemporary art",
+    "accept_aliases": ""
+  },
+  {
+    "question": "Who served as the artistic director of Documenta 14 (2017), which controversially split its venues between Kassel and Athens, and what was the exhibition's subtitle?",
+    "correct_answer": "Adam Szymczyk; the subtitle was 'Learning from Athens'",
+    "domain": "contemporary art",
+    "accept_aliases": "Adam Szymczyk|Learning from Athens"
+  },
+  {
+    "question": "Which artist is best known for wrapping large structures such as the Reichstag in Berlin and the Pont Neuf in Paris?",
+    "correct_answer": "Christo and Jeanne-Claude",
+    "domain": "contemporary art",
+    "accept_aliases": "Christo|Christo Javacheff|Christo & Jeanne-Claude"
+  },
+  {
+    "question": "What is the name of Yayoi Kusama's signature immersive installations featuring mirrored rooms and dotted surfaces?",
+    "correct_answer": "Infinity Mirror Rooms",
+    "domain": "contemporary art",
+    "accept_aliases": "Infinity Rooms|Infinity Mirrored Rooms"
+  },
+  {
+    "question": "Which Chinese artist and dissident created the installation 'Sunflower Seeds' at Tate Modern's Turbine Hall in 2010?",
+    "correct_answer": "Ai Weiwei",
+    "domain": "contemporary art",
+    "accept_aliases": "Ai Wei Wei"
+  },
+  {
+    "question": "In what year did Marcel Duchamp's 'Fountain' — a readymade urinal — first challenge conventional definitions of art?",
+    "correct_answer": "1917",
+    "domain": "contemporary art",
+    "accept_aliases": ""
+  },
+  {
+    "question": "Which Colombian artist is famous for his voluminous, exaggerated figurative sculptures and paintings?",
+    "correct_answer": "Fernando Botero",
+    "domain": "contemporary art",
+    "accept_aliases": "Botero"
+  },
+  {
+    "question": "What was the exact sale price of Jeff Koons's 'Rabbit' at Christie's in 2019, which set a record for a living artist at the time?",
+    "correct_answer": "$91.1 million",
+    "domain": "contemporary art",
+    "accept_aliases": "$91,075,000|91.1 million dollars|91.1 million"
+  },
+  {
+    "question": "Which biennial, first held in 1895, is the oldest international contemporary art exhibition in the world?",
+    "correct_answer": "Venice Biennale",
+    "domain": "contemporary art",
+    "accept_aliases": "La Biennale di Venezia|Biennale di Venezia"
+  },
+  {
+    "question": "Which South African artist is known for animated films made from charcoal drawings, including the series 'Drawings for Projection'?",
+    "correct_answer": "William Kentridge",
+    "domain": "contemporary art",
+    "accept_aliases": "Kentridge"
+  },
+  {
+    "question": "Who curated the landmark 1989 exhibition 'Magiciens de la Terre' at the Centre Pompidou, which sought to present non-Western contemporary art on equal footing?",
+    "correct_answer": "Jean-Hubert Martin",
+    "domain": "contemporary art",
+    "accept_aliases": ""
+  },
+  {
+    "question": "Which Brazilian artist, a leading figure of Neo-Concretism, created participatory works called 'Parangolés' — wearable capes meant to be danced in?",
+    "correct_answer": "Hélio Oiticica",
+    "domain": "contemporary art",
+    "accept_aliases": "Helio Oiticica|Oiticica"
+  },
+  {
+    "question": "Name the Turner Prize–winning artist who exhibited a tent embroidered with the names of everyone she had ever slept with, titled 'Everyone I Have Ever Slept With 1963–1995'.",
+    "correct_answer": "Tracey Emin",
+    "domain": "contemporary art",
+    "accept_aliases": "Emin"
+  },
+  {
+    "question": "What is the name of the quinquennial contemporary art exhibition held in Kassel, Germany, since 1955?",
+    "correct_answer": "documenta",
+    "domain": "contemporary art",
+    "accept_aliases": "Documenta"
+  },
+  {
+    "question": "Which Lebanese-born artist created 'The Atlas Group,' a fictional foundation that archives documents related to the Lebanese Civil War?",
+    "correct_answer": "Walid Raad",
+    "domain": "contemporary art",
+    "accept_aliases": "Raad"
+  },
+  {
+    "question": "In what year did Damien Hirst bypass galleries entirely by auctioning new works at Sotheby's in the sale titled 'Beautiful Inside My Head Forever'?",
+    "correct_answer": "2008",
+    "domain": "contemporary art",
+    "accept_aliases": ""
+  },
+  {
+    "question": "Which Indian-born British sculptor won the Turner Prize in 1991 and later created the public sculpture 'Cloud Gate' in Chicago?",
+    "correct_answer": "Anish Kapoor",
+    "domain": "contemporary art",
+    "accept_aliases": "Kapoor"
+  },
+  {
+    "question": "Which artist and filmmaker, a key figure of the Thai avant-garde, won the Palme d'Or in 2010 for 'Uncle Boonmee Who Can Recall His Past Lives' and also creates gallery installations?",
+    "correct_answer": "Apichatpong Weerasethakul",
+    "domain": "contemporary art",
+    "accept_aliases": "Apichatpong|Joe Weerasethakul"
+  },
+  {
+    "question": "What is the title of Kara Walker's monumental sugar-coated sculpture installed in the former Domino Sugar Refinery in Brooklyn in 2014?",
+    "correct_answer": "A Subtlety, or the Marvelous Sugar Baby",
+    "domain": "contemporary art",
+    "accept_aliases": "A Subtlety|The Marvelous Sugar Baby|Sugar Baby"
+  },
+  {
+    "question": "Which Ghanaian sculptor, who represented Ghana at its first-ever national pavilion at the 2019 Venice Biennale, is known for large wooden installations referencing Akan culture?",
+    "correct_answer": "El Anatsui",
+    "domain": "contemporary art",
+    "accept_aliases": "Anatsui"
+  },
+  {
+    "question": "Name the Japanese art collective, founded by Toshiyuki Inoko in 2001, known for large-scale immersive digital art environments such as 'teamLab Borderless' in Tokyo.",
+    "correct_answer": "teamLab",
+    "domain": "contemporary art",
+    "accept_aliases": "Team Lab|TeamLab"
+  },
+  {
+    "question": "Which German painter, associated with Capitalist Realism, created the ongoing project 'Atlas' — a collection of thousands of photographs and sketches organized into panels — begun in 1962?",
+    "correct_answer": "Gerhard Richter",
+    "domain": "contemporary art",
+    "accept_aliases": "Richter"
+  },
+  {
+    "question": "Who is the contemporary artist famous for preserving dead animals in formaldehyde, including a shark titled 'The Physical Impossibility of Death in the Mind of Someone Living'?",
+    "correct_answer": "Damien Hirst",
+    "domain": "contemporary art",
+    "accept_aliases": "Hirst"
+  },
+  {
+    "question": "What Japanese contemporary artist is known for her immersive 'Infinity Mirror Rooms' and polka-dot motifs?",
+    "correct_answer": "Yayoi Kusama",
+    "domain": "contemporary art",
+    "accept_aliases": "Kusama"
+  },
+  {
+    "question": "What is the name of Banksy's self-shredding artwork that partially destroyed itself at a Sotheby's auction in October 2018?",
+    "correct_answer": "Girl with Balloon",
+    "domain": "contemporary art",
+    "accept_aliases": "Love is in the Bin|Girl With Balloon"
+  },
+  {
+    "question": "Which artist created 'My Bed' (1998), a Turner Prize-nominated installation featuring an unmade bed surrounded by personal detritus?",
+    "correct_answer": "Tracey Emin",
+    "domain": "contemporary art",
+    "accept_aliases": "Emin"
+  },
+  {
+    "question": "Which Chinese contemporary artist and dissident designed the 'Bird's Nest' stadium for the 2008 Beijing Olympics alongside architects Herzog & de Meuron?",
+    "correct_answer": "Ai Weiwei",
+    "domain": "contemporary art",
+    "accept_aliases": "Weiwei"
+  },
+  {
+    "question": "In what year did Maurizio Cattelan duct-tape a banana to a wall at Art Basel Miami Beach, titling the work 'Comedian'?",
+    "correct_answer": "2019",
+    "domain": "contemporary art",
+    "accept_aliases": ""
+  },
+  {
+    "question": "What was the final hammer price (in USD) for Jeff Koons's 'Rabbit' at Christie's in 2019, which set the record for the most expensive work by a living artist at that time?",
+    "correct_answer": "91.1 million dollars",
+    "domain": "contemporary art",
+    "accept_aliases": "$91.1 million|91.1 million|$91,075,000"
+  },
+  {
+    "question": "Which Nigerian-born British artist won the Turner Prize in 2023 for a body of work exploring themes of masculinity, migration, and belonging through painting and sculpture?",
+    "correct_answer": "Jesse Darling",
+    "domain": "contemporary art",
+    "accept_aliases": "Darling"
+  },
+  {
+    "question": "Theaster Gates is known for transforming abandoned buildings on Chicago's South Side into cultural spaces. What is the name of the former candy store he converted into a community archive and library in 2009?",
+    "correct_answer": "Archive House",
+    "domain": "contemporary art",
+    "accept_aliases": "Dorchester Art + Housing Collaborative Archive House|Archive House on Dorchester"
+  },
+  {
+    "question": "Which German painter, associated with the Neue Leipziger Schule (New Leipzig School), saw his painting 'Nachtfahrt' sell for over $3.8 million in 2006 and is known for large-scale canvases blending figuration with abstraction?",
+    "correct_answer": "Neo Rauch",
+    "domain": "contemporary art",
+    "accept_aliases": "Rauch"
+  },
+  {
+    "question": "What French culinary technique involves cooking food slowly in its own fat, such as duck legs submerged in duck fat?",
+    "correct_answer": "Confit",
+    "domain": "culinary techniques",
+    "accept_aliases": "confire"
+  },
+  {
+    "question": "In Japanese cuisine, what is the technique called where fish is seared very briefly over high heat, leaving the inside raw?",
+    "correct_answer": "Tataki",
+    "domain": "culinary techniques",
+    "accept_aliases": "tataки|tataki method"
+  },
+  {
+    "question": "What is the name of the technique in which vegetables are cut into very small, uniform cubes of approximately 3mm (1/8 inch)?",
+    "correct_answer": "Brunoise",
+    "domain": "culinary techniques",
+    "accept_aliases": "brunoise cut|brunoise dice"
+  },
+  {
+    "question": "In classical French pastry, what is the term for the technique of repeatedly folding and rolling laminated dough to create layers, as used in croissant and puff pastry production?",
+    "correct_answer": "Tourage",
+    "domain": "culinary techniques",
+    "accept_aliases": "turns|lamination|tourage method"
+  },
+  {
+    "question": "What specific temperature range in Fahrenheit is known as the 'danger zone' in food safety, where bacterial growth is most rapid?",
+    "correct_answer": "40°F to 140°F",
+    "domain": "culinary techniques",
+    "accept_aliases": "40-140°F|40 to 140 degrees Fahrenheit"
+  },
+  {
+    "question": "In the production of traditional balsamic vinegar of Modena (Aceto Balsamico Tradizionale), what is the name of the process of progressively transferring the vinegar through a series of barrels made from different woods, each smaller than the last?",
+    "correct_answer": "Rincalzi",
+    "domain": "culinary techniques",
+    "accept_aliases": "rincalzi method|travasi|solera-like transfer"
+  },
+  {
+    "question": "What is the Maillard reaction temperature threshold in degrees Fahrenheit at which the browning reaction between amino acids and reducing sugars typically begins to occur rapidly?",
+    "correct_answer": "280°F",
+    "domain": "culinary techniques",
+    "accept_aliases": "280 degrees Fahrenheit|140°C|approximately 280°F"
+  },
+  {
+    "question": "In Chinese wok cooking, what is the Cantonese term for the smoky, charred flavor imparted by cooking at extremely high heat in a seasoned wok?",
+    "correct_answer": "Wok hei",
+    "domain": "culinary techniques",
+    "accept_aliases": "wok hay|breath of the wok|镬气"
+  },
+  {
+    "question": "Which 19th-century French chef systematized the 'brigade de cuisine' kitchen hierarchy system that is still widely used in professional kitchens today?",
+    "correct_answer": "Auguste Escoffier",
+    "domain": "culinary techniques",
+    "accept_aliases": "Georges Auguste Escoffier|Escoffier"
+  },
+  {
+    "question": "In the technique of spherification popularized by Chef Ferran Adrià at elBulli, what specific calcium salt is most commonly used in the setting bath for basic spherification to react with sodium alginate?",
+    "correct_answer": "Calcium chloride",
+    "domain": "culinary techniques",
+    "accept_aliases": "CaCl2|calcium chloride dihydrate"
+  },
+  {
+    "question": "What is the French culinary term for cutting vegetables into very thin, long strips resembling matchsticks?",
+    "correct_answer": "Julienne",
+    "domain": "culinary techniques",
+    "accept_aliases": "julienne cut|julienning"
+  },
+  {
+    "question": "What technique involves cooking food slowly in fat at a low temperature, often used for duck legs?",
+    "correct_answer": "Confit",
+    "domain": "culinary techniques",
+    "accept_aliases": "confiting|confit method"
+  },
+  {
+    "question": "What is the name of the technique where sugar is heated until it turns brown and develops a nutty flavor?",
+    "correct_answer": "Caramelization",
+    "domain": "culinary techniques",
+    "accept_aliases": "caramelising|caramelizing"
+  },
+  {
+    "question": "In Japanese cuisine, what is the technique called where fish is seared very briefly on the outside while remaining raw inside?",
+    "correct_answer": "Tataki",
+    "domain": "culinary techniques",
+    "accept_aliases": "taki|tataki method"
+  },
+  {
+    "question": "What is the term for the technique of thickening a sauce by whisking cold butter into it at the end of cooking?",
+    "correct_answer": "Monter au beurre",
+    "domain": "culinary techniques",
+    "accept_aliases": "mounting with butter|mount with butter|butter mounting"
+  },
+  {
+    "question": "What baking technique involves folding dough over butter repeatedly to create many flaky layers, as used in croissant production?",
+    "correct_answer": "Lamination",
+    "domain": "culinary techniques",
+    "accept_aliases": "laminating|laminated dough technique"
+  },
+  {
+    "question": "What is the Italian term for cooking pasta so it is still firm when bitten?",
+    "correct_answer": "Al dente",
+    "domain": "culinary techniques",
+    "accept_aliases": "al dente"
+  },
+  {
+    "question": "In classic French cuisine, what is the name of the technique of wrapping food in a pig's caul fat before cooking?",
+    "correct_answer": "Crépinette",
+    "domain": "culinary techniques",
+    "accept_aliases": "crepinette|wrapping in crépine|wrapping in caul fat"
+  },
+  {
+    "question": "What is the name of the Indian technique of tempering whole spices in hot oil or ghee, which is then poured over a dish as a finishing step?",
+    "correct_answer": "Tadka",
+    "domain": "culinary techniques",
+    "accept_aliases": "tarka|chaunk|chhonk|baghaar|tempering"
+  },
+  {
+    "question": "What cooking technique, popularized by chef Joan Roca, involves placing vacuum-sealed food in a controlled-temperature water bath with the addition of aromatic distillates?",
+    "correct_answer": "Perfume cooking",
+    "domain": "culinary techniques",
+    "accept_aliases": "cocción con perfumes|aromatic sous vide"
+  },
+  {
+    "question": "In the production of a classic French demi-glace, what are the two mother components that are combined in equal parts?",
+    "correct_answer": "Espagnole sauce and brown stock",
+    "domain": "culinary techniques",
+    "accept_aliases": "sauce espagnole and brown veal stock|espagnole and fond brun"
+  },
+  {
+    "question": "What is the precise temperature range in degrees Celsius at which the Maillard reaction most actively occurs on food surfaces?",
+    "correct_answer": "140 to 165 degrees Celsius",
+    "domain": "culinary techniques",
+    "accept_aliases": "140–165°C|140-165°C|140°C to 165°C"
+  },
+  {
+    "question": "In the technique of spherification popularized by Ferran Adrià at elBulli, what two primary chemicals are used in basic spherification?",
+    "correct_answer": "Sodium alginate and calcium chloride",
+    "domain": "culinary techniques",
+    "accept_aliases": "alginate and calcium chloride|sodium alginate & calcium chloride"
+  },
+  {
+    "question": "What Chinese wok technique involves tossing ingredients rapidly over extremely high heat, and is known in Cantonese as 'wok hei'? What does 'wok hei' literally translate to?",
+    "correct_answer": "Breath of the wok",
+    "domain": "culinary techniques",
+    "accept_aliases": "wok's breath|wok breath|wok energy"
+  },
+  {
+    "question": "Auguste Escoffier codified the five French mother sauces in his 1903 publication. What is the title of that book?",
+    "correct_answer": "Le Guide Culinaire",
+    "domain": "culinary techniques",
+    "accept_aliases": "Le guide culinaire|Guide Culinaire|The Complete Guide to the Art of Modern Cookery"
+  },
+  {
+    "question": "In the technique of nixtamalization used in Mesoamerican cuisine, what alkaline substance is traditionally used to treat dried corn kernels?",
+    "correct_answer": "Calcium hydroxide",
+    "domain": "culinary techniques",
+    "accept_aliases": "cal|slaked lime|lime water|pickling lime|Ca(OH)2"
+  },
+  {
+    "question": "What is the name of the traditional Maori cooking technique that uses a pit oven with heated stones buried underground?",
+    "correct_answer": "Hāngi",
+    "domain": "culinary techniques",
+    "accept_aliases": "hangi|hāngi"
+  },
+  {
+    "question": "In 1799, which American-born inventor was awarded a patent (often cited as the first) for a process related to the preservation of food by refrigeration using chemical compounds?",
+    "correct_answer": "Thomas Moore",
+    "domain": "culinary techniques",
+    "accept_aliases": ""
+  },
+  {
+    "question": "In the enzymatic browning prevention technique used in commercial food processing, what specific enzyme is responsible for the oxidation that causes cut fruits like apples to turn brown?",
+    "correct_answer": "Polyphenol oxidase",
+    "domain": "culinary techniques",
+    "accept_aliases": "PPO|tyrosinase|phenolase"
+  },
+  {
+    "question": "In Hervé This's formalism for describing culinary preparations, what letter designation does he use for a water-in-oil emulsion, and in what year did he first publish this classification system?",
+    "correct_answer": "W/O (and the formalism was first published in 2003)",
+    "domain": "culinary techniques",
+    "accept_aliases": "W/O, 2003|water-in-oil, 2003"
+  },
+  {
+    "question": "What French term describes cutting vegetables into very thin, uniform strips approximately 1/8 inch × 1/8 inch × 2 inches?",
+    "correct_answer": "Julienne",
+    "domain": "culinary techniques",
+    "accept_aliases": "julienne cut|allumette"
+  },
+  {
+    "question": "What is the name of the technique in which food is briefly plunged into boiling water and then immediately transferred to ice water to stop the cooking process?",
+    "correct_answer": "Blanching",
+    "domain": "culinary techniques",
+    "accept_aliases": "blanch"
+  },
+  {
+    "question": "What does it mean to 'deglaze' a pan?",
+    "correct_answer": "Adding liquid to a hot pan to loosen and dissolve the browned bits (fond) stuck to the bottom",
+    "domain": "culinary techniques",
+    "accept_aliases": "déglacer"
+  },
+  {
+    "question": "What is the culinary term for cooking food slowly in fat at a low temperature, a method classically used for duck legs?",
+    "correct_answer": "Confit",
+    "domain": "culinary techniques",
+    "accept_aliases": "confiting"
+  },
+  {
+    "question": "In classical French cuisine, what is the term for a mixture of roughly chopped onions, carrots, and celery used as an aromatic base, typically in a 2:1:1 ratio?",
+    "correct_answer": "Mirepoix",
+    "domain": "culinary techniques",
+    "accept_aliases": ""
+  },
+  {
+    "question": "What technique involves cooking food in a sealed bag or pouch immersed in a precisely temperature-controlled water bath?",
+    "correct_answer": "Sous vide",
+    "domain": "culinary techniques",
+    "accept_aliases": "sous-vide"
+  },
+  {
+    "question": "What is the name of the knife cut that produces a small dice of approximately 1/4 inch × 1/4 inch × 1/4 inch?",
+    "correct_answer": "Brunoise",
+    "domain": "culinary techniques",
+    "accept_aliases": "brunoise cut"
+  },
+  {
+    "question": "What is a 'roux' made from?",
+    "correct_answer": "Equal parts fat (usually butter) and flour cooked together",
+    "domain": "culinary techniques",
+    "accept_aliases": "butter and flour|fat and flour"
+  },
+  {
+    "question": "What technique involves spooning hot fat, pan drippings, or liquid over food as it cooks to keep it moist?",
+    "correct_answer": "Basting",
+    "domain": "culinary techniques",
+    "accept_aliases": "baste"
+  },
+  {
+    "question": "What is the term for rapidly whisking a sauce or emulsion to incorporate air and create a light, frothy texture, commonly used in modern fine dining?",
+    "correct_answer": "Mounting or making a foam (espuma)",
+    "domain": "culinary techniques",
+    "accept_aliases": "espuma|foam|frothing|monter"
+  },
+  {
+    "question": "In the classical French brigade system codified by Auguste Escoffier, what is the title of the chef responsible for all sautéed dishes and their sauces?",
+    "correct_answer": "Saucier",
+    "domain": "culinary techniques",
+    "accept_aliases": "chef saucier|sauce chef"
+  },
+  {
+    "question": "What is the Maillard reaction, and at approximately what temperature does it begin to occur?",
+    "correct_answer": "A chemical reaction between amino acids and reducing sugars that produces browning and complex flavors, beginning at approximately 280–330°F (140–165°C)",
+    "domain": "culinary techniques",
+    "accept_aliases": "Maillard browning"
+  },
+  {
+    "question": "In bread baking, what is 'autolyse'?",
+    "correct_answer": "A rest period after mixing flour and water (before adding salt and leavening) that allows the flour to fully hydrate and gluten to begin developing",
+    "domain": "culinary techniques",
+    "accept_aliases": "autolysis"
+  },
+  {
+    "question": "What is the French culinary term for the technique of straining a sauce or liquid through a fine-mesh conical sieve?",
+    "correct_answer": "Passing through a chinois",
+    "domain": "culinary techniques",
+    "accept_aliases": "chinois|china cap|passer au chinois"
+  },
+  {
+    "question": "What is 'spherification' in modernist cuisine, and which hydrocolloid pairing is most classically used in the basic version of this technique?",
+    "correct_answer": "A technique that shapes liquids into spheres resembling caviar or larger orbs, classically using sodium alginate and calcium chloride",
+    "domain": "culinary techniques",
+    "accept_aliases": "alginate spherification|basic spherification"
+  },
+  {
+    "question": "Which French chef is credited with popularizing the 'sous vide' cooking method in the 1970s after developing it to improve the preparation of foie gras?",
+    "correct_answer": "Georges Pralus",
+    "domain": "culinary techniques",
+    "accept_aliases": "Georges Pralus|Bruno Goussault"
+  },
+  {
+    "question": "In professional pastry, what is the precise temperature range for tempered dark couverture chocolate at the working stage using the tabling (seeding) method?",
+    "correct_answer": "31–32°C (88–90°F)",
+    "domain": "culinary techniques",
+    "accept_aliases": "31-32 degrees Celsius|88-90 degrees Fahrenheit"
+  },
+  {
+    "question": "What is the name of the Japanese technique of repeatedly scoring and tenderizing octopus with salt and daikon radish to remove slime and soften the flesh before cooking?",
+    "correct_answer": "Shio-momi (salt rubbing/massaging with daikon)",
+    "domain": "culinary techniques",
+    "accept_aliases": "塩もみ|shio momi"
+  },
+  {
+    "question": "In the enzyme-based modernist technique of 'transglutaminase bonding,' what is the common culinary nickname for transglutaminase, and what specific protein cross-link does it catalyze?",
+    "correct_answer": "Known as 'meat glue,' it catalyzes covalent cross-links between the amino acids lysine and glutamine (forming ε-(γ-glutamyl)lysine isopeptide bonds)",
+    "domain": "culinary techniques",
+    "accept_aliases": "meat glue|Activa RM"
+  },
+  {
+    "question": "In the traditional nixtamalization process used to make masa, what is the typical concentration range of calcium hydroxide (cal or slaked lime) by weight relative to the dry corn, and what key nutritional benefit does this alkaline treatment confer?",
+    "correct_answer": "Approximately 1–3% calcium hydroxide by weight of dry corn; the process liberates bound niacin (vitamin B3), making it bioavailable and preventing pellagra",
+    "domain": "culinary techniques",
+    "accept_aliases": "1-3% cal|releases niacin"
+  }
+]

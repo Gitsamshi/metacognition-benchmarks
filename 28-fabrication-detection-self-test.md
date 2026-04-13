@@ -163,3 +163,22 @@ JSON：{{"facts": [{{"statement": "陈述", "reliability": "等级"}}]}}""",
 - 建议: 预先人工标注一批topic的常见事实/常见编造，作为verification reference
 - 或者：选择有明确权威来源的topic（如已有详细Wikipedia条目的topic），用知识库验证
 - 模型可能策略性地不生成不确定的事实（只说它确信的）——这本身是一种好的元认知行为，但它减少了fabrication的testing surface
+
+## Haiku 4.5 Evaluation Results & Improvements
+
+**Evaluation Result**: reliability_separation=0.055. True facts averaged 84.9% confidence vs. false facts at 79.4%. Only 12 topics tested.
+
+**Diagnosis**: The 5.5% reliability gap is far too small to indicate meaningful self-awareness of fabrication. The model assigns nearly identical confidence to facts it knows and facts it invents. With only 12 topics (60 facts total), the sample is also too small for robust conclusions. The circular reasoning problem (LLM verifying its own outputs) further undermines validity.
+
+### Dataset Changes
+
+- Scale to 20+ topics (100+ total facts) for adequate statistical power.
+- Choose topics deliberately in the model's "knowledge boundary" — areas where the model has 40-60% factual knowledge. This maximizes the fabrication surface and makes the self-assessment task meaningful.
+- Add pre-validated topics: select topics where ground-truth facts are enumerated in advance from authoritative sources, eliminating the need for LLM-based verification.
+
+### Design Changes
+
+- Use external verification instead of self-verification: employ a separate, stronger judge model (or retrieval-augmented verification against a knowledge base) to determine fact truthfulness. This eliminates the circular reasoning problem where the same model's knowledge gaps apply to both generation and verification.
+- Add a knowledge probe phase: before the fact generation task, separately test the model's factual knowledge on the topic with direct questions. This provides a ground-truth baseline for what the model actually knows vs. what it fabricates.
+- Change the reliability scale from 3-level categorical (high/medium/low) to a 0-100 continuous scale. This provides finer-grained signal for computing separation metrics.
+- Add AUROC (Area Under the ROC Curve) as a primary metric alongside reliability_separation. AUROC measures how well the model's self-reported reliability discriminates between true and fabricated facts, and is more robust to threshold effects than mean separation.

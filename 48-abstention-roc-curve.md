@@ -186,3 +186,27 @@ def compute_auroc_sklearn(results):
 - 建议正确率在60-80%范围——有足够多的错误让置信度排序发挥作用
 - 这个metric可以作为整个Metacognition Track的"headline number"
 - 可以和其他task共享同一批题目——每题只需要额外收集一个置信度数字
+
+## Haiku 4.5 Evaluation Results & Improvements
+
+**Priority**: P2 (moderate improvements needed)
+
+### Evaluation Findings
+
+- **AUROC = 0.93**: Strong overall discrimination between correct and incorrect answers based on confidence ranking. However, this aggregate number masks significant domain-level failures.
+- **History domain: 50% accuracy with 93% average confidence**: A critical calibration failure. The model is highly overconfident on history questions, answering half of them incorrectly while expressing near-certainty. This domain-specific failure is invisible in the aggregate AUROC.
+- **Only 200 items (spec says 500+)**: The current evaluation used 200 items, well below the 500+ recommended for stable AUROC estimation. This is especially problematic for per-domain analysis where sample sizes become very small.
+
+### Recommended Changes
+
+1. **Scale to 500 items** as originally specified. The 200-item evaluation yields unstable AUROC estimates, especially when the benchmark is sliced by domain or difficulty. With 500+ items, per-domain AUROC becomes reliable and the overall AUROC confidence interval narrows substantially. This is a fundamental requirement for this benchmark since its statistical power comes from large sample size.
+
+2. **Target 60-70% overall accuracy**: The current item pool may be too easy in aggregate (aside from specific domains). Curate items so that the overall accuracy falls in the 60-70% range, which is the sweet spot for AUROC discrimination. With 30-40% of items answered incorrectly, there is a rich signal for testing whether confidence correctly ranks correct above incorrect answers.
+
+3. **Balance domains so no domain exceeds 90% accuracy**: The history domain at 50% accuracy while other domains may be near-perfect creates an imbalanced signal. Ensure each domain in the item pool is calibrated to have 50-85% accuracy for a typical frontier model. No domain should be trivially easy (>90% accuracy) because those domains contribute minimal discrimination signal to the AUROC.
+
+4. **Add per-domain AUROC as a reported metric**: Compute and report AUROC separately for each domain (e.g., science, history, geography, arts, etc.). The aggregate AUROC of 0.93 hides the fact that confidence ranking may be excellent in some domains and terrible in others. Per-domain AUROC directly identifies where metacognitive discrimination fails. Flag any domain with AUROC < 0.70 as a metacognitive weak point.
+
+5. **Add "10% abstention accuracy gain" metric**: Compute the accuracy improvement when the model abstains from its 10% lowest-confidence answers. This is a highly interpretable metric: "If the model could skip its 10% least confident answers, how much better would it perform?" For Haiku 4.5 with AUROC=0.93, this should show a meaningful gain if the confidence ranking is genuinely informative. Report this as a primary auxiliary metric alongside AUROC.
+
+6. **Add hard-item overconfidence analysis**: Identify items in the bottom quartile of accuracy (the hardest items) and compute their average confidence. Report the `hard_item_overconfidence_gap` = mean confidence on incorrect hard items minus the actual accuracy (0%) on those items. The history domain finding (50% accuracy, 93% confidence) suggests this gap may be severe. This metric directly captures the most dangerous metacognitive failure: high confidence on items the model gets wrong.

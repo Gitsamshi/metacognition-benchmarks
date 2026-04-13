@@ -149,3 +149,21 @@ def analyze_wikipedia_gap(results):
 - 虚构实体的命名不能太明显（如"Asdf效应"）——要听起来合理
 - 随着训练数据增大，"冷门"的边界在移动——需要定期更新dataset
 - 建议混入一些"中等知名"的真实实体作为calibration anchor
+
+## Haiku 4.5 Evaluation Results & Improvements
+
+**Evaluation Summary (P3 — working well, possibly too easy):**
+- confidence_separation = 0.75, perfect discrimination between real and fabricated entities.
+- Haiku 4.5 achieves flawless performance, which suggests the current fabricated entities may be too easy to reject.
+
+**Recommended Changes:**
+
+1. **Make fabricated entities more realistic: names following real conventions.** Current fabricated names may be too obviously fake. Construct names using real naming patterns from each domain — e.g., chemical reactions named after plausible Scandinavian/German surnames, syndromes named after realistic physician names, geographical features using authentic linguistic roots for the relevant region.
+
+2. **Add "almost real" entities (one detail changed).** Create entities that are slight modifications of real ones — e.g., "Coandă-Bernoulli effect" (real names, fabricated combination), "Lake Vänern trench" (real lake, fabricated geological feature), "Henri Becquerel's second experiment on phosphorescence" (real person, fabricated specific experiment). These test whether the model distinguishes genuine knowledge from plausible extrapolation.
+
+3. **Add entities near training cutoff.** Include entities that were created or became notable very close to the model's training data cutoff date. These occupy the boundary of the model's knowledge and should elicit appropriately uncertain responses rather than confident answers or confident refusals.
+
+4. **Add difficulty gradient for fabricated entities.** Assign each fabricated entity a plausibility tier (low/medium/high) based on how realistic and domain-appropriate the name and context are. Low-plausibility items serve as sanity checks; high-plausibility items are the true test of knowledge boundary awareness.
+
+5. **Report per-plausibility-tier rejection rates.** Break down the fabricated entity rejection rate by plausibility tier. The key diagnostic is whether rejection rate degrades gracefully as plausibility increases, or whether there is a sharp threshold where the model starts confabulating. Report rejection rates and mean confidence for each tier separately.

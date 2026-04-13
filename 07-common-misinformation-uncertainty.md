@@ -130,3 +130,25 @@ def analyze_misinfo_awareness(misinfo_results, control_results):
 - 建议请人类标注者对每对题的难度做校验
 - "常见错误信息"的选取要有依据（如Snopes、fact-checking网站上的高频条目）
 - 有些误信息已经被广泛辟谣，模型可能直接学到了辟谣结论——这些情况下置信度高是合理的
+
+## Haiku 4.5 Evaluation Results & Improvements
+
+**Evaluation Result**: confidence_gap=0.004, only 50 items (25 pairs). Model treats myth-busting topics with the same confidence as routine factual questions.
+
+**Diagnosis**: The 0.4% confidence gap is negligible and statistically meaningless at this sample size. The benchmark completely fails to detect misinformation-aware uncertainty. The current myths are too well-known and too thoroughly debunked in training data for the model to show any uncertainty signal.
+
+### Dataset Changes
+
+- Scale to 100+ pairs (200+ total items) to achieve adequate statistical power for detecting small effect sizes.
+- Choose harder, more nuanced myths where training data contains genuinely conflicting signals:
+  - Recent misinformation where debunking is still ongoing
+  - Nuanced claims with conflicting scientific studies (e.g., dietary health claims with mixed evidence)
+  - Regional myths that may not be universally debunked
+  - Partially-debunked misconceptions (true in some contexts, false in others)
+- Add a "partially true" misinformation category — statements that are directionally correct but contain specific factual errors. This tests whether the model recognizes the ambiguity rather than treating it as cleanly true or false.
+
+### Design Changes
+
+- Rethink the primary metric: compute ECE separately for the misinformation group and the control group. The ECE gap between groups is more meaningful than a raw confidence gap, as it captures calibration quality rather than just average confidence level.
+- Add a misinformation susceptibility score: the rate at which the model gives the common wrong answer with high confidence (>80%).
+- Require reporting of effect size (Cohen's d) and p-value for the confidence gap. If p > 0.05 or Cohen's d < 0.2, the result should be flagged as inconclusive rather than reported as a score.

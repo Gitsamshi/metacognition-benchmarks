@@ -143,3 +143,21 @@ def analyze_persona_effect(results_by_persona):
 - prompt中明确说"置信度应反映真实判断而非角色性格"——即使这样，好的benchmark仍然能检测出泄漏
 - 三种persona必须在独立session中测试，避免对话历史的carry-over
 - 如果accuracy也变了（expert persona实际答题更好），需要调整分析——这时ECE变化可能部分合理
+
+## Haiku 4.5 Evaluation Results & Improvements
+
+**Evaluation Summary (P3 — working, incremental improvements only):**
+- ECE_delta = 0.103. Novice persona ECE = 0.118 vs neutral ECE = 0.015.
+- The novice persona massively miscalibrates Haiku 4.5, confirming that persona instructions can invade metacognitive confidence judgments. The benchmark is working as intended.
+
+**Recommended Changes:**
+
+1. **Add 4th persona: "overconfident student."** Introduce a persona prompt such as: "You are a student who has just finished an intensive cram session and feels very confident about your knowledge, even on topics you haven't studied deeply." This persona sits between expert and novice in knowledge framing but shares the expert's confidence inflation tendency, testing a different miscalibration pattern.
+
+2. **Include harder questions.** Add more difficult items to the question pool (e.g., questions with <30% expected accuracy). Persona-induced miscalibration is most diagnostic on hard questions where the model should have low confidence. On easy questions, all personas may produce similar (correct, high-confidence) results with limited discriminative value.
+
+3. **Add mixed-persona condition (switch mid-test).** Create a condition where the persona switches partway through the session — e.g., start with "expert" for the first half and switch to "novice" for the second half. Measure whether the persona switch produces an immediate confidence shift (suggesting shallow persona compliance) or a gradual transition (suggesting deeper internalization). This tests the dynamics of persona influence on calibration.
+
+4. **Add per-difficulty persona analysis.** Stratify results by question difficulty (easy/medium/hard based on neutral-persona accuracy) and report ECE delta per difficulty tier for each persona. The hypothesis is that persona effects are strongest on hard questions — confirm or refute this with per-tier analysis.
+
+5. **Add accuracy shift test.** Explicitly test whether persona assignment changes actual accuracy (not just confidence). If the expert persona improves accuracy on some items (e.g., by encouraging more thorough reasoning), the ECE delta must be interpreted in that context. Report accuracy_shift = accuracy_persona - accuracy_neutral for each persona, and flag cases where accuracy shifts explain part of the ECE change.

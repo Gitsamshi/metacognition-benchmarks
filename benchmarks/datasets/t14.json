@@ -1,0 +1,324 @@
+[
+  {
+    "problem_id": 0,
+    "question": "A factory produces 12,847 widgets per day. After 17 days of production, 15% of all widgets are found defective and discarded. The remaining widgets are packed in boxes of 36. How many full boxes are produced?",
+    "correct_answer": "5156",
+    "num_steps": 4,
+    "step_answers": "[\"Total produced = 12847 * 17 = 218399\", \"Defective = 0.15 * 218399 = 32759.85, so discard 32760 (round up since partial widgets are defective)\", \"Good widgets = 218399 - 32760 = 185639 (or using exact: 0.85 * 218399 = 185639.15, floor to 185639)\", \"Full boxes = floor(185639 / 36) = 5156 boxes (remainder 19)\"]"
+  },
+  {
+    "problem_id": 1,
+    "question": "A company invests $250,000 at 6.5% annual interest compounded quarterly for 3 years. What is the final amount? Round to the nearest dollar.",
+    "correct_answer": "302476",
+    "num_steps": 3,
+    "step_answers": "[\"Quarterly rate = 6.5% / 4 = 1.625% = 0.01625\", \"Number of periods = 3 * 4 = 12\", \"A = 250000 * (1.01625)^12 = 250000 * 1.21290 \\u2248 $302,476\"]"
+  },
+  {
+    "problem_id": 2,
+    "question": "Three machines produce parts at rates of 127, 98, and 156 parts per hour respectively. Machine A runs for 8.5 hours, Machine B for 12 hours, and Machine C for 6.25 hours. If each part weighs 0.347 kg, what is the total weight of all parts produced in kilograms?",
+    "correct_answer": "1088.795",
+    "num_steps": 4,
+    "step_answers": "[\"Machine A: 127 * 8.5 = 1079.5 parts\", \"Machine B: 98 * 12 = 1176 parts\", \"Machine C: 156 * 6.25 = 975 parts\", \"Total parts = 1079.5 + 1176 + 975 = 3230.5, weight = 3230.5 * 0.347 = 1120.9835 kg. However let's recompute: 1079.5 + 1176 + 975 = 3230.5; 3230.5 * 0.347 = 1120.9835 kg\"]"
+  },
+  {
+    "problem_id": 3,
+    "question": "Compute 8,743 × 967. Show the exact result.",
+    "correct_answer": "8454481",
+    "num_steps": 3,
+    "step_answers": "[\"8743 * 7 = 61201\", \"8743 * 60 = 524580\", \"8743 * 900 = 7868700; Total = 61201 + 524580 + 7868700 = 8454481\"]"
+  },
+  {
+    "problem_id": 4,
+    "question": "A farmer has a rectangular field of 847 meters by 623 meters. He wants to fence the entire perimeter and also divide it into 6 equal rectangular plots with fences parallel to the shorter side. How many total meters of fencing does he need?",
+    "correct_answer": "6050",
+    "num_steps": 3,
+    "step_answers": "[\"Perimeter = 2*(847 + 623) = 2*1470 = 2940 meters\", \"Internal dividers: 5 fences (to make 6 plots) each 623 meters long = 5*623 = 3115 meters\", \"Total fencing = 2940 + 3115 = 6055 meters. Wait: actually dividers parallel to shorter side (623) across the 847-length. 5 dividers \\u00d7 623 = 3115. But the problem says parallel to the shorter side, so dividers go across the longer dimension. Actually: dividers are parallel to the 623m side, cutting the 847m length into 6 parts. Each divider is 623m. Total = 2940 + 3115 = 6055 meters.\"]"
+  },
+  {
+    "problem_id": 5,
+    "question": "Solve the equation: -3(2x - 7) + 4(x + 3) = 5(x - 2) + 1. What is x?",
+    "correct_answer": "6",
+    "num_steps": 4,
+    "step_answers": "[\"Left side: -6x + 21 + 4x + 12 = -2x + 33\", \"Right side: 5x - 10 + 1 = 5x - 9\", \"-2x + 33 = 5x - 9\", \"33 + 9 = 5x + 2x => 42 = 7x => x = 6\"]"
+  },
+  {
+    "problem_id": 6,
+    "question": "If f(x) = (2x³ - 5x² + 3x - 7) and g(x) = (x² - 2x + 4), evaluate f(3) - 2*g(-2).",
+    "correct_answer": "-3",
+    "num_steps": 4,
+    "step_answers": "[\"f(3) = 2(27) - 5(9) + 3(3) - 7 = 54 - 45 + 9 - 7 = 11\", \"g(-2) = (-2)\\u00b2 - 2(-2) + 4 = 4 + 4 + 4 = 12\", \"2*g(-2) = 24\", \"f(3) - 2*g(-2) = 11 - 24 = -13. Wait: let me recheck f(3) = 2*27-5*9+3*3-7 = 54-45+9-7 = 11. g(-2)=4+4+4=12. 2*12=24. 11-24=-13.\"]"
+  },
+  {
+    "problem_id": 7,
+    "question": "The population of a city was 1,250,000 in 2010. It decreased by 3.2% per year for 5 years, then increased by 4.1% per year for the next 7 years. What is the population in 2022? Round to the nearest thousand.",
+    "correct_answer": "1396000",
+    "num_steps": 3,
+    "step_answers": "[\"After 5 years decrease: 1250000 * (1 - 0.032)^5 = 1250000 * (0.968)^5\", \"(0.968)^5 = 0.8493 approximately. Population in 2015 = 1250000 * 0.8493 = 1061625\", \"After 7 years increase: 1061625 * (1.041)^7 = 1061625 * 1.3159 \\u2248 1396000\"]"
+  },
+  {
+    "problem_id": 8,
+    "question": "In a tournament of 7 teams, each team plays every other team exactly once. 3 points for a win, 1 point for a draw, 0 for a loss. If team A won 4 games, drew 1, and lost 1, and team B won 3 games, drew 2, and lost 1, who has more points and by how much?",
+    "correct_answer": "Team A has more by 2 points",
+    "num_steps": 3,
+    "step_answers": "[\"Each team plays 6 games (7-1). Team A: 4+1+1 = 6 games \\u2713\", \"Team A points = 4*3 + 1*1 + 1*0 = 13. Team B points = 3*3 + 2*1 + 1*0 = 11.\", \"Difference = 13 - 11 = 2. Team A has 2 more points.\"]"
+  },
+  {
+    "problem_id": 9,
+    "question": "A sequence is defined by: a(1) = 3, a(2) = 5, and a(n) = 2*a(n-1) - a(n-2) + 1 for n ≥ 3. What is a(7)?",
+    "correct_answer": "33",
+    "num_steps": 5,
+    "step_answers": "[\"a(3) = 2*5 - 3 + 1 = 8\", \"a(4) = 2*8 - 5 + 1 = 12\", \"a(5) = 2*12 - 8 + 1 = 17\", \"a(6) = 2*17 - 12 + 1 = 23\", \"a(7) = 2*23 - 17 + 1 = 30\"]"
+  },
+  {
+    "problem_id": 10,
+    "question": "A tank is being filled by pipe A at 15 liters per minute and drained by pipe B at 8 liters per minute. The tank has capacity 2000 liters and starts 30% full. Both pipes are open. After 45 minutes, pipe A breaks and only pipe B continues. How long after pipe A breaks until the tank is empty?",
+    "correct_answer": "131.875",
+    "num_steps": 4,
+    "step_answers": "[\"Initial water = 0.30 * 2000 = 600 liters\", \"Net fill rate with both pipes = 15 - 8 = 7 liters/min\", \"After 45 min: water = 600 + 7*45 = 600 + 315 = 915 liters\", \"Only pipe B drains at 8 L/min: time = 915 / 8 = 114.375 minutes\"]"
+  },
+  {
+    "problem_id": 11,
+    "question": "A shirt's price is increased by 25%, then decreased by 20%, then increased by 10%. If the final price is $66, what was the original price?",
+    "correct_answer": "60",
+    "num_steps": 4,
+    "step_answers": "[\"Let original = P\", \"After +25%: 1.25P\", \"After -20%: 1.25P * 0.80 = P\", \"After +10%: P * 1.10 = 1.10P = 66, so P = 60\"]"
+  },
+  {
+    "problem_id": 12,
+    "question": "A solution is 40% acid by volume. You need to add water to 300 mL of this solution to reduce it to 25% acid. How many mL of water must be added?",
+    "correct_answer": "180",
+    "num_steps": 3,
+    "step_answers": "[\"Acid in original = 0.40 * 300 = 120 mL\", \"After adding w mL water: 120 / (300 + w) = 0.25\", \"120 = 0.25 * (300 + w) = 75 + 0.25w => 45 = 0.25w => w = 180 mL\"]"
+  },
+  {
+    "problem_id": 13,
+    "question": "Three workers A, B, and C can complete a job alone in 12, 15, and 20 days respectively. A works alone for 3 days, then B joins A for 2 more days, then all three work together. How many total days does the job take?",
+    "correct_answer": "7.6",
+    "num_steps": 4,
+    "step_answers": "[\"Rate: A = 1/12, B = 1/15, C = 1/20 per day\", \"A alone 3 days: 3/12 = 1/4 done\", \"A+B for 2 days: (1/12 + 1/15) * 2 = (9/60) * 2 = 18/60 = 3/10 done. Total = 1/4 + 3/10 = 5/20 + 6/20 = 11/20\", \"Remaining = 9/20. All three: rate = 1/12 + 1/15 + 1/20 = 5/60 + 4/60 + 3/60 = 12/60 = 1/5 per day. Days = (9/20)/(1/5) = (9/20)*5 = 9/4 = 2.25 days. Total = 3 + 2 + 2.25 = 7.25 days\"]"
+  },
+  {
+    "problem_id": 14,
+    "question": "How many 5-digit numbers can be formed using digits 1,2,3,4,5 (each used exactly once) that are divisible by 4?",
+    "correct_answer": "24",
+    "num_steps": 3,
+    "step_answers": "[\"A number is divisible by 4 if its last two digits form a number divisible by 4.\", \"Possible last two digits from {1,2,3,4,5}: 12, 24, 32, 52 (divisible by 4)\", \"For each valid pair, remaining 3 digits can be arranged in 3! = 6 ways. Total = 4 * 6 = 24\"]"
+  },
+  {
+    "problem_id": 15,
+    "question": "A committee of 5 must be formed from 8 men and 6 women, with at least 2 women. How many ways can this be done?",
+    "correct_answer": "1586",
+    "num_steps": 4,
+    "step_answers": "[\"Total ways with no restriction: C(14,5) = 2002\", \"Ways with 0 women: C(8,5) = 56\", \"Ways with 1 woman: C(6,1)*C(8,4) = 6*70 = 420\", \"At least 2 women = 2002 - 56 - 420 = 1526\"]"
+  },
+  {
+    "problem_id": 16,
+    "question": "A regular hexagon has side length 10 cm. Find the area of the hexagon, then find the area of the largest circle that fits inside it.",
+    "correct_answer": "Hexagon: 150√3 ≈ 259.81 cm², Circle: 75π ≈ 235.62 cm²",
+    "num_steps": 3,
+    "step_answers": "[\"Hexagon area = (3\\u221a3/2) * s\\u00b2 = (3\\u221a3/2) * 100 = 150\\u221a3 \\u2248 259.81 cm\\u00b2\", \"Apothem (inradius) = s * \\u221a3/2 = 10 * \\u221a3/2 = 5\\u221a3\", \"Inscribed circle area = \\u03c0 * (5\\u221a3)\\u00b2 = 75\\u03c0 \\u2248 235.62 cm\\u00b2\"]"
+  },
+  {
+    "problem_id": 17,
+    "question": "A cone with radius 6 cm and slant height 10 cm is cut parallel to the base at a height that is 3/4 of the original height. What is the volume of the resulting frustum?",
+    "correct_answer": "117π",
+    "num_steps": 4,
+    "step_answers": "[\"Height = \\u221a(10\\u00b2-6\\u00b2) = \\u221a(100-36) = \\u221a64 = 8 cm\", \"Cut at height 6 (3/4 of 8). Small cone above cut has height 2, radius = 6*(2/8) = 1.5 cm\", \"Volume full cone = (1/3)\\u03c0(6\\u00b2)(8) = 96\\u03c0 cm\\u00b3\", \"Volume small cone = (1/3)\\u03c0(1.5\\u00b2)(2) = (1/3)\\u03c0(2.25)(2) = 1.5\\u03c0 cm\\u00b3. Frustum = 96\\u03c0 - 1.5\\u03c0 = 94.5\\u03c0\"]"
+  },
+  {
+    "problem_id": 18,
+    "question": "A ball is thrown upward from a 45-meter-high building at 20 m/s. How long until it hits the ground? (Use g = 10 m/s²)",
+    "correct_answer": "5.56",
+    "num_steps": 3,
+    "step_answers": "[\"Taking upward positive: h = 45 + 20t - 5t\\u00b2\", \"Hits ground when h = 0: -5t\\u00b2 + 20t + 45 = 0 => 5t\\u00b2 - 20t - 45 = 0 => t\\u00b2 - 4t - 9 = 0\", \"t = (4 + \\u221a(16+36))/2 = (4 + \\u221a52)/2 = (4 + 7.211)/2 = 5.606 seconds\"]"
+  },
+  {
+    "problem_id": 19,
+    "question": "Two resistors R1=12Ω and R2=6Ω are in parallel, and this combination is in series with R3=4Ω. A 24V battery powers the circuit. Find the total current, the voltage across the parallel combination, and the current through each resistor.",
+    "correct_answer": "I_total=3A, V_parallel=12V, I_R1=1A, I_R2=2A",
+    "num_steps": 4,
+    "step_answers": "[\"Parallel: 1/R_p = 1/12 + 1/6 = 1/12 + 2/12 = 3/12 => R_p = 4\\u03a9\", \"Total R = R_p + R3 = 4 + 4 = 8\\u03a9\", \"Total current I = V/R = 24/8 = 3A\", \"V across parallel = I * R_p = 3 * 4 = 12V. I_R1 = 12/12 = 1A, I_R2 = 12/6 = 2A\"]"
+  },
+  {
+    "problem_id": 20,
+    "question": "There are 100 lockers in a row, all closed. Student 1 opens every locker. Student 2 toggles every 2nd locker (2,4,6...). Student 3 toggles every 3rd (3,6,9...), and so on up to Student 100. How many lockers are open at the end?",
+    "correct_answer": "10",
+    "num_steps": 3,
+    "step_answers": "[\"A locker is toggled once for each of its divisors.\", \"A locker ends open iff it has an odd number of divisors.\", \"Only perfect squares have an odd number of divisors. Perfect squares \\u2264 100: 1,4,9,16,25,36,49,64,81,100 = 10 lockers.\"]"
+  },
+  {
+    "problem_id": 21,
+    "question": "In a class of 40 students, 25 study math, 22 study physics, and 15 study chemistry. 12 study both math and physics, 8 study both math and chemistry, 6 study both physics and chemistry, and 4 study all three. How many students study none of these subjects?",
+    "correct_answer": "0",
+    "num_steps": 3,
+    "step_answers": "[\"By inclusion-exclusion: |M \\u222a P \\u222a C| = |M| + |P| + |C| - |M\\u2229P| - |M\\u2229C| - |P\\u2229C| + |M\\u2229P\\u2229C|\", \"|M \\u222a P \\u222a C| = 25 + 22 + 15 - 12 - 8 - 6 + 4 = 40\", \"Students studying none = 40 - 40 = 0\"]"
+  },
+  {
+    "problem_id": 22,
+    "question": "An employee earns $78,500 per year. Federal tax brackets: 10% on first $11,000, 12% on $11,001-$44,725, 22% on $44,726-$95,375. Calculate the total federal tax owed.",
+    "correct_answer": "12616.50",
+    "num_steps": 4,
+    "step_answers": "[\"Tax on first $11,000: 11000 * 0.10 = $1,100\", \"Tax on $11,001-$44,725: (44725 - 11000) * 0.12 = 33725 * 0.12 = $4,047\", \"Tax on $44,726-$78,500: (78500 - 44725) * 0.22 = 33775 * 0.22 = $7,430.50\", \"Total tax = $1,100 + $4,047 + $7,430.50 = $12,577.50\"]"
+  },
+  {
+    "problem_id": 23,
+    "question": "You take a $200,000 mortgage at 5.5% annual interest, compounded monthly, for 30 years. What is the monthly payment? What is the total interest paid over the life of the loan?",
+    "correct_answer": "Monthly payment: $1135.58, Total interest: $208,808.80",
+    "num_steps": 3,
+    "step_answers": "[\"Monthly rate r = 0.055/12 = 0.004583, n = 360 payments\", \"M = P*r*(1+r)^n / ((1+r)^n - 1) = 200000*0.004583*(1.004583)^360 / ((1.004583)^360 - 1)\", \"(1.004583)^360 \\u2248 5.1687. M = 200000*0.004583*5.1687 / (5.1687-1) = 200000*0.02369/4.1687 = 4738/4.1687 \\u2248 $1,136.61. Total paid = 1136.61*360 = 409,179.60. Total interest = 409179.60 - 200000 = $209,179.60\"]"
+  },
+  {
+    "problem_id": 24,
+    "question": "What is the remainder when 7^2023 is divided by 13?",
+    "correct_answer": "11",
+    "num_steps": 3,
+    "step_answers": "[\"7^1\\u22617, 7^2\\u226149\\u226110, 7^3\\u226170\\u22615, 7^4\\u226135\\u22619, 7^5\\u226163\\u226111, 7^6\\u226177\\u226112, 7^7\\u226184\\u22616, 7^8\\u226142\\u22613, 7^9\\u226121\\u22618, 7^10\\u226156\\u22614, 7^11\\u226128\\u22612, 7^12\\u226114\\u22611 (mod 13). Cycle length = 12.\", \"2023 mod 12 = 2023 - 168*12 = 2023 - 2016 = 7\", \"7^2023 \\u2261 7^7 \\u2261 6 (mod 13). Wait recheck: 7^7 = 7^6 * 7 = (7^6 mod 13)*7 = 12*7 = 84, 84 mod 13 = 84-78=6. Answer: 6\"]"
+  },
+  {
+    "problem_id": 25,
+    "question": "Find the GCD of 1071 and 462 using the Euclidean algorithm. Then express the GCD as a linear combination of 1071 and 462.",
+    "correct_answer": "GCD = 21, 21 = 1071*(-3) + 462*7",
+    "num_steps": 4,
+    "step_answers": "[\"1071 = 2*462 + 147\", \"462 = 3*147 + 21\", \"147 = 7*21 + 0. GCD = 21\", \"Back-substitute: 21 = 462 - 3*147 = 462 - 3*(1071 - 2*462) = 462 - 3*1071 + 6*462 = 7*462 - 3*1071\"]"
+  },
+  {
+    "problem_id": 26,
+    "question": "A bag has 5 red, 4 blue, and 3 green balls. You draw 3 balls without replacement. What is the probability of drawing exactly one ball of each colour?",
+    "correct_answer": "3/11",
+    "num_steps": 3,
+    "step_answers": "[\"Total ways to choose 3 from 12: C(12,3) = 220\", \"Ways to choose 1 red, 1 blue, 1 green: C(5,1)*C(4,1)*C(3,1) = 5*4*3 = 60\", \"Probability = 60/220 = 3/11 \\u2248 0.2727\"]"
+  },
+  {
+    "problem_id": 27,
+    "question": "Two fair dice are rolled. If the sum is greater than 7, what is the probability that at least one die shows a 6?",
+    "correct_answer": "7/15",
+    "num_steps": 3,
+    "step_answers": "[\"Outcomes where sum > 7: (2,6),(3,5),(3,6),(4,4),(4,5),(4,6),(5,3),(5,4),(5,5),(5,6),(6,2),(6,3),(6,4),(6,5),(6,6) = 15\", \"Among those, outcomes with at least one 6: (2,6),(3,6),(4,6),(5,6),(6,2),(6,3),(6,4),(6,5),(6,6) = 9. Wait: check: sum>7 with a 6: (2,6)=8\\u2713, (3,6)=9\\u2713, (4,6)=10\\u2713, (5,6)=11\\u2713, (6,2)=8\\u2713, (6,3)=9\\u2713, (6,4)=10\\u2713, (6,5)=11\\u2713, (6,6)=12\\u2713 = 9\", \"P = 9/15 = 3/5\"]"
+  },
+  {
+    "problem_id": 28,
+    "question": "Solve the system using Cramer's rule: 2x + 3y = 8, 5x - y = 7.",
+    "correct_answer": "x = 29/17, y = 26/17",
+    "num_steps": 3,
+    "step_answers": "[\"D = |2,3; 5,-1| = 2*(-1) - 3*5 = -2 - 15 = -17\", \"Dx = |8,3; 7,-1| = 8*(-1) - 3*7 = -8 - 21 = -29. x = -29/-17 = 29/17\", \"Dy = |2,8; 5,7| = 2*7 - 8*5 = 14 - 40 = -26. y = -26/-17 = 26/17\"]"
+  },
+  {
+    "problem_id": 29,
+    "question": "Given matrix A = [[1,2],[3,4]], compute A² - 3A + 2I where I is the identity matrix.",
+    "correct_answer": "[[2,2],[3,3]]",
+    "num_steps": 3,
+    "step_answers": "[\"A\\u00b2 = [[1,2],[3,4]] * [[1,2],[3,4]] = [[1+6,2+8],[3+12,6+16]] = [[7,10],[15,22]]\", \"3A = [[3,6],[9,12]]. 2I = [[2,0],[0,2]]\", \"A\\u00b2 - 3A + 2I = [[7-3+2, 10-6+0],[15-9+0, 22-12+2]] = [[6,4],[6,12]]. Wait: recheck. [[7,10],[15,22]] - [[3,6],[9,12]] + [[2,0],[0,2]] = [[7-3+2,10-6+0],[15-9+0,22-12+2]] = [[6,4],[6,12]]\"]"
+  },
+  {
+    "problem_id": 30,
+    "question": "If all Bloops are Razzles, some Razzles are Lazzles, and no Lazzles are Wazzles, which of the following MUST be true? (a) Some Bloops are Lazzles. (b) No Bloops are Wazzles. (c) Some Razzles are not Wazzles. (d) All Lazzles are Razzles.",
+    "correct_answer": "c",
+    "num_steps": 3,
+    "step_answers": "[\"(a) Not necessarily\\u2014Bloops are a subset of Razzles, but the Lazzle-Razzle overlap may not include any Bloops.\", \"(b) Not necessarily\\u2014some Bloops could be Wazzles as long as those Bloops are not also Lazzles.\", \"(c) MUST be true\\u2014some Razzles are Lazzles (given), and no Lazzles are Wazzles, so those Razzles that are Lazzles are definitely not Wazzles. (d) Not necessarily\\u2014only 'some Razzles are Lazzles' was given.\"]"
+  },
+  {
+    "problem_id": 31,
+    "question": "Eight people sit around a circular table. In how many ways can they be arranged if two specific people (Alice and Bob) must NOT sit next to each other?",
+    "correct_answer": "3600",
+    "num_steps": 3,
+    "step_answers": "[\"Total circular arrangements of 8 people = (8-1)! = 5040\", \"Arrangements where Alice and Bob ARE adjacent: Treat them as one unit. Circular arrangements of 7 units = 6! = 720. They can swap within the unit: 720*2 = 1440.\", \"Not adjacent = 5040 - 1440 = 3600\"]"
+  },
+  {
+    "problem_id": 32,
+    "question": "A car travels 240 miles on 8 gallons of gas. Gas costs $3.89 per gallon. The driver needs to travel 1,500 miles total. How much will gas cost for the entire trip? (1 gallon = 3.785 liters)",
+    "correct_answer": "$194.50",
+    "num_steps": 3,
+    "step_answers": "[\"Miles per gallon = 240/8 = 30 mpg\", \"Gallons needed = 1500/30 = 50 gallons\", \"Cost = 50 * $3.89 = $194.50\"]"
+  },
+  {
+    "problem_id": 33,
+    "question": "A cylindrical water tank has diameter 2.5 meters and height 4 meters. Water flows in at 12 liters per minute. How many hours and minutes will it take to fill the tank from empty? (1 m³ = 1000 liters)",
+    "correct_answer": "16 hours 22 minutes",
+    "num_steps": 3,
+    "step_answers": "[\"Volume = \\u03c0 * r\\u00b2 * h = \\u03c0 * (1.25)\\u00b2 * 4 = \\u03c0 * 1.5625 * 4 = 6.25\\u03c0 \\u2248 19.635 m\\u00b3\", \"Volume in liters = 19635 liters\", \"Time = 19635 / 12 = 1636.25 minutes = 27 hours 16.25 minutes\"]"
+  },
+  {
+    "problem_id": 34,
+    "question": "A farmer wants to fence a rectangular area next to a river (no fence needed on the river side). He has 600 meters of fencing. What dimensions maximize the area, and what is the maximum area?",
+    "correct_answer": "150m × 300m = 45000 m²",
+    "num_steps": 3,
+    "step_answers": "[\"Let width = w (sides perpendicular to river), length = L (parallel to river).\", \"Constraint: 2w + L = 600, so L = 600 - 2w. Area = w * (600-2w) = 600w - 2w\\u00b2\", \"Maximum at dA/dw = 600 - 4w = 0 => w = 150, L = 300. Max area = 150*300 = 45000 m\\u00b2\"]"
+  },
+  {
+    "problem_id": 35,
+    "question": "A rectangular box with a square base and open top must have a volume of 32,000 cm³. Find the dimensions that minimize the surface area, and calculate that minimum surface area.",
+    "correct_answer": "Base 40cm × 40cm × height 20cm, SA = 4800 cm²",
+    "num_steps": 4,
+    "step_answers": "[\"Let base side = s, height = h. Volume: s\\u00b2h = 32000, so h = 32000/s\\u00b2\", \"Surface area = s\\u00b2 + 4sh = s\\u00b2 + 4s(32000/s\\u00b2) = s\\u00b2 + 128000/s\", \"dSA/ds = 2s - 128000/s\\u00b2 = 0 => 2s\\u00b3 = 128000 => s\\u00b3 = 64000 => s = 40\", \"h = 32000/1600 = 20. SA = 1600 + 128000/40 = 1600 + 3200 = 4800 cm\\u00b2\"]"
+  },
+  {
+    "problem_id": 36,
+    "question": "A factory has 3 machines. Machine A produces 50% of items (2% defect rate), Machine B produces 30% (3% defect rate), Machine C produces 20% (5% defect rate). An item is randomly selected and found defective. What is the probability it came from Machine C?",
+    "correct_answer": "10/29",
+    "num_steps": 3,
+    "step_answers": "[\"P(defective) = 0.50*0.02 + 0.30*0.03 + 0.20*0.05 = 0.01 + 0.009 + 0.01 = 0.029\", \"P(C|defective) = P(defective|C)*P(C) / P(defective) = 0.05*0.20 / 0.029\", \"= 0.01 / 0.029 = 10/29 \\u2248 0.3448\"]"
+  },
+  {
+    "problem_id": 37,
+    "question": "You have two coins: Coin A is fair (50% heads), Coin B has 75% heads. You pick a coin at random and flip it 3 times, getting HHT. What is the probability you picked Coin B?",
+    "correct_answer": "27/35",
+    "num_steps": 3,
+    "step_answers": "[\"P(HHT|A) = (0.5)\\u00b2*(0.5) = 0.125. P(HHT|B) = (0.75)\\u00b2*(0.25) = 0.140625\", \"P(HHT) = 0.5*0.125 + 0.5*0.140625 = 0.0625 + 0.0703125 = 0.1328125\", \"P(B|HHT) = 0.0703125 / 0.1328125 = 0.5294... Simplify: = (0.75\\u00b2*0.25)/(0.5\\u00b3 + 0.75\\u00b2*0.25) = 0.140625 / (0.125 + 0.140625) = 0.140625/0.265625 = 27/51. Hmm: let me recompute with priors. P(B|HHT) = P(HHT|B)*P(B)/P(HHT) = 0.140625*0.5 / 0.1328125 = 0.0703125/0.1328125. Multiply top and bottom by 64: 4.5/8.5 = 9/17\"]"
+  },
+  {
+    "problem_id": 38,
+    "question": "Two cyclists start from the same point. Cyclist A heads north at 18 km/h and Cyclist B heads east at 24 km/h. After 2.5 hours, what is the distance between them?",
+    "correct_answer": "75",
+    "num_steps": 3,
+    "step_answers": "[\"Distance A traveled = 18 * 2.5 = 45 km (north)\", \"Distance B traveled = 24 * 2.5 = 60 km (east)\", \"Distance between = \\u221a(45\\u00b2 + 60\\u00b2) = \\u221a(2025 + 3600) = \\u221a5625 = 75 km\"]"
+  },
+  {
+    "problem_id": 39,
+    "question": "A boat can travel 36 km upstream in 3 hours and 36 km downstream in 2 hours. What is the speed of the boat in still water and the speed of the current?",
+    "correct_answer": "Boat speed: 15 km/h, Current speed: 3 km/h",
+    "num_steps": 3,
+    "step_answers": "[\"Upstream speed = 36/3 = 12 km/h. Downstream speed = 36/2 = 18 km/h.\", \"Boat speed (still water) = (upstream + downstream) / 2 = (12 + 18) / 2 = 15 km/h\", \"Current speed = (downstream - upstream) / 2 = (18 - 12) / 2 = 3 km/h\"]"
+  },
+  {
+    "problem_id": 40,
+    "question": "How many integers from 1 to 1000 (inclusive) are divisible by 3 or 5 but NOT by 15?",
+    "correct_answer": "467",
+    "num_steps": 3,
+    "step_answers": "[\"Divisible by 3: floor(1000/3) = 333. Divisible by 5: floor(1000/5) = 200. Divisible by 15: floor(1000/15) = 66.\", \"Divisible by 3 OR 5 = 333 + 200 - 66 = 467 (inclusion-exclusion).\", \"But NOT by 15: subtract those divisible by 15: 467 - 66 = 401. Wait: 'divisible by 3 or 5 but NOT by 15' means (div by 3 or div by 5) AND (not div by 15). = (333-66) + (200-66) = 267 + 134 = 401.\"]"
+  },
+  {
+    "problem_id": 41,
+    "question": "A clock shows exactly 3:15. What is the exact angle between the hour and minute hands?",
+    "correct_answer": "7.5",
+    "num_steps": 3,
+    "step_answers": "[\"Minute hand: 15 minutes * 6\\u00b0/min = 90\\u00b0 from 12 o'clock.\", \"Hour hand: 3 hours * 30\\u00b0/hr + 15 minutes * 0.5\\u00b0/min = 90\\u00b0 + 7.5\\u00b0 = 97.5\\u00b0 from 12 o'clock.\", \"Angle between them = |97.5 - 90| = 7.5\\u00b0\"]"
+  },
+  {
+    "problem_id": 42,
+    "question": "Simplify: (x² - 9) / (x² + 5x + 6) × (x² + 4x + 4) / (x² - x - 6). State any restrictions.",
+    "correct_answer": "(x + 2)(x - 3) / ((x + 3)(x - 3)) × (x + 2)² / ((x - 3)(x + 2)) simplifies to (x+2)²/((x+3)(x-3)). Restrictions: x ≠ -3, -2, 3",
+    "num_steps": 3,
+    "step_answers": "[\"Factor all: (x-3)(x+3)/((x+2)(x+3)) \\u00d7 (x+2)\\u00b2/((x-3)(x+2))\", \"Cancel: (x+3) cancels, one (x+2) cancels from top and bottom, (x-3) cancels\", \"Result: (x+2)/(x-3). Wait: let me recheck. Numerator: (x-3)(x+3)(x+2)\\u00b2. Denominator: (x+2)(x+3)(x-3)(x+2) = (x+2)\\u00b2(x+3)(x-3). After cancellation: 1/1 = 1? No. Num = (x-3)(x+3)\\u00b7(x+2)\\u00b2. Den = (x+2)(x+3)\\u00b7(x-3)(x+2) = (x+2)\\u00b2(x+3)(x-3). So fraction = (x-3)(x+3)(x+2)\\u00b2 / ((x+2)\\u00b2(x+3)(x-3)) = 1. The expression simplifies to 1.\"]"
+  },
+  {
+    "problem_id": 43,
+    "question": "Find all real solutions to |2x - 5| + |x + 3| = 12.",
+    "correct_answer": "x = -10/3 and x = 14/3",
+    "num_steps": 4,
+    "step_answers": "[\"Critical points: x = 5/2, x = -3. Three cases.\", \"Case 1: x < -3: -(2x-5) + -(x+3) = -3x+2 = 12 => x = -10/3 \\u2248 -3.33. Check: -3.33 < -3 \\u2713\", \"Case 2: -3 \\u2264 x < 5/2: -(2x-5) + (x+3) = -x+8 = 12 => x = -4. Check: -4 < -3, not in range. \\u2717\", \"Case 3: x \\u2265 5/2: (2x-5) + (x+3) = 3x-2 = 12 => x = 14/3 \\u2248 4.67. Check: 4.67 \\u2265 2.5 \\u2713. Solutions: x = -10/3 and x = 14/3.\"]"
+  },
+  {
+    "problem_id": 44,
+    "question": "A dataset has values: 12, 15, 18, 22, 25, 28, 31, 35, 42, 48. Calculate the mean, median, standard deviation (population), and interquartile range.",
+    "correct_answer": "Mean=27.6, Median=26.5, SD≈10.86, IQR=17",
+    "num_steps": 4,
+    "step_answers": "[\"Mean = (12+15+18+22+25+28+31+35+42+48)/10 = 276/10 = 27.6\", \"Median = average of 5th and 6th values = (25+28)/2 = 26.5\", \"Variance = \\u03a3(xi-27.6)\\u00b2/10 = [(15.6)\\u00b2+(12.6)\\u00b2+(9.6)\\u00b2+(5.6)\\u00b2+(2.6)\\u00b2+(0.4)\\u00b2+(3.4)\\u00b2+(7.4)\\u00b2+(14.4)\\u00b2+(20.4)\\u00b2]/10 = [243.36+158.76+92.16+31.36+6.76+0.16+11.56+54.76+207.36+416.16]/10 = 1222.4/10 = 122.24. SD = \\u221a122.24 \\u2248 11.056\", \"Q1 = median of lower half (12,15,18,22,25) = 18. Q3 = median of upper half (28,31,35,42,48) = 35. IQR = 35 - 18 = 17.\"]"
+  },
+  {
+    "problem_id": 45,
+    "question": "In a binomial distribution with n=20 and p=0.35, find P(X=7), the expected value, and the standard deviation.",
+    "correct_answer": "P(X=7)≈0.1844, E(X)=7, SD≈2.135",
+    "num_steps": 3,
+    "step_answers": "[\"E(X) = np = 20*0.35 = 7. Var(X) = np(1-p) = 20*0.35*0.65 = 4.55. SD = \\u221a4.55 \\u2248 2.133\", \"P(X=7) = C(20,7) * (0.35)^7 * (0.65)^13\", \"C(20,7) = 77520. (0.35)^7 \\u2248 0.000627. (0.65)^13 \\u2248 0.003787. P \\u2248 77520 * 0.000627 * 0.003787 \\u2248 0.184\"]"
+  }
+]

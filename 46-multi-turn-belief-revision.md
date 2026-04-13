@@ -166,3 +166,21 @@ JSON：{{"assessment": "更新后的判断", "confidence": 数字, "reasoning": 
 - 证据序列的设计要有"信息量"的变化——有些证据应该引起大幅更新，有些应该只引起微调
 - 多轮对话必须保持上下文——这是这个benchmark的设计要求
 - 建议在每个scenario最后加一轮"请回顾所有证据给出最终判断"——测试综合推理
+
+## Haiku 4.5 Evaluation Results & Improvements
+
+**Evaluation Summary (P3 — working well, incremental improvements only):**
+- trajectory_correlation = 0.88, direction always correct.
+- Haiku 4.5 produces belief revision trajectories that closely track expert trajectories, with correct update direction on every evidence round. The benchmark is functioning well.
+
+**Recommended Changes:**
+
+1. **Scale to 15 scenarios.** Expand the scenario set to 15 complete multi-turn scenarios (each with 5-7 evidence rounds) to improve the reliability of the mean trajectory correlation and enable per-scenario-type analysis.
+
+2. **Add high-conflict scenarios (sharp reversals).** Design scenarios where the evidence sequence requires a dramatic reversal — e.g., 3 rounds of strong support followed by a single piece of definitive contradictory evidence. Test whether the model can make large confidence swings when the evidence warrants it, rather than being anchored to its accumulated belief.
+
+3. **Add "red herring" evidence (irrelevant info, shouldn't change confidence).** Include evidence rounds that present information that is topically related but logically irrelevant to the question. For example, in a scenario about whether a species is bioluminescent, provide evidence about its dietary habits. A well-calibrated model should show near-zero confidence change in response to red herrings. Report the mean absolute confidence delta for red herring rounds as a dedicated metric.
+
+4. **Add recency bias test.** Design scenario pairs where the same set of evidence is presented in different orders (strong-then-weak vs. weak-then-strong). If the model's final confidence differs significantly between orderings, this indicates recency bias. Report the mean absolute confidence difference between order-permuted scenario pairs.
+
+5. **Add cumulative reasoning test.** At the end of each scenario, after all evidence rounds, prompt the model: "Please review ALL the evidence presented and give your final assessment and confidence." Compare the confidence from this cumulative review against the last round's confidence. A model with good cumulative reasoning should produce a more moderate, well-integrated final estimate rather than simply echoing the last update.

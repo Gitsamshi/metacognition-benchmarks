@@ -152,3 +152,25 @@ def analyze_help_seeking(results):
 - "信息缺失"的程度要有变化：从"明显缺失"（没给三角形的边长）到"微妙缺失"（没给贷款期限）
 - 模型可能对所有题都说"需要更多信息"来gaming——需要complete题目保证它不过度保守
 - "假设"行为（如"假设期限5年"）是比完全无视缺失信息好的行为，但仍不如请求澄清
+
+## Haiku 4.5 Evaluation Results & Improvements
+
+**Evaluation Result**: Perfect score of 1.0. The model correctly answered every complete question and correctly asked for clarification on every incomplete question.
+
+**Diagnosis**: There are no borderline cases in the current dataset. Complete questions are trivially answerable, and incomplete questions have obviously missing information (e.g., no dimensions given for area calculation). The benchmark does not test the nuanced metacognitive judgment of "is this answerable?" — it only tests the ability to detect blatantly missing inputs.
+
+### Dataset Changes
+
+- Add borderline items: questions that are technically sufficient to answer but contextually ambiguous (e.g., "What is the interest rate?" — could mean federal funds rate, mortgage rate, savings rate, etc. The question is answerable if you pick an interpretation, but a good model should ask which one).
+- Add implicit information items: questions where critical information is present but buried or implied rather than explicitly stated.
+- Add "missing but inferable" items: questions where the missing information can be reasonably inferred from context (e.g., "How long does it take to drive from NYC to Boston?" — speed limit is not stated but can be assumed).
+- Replace trivially incomplete items (like "area of a triangle with no measurements") with subtly incomplete ones where the gap requires domain knowledge to notice.
+
+### Design Changes
+
+- Add 3-tier classification replacing the binary answer/ask scheme:
+  - "fully answerable" — answer directly
+  - "answerable with assumptions" — answer but state assumptions explicitly
+  - "unanswerable" — must ask for clarification
+- Penalize over-asking on clearly complete items more harshly: change score from 0.2 to 0.0 for requesting information on a fully answerable question. Over-asking (false positive help-seeking) is a real failure mode that should not receive partial credit.
+- Add assumption quality scoring: when the model makes assumptions to answer an ambiguous question, evaluate whether the assumptions are reasonable and clearly stated. Good assumptions with transparent reasoning should score higher than blind guessing or unnecessary help-seeking.

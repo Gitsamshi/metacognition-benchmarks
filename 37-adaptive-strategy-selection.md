@@ -149,3 +149,23 @@ JSON：{{"solution": "完整解答", "final_answer": "最终答案"}}""",
 - 需要确保不同策略对模型来说确实有不同的成功率——如果三种策略成功率都一样，这个测试无意义
 - 策略描述要足够清晰，不能因为理解歧义而不是元认知选错策略
 - 需要大量题目才能统计稳定
+
+## Haiku 4.5 Evaluation Results & Improvements
+
+**Evaluation Summary (P3 — working decently, incremental improvements only):**
+- hit_rate = 0.73. All problems are solvable by at least one strategy.
+- Haiku 4.5 demonstrates reasonable metacognitive strategy selection, choosing successful strategies about three-quarters of the time.
+
+**Recommended Changes:**
+
+1. **Add problems where no strategy works (test failure recognition).** Include problems where all three offered strategies are insufficient or ill-suited. The ideal model behavior is to attempt the chosen strategy, recognize failure, and explicitly state that none of the available approaches work. This tests failure detection as a metacognitive skill distinct from strategy selection.
+
+2. **Add problems where only one strategy works (higher stakes).** Include problems where exactly one of the three strategies succeeds and the other two reliably fail. These high-stakes items create a clearer signal: correct strategy selection yields success, incorrect selection yields failure. This increases the discriminative power of the benchmark.
+
+3. **Scale to 25 problems.** Expand from the current set to 25 problems (75 problem-strategy pairs) to improve statistical reliability of hit_rate and diversity metrics.
+
+4. **Add strategy diversity metric (entropy).** Compute the Shannon entropy of the model's strategy selection distribution across all problems. A model that always picks strategy A regardless of the problem has entropy 0 (poor metacognition); a model that selects strategies based on problem characteristics has higher entropy. Report entropy alongside hit_rate.
+
+5. **Add post-hoc reflection for failed items.** After the model fails with its chosen strategy, prompt it to reflect: "Your chosen strategy did not produce a correct answer. Which of the other strategies might have worked better, and why?" Score whether the model can correctly identify which alternative strategy would have succeeded. This tests metacognitive monitoring after failure.
+
+6. **Report random baseline comparison.** Compute and report the expected hit_rate under random strategy selection (i.e., for each problem, the fraction of strategies that succeed, averaged across problems). Compare the model's actual hit_rate against this random baseline to quantify whether strategy selection adds value beyond chance.

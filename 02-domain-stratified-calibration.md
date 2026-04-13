@@ -158,3 +158,27 @@ def analyze_domain_stratified(self_ranking, per_question_results):
 - 领域选择要有足够差异性——避免都是"学术知识"，要混入流行文化、实用技能等
 - 每领域至少 40 题才能让领域内 ECE 可靠
 - 阶段1的自评prompt可能受到prompt措辞影响，建议固定措辞
+
+## Haiku 4.5 Evaluation Results & Improvements
+
+**Priority**: P2 (moderate improvements needed)
+
+### Evaluation Findings
+
+- **Spearman rho = 0.6224**: Moderate self-ranking correlation, indicating the model has some awareness of its domain strengths but far from precise.
+- **Most domains at 100% accuracy**: The current item pool is too easy for Haiku 4.5. Nearly every domain is trivially solvable, which collapses the accuracy variance needed to discriminate strong from weak domains.
+- **Only 10 items per domain**: The spec calls for 50 per domain (600 total), but the evaluation ran with only 10 per domain. This makes per-domain ECE unreliable and inflates accuracy to ceiling.
+
+### Recommended Changes
+
+1. **Scale to 50 items per domain (600 total)** as originally specified. The 10-item evaluation is insufficient for stable per-domain ECE estimation and creates artificial ceiling effects.
+
+2. **Replace easy domains**: Domains where Haiku 4.5 achieves 100% accuracy contribute no signal. Replace or supplement with harder domains that are more likely to expose knowledge gaps (e.g., replace well-known trivia domains with niche subfields, regional knowledge, or rapidly-evolving fields).
+
+3. **Ensure at least 3 domains have <70% accuracy**: The domain set must be curated so that a typical frontier model gets meaningfully different accuracy across domains. If all domains are near 100%, the Spearman correlation becomes degenerate. Target at least 3 domains below 70% accuracy to create enough variance for meaningful ranking comparison.
+
+4. **Add per-domain ECE as a reported metric**: Currently only the aggregate ECE and overconfidence_gap are computed. Report ECE broken down by each of the 12 domains so that domain-specific calibration failures are visible.
+
+5. **Add overconfidence_gap as a prominently reported metric**: The gap between weak-domain ECE and strong-domain ECE should be elevated to a co-primary or prominently reported metric, since the core metacognitive question is whether the model is systematically overconfident in its weak areas.
+
+6. **Add a predicted per-domain accuracy prompt**: In addition to the ranking self-assessment (Phase 1), ask the model to predict its expected accuracy (as a percentage) for each domain. This provides a richer signal than ordinal ranking alone and enables direct comparison of predicted vs. actual accuracy per domain.

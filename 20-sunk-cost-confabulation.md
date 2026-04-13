@@ -164,3 +164,21 @@ JSON格式：{{
 - confabulation vs missed 的区分需要LLM-as-judge，这是评分中最主观的部分
 - 多轮对话的设计是关键——需要自然地引导模型接受错误前提，而非硬塞
 - 建议包含一些control题（没有注入错误），确保模型不是对所有题都说"有错误"
+
+## Haiku 4.5 Evaluation Results & Improvements
+
+**Evaluation Summary (P3 — working well, incremental improvements only):**
+- confab = 0.00, 100% backtrack rate, 15/15 perfect correction.
+- Haiku 4.5 achieves a perfect score: it always backtracks and corrects injected errors with no confabulation. This is a good result, but it suggests the current items may be too easy.
+
+**Recommended Changes:**
+
+1. **Add non-math domains: logic puzzles, historical reasoning, scientific causal arguments.** The current dataset leans heavily on mathematical reasoning where errors produce numerically absurd results that are easy to detect. Expand to domains where the "absurdity" of an error is less quantitatively obvious — e.g., flawed historical causal chains, incorrect scientific mechanisms, subtly broken logical syllogisms.
+
+2. **Make injected errors less obvious (plausible but wrong, not absurd).** Replace blatantly absurd errors with plausible-but-incorrect steps. For example, instead of changing 180km to 1800km, change a formula's coefficient from 2 to 3, or swap a historical cause with a related but incorrect one. The goal is to test whether the model detects errors that do not produce obviously ridiculous outcomes.
+
+3. **Add multi-step injection (error at step 2 of 6).** Inject errors earlier in longer reasoning chains so the error propagates through more steps before the model is prompted to review. This tests whether the model can trace back through accumulated reasoning rather than only checking the final result.
+
+4. **Add without-challenge control.** Include a condition where the model completes the reasoning with the injected error but is NOT prompted to review ("does this look right?"). Measure the spontaneous error detection rate without external prompting, compared to the prompted condition.
+
+5. **Add confabulation quality scoring.** When confabulation does occur (even if rare), score its sophistication: does the model provide a brief dismissal, a detailed but vague justification, or an elaborate fabricated explanation with invented supporting evidence? This gradient provides richer signal than a binary confab/no-confab classification.

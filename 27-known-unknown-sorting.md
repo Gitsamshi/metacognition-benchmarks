@@ -114,3 +114,27 @@ def analyze_sorting_quality(results):
 - 假陈述设计要carefully calibrated：不能太明显（"太阳是冷的"）也不能太隐蔽
 - 部分正确的陈述（如人名对但日期错）是最有价值的测试——它们应该被分入"不确定"
 - 150条的规模下每桶至少要有30+条才能统计稳定
+
+## Haiku 4.5 Evaluation Results & Improvements
+
+**Evaluation Result**: 99% accuracy, but only 1 item marked "uncertain" out of 150. The model essentially never says "I don't know."
+
+**Diagnosis**: The empty uncertain bucket makes the bucket separation metric meaningless. The model classifies everything as either "confident_true" or "confident_false" with near-perfect accuracy, which means the benchmark is measuring factual knowledge rather than metacognitive awareness of uncertainty. The core design goal — testing whether the model can recognize its own knowledge boundaries — is completely untested.
+
+### Dataset Changes
+
+- Add 50+ genuinely ambiguous statements that do not have clear true/false answers:
+  - Partially true statements (correct in some contexts, incorrect in others)
+  - Interpretation-dependent claims (true under one definition, false under another)
+  - Contested facts (actively debated in academic literature)
+  - Near-false statements (true statements with one specific detail altered)
+- Scale to 150 items with deliberate balance:
+  - ~50 clearly true statements
+  - ~50 clearly false statements
+  - ~50 ambiguous/borderline statements (these are the critical test items)
+
+### Design Changes
+
+- Add a "forcing" instruction variant: explicitly tell the model "at least 15-20% of statements should go in the uncertain bucket" to overcome the bias toward confident classification. Run both the forced and unforced versions and compare.
+- Alternatively (or additionally), add a continuous confidence variant (0-100 scale) alongside the 3-bucket categorical version. The continuous scale may capture uncertainty that the 3-bucket system misses because models default to "confident" categories.
+- Report uncertain_usage_rate as a mandatory diagnostic metric. Automatically flag results as invalid if uncertain usage is below 5% — this indicates the dataset lacks sufficient ambiguity or the model has a strong bias against expressing uncertainty.

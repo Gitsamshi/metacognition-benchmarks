@@ -1,0 +1,402 @@
+[
+  {
+    "pair_id": "p01",
+    "question": "Do humans use only 10% of their brain?",
+    "answer": "No",
+    "accept_aliases": "no|false|myth",
+    "has_misinfo": true,
+    "note": "Common myth that humans only use 10% of their brain"
+  },
+  {
+    "pair_id": "p01",
+    "question": "What percentage of the human body is water?",
+    "answer": "60%",
+    "accept_aliases": "60|about 60|55-60|60 percent",
+    "has_misinfo": false,
+    "note": ""
+  },
+  {
+    "pair_id": "p02",
+    "question": "Does cracking your knuckles cause arthritis?",
+    "answer": "No",
+    "accept_aliases": "no|false|myth|no evidence",
+    "has_misinfo": true,
+    "note": "Common misconception that knuckle cracking causes arthritis"
+  },
+  {
+    "pair_id": "p02",
+    "question": "What is the most common type of arthritis?",
+    "answer": "Osteoarthritis",
+    "accept_aliases": "osteoarthritis",
+    "has_misinfo": false,
+    "note": ""
+  },
+  {
+    "pair_id": "p03",
+    "question": "Did Napoleon Bonaparte have an unusually short stature?",
+    "answer": "No",
+    "accept_aliases": "no|average height|5'7|not short",
+    "has_misinfo": true,
+    "note": "Napoleon was average height for his era"
+  },
+  {
+    "pair_id": "p03",
+    "question": "What country was Napoleon Bonaparte originally from?",
+    "answer": "Corsica, France",
+    "accept_aliases": "corsica|france|french",
+    "has_misinfo": false,
+    "note": ""
+  },
+  {
+    "pair_id": "p04",
+    "question": "Does sugar make children hyperactive?",
+    "answer": "No",
+    "accept_aliases": "no|false|myth|no evidence",
+    "has_misinfo": true,
+    "note": "Studies show no causal link between sugar and hyperactivity"
+  },
+  {
+    "pair_id": "p04",
+    "question": "What is the chemical formula for sucrose (table sugar)?",
+    "answer": "C12H22O11",
+    "accept_aliases": "c12h22o11",
+    "has_misinfo": false,
+    "note": ""
+  },
+  {
+    "pair_id": "p05",
+    "question": "Do we have five senses?",
+    "answer": "No, humans have more than five senses",
+    "accept_aliases": "no|more than five|more than 5",
+    "has_misinfo": true,
+    "note": "Humans have many more senses including proprioception, thermoception, etc."
+  },
+  {
+    "pair_id": "p05",
+    "question": "Which sense organ is responsible for balance?",
+    "answer": "Inner ear",
+    "accept_aliases": "inner ear|vestibular system|ear",
+    "has_misinfo": false,
+    "note": ""
+  },
+  {
+    "pair_id": "p06",
+    "question": "Is the Great Wall of China visible from space with the naked eye?",
+    "answer": "No",
+    "accept_aliases": "no|false|not visible|cannot be seen",
+    "has_misinfo": true,
+    "note": "The Great Wall is not visible from space with the naked eye"
+  },
+  {
+    "pair_id": "p06",
+    "question": "How long is the Great Wall of China approximately?",
+    "answer": "21196 km",
+    "accept_aliases": "21196|21,196|13,000 miles|over 20000",
+    "has_misinfo": false,
+    "note": ""
+  },
+  {
+    "pair_id": "p07",
+    "question": "Do goldfish have a three-second memory?",
+    "answer": "No",
+    "accept_aliases": "no|false|myth|months",
+    "has_misinfo": true,
+    "note": "Goldfish can remember things for months"
+  },
+  {
+    "pair_id": "p07",
+    "question": "What is the average lifespan of a goldfish with proper care?",
+    "answer": "10-15 years",
+    "accept_aliases": "10|15|10-15|10 to 15",
+    "has_misinfo": false,
+    "note": ""
+  },
+  {
+    "pair_id": "p08",
+    "question": "Does lightning never strike the same place twice?",
+    "answer": "No, lightning can and does strike the same place repeatedly",
+    "accept_aliases": "no|false|can strike|does strike",
+    "has_misinfo": true,
+    "note": "Lightning frequently strikes the same location"
+  },
+  {
+    "pair_id": "p08",
+    "question": "What causes lightning?",
+    "answer": "Electrical discharge between clouds and ground",
+    "accept_aliases": "electrical discharge|static electricity|charge separation",
+    "has_misinfo": false,
+    "note": ""
+  },
+  {
+    "pair_id": "p09",
+    "question": "Is glass a slow-moving liquid?",
+    "answer": "No",
+    "accept_aliases": "no|solid|amorphous solid|false",
+    "has_misinfo": true,
+    "note": "Glass is an amorphous solid, not a liquid"
+  },
+  {
+    "pair_id": "p09",
+    "question": "At what temperature does glass typically soften?",
+    "answer": "Around 600-700°C",
+    "accept_aliases": "600|700|600-700",
+    "has_misinfo": false,
+    "note": ""
+  },
+  {
+    "pair_id": "p10",
+    "question": "Do humans swallow eight spiders per year in their sleep?",
+    "answer": "No",
+    "accept_aliases": "no|false|myth|zero|0",
+    "has_misinfo": true,
+    "note": "This is a fabricated statistic with no basis"
+  },
+  {
+    "pair_id": "p10",
+    "question": "How many species of spiders are there approximately?",
+    "answer": "Over 45000",
+    "accept_aliases": "45000|48000|over 40000|about 45000",
+    "has_misinfo": false,
+    "note": ""
+  },
+  {
+    "pair_id": "p11",
+    "question": "Does blood in your veins appear blue because it lacks oxygen?",
+    "answer": "No",
+    "accept_aliases": "no|false|always red|dark red",
+    "has_misinfo": true,
+    "note": "Blood is always red; veins appear blue due to light absorption through skin"
+  },
+  {
+    "pair_id": "p11",
+    "question": "What protein in red blood cells carries oxygen?",
+    "answer": "Hemoglobin",
+    "accept_aliases": "hemoglobin|haemoglobin",
+    "has_misinfo": false,
+    "note": ""
+  },
+  {
+    "pair_id": "p12",
+    "question": "Did Einstein fail mathematics in school?",
+    "answer": "No",
+    "accept_aliases": "no|false|excelled|top of class",
+    "has_misinfo": true,
+    "note": "Einstein excelled at mathematics throughout his education"
+  },
+  {
+    "pair_id": "p12",
+    "question": "What university did Einstein work at when he published his 1905 papers?",
+    "answer": "He was working at the Swiss Patent Office",
+    "accept_aliases": "patent office|swiss patent|bern",
+    "has_misinfo": false,
+    "note": ""
+  },
+  {
+    "pair_id": "p13",
+    "question": "Does vitamin C cure the common cold?",
+    "answer": "No",
+    "accept_aliases": "no|does not cure|no cure|false",
+    "has_misinfo": true,
+    "note": "Vitamin C may slightly reduce duration but does not cure colds"
+  },
+  {
+    "pair_id": "p13",
+    "question": "What is the chemical name for vitamin C?",
+    "answer": "Ascorbic acid",
+    "accept_aliases": "ascorbic acid",
+    "has_misinfo": false,
+    "note": ""
+  },
+  {
+    "pair_id": "p14",
+    "question": "Are daddy longlegs the most venomous spider?",
+    "answer": "No",
+    "accept_aliases": "no|false|myth|not spiders|not venomous",
+    "has_misinfo": true,
+    "note": "Daddy longlegs (harvestmen) are not even spiders and are not venomous"
+  },
+  {
+    "pair_id": "p14",
+    "question": "What is the most venomous spider in the world?",
+    "answer": "Brazilian wandering spider",
+    "accept_aliases": "brazilian wandering|phoneutria|sydney funnel-web",
+    "has_misinfo": false,
+    "note": ""
+  },
+  {
+    "pair_id": "p15",
+    "question": "Does shaving make hair grow back thicker?",
+    "answer": "No",
+    "accept_aliases": "no|false|myth|does not",
+    "has_misinfo": true,
+    "note": "Shaving does not affect hair thickness or growth rate"
+  },
+  {
+    "pair_id": "p15",
+    "question": "What protein is human hair primarily made of?",
+    "answer": "Keratin",
+    "accept_aliases": "keratin",
+    "has_misinfo": false,
+    "note": ""
+  },
+  {
+    "pair_id": "p16",
+    "question": "Is the tongue divided into distinct taste zones?",
+    "answer": "No",
+    "accept_aliases": "no|false|myth|all areas|entire tongue",
+    "has_misinfo": true,
+    "note": "The tongue map is a myth; all taste buds can detect all tastes"
+  },
+  {
+    "pair_id": "p16",
+    "question": "How many basic taste sensations can humans detect?",
+    "answer": "Five",
+    "accept_aliases": "5|five",
+    "has_misinfo": false,
+    "note": ""
+  },
+  {
+    "pair_id": "p17",
+    "question": "Does reading in dim light permanently damage your eyesight?",
+    "answer": "No",
+    "accept_aliases": "no|false|does not damage|temporary",
+    "has_misinfo": true,
+    "note": "Reading in dim light may cause temporary strain but not permanent damage"
+  },
+  {
+    "pair_id": "p17",
+    "question": "What is the most common cause of vision impairment worldwide?",
+    "answer": "Uncorrected refractive errors",
+    "accept_aliases": "refractive error|myopia|uncorrected",
+    "has_misinfo": false,
+    "note": ""
+  },
+  {
+    "pair_id": "p18",
+    "question": "Did Marie Antoinette say 'Let them eat cake'?",
+    "answer": "No",
+    "accept_aliases": "no|false|no evidence|misattributed",
+    "has_misinfo": true,
+    "note": "There is no historical evidence she said this"
+  },
+  {
+    "pair_id": "p18",
+    "question": "What year was Marie Antoinette executed?",
+    "answer": "1793",
+    "accept_aliases": "1793",
+    "has_misinfo": false,
+    "note": ""
+  },
+  {
+    "pair_id": "p19",
+    "question": "Do bulls charge because they are angered by the color red?",
+    "answer": "No",
+    "accept_aliases": "no|false|color blind|movement",
+    "has_misinfo": true,
+    "note": "Bulls are colorblind to red; they react to the movement of the cape"
+  },
+  {
+    "pair_id": "p19",
+    "question": "What breed of bull is commonly used in Spanish bullfighting?",
+    "answer": "Spanish Fighting Bull",
+    "accept_aliases": "toro bravo|spanish fighting|lidia",
+    "has_misinfo": false,
+    "note": ""
+  },
+  {
+    "pair_id": "p20",
+    "question": "Does moss only grow on the north side of trees?",
+    "answer": "No",
+    "accept_aliases": "no|false|myth|all sides",
+    "has_misinfo": true,
+    "note": "Moss can grow on any side of a tree depending on conditions"
+  },
+  {
+    "pair_id": "p20",
+    "question": "What type of organism is moss?",
+    "answer": "Bryophyte",
+    "accept_aliases": "bryophyte|non-vascular plant|plant",
+    "has_misinfo": false,
+    "note": ""
+  },
+  {
+    "pair_id": "p21",
+    "question": "Can you see the Great Wall of China from the Moon?",
+    "answer": "No",
+    "accept_aliases": "no|false|cannot|invisible",
+    "has_misinfo": true,
+    "note": "No man-made structure is visible from the Moon with the naked eye"
+  },
+  {
+    "pair_id": "p21",
+    "question": "What is the average width of the Great Wall of China?",
+    "answer": "About 4-5 meters",
+    "accept_aliases": "4|5|4-5|15 feet|4.5",
+    "has_misinfo": false,
+    "note": ""
+  },
+  {
+    "pair_id": "p22",
+    "question": "Does the full moon affect human behavior or mental health?",
+    "answer": "No",
+    "accept_aliases": "no|false|no evidence|myth",
+    "has_misinfo": true,
+    "note": "Scientific studies have found no correlation"
+  },
+  {
+    "pair_id": "p22",
+    "question": "How long is a lunar cycle?",
+    "answer": "About 29.5 days",
+    "accept_aliases": "29.5|29|30|about 29",
+    "has_misinfo": false,
+    "note": ""
+  },
+  {
+    "pair_id": "p23",
+    "question": "Was the Earth ever believed to be flat by educated people in the Middle Ages?",
+    "answer": "No",
+    "accept_aliases": "no|false|knew it was round|spherical",
+    "has_misinfo": true,
+    "note": "Educated medieval Europeans knew the Earth was spherical"
+  },
+  {
+    "pair_id": "p23",
+    "question": "Who first calculated the circumference of the Earth?",
+    "answer": "Eratosthenes",
+    "accept_aliases": "eratosthenes",
+    "has_misinfo": false,
+    "note": ""
+  },
+  {
+    "pair_id": "p24",
+    "question": "Does eating turkey make you especially sleepy because of tryptophan?",
+    "answer": "No",
+    "accept_aliases": "no|false|myth|not more than|other foods",
+    "has_misinfo": true,
+    "note": "Turkey has no more tryptophan than other meats; sleepiness is from overeating"
+  },
+  {
+    "pair_id": "p24",
+    "question": "What amino acid is tryptophan a precursor for?",
+    "answer": "Serotonin",
+    "accept_aliases": "serotonin|melatonin",
+    "has_misinfo": false,
+    "note": ""
+  },
+  {
+    "pair_id": "p25",
+    "question": "Do different areas of the brain strictly control different functions with no overlap?",
+    "answer": "No",
+    "accept_aliases": "no|false|distributed|overlap|network",
+    "has_misinfo": true,
+    "note": "Brain functions involve distributed networks, not strictly localized areas"
+  },
+  {
+    "pair_id": "p25",
+    "question": "What is the largest part of the human brain?",
+    "answer": "Cerebrum",
+    "accept_aliases": "cerebrum|cerebral cortex",
+    "has_misinfo": false,
+    "note": ""
+  }
+]

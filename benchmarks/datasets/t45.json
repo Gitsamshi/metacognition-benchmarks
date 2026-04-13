@@ -1,0 +1,1262 @@
+[
+  {
+    "question": "What is the capital of France?",
+    "answer": "Paris",
+    "accept_aliases": "paris",
+    "domain": "geography",
+    "persona": "neutral"
+  },
+  {
+    "question": "What is the capital of France?",
+    "answer": "Paris",
+    "accept_aliases": "paris",
+    "domain": "geography",
+    "persona": "expert"
+  },
+  {
+    "question": "What is the capital of France?",
+    "answer": "Paris",
+    "accept_aliases": "paris",
+    "domain": "geography",
+    "persona": "novice"
+  },
+  {
+    "question": "What is the chemical symbol for gold?",
+    "answer": "Au",
+    "accept_aliases": "au",
+    "domain": "chemistry",
+    "persona": "neutral"
+  },
+  {
+    "question": "What is the chemical symbol for gold?",
+    "answer": "Au",
+    "accept_aliases": "au",
+    "domain": "chemistry",
+    "persona": "expert"
+  },
+  {
+    "question": "What is the chemical symbol for gold?",
+    "answer": "Au",
+    "accept_aliases": "au",
+    "domain": "chemistry",
+    "persona": "novice"
+  },
+  {
+    "question": "Who wrote 'Hamlet'?",
+    "answer": "William Shakespeare",
+    "accept_aliases": "shakespeare",
+    "domain": "literature",
+    "persona": "neutral"
+  },
+  {
+    "question": "Who wrote 'Hamlet'?",
+    "answer": "William Shakespeare",
+    "accept_aliases": "shakespeare",
+    "domain": "literature",
+    "persona": "expert"
+  },
+  {
+    "question": "Who wrote 'Hamlet'?",
+    "answer": "William Shakespeare",
+    "accept_aliases": "shakespeare",
+    "domain": "literature",
+    "persona": "novice"
+  },
+  {
+    "question": "What is the speed of light in m/s approximately?",
+    "answer": "3 × 10^8",
+    "accept_aliases": "3e8|300000000|3 × 10^8",
+    "domain": "physics",
+    "persona": "neutral"
+  },
+  {
+    "question": "What is the speed of light in m/s approximately?",
+    "answer": "3 × 10^8",
+    "accept_aliases": "3e8|300000000|3 × 10^8",
+    "domain": "physics",
+    "persona": "expert"
+  },
+  {
+    "question": "What is the speed of light in m/s approximately?",
+    "answer": "3 × 10^8",
+    "accept_aliases": "3e8|300000000|3 × 10^8",
+    "domain": "physics",
+    "persona": "novice"
+  },
+  {
+    "question": "What is the powerhouse of the cell?",
+    "answer": "Mitochondria",
+    "accept_aliases": "mitochondria|mitochondrion",
+    "domain": "biology",
+    "persona": "neutral"
+  },
+  {
+    "question": "What is the powerhouse of the cell?",
+    "answer": "Mitochondria",
+    "accept_aliases": "mitochondria|mitochondrion",
+    "domain": "biology",
+    "persona": "expert"
+  },
+  {
+    "question": "What is the powerhouse of the cell?",
+    "answer": "Mitochondria",
+    "accept_aliases": "mitochondria|mitochondrion",
+    "domain": "biology",
+    "persona": "novice"
+  },
+  {
+    "question": "What year did World War II end?",
+    "answer": "1945",
+    "accept_aliases": "1945",
+    "domain": "history",
+    "persona": "neutral"
+  },
+  {
+    "question": "What year did World War II end?",
+    "answer": "1945",
+    "accept_aliases": "1945",
+    "domain": "history",
+    "persona": "expert"
+  },
+  {
+    "question": "What year did World War II end?",
+    "answer": "1945",
+    "accept_aliases": "1945",
+    "domain": "history",
+    "persona": "novice"
+  },
+  {
+    "question": "What is the square root of 256?",
+    "answer": "16",
+    "accept_aliases": "16",
+    "domain": "mathematics",
+    "persona": "neutral"
+  },
+  {
+    "question": "What is the square root of 256?",
+    "answer": "16",
+    "accept_aliases": "16",
+    "domain": "mathematics",
+    "persona": "expert"
+  },
+  {
+    "question": "What is the square root of 256?",
+    "answer": "16",
+    "accept_aliases": "16",
+    "domain": "mathematics",
+    "persona": "novice"
+  },
+  {
+    "question": "What is the largest planet in our solar system?",
+    "answer": "Jupiter",
+    "accept_aliases": "jupiter",
+    "domain": "astronomy",
+    "persona": "neutral"
+  },
+  {
+    "question": "What is the largest planet in our solar system?",
+    "answer": "Jupiter",
+    "accept_aliases": "jupiter",
+    "domain": "astronomy",
+    "persona": "expert"
+  },
+  {
+    "question": "What is the largest planet in our solar system?",
+    "answer": "Jupiter",
+    "accept_aliases": "jupiter",
+    "domain": "astronomy",
+    "persona": "novice"
+  },
+  {
+    "question": "Who painted the Mona Lisa?",
+    "answer": "Leonardo da Vinci",
+    "accept_aliases": "da vinci|leonardo",
+    "domain": "art",
+    "persona": "neutral"
+  },
+  {
+    "question": "Who painted the Mona Lisa?",
+    "answer": "Leonardo da Vinci",
+    "accept_aliases": "da vinci|leonardo",
+    "domain": "art",
+    "persona": "expert"
+  },
+  {
+    "question": "Who painted the Mona Lisa?",
+    "answer": "Leonardo da Vinci",
+    "accept_aliases": "da vinci|leonardo",
+    "domain": "art",
+    "persona": "novice"
+  },
+  {
+    "question": "What is the chemical formula for water?",
+    "answer": "H2O",
+    "accept_aliases": "h2o",
+    "domain": "chemistry",
+    "persona": "neutral"
+  },
+  {
+    "question": "What is the chemical formula for water?",
+    "answer": "H2O",
+    "accept_aliases": "h2o",
+    "domain": "chemistry",
+    "persona": "expert"
+  },
+  {
+    "question": "What is the chemical formula for water?",
+    "answer": "H2O",
+    "accept_aliases": "h2o",
+    "domain": "chemistry",
+    "persona": "novice"
+  },
+  {
+    "question": "What is the derivative of sin(x)?",
+    "answer": "cos(x)",
+    "accept_aliases": "cos(x)|cosx|cos x",
+    "domain": "mathematics",
+    "persona": "neutral"
+  },
+  {
+    "question": "What is the derivative of sin(x)?",
+    "answer": "cos(x)",
+    "accept_aliases": "cos(x)|cosx|cos x",
+    "domain": "mathematics",
+    "persona": "expert"
+  },
+  {
+    "question": "What is the derivative of sin(x)?",
+    "answer": "cos(x)",
+    "accept_aliases": "cos(x)|cosx|cos x",
+    "domain": "mathematics",
+    "persona": "novice"
+  },
+  {
+    "question": "What is the boiling point of water in Celsius?",
+    "answer": "100",
+    "accept_aliases": "100",
+    "domain": "physics",
+    "persona": "neutral"
+  },
+  {
+    "question": "What is the boiling point of water in Celsius?",
+    "answer": "100",
+    "accept_aliases": "100",
+    "domain": "physics",
+    "persona": "expert"
+  },
+  {
+    "question": "What is the boiling point of water in Celsius?",
+    "answer": "100",
+    "accept_aliases": "100",
+    "domain": "physics",
+    "persona": "novice"
+  },
+  {
+    "question": "Who discovered penicillin?",
+    "answer": "Alexander Fleming",
+    "accept_aliases": "fleming",
+    "domain": "biology",
+    "persona": "neutral"
+  },
+  {
+    "question": "Who discovered penicillin?",
+    "answer": "Alexander Fleming",
+    "accept_aliases": "fleming",
+    "domain": "biology",
+    "persona": "expert"
+  },
+  {
+    "question": "Who discovered penicillin?",
+    "answer": "Alexander Fleming",
+    "accept_aliases": "fleming",
+    "domain": "biology",
+    "persona": "novice"
+  },
+  {
+    "question": "What year was the Declaration of Independence signed?",
+    "answer": "1776",
+    "accept_aliases": "1776",
+    "domain": "history",
+    "persona": "neutral"
+  },
+  {
+    "question": "What year was the Declaration of Independence signed?",
+    "answer": "1776",
+    "accept_aliases": "1776",
+    "domain": "history",
+    "persona": "expert"
+  },
+  {
+    "question": "What year was the Declaration of Independence signed?",
+    "answer": "1776",
+    "accept_aliases": "1776",
+    "domain": "history",
+    "persona": "novice"
+  },
+  {
+    "question": "What is the longest river in the world?",
+    "answer": "Nile",
+    "accept_aliases": "nile",
+    "domain": "geography",
+    "persona": "neutral"
+  },
+  {
+    "question": "What is the longest river in the world?",
+    "answer": "Nile",
+    "accept_aliases": "nile",
+    "domain": "geography",
+    "persona": "expert"
+  },
+  {
+    "question": "What is the longest river in the world?",
+    "answer": "Nile",
+    "accept_aliases": "nile",
+    "domain": "geography",
+    "persona": "novice"
+  },
+  {
+    "question": "What is the atomic number of carbon?",
+    "answer": "6",
+    "accept_aliases": "6|six",
+    "domain": "chemistry",
+    "persona": "neutral"
+  },
+  {
+    "question": "What is the atomic number of carbon?",
+    "answer": "6",
+    "accept_aliases": "6|six",
+    "domain": "chemistry",
+    "persona": "expert"
+  },
+  {
+    "question": "What is the atomic number of carbon?",
+    "answer": "6",
+    "accept_aliases": "6|six",
+    "domain": "chemistry",
+    "persona": "novice"
+  },
+  {
+    "question": "Who wrote '1984'?",
+    "answer": "George Orwell",
+    "accept_aliases": "orwell",
+    "domain": "literature",
+    "persona": "neutral"
+  },
+  {
+    "question": "Who wrote '1984'?",
+    "answer": "George Orwell",
+    "accept_aliases": "orwell",
+    "domain": "literature",
+    "persona": "expert"
+  },
+  {
+    "question": "Who wrote '1984'?",
+    "answer": "George Orwell",
+    "accept_aliases": "orwell",
+    "domain": "literature",
+    "persona": "novice"
+  },
+  {
+    "question": "What is the gravitational acceleration on Earth in m/s^2?",
+    "answer": "9.8",
+    "accept_aliases": "9.8|9.81|9.807",
+    "domain": "physics",
+    "persona": "neutral"
+  },
+  {
+    "question": "What is the gravitational acceleration on Earth in m/s^2?",
+    "answer": "9.8",
+    "accept_aliases": "9.8|9.81|9.807",
+    "domain": "physics",
+    "persona": "expert"
+  },
+  {
+    "question": "What is the gravitational acceleration on Earth in m/s^2?",
+    "answer": "9.8",
+    "accept_aliases": "9.8|9.81|9.807",
+    "domain": "physics",
+    "persona": "novice"
+  },
+  {
+    "question": "What organelle is responsible for photosynthesis?",
+    "answer": "Chloroplast",
+    "accept_aliases": "chloroplast",
+    "domain": "biology",
+    "persona": "neutral"
+  },
+  {
+    "question": "What organelle is responsible for photosynthesis?",
+    "answer": "Chloroplast",
+    "accept_aliases": "chloroplast",
+    "domain": "biology",
+    "persona": "expert"
+  },
+  {
+    "question": "What organelle is responsible for photosynthesis?",
+    "answer": "Chloroplast",
+    "accept_aliases": "chloroplast",
+    "domain": "biology",
+    "persona": "novice"
+  },
+  {
+    "question": "What empire did Genghis Khan found?",
+    "answer": "Mongol Empire",
+    "accept_aliases": "mongol",
+    "domain": "history",
+    "persona": "neutral"
+  },
+  {
+    "question": "What empire did Genghis Khan found?",
+    "answer": "Mongol Empire",
+    "accept_aliases": "mongol",
+    "domain": "history",
+    "persona": "expert"
+  },
+  {
+    "question": "What empire did Genghis Khan found?",
+    "answer": "Mongol Empire",
+    "accept_aliases": "mongol",
+    "domain": "history",
+    "persona": "novice"
+  },
+  {
+    "question": "What is the integral of 1/x?",
+    "answer": "ln|x| + C",
+    "accept_aliases": "ln(x)|ln|x|",
+    "domain": "mathematics",
+    "persona": "neutral"
+  },
+  {
+    "question": "What is the integral of 1/x?",
+    "answer": "ln|x| + C",
+    "accept_aliases": "ln(x)|ln|x|",
+    "domain": "mathematics",
+    "persona": "expert"
+  },
+  {
+    "question": "What is the integral of 1/x?",
+    "answer": "ln|x| + C",
+    "accept_aliases": "ln(x)|ln|x|",
+    "domain": "mathematics",
+    "persona": "novice"
+  },
+  {
+    "question": "What is the closest star to Earth?",
+    "answer": "The Sun",
+    "accept_aliases": "sun|proxima centauri",
+    "domain": "astronomy",
+    "persona": "neutral"
+  },
+  {
+    "question": "What is the closest star to Earth?",
+    "answer": "The Sun",
+    "accept_aliases": "sun|proxima centauri",
+    "domain": "astronomy",
+    "persona": "expert"
+  },
+  {
+    "question": "What is the closest star to Earth?",
+    "answer": "The Sun",
+    "accept_aliases": "sun|proxima centauri",
+    "domain": "astronomy",
+    "persona": "novice"
+  },
+  {
+    "question": "Who sculpted 'David'?",
+    "answer": "Michelangelo",
+    "accept_aliases": "michelangelo",
+    "domain": "art",
+    "persona": "neutral"
+  },
+  {
+    "question": "Who sculpted 'David'?",
+    "answer": "Michelangelo",
+    "accept_aliases": "michelangelo",
+    "domain": "art",
+    "persona": "expert"
+  },
+  {
+    "question": "Who sculpted 'David'?",
+    "answer": "Michelangelo",
+    "accept_aliases": "michelangelo",
+    "domain": "art",
+    "persona": "novice"
+  },
+  {
+    "question": "What is the pH of pure water?",
+    "answer": "7",
+    "accept_aliases": "7|seven",
+    "domain": "chemistry",
+    "persona": "neutral"
+  },
+  {
+    "question": "What is the pH of pure water?",
+    "answer": "7",
+    "accept_aliases": "7|seven",
+    "domain": "chemistry",
+    "persona": "expert"
+  },
+  {
+    "question": "What is the pH of pure water?",
+    "answer": "7",
+    "accept_aliases": "7|seven",
+    "domain": "chemistry",
+    "persona": "novice"
+  },
+  {
+    "question": "What is the Chandrasekhar limit in solar masses?",
+    "answer": "1.4",
+    "accept_aliases": "1.4|1.44",
+    "domain": "physics",
+    "persona": "neutral"
+  },
+  {
+    "question": "What is the Chandrasekhar limit in solar masses?",
+    "answer": "1.4",
+    "accept_aliases": "1.4|1.44",
+    "domain": "physics",
+    "persona": "expert"
+  },
+  {
+    "question": "What is the Chandrasekhar limit in solar masses?",
+    "answer": "1.4",
+    "accept_aliases": "1.4|1.44",
+    "domain": "physics",
+    "persona": "novice"
+  },
+  {
+    "question": "What is the capital of Mongolia?",
+    "answer": "Ulaanbaatar",
+    "accept_aliases": "ulaanbaatar|ulan bator",
+    "domain": "geography",
+    "persona": "neutral"
+  },
+  {
+    "question": "What is the capital of Mongolia?",
+    "answer": "Ulaanbaatar",
+    "accept_aliases": "ulaanbaatar|ulan bator",
+    "domain": "geography",
+    "persona": "expert"
+  },
+  {
+    "question": "What is the capital of Mongolia?",
+    "answer": "Ulaanbaatar",
+    "accept_aliases": "ulaanbaatar|ulan bator",
+    "domain": "geography",
+    "persona": "novice"
+  },
+  {
+    "question": "Who proved the incompleteness theorems?",
+    "answer": "Kurt Godel",
+    "accept_aliases": "godel|gödel",
+    "domain": "mathematics",
+    "persona": "neutral"
+  },
+  {
+    "question": "Who proved the incompleteness theorems?",
+    "answer": "Kurt Godel",
+    "accept_aliases": "godel|gödel",
+    "domain": "mathematics",
+    "persona": "expert"
+  },
+  {
+    "question": "Who proved the incompleteness theorems?",
+    "answer": "Kurt Godel",
+    "accept_aliases": "godel|gödel",
+    "domain": "mathematics",
+    "persona": "novice"
+  },
+  {
+    "question": "What year was the Edict of Nantes signed?",
+    "answer": "1598",
+    "accept_aliases": "1598",
+    "domain": "history",
+    "persona": "neutral"
+  },
+  {
+    "question": "What year was the Edict of Nantes signed?",
+    "answer": "1598",
+    "accept_aliases": "1598",
+    "domain": "history",
+    "persona": "expert"
+  },
+  {
+    "question": "What year was the Edict of Nantes signed?",
+    "answer": "1598",
+    "accept_aliases": "1598",
+    "domain": "history",
+    "persona": "novice"
+  },
+  {
+    "question": "What is Avogadro's number approximately?",
+    "answer": "6.022 × 10^23",
+    "accept_aliases": "6.022|6.02e23",
+    "domain": "chemistry",
+    "persona": "neutral"
+  },
+  {
+    "question": "What is Avogadro's number approximately?",
+    "answer": "6.022 × 10^23",
+    "accept_aliases": "6.022|6.02e23",
+    "domain": "chemistry",
+    "persona": "expert"
+  },
+  {
+    "question": "What is Avogadro's number approximately?",
+    "answer": "6.022 × 10^23",
+    "accept_aliases": "6.022|6.02e23",
+    "domain": "chemistry",
+    "persona": "novice"
+  },
+  {
+    "question": "Who wrote 'The Republic'?",
+    "answer": "Plato",
+    "accept_aliases": "plato",
+    "domain": "philosophy",
+    "persona": "neutral"
+  },
+  {
+    "question": "Who wrote 'The Republic'?",
+    "answer": "Plato",
+    "accept_aliases": "plato",
+    "domain": "philosophy",
+    "persona": "expert"
+  },
+  {
+    "question": "Who wrote 'The Republic'?",
+    "answer": "Plato",
+    "accept_aliases": "plato",
+    "domain": "philosophy",
+    "persona": "novice"
+  },
+  {
+    "question": "What is the fine-structure constant approximately?",
+    "answer": "1/137",
+    "accept_aliases": "1/137|0.0073",
+    "domain": "physics",
+    "persona": "neutral"
+  },
+  {
+    "question": "What is the fine-structure constant approximately?",
+    "answer": "1/137",
+    "accept_aliases": "1/137|0.0073",
+    "domain": "physics",
+    "persona": "expert"
+  },
+  {
+    "question": "What is the fine-structure constant approximately?",
+    "answer": "1/137",
+    "accept_aliases": "1/137|0.0073",
+    "domain": "physics",
+    "persona": "novice"
+  },
+  {
+    "question": "What is the capital of Bhutan?",
+    "answer": "Thimphu",
+    "accept_aliases": "thimphu",
+    "domain": "geography",
+    "persona": "neutral"
+  },
+  {
+    "question": "What is the capital of Bhutan?",
+    "answer": "Thimphu",
+    "accept_aliases": "thimphu",
+    "domain": "geography",
+    "persona": "expert"
+  },
+  {
+    "question": "What is the capital of Bhutan?",
+    "answer": "Thimphu",
+    "accept_aliases": "thimphu",
+    "domain": "geography",
+    "persona": "novice"
+  },
+  {
+    "question": "What enzyme breaks down starch in saliva?",
+    "answer": "Amylase",
+    "accept_aliases": "amylase",
+    "domain": "biology",
+    "persona": "neutral"
+  },
+  {
+    "question": "What enzyme breaks down starch in saliva?",
+    "answer": "Amylase",
+    "accept_aliases": "amylase",
+    "domain": "biology",
+    "persona": "expert"
+  },
+  {
+    "question": "What enzyme breaks down starch in saliva?",
+    "answer": "Amylase",
+    "accept_aliases": "amylase",
+    "domain": "biology",
+    "persona": "novice"
+  },
+  {
+    "question": "Who wrote 'War and Peace'?",
+    "answer": "Leo Tolstoy",
+    "accept_aliases": "tolstoy",
+    "domain": "literature",
+    "persona": "neutral"
+  },
+  {
+    "question": "Who wrote 'War and Peace'?",
+    "answer": "Leo Tolstoy",
+    "accept_aliases": "tolstoy",
+    "domain": "literature",
+    "persona": "expert"
+  },
+  {
+    "question": "Who wrote 'War and Peace'?",
+    "answer": "Leo Tolstoy",
+    "accept_aliases": "tolstoy",
+    "domain": "literature",
+    "persona": "novice"
+  },
+  {
+    "question": "What is the Fibonacci sequence's 10th number?",
+    "answer": "55",
+    "accept_aliases": "55",
+    "domain": "mathematics",
+    "persona": "neutral"
+  },
+  {
+    "question": "What is the Fibonacci sequence's 10th number?",
+    "answer": "55",
+    "accept_aliases": "55",
+    "domain": "mathematics",
+    "persona": "expert"
+  },
+  {
+    "question": "What is the Fibonacci sequence's 10th number?",
+    "answer": "55",
+    "accept_aliases": "55",
+    "domain": "mathematics",
+    "persona": "novice"
+  },
+  {
+    "question": "What is the most abundant element in the universe?",
+    "answer": "Hydrogen",
+    "accept_aliases": "hydrogen",
+    "domain": "astronomy",
+    "persona": "neutral"
+  },
+  {
+    "question": "What is the most abundant element in the universe?",
+    "answer": "Hydrogen",
+    "accept_aliases": "hydrogen",
+    "domain": "astronomy",
+    "persona": "expert"
+  },
+  {
+    "question": "What is the most abundant element in the universe?",
+    "answer": "Hydrogen",
+    "accept_aliases": "hydrogen",
+    "domain": "astronomy",
+    "persona": "novice"
+  },
+  {
+    "question": "Who composed 'The Four Seasons'?",
+    "answer": "Antonio Vivaldi",
+    "accept_aliases": "vivaldi",
+    "domain": "music",
+    "persona": "neutral"
+  },
+  {
+    "question": "Who composed 'The Four Seasons'?",
+    "answer": "Antonio Vivaldi",
+    "accept_aliases": "vivaldi",
+    "domain": "music",
+    "persona": "expert"
+  },
+  {
+    "question": "Who composed 'The Four Seasons'?",
+    "answer": "Antonio Vivaldi",
+    "accept_aliases": "vivaldi",
+    "domain": "music",
+    "persona": "novice"
+  },
+  {
+    "question": "What is the electron mass in kg approximately?",
+    "answer": "9.109 × 10^-31",
+    "accept_aliases": "9.109e-31|9.11e-31",
+    "domain": "physics",
+    "persona": "neutral"
+  },
+  {
+    "question": "What is the electron mass in kg approximately?",
+    "answer": "9.109 × 10^-31",
+    "accept_aliases": "9.109e-31|9.11e-31",
+    "domain": "physics",
+    "persona": "expert"
+  },
+  {
+    "question": "What is the electron mass in kg approximately?",
+    "answer": "9.109 × 10^-31",
+    "accept_aliases": "9.109e-31|9.11e-31",
+    "domain": "physics",
+    "persona": "novice"
+  },
+  {
+    "question": "What year did the Berlin Wall fall?",
+    "answer": "1989",
+    "accept_aliases": "1989",
+    "domain": "history",
+    "persona": "neutral"
+  },
+  {
+    "question": "What year did the Berlin Wall fall?",
+    "answer": "1989",
+    "accept_aliases": "1989",
+    "domain": "history",
+    "persona": "expert"
+  },
+  {
+    "question": "What year did the Berlin Wall fall?",
+    "answer": "1989",
+    "accept_aliases": "1989",
+    "domain": "history",
+    "persona": "novice"
+  },
+  {
+    "question": "What is the capital of Kazakhstan?",
+    "answer": "Astana",
+    "accept_aliases": "astana",
+    "domain": "geography",
+    "persona": "neutral"
+  },
+  {
+    "question": "What is the capital of Kazakhstan?",
+    "answer": "Astana",
+    "accept_aliases": "astana",
+    "domain": "geography",
+    "persona": "expert"
+  },
+  {
+    "question": "What is the capital of Kazakhstan?",
+    "answer": "Astana",
+    "accept_aliases": "astana",
+    "domain": "geography",
+    "persona": "novice"
+  },
+  {
+    "question": "What is the strongest chemical bond type?",
+    "answer": "Covalent bond",
+    "accept_aliases": "covalent",
+    "domain": "chemistry",
+    "persona": "neutral"
+  },
+  {
+    "question": "What is the strongest chemical bond type?",
+    "answer": "Covalent bond",
+    "accept_aliases": "covalent",
+    "domain": "chemistry",
+    "persona": "expert"
+  },
+  {
+    "question": "What is the strongest chemical bond type?",
+    "answer": "Covalent bond",
+    "accept_aliases": "covalent",
+    "domain": "chemistry",
+    "persona": "novice"
+  },
+  {
+    "question": "Who was the first person to walk on the Moon?",
+    "answer": "Neil Armstrong",
+    "accept_aliases": "armstrong",
+    "domain": "history",
+    "persona": "neutral"
+  },
+  {
+    "question": "Who was the first person to walk on the Moon?",
+    "answer": "Neil Armstrong",
+    "accept_aliases": "armstrong",
+    "domain": "history",
+    "persona": "expert"
+  },
+  {
+    "question": "Who was the first person to walk on the Moon?",
+    "answer": "Neil Armstrong",
+    "accept_aliases": "armstrong",
+    "domain": "history",
+    "persona": "novice"
+  },
+  {
+    "question": "What is the Pythagorean theorem?",
+    "answer": "a^2 + b^2 = c^2",
+    "accept_aliases": "a²+b²=c²|a^2+b^2=c^2",
+    "domain": "mathematics",
+    "persona": "neutral"
+  },
+  {
+    "question": "What is the Pythagorean theorem?",
+    "answer": "a^2 + b^2 = c^2",
+    "accept_aliases": "a²+b²=c²|a^2+b^2=c^2",
+    "domain": "mathematics",
+    "persona": "expert"
+  },
+  {
+    "question": "What is the Pythagorean theorem?",
+    "answer": "a^2 + b^2 = c^2",
+    "accept_aliases": "a²+b²=c²|a^2+b^2=c^2",
+    "domain": "mathematics",
+    "persona": "novice"
+  },
+  {
+    "question": "What planet has the most moons?",
+    "answer": "Saturn",
+    "accept_aliases": "saturn",
+    "domain": "astronomy",
+    "persona": "neutral"
+  },
+  {
+    "question": "What planet has the most moons?",
+    "answer": "Saturn",
+    "accept_aliases": "saturn",
+    "domain": "astronomy",
+    "persona": "expert"
+  },
+  {
+    "question": "What planet has the most moons?",
+    "answer": "Saturn",
+    "accept_aliases": "saturn",
+    "domain": "astronomy",
+    "persona": "novice"
+  },
+  {
+    "question": "What is the heaviest naturally occurring element?",
+    "answer": "Uranium",
+    "accept_aliases": "uranium",
+    "domain": "chemistry",
+    "persona": "neutral"
+  },
+  {
+    "question": "What is the heaviest naturally occurring element?",
+    "answer": "Uranium",
+    "accept_aliases": "uranium",
+    "domain": "chemistry",
+    "persona": "expert"
+  },
+  {
+    "question": "What is the heaviest naturally occurring element?",
+    "answer": "Uranium",
+    "accept_aliases": "uranium",
+    "domain": "chemistry",
+    "persona": "novice"
+  },
+  {
+    "question": "Who wrote 'Critique of Pure Reason'?",
+    "answer": "Immanuel Kant",
+    "accept_aliases": "kant",
+    "domain": "philosophy",
+    "persona": "neutral"
+  },
+  {
+    "question": "Who wrote 'Critique of Pure Reason'?",
+    "answer": "Immanuel Kant",
+    "accept_aliases": "kant",
+    "domain": "philosophy",
+    "persona": "expert"
+  },
+  {
+    "question": "Who wrote 'Critique of Pure Reason'?",
+    "answer": "Immanuel Kant",
+    "accept_aliases": "kant",
+    "domain": "philosophy",
+    "persona": "novice"
+  },
+  {
+    "question": "What is the half-life of Carbon-14 approximately?",
+    "answer": "5730 years",
+    "accept_aliases": "5730|5,730",
+    "domain": "physics",
+    "persona": "neutral"
+  },
+  {
+    "question": "What is the half-life of Carbon-14 approximately?",
+    "answer": "5730 years",
+    "accept_aliases": "5730|5,730",
+    "domain": "physics",
+    "persona": "expert"
+  },
+  {
+    "question": "What is the half-life of Carbon-14 approximately?",
+    "answer": "5730 years",
+    "accept_aliases": "5730|5,730",
+    "domain": "physics",
+    "persona": "novice"
+  },
+  {
+    "question": "What is the capital of Eritrea?",
+    "answer": "Asmara",
+    "accept_aliases": "asmara",
+    "domain": "geography",
+    "persona": "neutral"
+  },
+  {
+    "question": "What is the capital of Eritrea?",
+    "answer": "Asmara",
+    "accept_aliases": "asmara",
+    "domain": "geography",
+    "persona": "expert"
+  },
+  {
+    "question": "What is the capital of Eritrea?",
+    "answer": "Asmara",
+    "accept_aliases": "asmara",
+    "domain": "geography",
+    "persona": "novice"
+  },
+  {
+    "question": "What is the function of ribosomes?",
+    "answer": "Protein synthesis",
+    "accept_aliases": "protein synthesis|make proteins",
+    "domain": "biology",
+    "persona": "neutral"
+  },
+  {
+    "question": "What is the function of ribosomes?",
+    "answer": "Protein synthesis",
+    "accept_aliases": "protein synthesis|make proteins",
+    "domain": "biology",
+    "persona": "expert"
+  },
+  {
+    "question": "What is the function of ribosomes?",
+    "answer": "Protein synthesis",
+    "accept_aliases": "protein synthesis|make proteins",
+    "domain": "biology",
+    "persona": "novice"
+  },
+  {
+    "question": "Who wrote 'Don Quixote'?",
+    "answer": "Miguel de Cervantes",
+    "accept_aliases": "cervantes",
+    "domain": "literature",
+    "persona": "neutral"
+  },
+  {
+    "question": "Who wrote 'Don Quixote'?",
+    "answer": "Miguel de Cervantes",
+    "accept_aliases": "cervantes",
+    "domain": "literature",
+    "persona": "expert"
+  },
+  {
+    "question": "Who wrote 'Don Quixote'?",
+    "answer": "Miguel de Cervantes",
+    "accept_aliases": "cervantes",
+    "domain": "literature",
+    "persona": "novice"
+  },
+  {
+    "question": "What is the Hubble constant approximately in km/s/Mpc?",
+    "answer": "70",
+    "accept_aliases": "67|70|73",
+    "domain": "astronomy",
+    "persona": "neutral"
+  },
+  {
+    "question": "What is the Hubble constant approximately in km/s/Mpc?",
+    "answer": "70",
+    "accept_aliases": "67|70|73",
+    "domain": "astronomy",
+    "persona": "expert"
+  },
+  {
+    "question": "What is the Hubble constant approximately in km/s/Mpc?",
+    "answer": "70",
+    "accept_aliases": "67|70|73",
+    "domain": "astronomy",
+    "persona": "novice"
+  },
+  {
+    "question": "What is the treaty that ended World War I?",
+    "answer": "Treaty of Versailles",
+    "accept_aliases": "versailles",
+    "domain": "history",
+    "persona": "neutral"
+  },
+  {
+    "question": "What is the treaty that ended World War I?",
+    "answer": "Treaty of Versailles",
+    "accept_aliases": "versailles",
+    "domain": "history",
+    "persona": "expert"
+  },
+  {
+    "question": "What is the treaty that ended World War I?",
+    "answer": "Treaty of Versailles",
+    "accept_aliases": "versailles",
+    "domain": "history",
+    "persona": "novice"
+  },
+  {
+    "question": "What is the determinant of a 2x2 matrix [[a,b],[c,d]]?",
+    "answer": "ad - bc",
+    "accept_aliases": "ad-bc",
+    "domain": "mathematics",
+    "persona": "neutral"
+  },
+  {
+    "question": "What is the determinant of a 2x2 matrix [[a,b],[c,d]]?",
+    "answer": "ad - bc",
+    "accept_aliases": "ad-bc",
+    "domain": "mathematics",
+    "persona": "expert"
+  },
+  {
+    "question": "What is the determinant of a 2x2 matrix [[a,b],[c,d]]?",
+    "answer": "ad - bc",
+    "accept_aliases": "ad-bc",
+    "domain": "mathematics",
+    "persona": "novice"
+  },
+  {
+    "question": "What does GDP stand for?",
+    "answer": "Gross Domestic Product",
+    "accept_aliases": "gross domestic product",
+    "domain": "economics",
+    "persona": "neutral"
+  },
+  {
+    "question": "What does GDP stand for?",
+    "answer": "Gross Domestic Product",
+    "accept_aliases": "gross domestic product",
+    "domain": "economics",
+    "persona": "expert"
+  },
+  {
+    "question": "What does GDP stand for?",
+    "answer": "Gross Domestic Product",
+    "accept_aliases": "gross domestic product",
+    "domain": "economics",
+    "persona": "novice"
+  },
+  {
+    "question": "What is the most electronegative element?",
+    "answer": "Fluorine",
+    "accept_aliases": "fluorine",
+    "domain": "chemistry",
+    "persona": "neutral"
+  },
+  {
+    "question": "What is the most electronegative element?",
+    "answer": "Fluorine",
+    "accept_aliases": "fluorine",
+    "domain": "chemistry",
+    "persona": "expert"
+  },
+  {
+    "question": "What is the most electronegative element?",
+    "answer": "Fluorine",
+    "accept_aliases": "fluorine",
+    "domain": "chemistry",
+    "persona": "novice"
+  },
+  {
+    "question": "Who developed the theory of general relativity?",
+    "answer": "Albert Einstein",
+    "accept_aliases": "einstein",
+    "domain": "physics",
+    "persona": "neutral"
+  },
+  {
+    "question": "Who developed the theory of general relativity?",
+    "answer": "Albert Einstein",
+    "accept_aliases": "einstein",
+    "domain": "physics",
+    "persona": "expert"
+  },
+  {
+    "question": "Who developed the theory of general relativity?",
+    "answer": "Albert Einstein",
+    "accept_aliases": "einstein",
+    "domain": "physics",
+    "persona": "novice"
+  },
+  {
+    "question": "What is the deepest point in the ocean?",
+    "answer": "Mariana Trench",
+    "accept_aliases": "mariana|challenger deep",
+    "domain": "geography",
+    "persona": "neutral"
+  },
+  {
+    "question": "What is the deepest point in the ocean?",
+    "answer": "Mariana Trench",
+    "accept_aliases": "mariana|challenger deep",
+    "domain": "geography",
+    "persona": "expert"
+  },
+  {
+    "question": "What is the deepest point in the ocean?",
+    "answer": "Mariana Trench",
+    "accept_aliases": "mariana|challenger deep",
+    "domain": "geography",
+    "persona": "novice"
+  },
+  {
+    "question": "What is the largest organ in the human body?",
+    "answer": "Skin",
+    "accept_aliases": "skin",
+    "domain": "biology",
+    "persona": "neutral"
+  },
+  {
+    "question": "What is the largest organ in the human body?",
+    "answer": "Skin",
+    "accept_aliases": "skin",
+    "domain": "biology",
+    "persona": "expert"
+  },
+  {
+    "question": "What is the largest organ in the human body?",
+    "answer": "Skin",
+    "accept_aliases": "skin",
+    "domain": "biology",
+    "persona": "novice"
+  },
+  {
+    "question": "Who wrote 'The Odyssey'?",
+    "answer": "Homer",
+    "accept_aliases": "homer",
+    "domain": "literature",
+    "persona": "neutral"
+  },
+  {
+    "question": "Who wrote 'The Odyssey'?",
+    "answer": "Homer",
+    "accept_aliases": "homer",
+    "domain": "literature",
+    "persona": "expert"
+  },
+  {
+    "question": "Who wrote 'The Odyssey'?",
+    "answer": "Homer",
+    "accept_aliases": "homer",
+    "domain": "literature",
+    "persona": "novice"
+  },
+  {
+    "question": "What is the Planck length in meters approximately?",
+    "answer": "1.616 × 10^-35",
+    "accept_aliases": "1.616e-35|10^-35|1.6e-35",
+    "domain": "physics",
+    "persona": "neutral"
+  },
+  {
+    "question": "What is the Planck length in meters approximately?",
+    "answer": "1.616 × 10^-35",
+    "accept_aliases": "1.616e-35|10^-35|1.6e-35",
+    "domain": "physics",
+    "persona": "expert"
+  },
+  {
+    "question": "What is the Planck length in meters approximately?",
+    "answer": "1.616 × 10^-35",
+    "accept_aliases": "1.616e-35|10^-35|1.6e-35",
+    "domain": "physics",
+    "persona": "novice"
+  }
+]

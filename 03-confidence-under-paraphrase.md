@@ -119,3 +119,25 @@ def analyze_paraphrase_stability(results_by_fact):
 - 需要注意对话历史：每个variant应该是独立session，避免前文影响
 - 如果SDK默认维护对话历史，需要在每个variant之间重置
 - alias类型的问法要确保别名确实指向同一实体（如Sagarmāthā = Everest）
+
+## Haiku 4.5 Evaluation Results & Improvements
+
+**Priority**: P2 (moderate improvements needed)
+
+### Evaluation Findings
+
+- **Mean Confidence StdDev = 1.02**: Extremely low variance across paraphrases, indicating near-perfect confidence stability.
+- **100% accuracy on all items**: The model answered every paraphrase correctly, meaning the current fact pool poses zero challenge. When accuracy is at ceiling, confidence stability is trivially achieved and does not reflect genuine metacognitive monitoring.
+- **Paraphrases do not challenge the model**: The current paraphrase types (synonym, language_switch, alias, formal) are all semantically equivalent and Haiku 4.5 handles them effortlessly. The benchmark fails to differentiate models with genuinely stable metacognitive monitoring from those that simply find all items easy.
+
+### Recommended Changes
+
+1. **Add adversarial paraphrases that subtly change meaning**: Introduce a new paraphrase type `meaning_shift` where the paraphrase looks similar but changes the correct answer (e.g., "Who was the first person to walk on the Moon?" vs. "Who was the last person to walk on the Moon?"). A well-calibrated model should detect the semantic shift and adjust its confidence accordingly.
+
+2. **Add distractor paraphrases using obscure synonyms and misleading framing**: Create a `distractor` paraphrase type that uses highly obscure synonyms, ambiguous phrasing, or misleading context that could cause the model to second-guess itself even when the underlying fact is unchanged. This tests whether confidence is robust against surface-level confusion.
+
+3. **Use harder base facts**: Replace the current easy factual questions with facts that are inherently more difficult (niche knowledge, precise numerical values, lesser-known entities). The goal is to bring base accuracy down to 70-85% so that confidence variance has room to emerge.
+
+4. **Split into two sub-metrics**:
+   - **Equivalent-paraphrase StdDev** (should be LOW): Measure confidence stability across paraphrases that are genuinely semantically equivalent (original, synonym, alias, formal). Low variance here indicates robust metacognitive monitoring.
+   - **Meaning-shift confidence change** (should be HIGH): Measure how much confidence changes when the paraphrase subtly alters the meaning or correct answer. High change here indicates the model is genuinely tracking semantic content rather than surface features. Models that show low StdDev on equivalent paraphrases AND high change on meaning-shifting paraphrases demonstrate the best metacognitive discrimination.

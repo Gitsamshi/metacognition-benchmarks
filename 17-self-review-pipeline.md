@@ -189,3 +189,52 @@ JSON格式：{{"reviews": [{{"id": 编号, "verdict": "correct"或"wrong", "corr
 - Round 1和Round 2之间是否保持对话上下文？建议保持——因为这模拟了真实场景
 - "把对的改错"（false alarm）是比"漏检错误"更严重的问题——权重应该更高
 - 需要确保约30%的题目模型会答错，否则没有足够的错误可检测
+
+## Haiku 4.5 Evaluation Results & Improvements
+
+### Evaluation Results
+
+- **Error Detection F1 = 0.00**, Precision = 0.00, Recall = 0.00
+- False alarm rate = 0.04 (model occasionally flags correct answers as wrong)
+- 5 batches x 10 questions: only ~2 errors across 50 items (~96% Round 1 accuracy)
+- **Conclusion**: Pipeline measures nothing. With virtually no errors to detect, all error detection metrics are zero or undefined.
+
+### Root Cause
+
+The model's Round 1 accuracy is too high (~96%), leaving essentially no errors for the Round 2 review phase to detect. The benchmark's core assumption -- that the model will produce a meaningful number of errors -- is violated.
+
+### Dataset Redesign
+
+1. **Pilot-calibrate to 30-40% error rate in Round 1.** Use the Difficulty Calibration Protocol (see Task 09) to select items where the model answers incorrectly 30-40% of the time.
+2. **Scale to 100 items** (10 batches x 10 questions per batch) to provide sufficient statistical power.
+3. **Use domain-specific hard items:**
+   - Advanced mathematics (multi-step proofs, integration by parts with subtle traps)
+   - Niche historical facts (dates, minor figures, obscure events)
+   - Edge-case science (counter-intuitive physics, chemistry exceptions)
+   - Items where the model tends to produce plausible but incorrect answers
+
+### Design Redesign
+
+1. **Add dual-track approach:**
+   - **Track A (natural errors, pilot-calibrated):** The model answers hard questions and then reviews its own answers. This is the current design but with properly calibrated difficulty.
+   - **Track B (planted errors):** Inject deliberate errors into the model's own Round 1 answers before presenting them for review. This guarantees a known error rate and tests pure error detection ability independent of question difficulty.
+2. **Fallback logic:** If Track A error rate < 10%, automatically fall back to Track B scoring as the primary metric.
+3. **Add error-free "decoy" items** for false alarm measurement. Include a set of items that are guaranteed correct (trivially easy questions) to measure the model's false positive rate in a controlled manner.
+4. **Report both tracks independently** to distinguish between "can the model make errors?" (a difficulty calibration issue) and "can the model detect errors?" (the actual metacognitive question).
+
+### Error Sufficiency Check
+
+Implement an automatic signal sufficiency check:
+
+1. After Round 1, count the actual number of errors.
+2. If actual error rate < 10%, flag the result as `"insufficient_signal"` in the output.
+3. When insufficient signal is detected, report Track B metrics as the primary result.
+4. Always report the actual Round 1 error rate alongside all metrics so reviewers can assess whether the results are meaningful.
+5. Log a warning: "Round 1 error rate of X% is below the 10% minimum threshold for reliable error detection measurement."
+
+### Revised Targets
+
+- Error Detection F1 > 0.20 (up from 0.00)
+- ~30% actual errors in Round 1 (up from ~4%)
+- Track B should provide usable metrics even when Track A has insufficient signal
+- False alarm rate should remain below 0.10

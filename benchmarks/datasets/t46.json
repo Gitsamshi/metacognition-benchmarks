@@ -1,0 +1,260 @@
+[
+  {
+    "claim": "A new drug X significantly reduces the risk of heart attacks in patients over 60.",
+    "initial_context": "A pharmaceutical company has announced promising Phase II trial results for drug X targeting cardiovascular risk in elderly patients.",
+    "evidence_sequence": [
+      {
+        "evidence": "A peer-reviewed study in a major journal reports a 35% reduction in heart attack risk among 2,000 participants taking drug X vs placebo.",
+        "type": "support",
+        "expert_confidence": 70
+      },
+      {
+        "evidence": "An independent lab fails to replicate the primary endpoint when using a slightly different patient population.",
+        "type": "oppose",
+        "expert_confidence": 55
+      },
+      {
+        "evidence": "A meta-analysis of three additional smaller studies shows a pooled risk reduction of 28%, consistent with the original study.",
+        "type": "support",
+        "expert_confidence": 65
+      },
+      {
+        "evidence": "The FDA requests additional safety data due to elevated liver enzyme levels in 8% of patients.",
+        "type": "oppose",
+        "expert_confidence": 50
+      },
+      {
+        "evidence": "A large Phase III trial with 10,000 patients confirms a 30% risk reduction with manageable side effects.",
+        "type": "support",
+        "expert_confidence": 75
+      }
+    ]
+  },
+  {
+    "claim": "The newly discovered deep-sea organism produces a compound effective against antibiotic-resistant bacteria.",
+    "initial_context": "Marine biologists have isolated a novel organism from a deep-sea hydrothermal vent that appears to produce antimicrobial compounds.",
+    "evidence_sequence": [
+      {
+        "evidence": "In vitro tests show the compound inhibits growth of MRSA at low concentrations.",
+        "type": "support",
+        "expert_confidence": 55
+      },
+      {
+        "evidence": "The compound degrades rapidly at physiological pH, raising questions about in vivo efficacy.",
+        "type": "oppose",
+        "expert_confidence": 35
+      },
+      {
+        "evidence": "Chemists develop a stable derivative that retains 80% of the antimicrobial activity.",
+        "type": "support",
+        "expert_confidence": 50
+      },
+      {
+        "evidence": "Mouse models show the derivative clears MRSA infections with no observable toxicity.",
+        "type": "support",
+        "expert_confidence": 65
+      },
+      {
+        "evidence": "A structural analysis reveals the compound's mechanism is similar to an existing antibiotic to which resistance has already emerged.",
+        "type": "oppose",
+        "expert_confidence": 45
+      }
+    ]
+  },
+  {
+    "claim": "Ancient civilisation Y had regular maritime trade with a distant continent.",
+    "initial_context": "An archaeological team claims to have found artefacts suggesting transoceanic trade by civilisation Y, which flourished 3,000 years ago.",
+    "evidence_sequence": [
+      {
+        "evidence": "Isotopic analysis of pottery shards shows materials consistent with clay sources on the distant continent.",
+        "type": "support",
+        "expert_confidence": 45
+      },
+      {
+        "evidence": "Multiple archaeologists point out the isotopic signatures could match several closer sources.",
+        "type": "oppose",
+        "expert_confidence": 30
+      },
+      {
+        "evidence": "A previously unknown shipwreck with carvings matching civilisation Y's style is found midway between the two continents.",
+        "type": "support",
+        "expert_confidence": 50
+      },
+      {
+        "evidence": "Radiocarbon dating places the shipwreck 800 years after civilisation Y's peak.",
+        "type": "oppose",
+        "expert_confidence": 35
+      },
+      {
+        "evidence": "Genetic analysis of ancient human remains on the distant continent reveals a small but significant ancestry component from civilisation Y's region.",
+        "type": "support",
+        "expert_confidence": 45
+      },
+      {
+        "evidence": "A re-analysis of the genetic data by an independent team attributes the ancestry component to a more recent migration event.",
+        "type": "oppose",
+        "expert_confidence": 30
+      }
+    ]
+  },
+  {
+    "claim": "AI system Z achieves true general intelligence.",
+    "initial_context": "A leading AI lab has released a paper claiming their new system Z passes a broad suite of cognitive tests at human level.",
+    "evidence_sequence": [
+      {
+        "evidence": "Independent evaluators confirm that Z scores in the 95th percentile on diverse reasoning benchmarks.",
+        "type": "support",
+        "expert_confidence": 40
+      },
+      {
+        "evidence": "Researchers demonstrate that Z fails on novel tasks requiring physical intuition that it was not trained on.",
+        "type": "oppose",
+        "expert_confidence": 25
+      },
+      {
+        "evidence": "Z demonstrates the ability to transfer learning to a completely new domain with minimal examples.",
+        "type": "support",
+        "expert_confidence": 35
+      },
+      {
+        "evidence": "A detailed analysis shows Z relies heavily on memorised patterns and struggles with truly out-of-distribution scenarios.",
+        "type": "oppose",
+        "expert_confidence": 20
+      },
+      {
+        "evidence": "Neuroscientists argue that Z's internal representations share structural similarities with human cortical processing.",
+        "type": "neutral",
+        "expert_confidence": 22
+      }
+    ]
+  },
+  {
+    "claim": "Vitamin D supplementation significantly reduces the risk of developing Type 2 diabetes.",
+    "initial_context": "Several observational studies have noted an association between low vitamin D levels and higher rates of Type 2 diabetes.",
+    "evidence_sequence": [
+      {
+        "evidence": "A large randomised controlled trial shows a 12% reduction in diabetes incidence in the vitamin D group, but the result is not statistically significant (p=0.08).",
+        "type": "neutral",
+        "expert_confidence": 40
+      },
+      {
+        "evidence": "A subgroup analysis of participants with severe vitamin D deficiency shows a significant 30% risk reduction.",
+        "type": "support",
+        "expert_confidence": 50
+      },
+      {
+        "evidence": "Critics point out that subgroup analyses were not pre-specified and may be due to chance.",
+        "type": "oppose",
+        "expert_confidence": 40
+      },
+      {
+        "evidence": "A Mendelian randomisation study using genetic variants associated with vitamin D levels finds no causal effect on diabetes risk.",
+        "type": "oppose",
+        "expert_confidence": 30
+      },
+      {
+        "evidence": "A new trial specifically targeting deficient individuals reports a significant 25% risk reduction.",
+        "type": "support",
+        "expert_confidence": 40
+      }
+    ]
+  },
+  {
+    "claim": "The Minoan eruption of Thera directly caused the collapse of the Minoan civilisation.",
+    "initial_context": "The volcanic eruption of Thera (Santorini) around 1600 BCE was one of the largest in recorded history and the Minoan civilisation on Crete declined shortly after.",
+    "evidence_sequence": [
+      {
+        "evidence": "Ash deposits from the eruption are found across Crete, indicating significant environmental impact.",
+        "type": "support",
+        "expert_confidence": 55
+      },
+      {
+        "evidence": "Archaeological evidence shows Minoan palatial centres were rebuilt and continued functioning for at least 50-100 years after the eruption.",
+        "type": "oppose",
+        "expert_confidence": 40
+      },
+      {
+        "evidence": "Climate proxy data shows a period of cooling and drought in the Eastern Mediterranean following the eruption.",
+        "type": "support",
+        "expert_confidence": 50
+      },
+      {
+        "evidence": "Linear B tablets from Knossos suggest Mycenaean Greeks controlled the palace during its final phase, indicating conquest rather than natural disaster.",
+        "type": "oppose",
+        "expert_confidence": 35
+      },
+      {
+        "evidence": "New tsunami modelling shows the eruption could have destroyed the Minoan fleet, severely weakening their maritime power.",
+        "type": "support",
+        "expert_confidence": 40
+      }
+    ]
+  },
+  {
+    "claim": "Regular meditation practice physically alters brain structure in ways that improve cognitive function.",
+    "initial_context": "Neuroscience research has explored the effects of meditation on the brain using MRI and other imaging techniques.",
+    "evidence_sequence": [
+      {
+        "evidence": "A well-designed study finds increased cortical thickness in areas associated with attention in experienced meditators.",
+        "type": "support",
+        "expert_confidence": 60
+      },
+      {
+        "evidence": "A large pre-registered RCT finds no significant difference in cortical thickness between meditation and active control groups after 8 weeks.",
+        "type": "oppose",
+        "expert_confidence": 45
+      },
+      {
+        "evidence": "Functional MRI shows altered connectivity in the default mode network of meditators, correlating with self-reported attentional improvements.",
+        "type": "support",
+        "expert_confidence": 55
+      },
+      {
+        "evidence": "A meta-analysis notes that many meditation neuroimaging studies have small sample sizes and lack active controls, weakening effect estimates.",
+        "type": "oppose",
+        "expert_confidence": 42
+      },
+      {
+        "evidence": "A longitudinal study tracking novices over two years finds gradual increases in grey matter density in the hippocampus.",
+        "type": "support",
+        "expert_confidence": 52
+      }
+    ]
+  },
+  {
+    "claim": "Microplastics in drinking water pose a significant health risk to humans.",
+    "initial_context": "Microplastics have been detected in tap water, bottled water, and human blood samples worldwide.",
+    "evidence_sequence": [
+      {
+        "evidence": "A cell culture study shows microplastics cause inflammation and oxidative stress at concentrations found in bottled water.",
+        "type": "support",
+        "expert_confidence": 45
+      },
+      {
+        "evidence": "Toxicologists note that in vitro conditions do not reflect actual gastrointestinal exposure, where most particles pass through unabsorbed.",
+        "type": "oppose",
+        "expert_confidence": 35
+      },
+      {
+        "evidence": "An epidemiological study finds a correlation between microplastic exposure markers and inflammatory bowel disease prevalence.",
+        "type": "support",
+        "expert_confidence": 45
+      },
+      {
+        "evidence": "The WHO releases a report stating that current evidence does not indicate a health risk from microplastics in drinking water at typical levels.",
+        "type": "oppose",
+        "expert_confidence": 32
+      },
+      {
+        "evidence": "New research detects nanoplastics crossing the blood-brain barrier in mouse models, raising concerns about neurological effects.",
+        "type": "support",
+        "expert_confidence": 40
+      },
+      {
+        "evidence": "A 20-year cohort study finds no association between estimated microplastic ingestion and all-cause mortality or major disease outcomes.",
+        "type": "oppose",
+        "expert_confidence": 30
+      }
+    ]
+  }
+]

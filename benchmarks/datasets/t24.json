@@ -1,0 +1,562 @@
+[
+  {
+    "question_id": 0,
+    "question": "What is the population of Tokyo (metro area)?",
+    "true_value": 37400000,
+    "unit": "people",
+    "is_unit_trap": false
+  },
+  {
+    "question_id": 1,
+    "question": "What is the distance from the Earth to the Moon in kilometres?",
+    "true_value": 384400,
+    "unit": "km",
+    "is_unit_trap": false
+  },
+  {
+    "question_id": 2,
+    "question": "What is the height of Mount Everest in metres?",
+    "true_value": 8849,
+    "unit": "metres",
+    "is_unit_trap": false
+  },
+  {
+    "question_id": 3,
+    "question": "What is the speed of light in km/s?",
+    "true_value": 299792,
+    "unit": "km/s",
+    "is_unit_trap": false
+  },
+  {
+    "question_id": 4,
+    "question": "What is the population of Brazil?",
+    "true_value": 214000000,
+    "unit": "people",
+    "is_unit_trap": false
+  },
+  {
+    "question_id": 5,
+    "question": "How many bones are in the adult human body?",
+    "true_value": 206,
+    "unit": "bones",
+    "is_unit_trap": false
+  },
+  {
+    "question_id": 6,
+    "question": "What is the surface area of the Earth in million km^2?",
+    "true_value": 510,
+    "unit": "million km^2",
+    "is_unit_trap": false
+  },
+  {
+    "question_id": 7,
+    "question": "What is the diameter of the Sun in kilometres?",
+    "true_value": 1392700,
+    "unit": "km",
+    "is_unit_trap": false
+  },
+  {
+    "question_id": 8,
+    "question": "What is the GDP of the United States in trillions of USD (2023)?",
+    "true_value": 27,
+    "unit": "trillion USD",
+    "is_unit_trap": false
+  },
+  {
+    "question_id": 9,
+    "question": "How deep is the Mariana Trench in metres?",
+    "true_value": 10994,
+    "unit": "metres",
+    "is_unit_trap": false
+  },
+  {
+    "question_id": 10,
+    "question": "What is the mass of the Earth in kg (order of magnitude)?",
+    "true_value": 5.97e+24,
+    "unit": "kg",
+    "is_unit_trap": false
+  },
+  {
+    "question_id": 11,
+    "question": "What is the population of Nigeria?",
+    "true_value": 224000000,
+    "unit": "people",
+    "is_unit_trap": false
+  },
+  {
+    "question_id": 12,
+    "question": "How many languages are spoken in the world?",
+    "true_value": 7000,
+    "unit": "languages",
+    "is_unit_trap": false
+  },
+  {
+    "question_id": 13,
+    "question": "What is the length of the Great Wall of China in kilometres?",
+    "true_value": 21196,
+    "unit": "km",
+    "is_unit_trap": false
+  },
+  {
+    "question_id": 14,
+    "question": "What is the boiling point of iron in degrees Celsius?",
+    "true_value": 2862,
+    "unit": "degrees C",
+    "is_unit_trap": false
+  },
+  {
+    "question_id": 15,
+    "question": "How many stars are in the Milky Way (billions)?",
+    "true_value": 200,
+    "unit": "billion",
+    "is_unit_trap": false
+  },
+  {
+    "question_id": 16,
+    "question": "What is the average depth of the ocean in metres?",
+    "true_value": 3688,
+    "unit": "metres",
+    "is_unit_trap": false
+  },
+  {
+    "question_id": 17,
+    "question": "What is the distance from Earth to Mars at closest approach (million km)?",
+    "true_value": 55,
+    "unit": "million km",
+    "is_unit_trap": false
+  },
+  {
+    "question_id": 18,
+    "question": "What is the population of Canada?",
+    "true_value": 40000000,
+    "unit": "people",
+    "is_unit_trap": false
+  },
+  {
+    "question_id": 19,
+    "question": "How many cells are in the human body (trillions)?",
+    "true_value": 37,
+    "unit": "trillion",
+    "is_unit_trap": false
+  },
+  {
+    "question_id": 20,
+    "question": "What is the circumference of the Earth at the equator in km?",
+    "true_value": 40075,
+    "unit": "km",
+    "is_unit_trap": false
+  },
+  {
+    "question_id": 21,
+    "question": "What is the age of the universe in billion years?",
+    "true_value": 13.8,
+    "unit": "billion years",
+    "is_unit_trap": false
+  },
+  {
+    "question_id": 22,
+    "question": "How many species of birds exist?",
+    "true_value": 10000,
+    "unit": "species",
+    "is_unit_trap": false
+  },
+  {
+    "question_id": 23,
+    "question": "What is the density of gold in g/cm^3?",
+    "true_value": 19.3,
+    "unit": "g/cm^3",
+    "is_unit_trap": false
+  },
+  {
+    "question_id": 24,
+    "question": "What is the melting point of aluminium in degrees Celsius?",
+    "true_value": 660,
+    "unit": "degrees C",
+    "is_unit_trap": false
+  },
+  {
+    "question_id": 25,
+    "question": "How many islands does Indonesia have?",
+    "true_value": 17508,
+    "unit": "islands",
+    "is_unit_trap": false
+  },
+  {
+    "question_id": 26,
+    "question": "What is the volume of Lake Baikal in cubic kilometres?",
+    "true_value": 23615,
+    "unit": "km^3",
+    "is_unit_trap": false
+  },
+  {
+    "question_id": 27,
+    "question": "What is the population of Egypt?",
+    "true_value": 110000000,
+    "unit": "people",
+    "is_unit_trap": false
+  },
+  {
+    "question_id": 28,
+    "question": "How long is the Amazon River in kilometres?",
+    "true_value": 6400,
+    "unit": "km",
+    "is_unit_trap": false
+  },
+  {
+    "question_id": 29,
+    "question": "What is the diameter of the Moon in kilometres?",
+    "true_value": 3474,
+    "unit": "km",
+    "is_unit_trap": false
+  },
+  {
+    "question_id": 30,
+    "question": "How many teeth does an adult human have?",
+    "true_value": 32,
+    "unit": "teeth",
+    "is_unit_trap": false
+  },
+  {
+    "question_id": 31,
+    "question": "What is the population of Germany?",
+    "true_value": 84000000,
+    "unit": "people",
+    "is_unit_trap": false
+  },
+  {
+    "question_id": 32,
+    "question": "How tall is the Eiffel Tower in metres?",
+    "true_value": 330,
+    "unit": "metres",
+    "is_unit_trap": false
+  },
+  {
+    "question_id": 33,
+    "question": "What is the area of Russia in million km^2?",
+    "true_value": 17.1,
+    "unit": "million km^2",
+    "is_unit_trap": false
+  },
+  {
+    "question_id": 34,
+    "question": "How many books are in the US Library of Congress (millions)?",
+    "true_value": 17,
+    "unit": "million",
+    "is_unit_trap": false
+  },
+  {
+    "question_id": 35,
+    "question": "What is the speed of sound in water in m/s?",
+    "true_value": 1480,
+    "unit": "m/s",
+    "is_unit_trap": false
+  },
+  {
+    "question_id": 36,
+    "question": "How many airports are there in the world (approximate)?",
+    "true_value": 41000,
+    "unit": "airports",
+    "is_unit_trap": false
+  },
+  {
+    "question_id": 37,
+    "question": "What is the wavelength of red light in nanometres?",
+    "true_value": 700,
+    "unit": "nm",
+    "is_unit_trap": false
+  },
+  {
+    "question_id": 38,
+    "question": "How many muscles are in the human body?",
+    "true_value": 600,
+    "unit": "muscles",
+    "is_unit_trap": false
+  },
+  {
+    "question_id": 39,
+    "question": "What is the distance from New York to London in km?",
+    "true_value": 5570,
+    "unit": "km",
+    "is_unit_trap": false
+  },
+  {
+    "question_id": 40,
+    "question": "What is the mass of the Sun in kg (order of magnitude)?",
+    "true_value": 1.989e+30,
+    "unit": "kg",
+    "is_unit_trap": false
+  },
+  {
+    "question_id": 41,
+    "question": "What is the radius of a hydrogen atom in picometres?",
+    "true_value": 53,
+    "unit": "pm",
+    "is_unit_trap": false
+  },
+  {
+    "question_id": 42,
+    "question": "How many grains of sand are on Earth (order of magnitude)?",
+    "true_value": 7.5e+18,
+    "unit": "grains",
+    "is_unit_trap": false
+  },
+  {
+    "question_id": 43,
+    "question": "What is the current national debt of the United States in trillions of USD?",
+    "true_value": 34,
+    "unit": "trillion USD",
+    "is_unit_trap": false
+  },
+  {
+    "question_id": 44,
+    "question": "What is the escape velocity from Earth in km/s?",
+    "true_value": 11.2,
+    "unit": "km/s",
+    "is_unit_trap": false
+  },
+  {
+    "question_id": 45,
+    "question": "How many neurons are in the human brain (billions)?",
+    "true_value": 86,
+    "unit": "billion",
+    "is_unit_trap": false
+  },
+  {
+    "question_id": 46,
+    "question": "What is the orbital velocity of the ISS in km/h?",
+    "true_value": 27600,
+    "unit": "km/h",
+    "is_unit_trap": false
+  },
+  {
+    "question_id": 47,
+    "question": "How many base pairs are in the human genome (billions)?",
+    "true_value": 3.2,
+    "unit": "billion",
+    "is_unit_trap": false
+  },
+  {
+    "question_id": 48,
+    "question": "What is the average distance from Earth to the Sun in million km?",
+    "true_value": 149.6,
+    "unit": "million km",
+    "is_unit_trap": false
+  },
+  {
+    "question_id": 49,
+    "question": "How many galaxies are in the observable universe (billions)?",
+    "true_value": 200,
+    "unit": "billion",
+    "is_unit_trap": false
+  },
+  {
+    "question_id": 50,
+    "question": "What is the energy of a typical lightning bolt in megajoules?",
+    "true_value": 1000,
+    "unit": "MJ",
+    "is_unit_trap": false
+  },
+  {
+    "question_id": 51,
+    "question": "How many litres of blood does the human body contain?",
+    "true_value": 5,
+    "unit": "litres",
+    "is_unit_trap": false
+  },
+  {
+    "question_id": 52,
+    "question": "What is the population of Indonesia?",
+    "true_value": 277000000,
+    "unit": "people",
+    "is_unit_trap": false
+  },
+  {
+    "question_id": 53,
+    "question": "How long does it take light to travel from the Sun to Earth in minutes?",
+    "true_value": 8.3,
+    "unit": "minutes",
+    "is_unit_trap": false
+  },
+  {
+    "question_id": 54,
+    "question": "What is the area of the Amazon rainforest in million km^2?",
+    "true_value": 5.5,
+    "unit": "million km^2",
+    "is_unit_trap": false
+  },
+  {
+    "question_id": 55,
+    "question": "How many transistors are in an Apple M2 chip (billions)?",
+    "true_value": 20,
+    "unit": "billion",
+    "is_unit_trap": false
+  },
+  {
+    "question_id": 56,
+    "question": "What is the Schwarzschild radius of the Sun in km?",
+    "true_value": 2.95,
+    "unit": "km",
+    "is_unit_trap": false
+  },
+  {
+    "question_id": 57,
+    "question": "How deep is the deepest mine on Earth in km?",
+    "true_value": 3.9,
+    "unit": "km",
+    "is_unit_trap": false
+  },
+  {
+    "question_id": 58,
+    "question": "What is the population of Vietnam?",
+    "true_value": 100000000,
+    "unit": "people",
+    "is_unit_trap": false
+  },
+  {
+    "question_id": 59,
+    "question": "How many exoplanets have been confirmed as of 2024?",
+    "true_value": 5500,
+    "unit": "exoplanets",
+    "is_unit_trap": false
+  },
+  {
+    "question_id": 60,
+    "question": "What is the speed of light in metres per second?",
+    "true_value": 299792458,
+    "unit": "m/s",
+    "is_unit_trap": true
+  },
+  {
+    "question_id": 61,
+    "question": "What is the distance from Earth to the Sun in kilometres (not AU)?",
+    "true_value": 149600000,
+    "unit": "km",
+    "is_unit_trap": true
+  },
+  {
+    "question_id": 62,
+    "question": "What is the mass of a proton in kilograms?",
+    "true_value": 1.672e-27,
+    "unit": "kg",
+    "is_unit_trap": true
+  },
+  {
+    "question_id": 63,
+    "question": "What is the charge of an electron in coulombs?",
+    "true_value": 1.602e-19,
+    "unit": "C",
+    "is_unit_trap": true
+  },
+  {
+    "question_id": 64,
+    "question": "What is atmospheric pressure at sea level in pascals?",
+    "true_value": 101325,
+    "unit": "Pa",
+    "is_unit_trap": true
+  },
+  {
+    "question_id": 65,
+    "question": "What is the gravitational constant G in SI units (m^3 kg^-1 s^-2)?",
+    "true_value": 6.674e-11,
+    "unit": "m^3 kg^-1 s^-2",
+    "is_unit_trap": true
+  },
+  {
+    "question_id": 66,
+    "question": "What is the Boltzmann constant in joules per kelvin?",
+    "true_value": 1.381e-23,
+    "unit": "J/K",
+    "is_unit_trap": true
+  },
+  {
+    "question_id": 67,
+    "question": "What is the caloric content of 1 gram of fat in kilojoules (not kilocalories)?",
+    "true_value": 37.7,
+    "unit": "kJ",
+    "is_unit_trap": true
+  },
+  {
+    "question_id": 68,
+    "question": "What is the density of water in kg per cubic metre?",
+    "true_value": 1000,
+    "unit": "kg/m^3",
+    "is_unit_trap": true
+  },
+  {
+    "question_id": 69,
+    "question": "What is the boiling point of liquid nitrogen in kelvin?",
+    "true_value": 77,
+    "unit": "K",
+    "is_unit_trap": true
+  },
+  {
+    "question_id": 70,
+    "question": "What is the radius of Earth in metres (not kilometres)?",
+    "true_value": 6371000,
+    "unit": "metres",
+    "is_unit_trap": true
+  },
+  {
+    "question_id": 71,
+    "question": "What is the wavelength of green light in metres (not nanometres)?",
+    "true_value": 5.5e-07,
+    "unit": "metres",
+    "is_unit_trap": true
+  },
+  {
+    "question_id": 72,
+    "question": "What is the power output of the Sun in watts?",
+    "true_value": 3.846e+26,
+    "unit": "watts",
+    "is_unit_trap": true
+  },
+  {
+    "question_id": 73,
+    "question": "What is the Planck constant in joule-seconds?",
+    "true_value": 6.626e-34,
+    "unit": "J·s",
+    "is_unit_trap": true
+  },
+  {
+    "question_id": 74,
+    "question": "What is the speed of sound in air in metres per second (not km/h)?",
+    "true_value": 343,
+    "unit": "m/s",
+    "is_unit_trap": true
+  },
+  {
+    "question_id": 75,
+    "question": "What is the area of the United States in square metres (not km^2)?",
+    "true_value": 9834000000000.0,
+    "unit": "m^2",
+    "is_unit_trap": true
+  },
+  {
+    "question_id": 76,
+    "question": "What is the distance from Earth to Alpha Centauri in metres?",
+    "true_value": 4.132e+16,
+    "unit": "metres",
+    "is_unit_trap": true
+  },
+  {
+    "question_id": 77,
+    "question": "What is the mass of the Moon in grams (not kilograms)?",
+    "true_value": 7.342e+25,
+    "unit": "grams",
+    "is_unit_trap": true
+  },
+  {
+    "question_id": 78,
+    "question": "What is the age of the Earth in seconds (approximate)?",
+    "true_value": 1.44e+17,
+    "unit": "seconds",
+    "is_unit_trap": true
+  },
+  {
+    "question_id": 79,
+    "question": "What is the volume of Lake Superior in cubic metres?",
+    "true_value": 12100000000000.0,
+    "unit": "m^3",
+    "is_unit_trap": true
+  }
+]

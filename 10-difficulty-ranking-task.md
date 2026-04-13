@@ -132,3 +132,40 @@ def difficulty_ranking(llm, set_id: int, questions_json: str, answers_json: str,
 - 建议题目难度分布使得正确率约50-70%，这样有足够多的错题来排序
 - 50题的排序对模型来说是相当大的认知负担——可以考虑缩减到30题
 - 排序和作答必须在独立上下文中进行
+
+## Haiku 4.5 Evaluation Results & Improvements
+
+### Evaluation Results
+
+- **Mean Spearman rho = -0.362** (inverted -- model ranks easy items as hard and vice versa)
+- Per-set rho values: [-0.521, -0.423, -0.142]
+- Model accuracy across 90 items: **98.9%** (only 1 error out of 90)
+- Binary correctness has virtually no ranking variance, making Spearman computation meaningless
+- **Conclusion**: Benchmark produces inverted, uninterpretable signal.
+
+### Root Cause
+
+With only a 1% error rate, binary correct/incorrect provides almost no signal for Spearman computation. Nearly all items receive the same "correct" label, so the Spearman correlation is dominated by noise in the tie-breaking among correct items. The negative correlation is an artifact of this near-zero variance, not a genuine inversion of metacognitive ability.
+
+### Dataset Redesign
+
+1. **Pilot-calibrate to 50% overall accuracy.** Use the Difficulty Calibration Protocol (see Task 09) to select items where the model gets roughly half wrong.
+2. **Reduce set size from 50 to 30.** Ranking 50 items is a heavy cognitive load; 30 items is more tractable and still provides sufficient statistical power.
+3. **Span a wide difficulty range.** Include:
+   - Trivially easy anchors (items the model will certainly answer correctly)
+   - Moderately difficult items (50-70% expected accuracy)
+   - Nearly impossible items (items the model will almost certainly get wrong)
+   - This gradient ensures actual correctness varies enough to produce meaningful Spearman values.
+
+### Design Redesign
+
+1. **Replace binary Spearman with graded difficulty scores.** Instead of binary correct/incorrect, use partial credit scoring (0.0-1.0) based on answer quality. For factual questions, use fuzzy match scores. For math, use step-level partial credit.
+2. **Add confidence-based comparison.** Ask the model to provide a confidence score (0-100) for each item in addition to the ranking. Compute Spearman(confidence_rank, actual_correctness_rank) as a secondary metric.
+3. **Add group-level ranking.** Divide items into 5 groups of 6, each group spanning easy-to-hard. Ask the model to rank within each group. This reduces cognitive load and provides 5 independent ranking measurements.
+4. **Report top-5/bottom-5 accuracy as an interpretable metric.** Measure the actual accuracy of the 5 items the model ranked as easiest vs. the 5 it ranked as hardest. The gap between these two accuracy rates is an intuitive measure of ranking quality.
+
+### Revised Targets
+
+- Spearman rho > 0.0 (the minimum bar -- any positive correlation indicates some metacognitive signal)
+- Significant variance in actual correctness across items (at least 30% of items answered incorrectly)
+- Top-5 accuracy should meaningfully exceed bottom-5 accuracy

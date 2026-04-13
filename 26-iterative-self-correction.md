@@ -169,3 +169,57 @@ def iterative_self_correction(llm, question: str, correct_answer: str, accept_al
 - 多轮对话历史应保持（模型能看到自己之前的回答）
 - 5轮上限防止无限循环
 - 需要关注模型是否在"不确定"和"乱改"之间摇摆
+
+## Haiku 4.5 Evaluation Results & Improvements
+
+### Evaluation Results
+
+- **Correction success rate = 0.00** (no corrections occurred because nothing was wrong)
+- Cycle rate (oscillation) = 0.10
+- Degradation rate = 0.067
+- **All 30 questions answered correctly on the first attempt** (initial_accuracy = 1.0)
+- 3 items showed answer oscillation when repeatedly prompted to "recheck"
+- Final accuracy = 0.933 (model degraded 2 items through unnecessary answer changes)
+- **Conclusion**: Benchmark measures nothing about self-correction because the model never makes initial errors. The only observed effect is negative -- the "recheck" prompt causes the model to second-guess correct answers.
+
+### Root Cause
+
+The questions are too easy. With 100% initial accuracy, there is nothing to correct. The benchmark's design assumes the model will get a meaningful fraction of questions wrong on the first attempt, but Haiku 4.5 answers all 30 correctly. The self-correction mechanism has no opportunity to demonstrate its value.
+
+### Important Finding: The "Recheck" Prompt Paradox
+
+Asking a correct model to "please recheck" actually **introduces new errors**. This was observed in 6.7% of items (2 out of 30). The model, when prompted to reconsider, appears to:
+- Second-guess its initially correct reasoning
+- Introduce unnecessary "corrections" that change a right answer to a wrong one
+- Show answer oscillation (changing back and forth between answers across rounds)
+
+This is a genuine metacognitive finding worth reporting: **unprompted self-correction requests can degrade performance when the model was already correct.** This should be measured and reported as a specific metric in the redesigned benchmark.
+
+### Dataset Redesign
+
+1. **Pilot-calibrate to 40-50% initial accuracy.** Use the Difficulty Calibration Protocol (see Task 09) to select items the model gets wrong roughly half the time.
+2. **Scale to 60 items** (up from 30) for greater statistical power.
+3. **Use multi-step reasoning problems** rather than factual recall. Multi-step problems produce errors that are more amenable to self-correction (arithmetic mistakes, missed edge cases) compared to factual knowledge gaps which cannot be corrected through reflection alone.
+4. **Mix error types deliberately:**
+   - Arithmetic errors (highly correctable through rechecking)
+   - Knowledge gaps (not correctable via reflection -- model either knows or does not)
+   - Reasoning errors (potentially correctable if the model re-examines its logic)
+   - This mix allows analysis of which error types are self-correctable.
+
+### Design Redesign
+
+1. **Add Track B (forced errors).** Seed the model with a wrong answer and ask it to verify/correct:
+   - Present: "You previously answered [wrong answer] to this question. Please recheck."
+   - This guarantees there is an error to correct, isolating the correction ability from initial accuracy.
+2. **Add round-by-round accuracy curve.** Plot accuracy at each round (0 through 5) as a curve. A good self-corrector shows a monotonically increasing curve. A poor one shows degradation or oscillation.
+3. **Add oscillation detection metric.** Formally measure how often the model changes its answer back to a previous answer (A -> B -> A pattern). Report oscillation rate as a standalone metric.
+4. **Add "correction direction" metric.** For each round transition, classify whether accuracy went up, down, or stayed the same. Report the net direction across all items and rounds.
+5. **Separate reporting for initially-correct vs. initially-incorrect items.** For initially-correct items, measure the degradation rate (how often rechecking breaks a correct answer). For initially-incorrect items, measure the correction rate.
+
+### Revised Targets
+
+- Correction success rate > 0.0 (the minimum bar -- at least some corrections should succeed)
+- Initial accuracy ~50% (ensuring sufficient initially-wrong items to test correction)
+- Round-by-round accuracy curve should be monotonically non-decreasing for a good self-corrector
+- Oscillation rate should be reported and ideally below 0.05
+- Degradation rate for initially-correct items should be reported as a safety metric

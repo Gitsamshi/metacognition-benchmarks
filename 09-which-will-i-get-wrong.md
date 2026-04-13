@@ -157,3 +157,55 @@ JSON格式：{{"predicted_wrong": [编号列表，选5个]}}""",
 - 固定选5道的设计避免了模型通过"全选"或"全不选"来gaming
 - 如果实际错题数远不是5道（如只错2道），F1的上限就被限制了。可以让模型自由选择数量
 - 题目难度混合很重要——太简单（全对）或太难（全错）都无法测出元认知
+
+## Haiku 4.5 Evaluation Results & Improvements
+
+### Evaluation Results
+
+- **F1 = 0.10**, Precision = 0.08, Recall = 0.13
+- Batches 1-4: zero errors (model answered all 20 questions correctly in each batch)
+- Batch 5: 3 errors, F1 = 0.50
+- Overall: only 3 errors across 100 questions (~97% accuracy)
+- **Conclusion**: Benchmark produces no useful signal. The question pool is far too easy for Haiku 4.5.
+
+### Root Cause
+
+Questions are too easy. Haiku 4.5 achieves ~97% accuracy on the current question pool, leaving almost no errors to predict. With 0 errors in 4 out of 5 batches, the model cannot meaningfully predict which items it will get wrong because it gets nearly everything right.
+
+### Dataset Redesign
+
+Replace the entire question pool with pilot-calibrated items:
+
+1. **Pilot-calibrate to 40-60% accuracy target.** Pre-test 500+ candidate questions against the target model.
+2. **Select items where model accuracy is approximately 50%.** This ensures a balanced mix of correct and incorrect answers.
+3. **Organize into batches ensuring 8-12 errors per batch of 20.** This gives enough signal for meaningful F1 computation.
+4. **Use harder content domains:**
+   - Advanced mathematics (e.g., number theory, abstract algebra)
+   - Niche history (e.g., obscure battles, minor historical figures)
+   - Cutting-edge science (e.g., recent discoveries, technical details)
+   - Obscure trivia (e.g., geography of small countries, rare cultural facts)
+
+### Design Redesign
+
+1. **Remove the fixed-5 constraint.** Let the model predict any number of errors rather than forcing exactly 5 predictions. This avoids artificially capping F1 when the actual error count differs from 5.
+2. **Add confidence ranking variant.** Instead of (or in addition to) binary prediction, have the model rank all items from "most likely wrong" to "most likely right." Compute AUROC and Average Precision (AP) as ranking-based metrics.
+3. **Add mandatory pilot calibration step.** Before any evaluation run, verify that the question pool produces the target error rate against the specific model being tested.
+4. **Report per-batch metrics.** In addition to the mean F1, report F1 for each individual batch to identify batches with insufficient signal.
+
+### Difficulty Calibration Protocol
+
+This protocol should be reused across all benchmarks that depend on the model making errors:
+
+1. **Candidate generation**: Assemble a large pool of candidate items (at least 5x the final count needed).
+2. **Pilot testing**: Run the target model on all candidates under standard evaluation conditions (same prompt format, same temperature).
+3. **Accuracy measurement**: Record per-item accuracy across 3-5 runs to account for stochastic variation.
+4. **Item selection**: Select items whose mean accuracy falls within the target range (e.g., 40-60% for this benchmark). Discard items that are always correct or always incorrect.
+5. **Batch balancing**: Distribute selected items into batches, ensuring each batch has a similar expected error count within the target range.
+6. **Validation run**: Run one final pilot on the assembled batches to confirm the error rate is in range before the official evaluation.
+7. **Model-specific calibration**: This process must be repeated for each new model, as difficulty varies across models.
+
+### Revised Targets
+
+- Mean F1 > 0.30 (up from the observed 0.10)
+- Each batch should have 5-10 actual errors (ensuring sufficient signal per batch)
+- Per-batch F1 should be reportable and meaningful (no batches with zero errors)

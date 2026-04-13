@@ -1,0 +1,302 @@
+[
+  {
+    "question_id": 0,
+    "question": "What is 4738 x 2951?",
+    "correct_answer": "13981738"
+  },
+  {
+    "question_id": 1,
+    "question": "What is 8467 x 3219?",
+    "correct_answer": "27255273"
+  },
+  {
+    "question_id": 2,
+    "question": "What is 12345 x 6789?",
+    "correct_answer": "83810205"
+  },
+  {
+    "question_id": 3,
+    "question": "What is 5678 x 4321?",
+    "correct_answer": "24526038"
+  },
+  {
+    "question_id": 4,
+    "question": "What is 9999 x 9999?",
+    "correct_answer": "99980001"
+  },
+  {
+    "question_id": 5,
+    "question": "What is 31415 x 27182?",
+    "correct_answer": "854084930"
+  },
+  {
+    "question_id": 6,
+    "question": "What is 7777 x 8888?",
+    "correct_answer": "69110376"
+  },
+  {
+    "question_id": 7,
+    "question": "What is 1357 x 2468?",
+    "correct_answer": "3351276"
+  },
+  {
+    "question_id": 8,
+    "question": "What is the exact value of 17^4?",
+    "correct_answer": "83521"
+  },
+  {
+    "question_id": 9,
+    "question": "What is the exact value of 23^3?",
+    "correct_answer": "12167"
+  },
+  {
+    "question_id": 10,
+    "question": "A train leaves Station A at 60 km/h and another leaves Station B (300 km away) at 90 km/h toward each other. How many minutes after departure do they meet?",
+    "correct_answer": "120"
+  },
+  {
+    "question_id": 11,
+    "question": "A tank is filled by pipe A in 6 hours and pipe B in 8 hours. If both pipes are open, how many hours to fill the tank? Give exact fraction.",
+    "correct_answer": "24/7"
+  },
+  {
+    "question_id": 12,
+    "question": "If you invest $5000 at 8% annual compound interest, what is the value after 3 years? Round to nearest dollar.",
+    "correct_answer": "6299"
+  },
+  {
+    "question_id": 13,
+    "question": "A store marks up goods by 40% then offers a 25% discount. What is the net percentage change from the original price?",
+    "correct_answer": "5% increase"
+  },
+  {
+    "question_id": 14,
+    "question": "Three workers can complete a job in 10, 15, and 20 days respectively. If all three work together, in how many days do they finish? Give exact fraction.",
+    "correct_answer": "60/13"
+  },
+  {
+    "question_id": 15,
+    "question": "A car travels 120 km at 60 km/h and then 180 km at 90 km/h. What is the average speed for the entire trip in km/h?",
+    "correct_answer": "75"
+  },
+  {
+    "question_id": 16,
+    "question": "You have 3 boxes: Box A has 2 red, 3 blue. Box B has 4 red, 1 blue. Box C has 1 red, 4 blue. You pick a box at random, then a ball. What is P(red)? Express as a fraction.",
+    "correct_answer": "7/15"
+  },
+  {
+    "question_id": 17,
+    "question": "A rope of 100m is cut into two pieces. One piece forms a square and the other forms a circle. If the square has perimeter 40m, what is the radius of the circle (in meters, to 2 decimal places)?",
+    "correct_answer": "9.55"
+  },
+  {
+    "question_id": 18,
+    "question": "In how many ways can you distribute 10 identical balls into 3 distinct boxes?",
+    "correct_answer": "66"
+  },
+  {
+    "question_id": 19,
+    "question": "A clock's minute and hour hands overlap at 12:00. At what exact time do they next overlap? Give answer in minutes after 12:00, as a fraction.",
+    "correct_answer": "720/11"
+  },
+  {
+    "question_id": 20,
+    "question": "What is the molar mass of calcium carbonate (CaCO3) in g/mol?",
+    "correct_answer": "100.09"
+  },
+  {
+    "question_id": 21,
+    "question": "How many joules are in one calorie (thermochemical)?",
+    "correct_answer": "4.184"
+  },
+  {
+    "question_id": 22,
+    "question": "What is the gravitational acceleration on Mars in m/s^2 (approximate)?",
+    "correct_answer": "3.72"
+  },
+  {
+    "question_id": 23,
+    "question": "What is the speed of sound in steel in m/s (approximate)?",
+    "correct_answer": "5960"
+  },
+  {
+    "question_id": 24,
+    "question": "What is the wavelength of the hydrogen alpha spectral line in nanometers?",
+    "correct_answer": "656.3"
+  },
+  {
+    "question_id": 25,
+    "question": "What is the escape velocity from Earth's surface in km/s (approximate)?",
+    "correct_answer": "11.2"
+  },
+  {
+    "question_id": 26,
+    "question": "What is the Avogadro constant to 4 significant figures?",
+    "correct_answer": "6.022 x 10^23"
+  },
+  {
+    "question_id": 27,
+    "question": "What is the electron mass in kilograms (to 3 significant figures)?",
+    "correct_answer": "9.11 x 10^-31"
+  },
+  {
+    "question_id": 28,
+    "question": "How many ATP molecules are theoretically produced per glucose molecule in oxidative phosphorylation?",
+    "correct_answer": "30-38"
+  },
+  {
+    "question_id": 29,
+    "question": "What is the pH of a 0.01 M HCl solution?",
+    "correct_answer": "2"
+  },
+  {
+    "question_id": 30,
+    "question": "In what year was the Treaty of Nerchinsk signed between Russia and China?",
+    "correct_answer": "1689"
+  },
+  {
+    "question_id": 31,
+    "question": "Who was the first European to reach India by sea and in what year?",
+    "correct_answer": "Vasco da Gama in 1498"
+  },
+  {
+    "question_id": 32,
+    "question": "What year was the Edict of Nantes issued?",
+    "correct_answer": "1598"
+  },
+  {
+    "question_id": 33,
+    "question": "In what year did the Kingdom of Aksum adopt Christianity?",
+    "correct_answer": "Around 330 AD"
+  },
+  {
+    "question_id": 34,
+    "question": "What was the name of the ship that brought the Pilgrims to Plymouth in 1620?",
+    "correct_answer": "Mayflower"
+  },
+  {
+    "question_id": 35,
+    "question": "In what year was the Congress of Vienna concluded?",
+    "correct_answer": "1815"
+  },
+  {
+    "question_id": 36,
+    "question": "What treaty ended the First Opium War?",
+    "correct_answer": "Treaty of Nanking"
+  },
+  {
+    "question_id": 37,
+    "question": "Who was the first Mughal emperor of India?",
+    "correct_answer": "Babur"
+  },
+  {
+    "question_id": 38,
+    "question": "In what year was the Berlin Conference (Scramble for Africa) held?",
+    "correct_answer": "1884-1885"
+  },
+  {
+    "question_id": 39,
+    "question": "What was the name of the Byzantine emperor who reconquered much of the former Western Roman Empire?",
+    "correct_answer": "Justinian I"
+  },
+  {
+    "question_id": 40,
+    "question": "What is the sum of all prime numbers between 50 and 100?",
+    "correct_answer": "732"
+  },
+  {
+    "question_id": 41,
+    "question": "What is the remainder when 2^100 is divided by 7?",
+    "correct_answer": "4"
+  },
+  {
+    "question_id": 42,
+    "question": "What is the 15th Fibonacci number (starting F1=1, F2=1)?",
+    "correct_answer": "610"
+  },
+  {
+    "question_id": 43,
+    "question": "How many prime numbers are there between 1 and 200?",
+    "correct_answer": "46"
+  },
+  {
+    "question_id": 44,
+    "question": "What is the value of C(20, 10)?",
+    "correct_answer": "184756"
+  },
+  {
+    "question_id": 45,
+    "question": "What is 11^5?",
+    "correct_answer": "161051"
+  },
+  {
+    "question_id": 46,
+    "question": "What is the sum of the digits of 2^20?",
+    "correct_answer": "19"
+  },
+  {
+    "question_id": 47,
+    "question": "What is the LCM of 12, 18, and 30?",
+    "correct_answer": "180"
+  },
+  {
+    "question_id": 48,
+    "question": "What is the exact value of sin(75 degrees) expressed with radicals?",
+    "correct_answer": "(sqrt(6)+sqrt(2))/4"
+  },
+  {
+    "question_id": 49,
+    "question": "What is the number of derangements of 5 elements (D_5)?",
+    "correct_answer": "44"
+  },
+  {
+    "question_id": 50,
+    "question": "What is the exact value of the integral of x*e^(-x) from 0 to infinity?",
+    "correct_answer": "1"
+  },
+  {
+    "question_id": 51,
+    "question": "What is 6789 x 1234?",
+    "correct_answer": "8377626"
+  },
+  {
+    "question_id": 52,
+    "question": "In what year did the Kingdom of Hawaii become a US territory?",
+    "correct_answer": "1898"
+  },
+  {
+    "question_id": 53,
+    "question": "What is the sum of the reciprocals of the first 4 positive integers (1 + 1/2 + 1/3 + 1/4)? Express as a fraction.",
+    "correct_answer": "25/12"
+  },
+  {
+    "question_id": 54,
+    "question": "What is the name of the longest running experiment, started in 1927 at the University of Queensland?",
+    "correct_answer": "The pitch drop experiment"
+  },
+  {
+    "question_id": 55,
+    "question": "How many distinct ways can you partition the integer 7?",
+    "correct_answer": "15"
+  },
+  {
+    "question_id": 56,
+    "question": "What is the smallest number that is divisible by all integers from 1 to 10?",
+    "correct_answer": "2520"
+  },
+  {
+    "question_id": 57,
+    "question": "What is the name of the chemical compound with the formula C6H12O6 that is produced by photosynthesis?",
+    "correct_answer": "Glucose"
+  },
+  {
+    "question_id": 58,
+    "question": "What is 2^31 - 1? (the largest 32-bit signed integer)",
+    "correct_answer": "2147483647"
+  },
+  {
+    "question_id": 59,
+    "question": "What is the Euler totient function phi(30)?",
+    "correct_answer": "8"
+  }
+]

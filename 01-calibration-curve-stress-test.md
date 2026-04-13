@@ -131,3 +131,31 @@ def compute_ece(results, n_bins=10):
 - 答案判断是关键：过严的判断会让"正确但表述不同"的答案被误判为错误，从而污染calibration
 - 建议用 LLM-as-judge 作为兜底，但要注意judge本身的bias
 - 置信度的granularity很重要：如果模型只会输出 {20, 40, 60, 80, 100} 五个值，分桶策略需要调整
+
+## Haiku 4.5 Evaluation Results & Improvements
+
+**Evaluation Result**: ECE=0.0248, Accuracy=97.1%, only 5 errors in 170 items.
+
+**Diagnosis**: Near-perfect calibration is an artifact of easy questions, not genuine metacognitive skill. Even items labeled "extreme" were answerable by Haiku 4.5. The benchmark has a severe ceiling effect and cannot differentiate model calibration ability.
+
+### Dataset Changes
+
+- Scale to 500+ items (current 170 is insufficient for statistical stability across bins).
+- Rebalance difficulty distribution to enforce meaningful error rates:
+  - 25% easy (~100% expected accuracy)
+  - 25% medium (80-90% expected accuracy)
+  - 25% hard (50-70% expected accuracy)
+  - 25% extreme (<30% expected accuracy)
+- Add genuinely obscure factual questions that models cannot answer from general knowledge:
+  - Municipal demographics (e.g., population of specific districts)
+  - Exact mineral production statistics by country and year
+  - Local and regional election results (e.g., "What was the voter turnout % in the 2019 Slovenian EU Parliament election?")
+  - Molecular weights to 3 decimal places
+  - Niche historical statistics and dates
+- Validate difficulty tiers empirically: pre-screen items with a baseline model to confirm accuracy falls within each tier's target range.
+
+### Design Changes
+
+- Add per-difficulty ECE as a mandatory sub-metric (report ECE separately for easy, medium, hard, and extreme tiers).
+- Add confidence entropy as a co-primary metric alongside ECE. This prevents trivially low ECE achieved by clustering all confidences around a single value (e.g., always saying 95%).
+- Add adaptive difficulty validation: automatically flag and report any difficulty tier where accuracy exceeds 90%. If flagged, the benchmark result should be annotated as potentially unreliable for that tier.

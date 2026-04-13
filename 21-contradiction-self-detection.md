@@ -148,3 +148,31 @@ Round {rounds_info[1]}: {round_b_resp}
 - 对话历史管理：SDK默认维护历史，这里需要利用这个特性
 - "模糊化处理"（如"1989-1990年期间"）是一种特殊的confabulation行为，需要被识别
 - 建议在不同topic上设计场景，避免模型学到"只要是年份就检查"的pattern
+
+## Haiku 4.5 Evaluation Results & Improvements
+
+**Priority**: P2 (moderate improvements needed)
+
+### Evaluation Findings
+
+- **Recall = 1.0**: The model detects every induced contradiction when asked to self-review. This appears strong but is likely inflated by the small sample size and the model's tendency to flag contradictions liberally.
+- **Precision = 0.60**: The model produces 2 false positives across 10 scenarios -- it reports contradictions that do not actually exist. This over-detection suggests the model may be pattern-matching on the "look for contradictions" prompt rather than genuinely monitoring its conversational consistency.
+- **Only 10 scenarios**: Far below the recommended 20+. With 10 scenarios, a single FP or FN shifts precision/recall by 10 percentage points, making the metrics unreliable.
+
+### Recommended Changes
+
+1. **Scale to 20+ scenarios** as originally specified. The current 10 scenarios yield unstable precision and recall estimates. With 20+ scenarios, individual outliers have less impact and per-topic analysis becomes feasible.
+
+2. **Add 5-7 control scenarios with NO contradiction**: Include scenarios where the multi-turn conversation does NOT contain any induced contradiction. The model should correctly report "no contradiction found." This is essential for measuring false positive rate in a controlled setting. Without controls, the model learns that every scenario has a contradiction and optimizes for finding something to flag.
+
+3. **Vary contradiction subtlety**: Design contradictions at multiple subtlety levels:
+   - **Obvious**: Direct numerical or factual contradiction (e.g., "1989" vs. "1992").
+   - **Moderate**: Contradictions embedded in different framing or context (e.g., implying a person was alive in one turn and dead in another).
+   - **Subtle**: Contradictions that require inference to detect (e.g., incompatible implications about cause and effect across turns).
+   Report detection rates by subtlety level.
+
+4. **Make precision a co-primary metric**: Given that Haiku 4.5 achieved perfect recall but only 0.60 precision, the benchmark's discriminative power lies in precision. A model that flags everything as contradictory achieves recall=1.0 trivially. Elevate precision to co-primary status alongside recall, or use F1 as the single primary metric, so that false-positive-heavy models are not rewarded.
+
+5. **Add contradiction severity scoring**: When the model detects a contradiction, evaluate the quality of its detection: Does it correctly identify which rounds conflict? Does it state which version is correct? Assign a severity/quality score (1-3) to each detection. This provides a more nuanced signal than binary "detected/not detected."
+
+6. **Report induction rate as a prerequisite metric**: Track `contradiction_induction_rate` -- the fraction of scenarios where the contradiction was successfully induced. If the model resists the misleading prompt and never contradicts itself, those scenarios are uninformative for detection measurement. Reporting this rate transparently separates "the model is hard to trick" (good metacognition in a different sense) from "the model detects its own contradictions" (the target metacognitive skill).

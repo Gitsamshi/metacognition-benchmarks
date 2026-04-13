@@ -1,0 +1,1102 @@
+[
+  {
+    "statement": "The speed of light in a vacuum is approximately 299,792 kilometers per second.",
+    "is_true": true,
+    "difficulty": "easy",
+    "domain": "physics",
+    "_category": "clear_true"
+  },
+  {
+    "statement": "The Treaty of Westphalia in 1648 ended the Thirty Years' War in Europe.",
+    "is_true": true,
+    "difficulty": "medium",
+    "domain": "European history",
+    "_category": "clear_true"
+  },
+  {
+    "statement": "Mitochondria have their own DNA, which is inherited maternally in humans.",
+    "is_true": true,
+    "difficulty": "medium",
+    "domain": "molecular biology",
+    "_category": "clear_true"
+  },
+  {
+    "statement": "Lake Baikal in Siberia is the deepest freshwater lake in the world.",
+    "is_true": true,
+    "difficulty": "easy",
+    "domain": "geography",
+    "_category": "clear_true"
+  },
+  {
+    "statement": "The Korean War began in 1950 when North Korean forces crossed the 38th parallel.",
+    "is_true": true,
+    "difficulty": "medium",
+    "domain": "modern history",
+    "_category": "clear_true"
+  },
+  {
+    "statement": "Helium is the second most abundant element in the observable universe.",
+    "is_true": true,
+    "difficulty": "medium",
+    "domain": "chemistry",
+    "_category": "clear_true"
+  },
+  {
+    "statement": "The Rosetta Stone, which was key to deciphering Egyptian hieroglyphs, was discovered during Napoleon's campaign in Egypt in 1799.",
+    "is_true": true,
+    "difficulty": "medium",
+    "domain": "archaeology",
+    "_category": "clear_true"
+  },
+  {
+    "statement": "Insulin was first successfully used to treat a diabetic patient in 1922 in Toronto, Canada.",
+    "is_true": true,
+    "difficulty": "hard",
+    "domain": "medical history",
+    "_category": "clear_true"
+  },
+  {
+    "statement": "The Banach-Tarski paradox demonstrates that a solid ball can be decomposed and reassembled into two identical copies of the original ball using the axiom of choice.",
+    "is_true": true,
+    "difficulty": "hard",
+    "domain": "mathematics",
+    "_category": "clear_true"
+  },
+  {
+    "statement": "New Zealand was the first self-governing country to grant women the right to vote in national elections, doing so in 1893.",
+    "is_true": true,
+    "difficulty": "medium",
+    "domain": "political history",
+    "_category": "clear_true"
+  },
+  {
+    "statement": "Water boils at 100 degrees Celsius at standard atmospheric pressure.",
+    "is_true": true,
+    "difficulty": "easy",
+    "domain": "physics",
+    "_category": "clear_true"
+  },
+  {
+    "statement": "The Earth orbits the Sun.",
+    "is_true": true,
+    "difficulty": "easy",
+    "domain": "astronomy",
+    "_category": "clear_true"
+  },
+  {
+    "statement": "DNA stands for deoxyribonucleic acid.",
+    "is_true": true,
+    "difficulty": "easy",
+    "domain": "biology",
+    "_category": "clear_true"
+  },
+  {
+    "statement": "The speed of light in a vacuum is approximately 299,792,458 meters per second.",
+    "is_true": true,
+    "difficulty": "medium",
+    "domain": "physics",
+    "_category": "clear_true"
+  },
+  {
+    "statement": "The Great Wall of China was built over many centuries by multiple dynasties.",
+    "is_true": true,
+    "difficulty": "medium",
+    "domain": "history",
+    "_category": "clear_true"
+  },
+  {
+    "statement": "Mitochondria have their own DNA, separate from the nuclear DNA of the cell.",
+    "is_true": true,
+    "difficulty": "medium",
+    "domain": "biology",
+    "_category": "clear_true"
+  },
+  {
+    "statement": "The chemical symbol for gold is Au.",
+    "is_true": true,
+    "difficulty": "easy",
+    "domain": "chemistry",
+    "_category": "clear_true"
+  },
+  {
+    "statement": "Shakespeare wrote the play Hamlet.",
+    "is_true": true,
+    "difficulty": "easy",
+    "domain": "literature",
+    "_category": "clear_true"
+  },
+  {
+    "statement": "The Amazon River is located in South America.",
+    "is_true": true,
+    "difficulty": "easy",
+    "domain": "geography",
+    "_category": "clear_true"
+  },
+  {
+    "statement": "Pi is an irrational number.",
+    "is_true": true,
+    "difficulty": "medium",
+    "domain": "mathematics",
+    "_category": "clear_true"
+  },
+  {
+    "statement": "The human genome contains approximately 20,000 to 25,000 protein-coding genes.",
+    "is_true": true,
+    "difficulty": "hard",
+    "domain": "genetics",
+    "_category": "clear_true"
+  },
+  {
+    "statement": "The French Revolution began in 1789.",
+    "is_true": true,
+    "difficulty": "medium",
+    "domain": "history",
+    "_category": "clear_true"
+  },
+  {
+    "statement": "Antibiotics are ineffective against viral infections.",
+    "is_true": true,
+    "difficulty": "medium",
+    "domain": "medicine",
+    "_category": "clear_true"
+  },
+  {
+    "statement": "The Pacific Ocean is the largest ocean on Earth.",
+    "is_true": true,
+    "difficulty": "easy",
+    "domain": "geography",
+    "_category": "clear_true"
+  },
+  {
+    "statement": "Photosynthesis converts carbon dioxide and water into glucose and oxygen using light energy.",
+    "is_true": true,
+    "difficulty": "medium",
+    "domain": "biology",
+    "_category": "clear_true"
+  },
+  {
+    "statement": "The Pythagorean theorem states that in a right triangle, the square of the hypotenuse equals the sum of the squares of the other two sides.",
+    "is_true": true,
+    "difficulty": "easy",
+    "domain": "mathematics",
+    "_category": "clear_true"
+  },
+  {
+    "statement": "Helium is the second most abundant element in the observable universe.",
+    "is_true": true,
+    "difficulty": "medium",
+    "domain": "chemistry",
+    "_category": "clear_true"
+  },
+  {
+    "statement": "The Berlin Wall fell in 1989.",
+    "is_true": true,
+    "difficulty": "easy",
+    "domain": "history",
+    "_category": "clear_true"
+  },
+  {
+    "statement": "Tectonic plate movements are responsible for earthquakes and volcanic activity.",
+    "is_true": true,
+    "difficulty": "medium",
+    "domain": "geology",
+    "_category": "clear_true"
+  },
+  {
+    "statement": "The Krebs cycle, also known as the citric acid cycle, occurs in the mitochondrial matrix.",
+    "is_true": true,
+    "difficulty": "hard",
+    "domain": "biochemistry",
+    "_category": "clear_true"
+  },
+  {
+    "statement": "The speed of light in a vacuum is approximately 299,792 kilometers per second.",
+    "is_true": true,
+    "difficulty": "easy",
+    "domain": "physics",
+    "_category": "clear_true"
+  },
+  {
+    "statement": "The Ottoman Empire was dissolved after World War I.",
+    "is_true": true,
+    "difficulty": "medium",
+    "domain": "history",
+    "_category": "clear_true"
+  },
+  {
+    "statement": "Mitochondria have their own DNA, separate from the nuclear DNA of the cell.",
+    "is_true": true,
+    "difficulty": "medium",
+    "domain": "biology",
+    "_category": "clear_true"
+  },
+  {
+    "statement": "The Amazon River is located in South America.",
+    "is_true": true,
+    "difficulty": "easy",
+    "domain": "geography",
+    "_category": "clear_true"
+  },
+  {
+    "statement": "Helium is the second element on the periodic table and is a noble gas.",
+    "is_true": true,
+    "difficulty": "easy",
+    "domain": "chemistry",
+    "_category": "clear_true"
+  },
+  {
+    "statement": "Nelson Mandela served as the first Black president of South Africa beginning in 1994.",
+    "is_true": true,
+    "difficulty": "easy",
+    "domain": "history",
+    "_category": "clear_true"
+  },
+  {
+    "statement": "The Pythagorean theorem states that in a right triangle, the square of the hypotenuse equals the sum of the squares of the other two sides.",
+    "is_true": true,
+    "difficulty": "easy",
+    "domain": "mathematics",
+    "_category": "clear_true"
+  },
+  {
+    "statement": "Insulin is a hormone produced by the pancreas that regulates blood sugar levels.",
+    "is_true": true,
+    "difficulty": "medium",
+    "domain": "medicine",
+    "_category": "clear_true"
+  },
+  {
+    "statement": "The Treaty of Westphalia in 1648 ended the Thirty Years' War in Europe.",
+    "is_true": true,
+    "difficulty": "hard",
+    "domain": "history",
+    "_category": "clear_true"
+  },
+  {
+    "statement": "Jupiter is the largest planet in our solar system.",
+    "is_true": true,
+    "difficulty": "easy",
+    "domain": "astronomy",
+    "_category": "clear_true"
+  },
+  {
+    "statement": "TCP/IP is the fundamental communication protocol suite used for the Internet.",
+    "is_true": true,
+    "difficulty": "medium",
+    "domain": "computer science",
+    "_category": "clear_true"
+  },
+  {
+    "statement": "The Rosetta Stone was instrumental in deciphering Egyptian hieroglyphics.",
+    "is_true": true,
+    "difficulty": "medium",
+    "domain": "archaeology",
+    "_category": "clear_true"
+  },
+  {
+    "statement": "Plate tectonics describes the large-scale movement of Earth's lithospheric plates.",
+    "is_true": true,
+    "difficulty": "medium",
+    "domain": "geology",
+    "_category": "clear_true"
+  },
+  {
+    "statement": "The Meiji Restoration in 1868 marked the end of the Tokugawa shogunate and the restoration of imperial rule in Japan.",
+    "is_true": true,
+    "difficulty": "hard",
+    "domain": "history",
+    "_category": "clear_true"
+  },
+  {
+    "statement": "Sound cannot travel through a vacuum because it requires a medium to propagate.",
+    "is_true": true,
+    "difficulty": "medium",
+    "domain": "physics",
+    "_category": "clear_true"
+  },
+  {
+    "statement": "The human genome contains approximately 20,000 to 25,000 protein-coding genes.",
+    "is_true": true,
+    "difficulty": "hard",
+    "domain": "genetics",
+    "_category": "clear_true"
+  },
+  {
+    "statement": "Mahatma Gandhi led India's nonviolent independence movement against British colonial rule.",
+    "is_true": true,
+    "difficulty": "easy",
+    "domain": "history",
+    "_category": "clear_true"
+  },
+  {
+    "statement": "The pH of pure water at 25°C is 7, which is considered neutral.",
+    "is_true": true,
+    "difficulty": "easy",
+    "domain": "chemistry",
+    "_category": "clear_true"
+  },
+  {
+    "statement": "The Hubble Space Telescope was launched into low Earth orbit in 1990.",
+    "is_true": true,
+    "difficulty": "medium",
+    "domain": "space exploration",
+    "_category": "clear_true"
+  },
+  {
+    "statement": "Photosynthesis in plants primarily occurs in the chloroplasts of leaf cells.",
+    "is_true": true,
+    "difficulty": "easy",
+    "domain": "biology",
+    "_category": "clear_true"
+  },
+  {
+    "statement": "The Great Wall of China is the only man-made structure visible from the Moon with the naked eye.",
+    "is_true": false,
+    "difficulty": "easy",
+    "domain": "common misconceptions",
+    "_category": "clear_false"
+  },
+  {
+    "statement": "Ludwig van Beethoven composed his famous Moonlight Sonata as a dedication to his patron Prince Lichnowsky.",
+    "is_true": false,
+    "difficulty": "hard",
+    "domain": "classical music history",
+    "_category": "clear_false"
+  },
+  {
+    "statement": "The Treaty of Tordesillas in 1494 divided newly discovered lands between Spain and England along a meridian in the Atlantic Ocean.",
+    "is_true": false,
+    "difficulty": "medium",
+    "domain": "colonial history",
+    "_category": "clear_false"
+  },
+  {
+    "statement": "Osmium is the densest naturally occurring element, but iridium has a higher atomic number.",
+    "is_true": false,
+    "difficulty": "hard",
+    "domain": "chemistry",
+    "_category": "clear_false"
+  },
+  {
+    "statement": "The human body has __(206)__ bones at birth, and this number decreases through fusion as a person ages into adulthood.",
+    "is_true": false,
+    "difficulty": "medium",
+    "domain": "human anatomy",
+    "_category": "clear_false"
+  },
+  {
+    "statement": "Brazil gained its independence from Spain in 1822 under Emperor Pedro I.",
+    "is_true": false,
+    "difficulty": "medium",
+    "domain": "Latin American history",
+    "_category": "clear_false"
+  },
+  {
+    "statement": "The programming language Python was named after the Monty Python comedy group and was first released in 1989 by Guido van Rossum.",
+    "is_true": false,
+    "difficulty": "medium",
+    "domain": "computer science history",
+    "_category": "clear_false"
+  },
+  {
+    "statement": "Lake Baikal in Russia contains approximately 20% of the world's unfrozen surface fresh water and is the world's largest lake by surface area.",
+    "is_true": false,
+    "difficulty": "hard",
+    "domain": "geography",
+    "_category": "clear_false"
+  },
+  {
+    "statement": "Nikola Tesla won the Nobel Prize in Physics in 1915 for his contributions to alternating current electrical systems.",
+    "is_true": false,
+    "difficulty": "medium",
+    "domain": "history of science",
+    "_category": "clear_false"
+  },
+  {
+    "statement": "Serotonin is produced exclusively in the brain and is the primary neurotransmitter responsible for regulating mood and sleep cycles.",
+    "is_true": false,
+    "difficulty": "hard",
+    "domain": "neuroscience/biology",
+    "_category": "clear_false"
+  },
+  {
+    "statement": "The Great Wall of China is visible from the Moon with the naked eye.",
+    "is_true": false,
+    "difficulty": "easy",
+    "domain": "geography/space",
+    "_category": "clear_false"
+  },
+  {
+    "statement": "Vincent van Gogh sold only one painting during his lifetime — it was 'Starry Night'.",
+    "is_true": false,
+    "difficulty": "medium",
+    "domain": "art history",
+    "_category": "clear_false"
+  },
+  {
+    "statement": "The pH of pure water at 25°C is exactly 7.4.",
+    "is_true": false,
+    "difficulty": "medium",
+    "domain": "chemistry",
+    "_category": "clear_false"
+  },
+  {
+    "statement": "Napoleon Bonaparte was notably short for his era, standing about 5'2\" (157 cm).",
+    "is_true": false,
+    "difficulty": "easy",
+    "domain": "history",
+    "_category": "clear_false"
+  },
+  {
+    "statement": "The Treaty of Tordesillas in 1494 divided the New World between Spain and England.",
+    "is_true": false,
+    "difficulty": "medium",
+    "domain": "world history",
+    "_category": "clear_false"
+  },
+  {
+    "statement": "Electrons orbit the nucleus in fixed circular paths, much like planets orbit the Sun.",
+    "is_true": false,
+    "difficulty": "medium",
+    "domain": "physics",
+    "_category": "clear_false"
+  },
+  {
+    "statement": "The human tongue has distinct regions dedicated to specific tastes — sweet at the tip, bitter at the back.",
+    "is_true": false,
+    "difficulty": "easy",
+    "domain": "biology",
+    "_category": "clear_false"
+  },
+  {
+    "statement": "Mahatma Gandhi won the Nobel Peace Prize in 1948, shortly before his assassination.",
+    "is_true": false,
+    "difficulty": "medium",
+    "domain": "history/politics",
+    "_category": "clear_false"
+  },
+  {
+    "statement": "The Coriolis effect causes water in toilets and sinks to drain in opposite directions in the Northern and Southern Hemispheres.",
+    "is_true": false,
+    "difficulty": "medium",
+    "domain": "physics/meteorology",
+    "_category": "clear_false"
+  },
+  {
+    "statement": "The capital of Australia was moved from Sydney to Canberra in 1927.",
+    "is_true": false,
+    "difficulty": "hard",
+    "domain": "geography/history",
+    "_category": "clear_false"
+  },
+  {
+    "statement": "Dmitri Mendeleev arranged the first periodic table by atomic number.",
+    "is_true": false,
+    "difficulty": "medium",
+    "domain": "chemistry",
+    "_category": "clear_false"
+  },
+  {
+    "statement": "The Sahara Desert is the largest desert in the world by total area.",
+    "is_true": false,
+    "difficulty": "medium",
+    "domain": "geography",
+    "_category": "clear_false"
+  },
+  {
+    "statement": "Goldfish have a memory span of approximately three seconds.",
+    "is_true": false,
+    "difficulty": "easy",
+    "domain": "biology/zoology",
+    "_category": "clear_false"
+  },
+  {
+    "statement": "The Emancipation Proclamation of 1863 freed all slaves throughout the entire United States.",
+    "is_true": false,
+    "difficulty": "medium",
+    "domain": "American history",
+    "_category": "clear_false"
+  },
+  {
+    "statement": "Thomas Edison invented the first practical light bulb entirely on his own without building on prior work.",
+    "is_true": false,
+    "difficulty": "medium",
+    "domain": "history of science",
+    "_category": "clear_false"
+  },
+  {
+    "statement": "The Amazon River is the longest river in the world, surpassing the Nile by over 400 km.",
+    "is_true": false,
+    "difficulty": "hard",
+    "domain": "geography",
+    "_category": "clear_false"
+  },
+  {
+    "statement": "Sushi traditionally refers to raw fish; the word 'sushi' translates to 'raw fish' in Japanese.",
+    "is_true": false,
+    "difficulty": "medium",
+    "domain": "culinary arts/linguistics",
+    "_category": "clear_false"
+  },
+  {
+    "statement": "The Soviet Union launched Sputnik 2 in 1957 carrying cosmonaut Yuri Gagarin into orbit.",
+    "is_true": false,
+    "difficulty": "medium",
+    "domain": "space history",
+    "_category": "clear_false"
+  },
+  {
+    "statement": "Humans use only 10% of their brain capacity at any given time.",
+    "is_true": false,
+    "difficulty": "easy",
+    "domain": "neuroscience",
+    "_category": "clear_false"
+  },
+  {
+    "statement": "The Korean War ended with a formal peace treaty signed in 1953 by both North and South Korea.",
+    "is_true": false,
+    "difficulty": "hard",
+    "domain": "military history",
+    "_category": "clear_false"
+  },
+  {
+    "statement": "The Great Wall of China is the only man-made structure visible from the Moon with the naked eye.",
+    "is_true": false,
+    "difficulty": "easy",
+    "domain": "geography/common misconceptions",
+    "_category": "clear_false"
+  },
+  {
+    "statement": "Vincent van Gogh sold only one painting during his lifetime — 'The Starry Night' — to his brother Theo.",
+    "is_true": false,
+    "difficulty": "medium",
+    "domain": "art history",
+    "_category": "clear_false"
+  },
+  {
+    "statement": "The human body has __(206)__ bones, and the smallest is the stirrup bone located in the nose.",
+    "is_true": false,
+    "difficulty": "easy",
+    "domain": "human anatomy",
+    "_category": "clear_false"
+  },
+  {
+    "statement": "Alexander Fleming discovered penicillin in 1932 after observing mold contamination on a bacterial culture plate.",
+    "is_true": false,
+    "difficulty": "medium",
+    "domain": "history of science",
+    "_category": "clear_false"
+  },
+  {
+    "statement": "Light from the Sun takes approximately 4 minutes and 33 seconds to reach Earth.",
+    "is_true": false,
+    "difficulty": "medium",
+    "domain": "astronomy",
+    "_category": "clear_false"
+  },
+  {
+    "statement": "Napoleon Bonaparte was unusually short for his era, standing only 5 feet 1 inch (155 cm) tall.",
+    "is_true": false,
+    "difficulty": "easy",
+    "domain": "history/common misconceptions",
+    "_category": "clear_false"
+  },
+  {
+    "statement": "The chemical formula for table sugar (sucrose) is C₆H₁₂O₆.",
+    "is_true": false,
+    "difficulty": "medium",
+    "domain": "chemistry",
+    "_category": "clear_false"
+  },
+  {
+    "statement": "Marie Curie was the first woman to win a Nobel Prize, receiving it in Physics in 1903, and later won a second Nobel in Physics in 1911.",
+    "is_true": false,
+    "difficulty": "hard",
+    "domain": "history of science",
+    "_category": "clear_false"
+  },
+  {
+    "statement": "The capital of Australia was moved from Sydney to Canberra in 1927 after a long dispute between Sydney and Brisbane.",
+    "is_true": false,
+    "difficulty": "hard",
+    "domain": "geography/political history",
+    "_category": "clear_false"
+  },
+  {
+    "statement": "Goldfish have a memory span of only three seconds, which is why they can live contentedly in small bowls.",
+    "is_true": false,
+    "difficulty": "easy",
+    "domain": "biology/common misconceptions",
+    "_category": "clear_false"
+  },
+  {
+    "statement": "The Treaty of Versailles, which ended World War I, was signed in 1918 on the 11th hour of the 11th day of the 11th month.",
+    "is_true": false,
+    "difficulty": "hard",
+    "domain": "history",
+    "_category": "clear_false"
+  },
+  {
+    "statement": "DNA's double-helix structure was first described by Watson and Crick in their landmark 1953 paper published in Science magazine.",
+    "is_true": false,
+    "difficulty": "hard",
+    "domain": "biology/history of science",
+    "_category": "clear_false"
+  },
+  {
+    "statement": "The Amazon River is the longest river in the world, stretching approximately 6,650 kilometers across South America.",
+    "is_true": false,
+    "difficulty": "medium",
+    "domain": "geography",
+    "_category": "clear_false"
+  },
+  {
+    "statement": "Electrons orbit the nucleus of an atom in fixed, circular paths, much like planets orbit the Sun.",
+    "is_true": false,
+    "difficulty": "medium",
+    "domain": "physics",
+    "_category": "clear_false"
+  },
+  {
+    "statement": "The United States Constitution's First Amendment guarantees the right to life, liberty, and the pursuit of happiness.",
+    "is_true": false,
+    "difficulty": "medium",
+    "domain": "law/civics",
+    "_category": "clear_false"
+  },
+  {
+    "statement": "George Orwell wrote '1984' while living in Spain, inspired by his experiences during the Spanish Civil War.",
+    "is_true": false,
+    "difficulty": "hard",
+    "domain": "literature",
+    "_category": "clear_false"
+  },
+  {
+    "statement": "The pH of pure water is exactly 7.0 at all temperatures, which is why it is used as the universal neutral reference point.",
+    "is_true": false,
+    "difficulty": "hard",
+    "domain": "chemistry",
+    "_category": "clear_false"
+  },
+  {
+    "statement": "Sharks are mammals that must constantly swim to breathe, as stopping would cause them to suffocate immediately.",
+    "is_true": false,
+    "difficulty": "easy",
+    "domain": "biology",
+    "_category": "clear_false"
+  },
+  {
+    "statement": "The Pythagorean theorem was first proven by Pythagoras himself around 530 BC, and no earlier civilization had knowledge of the relationship.",
+    "is_true": false,
+    "difficulty": "hard",
+    "domain": "mathematics/history",
+    "_category": "clear_false"
+  },
+  {
+    "statement": "Jupiter's Great Red Spot is a massive hurricane-like storm roughly the size of Mars that has been observed continuously since Galileo first documented it in 1610.",
+    "is_true": false,
+    "difficulty": "hard",
+    "domain": "astronomy",
+    "_category": "clear_false"
+  },
+  {
+    "statement": "The Great Wall of China is visible from space.",
+    "is_true": null,
+    "difficulty": "medium",
+    "domain": "geography/physics",
+    "note": "Depends entirely on the definition of 'space.' From low Earth orbit under perfect conditions with a telephoto lens, sections have been photographed, but it is not visible to the naked eye from the Moon. Most astronauts in LEO report they cannot distinguish it unaided.",
+    "_category": "ambiguous"
+  },
+  {
+    "statement": "Humans use only 10% of their brains.",
+    "is_true": null,
+    "difficulty": "medium",
+    "domain": "neuroscience",
+    "note": "As a literal claim about simultaneous neural firing, not all neurons fire at once, so there's a narrow sense in which most of the brain is 'inactive' at any given millisecond. But virtually all brain regions have identified functions and are used regularly, making the popular interpretation false.",
+    "_category": "ambiguous"
+  },
+  {
+    "statement": "Napoleon Bonaparte was short for his time.",
+    "is_true": null,
+    "difficulty": "medium",
+    "domain": "history",
+    "note": "He was approximately 5'7\" in modern measurements, roughly average for a Frenchman of his era. The confusion stems from differences between French and English inches and British propaganda. Whether 'average' counts as 'not short' depends on the threshold used.",
+    "_category": "ambiguous"
+  },
+  {
+    "statement": "Einstein failed mathematics in school.",
+    "is_true": null,
+    "difficulty": "easy",
+    "domain": "history of science",
+    "note": "He excelled in mathematics throughout his education. However, he did fail the entrance exam to ETH Zürich on his first attempt — though his math scores were strong and he failed the non-scientific sections. The claim's truth depends on which 'failure' is being referenced.",
+    "_category": "ambiguous"
+  },
+  {
+    "statement": "The Sapir-Whorf hypothesis has been scientifically confirmed.",
+    "is_true": null,
+    "difficulty": "hard",
+    "domain": "linguistics/cognitive science",
+    "note": "The strong version (language determines thought) is widely rejected. The weak version (language influences certain cognitive processes like color discrimination and spatial reasoning) has substantial experimental support. Whether the hypothesis is 'confirmed' depends entirely on which version is meant.",
+    "_category": "ambiguous"
+  },
+  {
+    "statement": "Water is an excellent conductor of electricity.",
+    "is_true": null,
+    "difficulty": "medium",
+    "domain": "chemistry/physics",
+    "note": "Ultra-pure water is actually an excellent insulator. It is dissolved ions (salts, minerals) that make water conductive. Tap water and seawater conduct well, but this is a property of the solution, not water itself. The answer depends on whether 'water' means the pure compound or water as commonly encountered.",
+    "_category": "ambiguous"
+  },
+  {
+    "statement": "The United States has never officially declared war on a terrorist organization.",
+    "is_true": null,
+    "difficulty": "hard",
+    "domain": "law/political science",
+    "note": "Congress has not issued a formal declaration of war since WWII. However, the 2001 AUMF authorized the use of military force against those responsible for 9/11, which functions as a quasi-declaration. Whether the AUMF constitutes an 'official declaration of war' is a live legal and constitutional debate.",
+    "_category": "ambiguous"
+  },
+  {
+    "statement": "Tomatoes were considered poisonous in 18th-century Europe.",
+    "is_true": null,
+    "difficulty": "medium",
+    "domain": "food history",
+    "note": "Tomatoes were widely eaten in southern Europe (Spain, Italy) for centuries. In parts of northern Europe, particularly Britain, there was genuine suspicion — partly because acidic tomatoes leached lead from pewter plates, causing illness. The statement is regionally true but not universally true for 'Europe.'",
+    "_category": "ambiguous"
+  },
+  {
+    "statement": "Greenland's ice sheet contains enough water to raise global sea levels by about 7 meters.",
+    "is_true": null,
+    "difficulty": "hard",
+    "domain": "climate science",
+    "note": "The commonly cited figure is approximately 7.2 meters, but this assumes complete melting and uniform distribution. Actual sea level rise would be non-uniform due to gravitational, rotational, and deformational effects — some regions would see much more or less. The 'about 7 meters' figure is a useful approximation but a simplification that experts would caveat heavily.",
+    "_category": "ambiguous"
+  },
+  {
+    "statement": "Free will has been disproven by neuroscience experiments like Libet's.",
+    "is_true": null,
+    "difficulty": "hard",
+    "domain": "neuroscience/philosophy",
+    "note": "Libet's experiments showed brain activity (readiness potential) preceding conscious awareness of a decision to move. However, the interpretation is fiercely contested: the experiments may only address spontaneous motor actions, the readiness potential may not represent a 'decision,' and the definition of free will itself varies across compatibilist and libertarian frameworks. Many neuroscientists and philosophers consider the claim a significant overreach.",
+    "_category": "ambiguous"
+  },
+  {
+    "statement": "The Great Wall of China is visible from space.",
+    "is_true": null,
+    "difficulty": "easy",
+    "domain": "geography/physics",
+    "note": "Depends on definition of 'space' — not visible from the Moon, occasionally claimed visible from low Earth orbit under perfect conditions, but most astronauts say no. Some man-made structures are more visible.",
+    "_category": "ambiguous"
+  },
+  {
+    "statement": "Cleopatra lived closer in time to the Moon landing than to the construction of the Great Pyramid of Giza.",
+    "is_true": true,
+    "difficulty": "medium",
+    "domain": "history",
+    "note": "Technically true and well-established, but often presented as ambiguous because people instinctively doubt it. The 'wow factor' makes people question its truth, placing it at a knowledge boundary.",
+    "_category": "ambiguous"
+  },
+  {
+    "statement": "Finland was an ally of Nazi Germany during World War II.",
+    "is_true": null,
+    "difficulty": "hard",
+    "domain": "history",
+    "note": "Finland was a 'co-belligerent' with Germany against the USSR (Continuation War 1941-44) but never signed the Tripartite Pact. Finland later fought Germany in the Lapland War. Whether 'ally' applies is genuinely debated by historians.",
+    "_category": "ambiguous"
+  },
+  {
+    "statement": "Sugar causes hyperactivity in children.",
+    "is_true": false,
+    "difficulty": "medium",
+    "domain": "medicine/psychology",
+    "note": "Multiple double-blind studies show no link, but the belief is widespread. Some experts note confounding factors (party environments, parental expectation bias). Marked false but the cultural certainty makes it a good boundary item.",
+    "_category": "ambiguous"
+  },
+  {
+    "statement": "Russia is the largest country in Europe.",
+    "is_true": null,
+    "difficulty": "easy",
+    "domain": "geography",
+    "note": "Depends on whether you count only the European portion of Russia or all of Russia. If only the European part, it's still the largest in Europe. But some geographic conventions exclude transcontinental countries from being classified as 'in' a single continent.",
+    "_category": "ambiguous"
+  },
+  {
+    "statement": "The human tongue has distinct taste zones for sweet, salty, sour, and bitter.",
+    "is_true": false,
+    "difficulty": "easy",
+    "domain": "biology",
+    "note": "The 'tongue map' is a misinterpretation of research by D.P. Hanig. All taste receptors exist across the tongue. However, there are slight sensitivity differences by region, making the original claim not 100% fabricated — just wildly overstated.",
+    "_category": "ambiguous"
+  },
+  {
+    "statement": "The Ottoman Empire still existed when Harvard University was founded.",
+    "is_true": true,
+    "difficulty": "medium",
+    "domain": "history",
+    "note": "Harvard was founded in 1636; the Ottoman Empire dissolved in 1922. True, but included because people often doubt the temporal overlap of these entities.",
+    "_category": "ambiguous"
+  },
+  {
+    "statement": "Entropy always increases in a closed system.",
+    "is_true": null,
+    "difficulty": "hard",
+    "domain": "physics",
+    "note": "The Second Law of Thermodynamics states entropy tends to increase, but this is a statistical law. Fluctuation theorems show temporary decreases are possible at microscopic scales. Whether 'always' holds depends on scale and interpretation.",
+    "_category": "ambiguous"
+  },
+  {
+    "statement": "The United States has never officially declared war on any country since World War II.",
+    "is_true": true,
+    "difficulty": "hard",
+    "domain": "political science/law",
+    "note": "Technically true — Congress has not issued a formal declaration of war since WWII. Korea, Vietnam, Iraq, etc. were authorized through resolutions or executive action, not formal declarations. But 'war' in common usage clearly applied.",
+    "_category": "ambiguous"
+  },
+  {
+    "statement": "Van Gogh only sold one painting during his lifetime.",
+    "is_true": null,
+    "difficulty": "medium",
+    "domain": "art history",
+    "note": "The commonly cited sale is 'The Red Vineyard,' but recent scholarship suggests he may have sold or traded a small number of other works. The 'one painting' claim is disputed but not definitively resolved.",
+    "_category": "ambiguous"
+  },
+  {
+    "statement": "Goldfish have a three-second memory.",
+    "is_true": false,
+    "difficulty": "easy",
+    "domain": "biology",
+    "note": "Studies have shown goldfish can remember things for months. However, the myth is so pervasive that it functions as a knowledge boundary — many people believe it.",
+    "_category": "ambiguous"
+  },
+  {
+    "statement": "Taiwan is an independent country.",
+    "is_true": null,
+    "difficulty": "hard",
+    "domain": "international relations",
+    "note": "Taiwan (ROC) has its own government, military, currency, and constitution, meeting most criteria of statehood. However, it is recognized by fewer than 15 UN member states, and the PRC claims sovereignty. The answer depends entirely on legal framework used.",
+    "_category": "ambiguous"
+  },
+  {
+    "statement": "Photons experience time.",
+    "is_true": null,
+    "difficulty": "hard",
+    "domain": "physics",
+    "note": "In special relativity, proper time for an object traveling at the speed of light is zero, suggesting photons don't experience time. But 'experience' is anthropomorphic, and some physicists argue the question is ill-defined since no valid reference frame exists at c.",
+    "_category": "ambiguous"
+  },
+  {
+    "statement": "Napoleon Bonaparte was short for his era.",
+    "is_true": false,
+    "difficulty": "easy",
+    "domain": "history",
+    "note": "Napoleon was approximately 5'7\" in modern measurements, average or slightly above average for a Frenchman of his time. The myth arose partly from British propaganda and confusion between French and English inches.",
+    "_category": "ambiguous"
+  },
+  {
+    "statement": "The Sapir-Whorf hypothesis has been scientifically proven.",
+    "is_true": null,
+    "difficulty": "hard",
+    "domain": "linguistics/cognitive science",
+    "note": "The strong version (language determines thought) is largely rejected. The weak version (language influences thought) has substantial empirical support from studies on color perception, spatial reasoning, and time conceptualization. 'Proven' is too strong for either version.",
+    "_category": "ambiguous"
+  },
+  {
+    "statement": "Islam is the fastest-growing religion in the world.",
+    "is_true": null,
+    "difficulty": "medium",
+    "domain": "demographics/religion",
+    "note": "By total number of adherents added, Islam is often cited as fastest-growing, largely due to birth rates. But by conversion rate, other faiths may grow faster in certain regions. The answer depends on metric, time frame, and data source.",
+    "_category": "ambiguous"
+  },
+  {
+    "statement": "The placebo effect works even when patients know they are receiving a placebo.",
+    "is_true": true,
+    "difficulty": "hard",
+    "domain": "medicine",
+    "note": "Open-label placebo studies (Kaptchuk et al.) have shown significant effects in IBS, chronic pain, and other conditions. However, the mechanisms are debated, effect sizes vary, and it challenges the traditional definition of placebo, making it a genuine boundary case.",
+    "_category": "ambiguous"
+  },
+  {
+    "statement": "Alexander Fleming discovered penicillin.",
+    "is_true": null,
+    "difficulty": "medium",
+    "domain": "history of science",
+    "note": "Fleming observed the antibacterial properties of Penicillium mold in 1928, but he did not develop it into a usable drug. Florey and Chain did the critical work of purification and mass production. Whether 'discovered penicillin' means noticing the effect or creating the medicine is ambiguous.",
+    "_category": "ambiguous"
+  },
+  {
+    "statement": "Water is a good conductor of electricity.",
+    "is_true": null,
+    "difficulty": "medium",
+    "domain": "chemistry/physics",
+    "note": "Pure (deionized) water is actually a poor conductor. Tap water and natural water conduct well due to dissolved ions. The statement's truth depends entirely on which 'water' is meant, making it a classic ambiguity in science education.",
+    "_category": "ambiguous"
+  },
+  {
+    "statement": "The Turing Test has been passed by an AI system.",
+    "is_true": null,
+    "difficulty": "hard",
+    "domain": "computer science",
+    "note": "Various claims have been made (Eugene Goostman in 2014, modern LLMs). Whether any system has 'truly' passed depends on the specific formulation of the test, duration of conversation, sophistication of judges, and what Turing himself intended. No consensus exists.",
+    "_category": "ambiguous"
+  },
+  {
+    "statement": "The Great Wall of China is visible from space.",
+    "is_true": null,
+    "difficulty": "medium",
+    "domain": "geography/physics",
+    "why_ambiguous": "Depends on definition of 'space.' From low Earth orbit under perfect conditions with a zoom lens, some astronauts claim to have seen it. From the Moon, absolutely not. With the naked eye from the ISS, it's generally not visible, but some dispute this.",
+    "_category": "ambiguous"
+  },
+  {
+    "statement": "Humans have five senses.",
+    "is_true": null,
+    "difficulty": "medium",
+    "domain": "biology/neuroscience",
+    "why_ambiguous": "The classical Aristotelian model lists five, but modern neuroscience recognizes proprioception, nociception, thermoception, equilibrioception, and others. Whether these count as 'senses' depends on how you define the term.",
+    "_category": "ambiguous"
+  },
+  {
+    "statement": "Napoleon Bonaparte was short.",
+    "is_true": null,
+    "difficulty": "easy",
+    "domain": "history",
+    "why_ambiguous": "He was approximately 5'6\"–5'7\" in modern measurements, which was average or slightly above average for Frenchmen of his era. By modern Western standards, that is below average. The myth partly stems from confusion between French and English inches.",
+    "_category": "ambiguous"
+  },
+  {
+    "statement": "Glass is a liquid.",
+    "is_true": null,
+    "difficulty": "hard",
+    "domain": "materials science",
+    "why_ambiguous": "Glass is an amorphous solid, not a crystalline solid. Some physicists describe it as a 'frozen liquid' or a material with liquid-like molecular disorder but solid mechanical properties. The old claim that medieval windows are thicker at the bottom due to flow is a myth, but the classification debate is real.",
+    "_category": "ambiguous"
+  },
+  {
+    "statement": "Tomatoes are vegetables.",
+    "is_true": null,
+    "difficulty": "easy",
+    "domain": "botany/law/culinary arts",
+    "why_ambiguous": "Botanically, tomatoes are fruits (berries, specifically). Culinarily and legally (per the 1893 US Supreme Court case Nix v. Hedden), they are classified as vegetables. The answer depends entirely on the framework used.",
+    "_category": "ambiguous"
+  },
+  {
+    "statement": "Electrons orbit the nucleus of an atom.",
+    "is_true": null,
+    "difficulty": "hard",
+    "domain": "quantum physics",
+    "why_ambiguous": "In the Bohr model (still widely taught), yes. In quantum mechanics, electrons exist in probability clouds (orbitals) and don't have defined trajectories. 'Orbit' is a useful but technically misleading metaphor depending on the level of physical description.",
+    "_category": "ambiguous"
+  },
+  {
+    "statement": "The United States has never lost a war.",
+    "is_true": null,
+    "difficulty": "medium",
+    "domain": "military history/political science",
+    "why_ambiguous": "Depends on definitions of 'lost' and 'war.' Vietnam is widely considered a loss, but the US never formally declared war. The War of 1812's outcome is debated. Korea was a stalemate. Afghanistan's outcome is contested. Formal declarations vs. military outcomes vs. political objectives all yield different answers.",
+    "_category": "ambiguous"
+  },
+  {
+    "statement": "Sugar causes hyperactivity in children.",
+    "is_true": null,
+    "difficulty": "medium",
+    "domain": "medicine/psychology",
+    "why_ambiguous": "Multiple double-blind studies have found no causal link, and the scientific consensus leans toward debunking this. However, contexts in which children consume sugar (parties, holidays) are inherently stimulating, and some researchers argue individual glycemic responses and expectation effects make a blanket dismissal premature.",
+    "_category": "ambiguous"
+  },
+  {
+    "statement": "There are more trees on Earth than stars in the Milky Way.",
+    "is_true": null,
+    "difficulty": "hard",
+    "domain": "astronomy/ecology",
+    "why_ambiguous": "A 2015 Nature study estimated ~3 trillion trees on Earth. Estimates of Milky Way stars range from 100 billion to 400 billion, making the statement likely true—but both figures carry enormous uncertainty margins, and the star count estimates have been revised upward by some studies.",
+    "_category": "ambiguous"
+  },
+  {
+    "statement": "Pluto is not a planet.",
+    "is_true": null,
+    "difficulty": "easy",
+    "domain": "astronomy",
+    "why_ambiguous": "Under the 2006 IAU definition, Pluto is a dwarf planet, not a planet. However, the IAU vote was controversial, many planetary scientists reject the definition (notably Alan Stern, New Horizons PI), and the geophysical planet definition would include Pluto. The answer is authority-dependent.",
+    "_category": "ambiguous"
+  },
+  {
+    "statement": "Vitamin C prevents the common cold.",
+    "is_true": null,
+    "difficulty": "medium",
+    "domain": "medicine",
+    "why_ambiguous": "Large meta-analyses show regular supplementation does not prevent colds in the general population but may reduce duration slightly. However, in people under extreme physical stress (marathon runners, soldiers), it does appear to reduce incidence by ~50%. The claim is false in general but partially true for specific populations.",
+    "_category": "ambiguous"
+  },
+  {
+    "statement": "The tongue has distinct taste zones for sweet, salty, sour, and bitter.",
+    "is_true": null,
+    "difficulty": "medium",
+    "domain": "biology/neuroscience",
+    "why_ambiguous": "The 'tongue map' as popularly taught is largely a myth based on a misinterpretation of a 1901 German thesis. All taste qualities can be detected across the tongue. However, there ARE slight regional sensitivity differences—they're just far smaller than the map suggests. So the claim is exaggerated but not 100% baseless.",
+    "_category": "ambiguous"
+  },
+  {
+    "statement": "Einstein failed math in school.",
+    "is_true": false,
+    "difficulty": "easy",
+    "domain": "history of science",
+    "why_ambiguous": "Marked false because his records show top math grades, but the myth persists partly because he failed the entrance exam to ETH Zurich (at age 16, two years younger than typical applicants, and he excelled in math/physics sections while failing language portions). So 'failed an exam' is true; 'failed math' is misleading.",
+    "_category": "ambiguous"
+  },
+  {
+    "statement": "Alcohol kills brain cells.",
+    "is_true": null,
+    "difficulty": "medium",
+    "domain": "neuroscience/medicine",
+    "why_ambiguous": "Moderate alcohol consumption does not directly kill neurons. However, chronic heavy drinking causes neurodegeneration through multiple mechanisms (thiamine deficiency, neuroinflammation, excitotoxicity during withdrawal). Binge drinking can damage dendrites. So the statement is false in the casual sense but has a kernel of truth for heavy/chronic use.",
+    "_category": "ambiguous"
+  },
+  {
+    "statement": "Capitalism has lifted more people out of poverty than any other economic system.",
+    "is_true": null,
+    "difficulty": "hard",
+    "domain": "economics/political science",
+    "why_ambiguous": "Global extreme poverty has declined dramatically during the era of market economies. But the claim depends on how you define capitalism (mixed economies? state capitalism like China?), what poverty line you use ($1.90/day vs. $5.50/day yield very different trends), and whether you attribute gains to markets specifically or to technology, institutions, or colonial extraction.",
+    "_category": "ambiguous"
+  },
+  {
+    "statement": "Goldfish have a three-second memory.",
+    "is_true": false,
+    "difficulty": "easy",
+    "domain": "biology/zoology",
+    "why_ambiguous": "Marked false because experiments consistently show goldfish can remember things for months. However, the degree of nuance matters—goldfish memory is real but qualitatively different from mammalian episodic memory. The myth is clearly wrong, but 'how good is goldfish memory really?' remains a more complex question.",
+    "_category": "ambiguous"
+  },
+  {
+    "statement": "The Sahara Desert is the largest desert on Earth.",
+    "is_true": null,
+    "difficulty": "medium",
+    "domain": "geography",
+    "why_ambiguous": "It is the largest hot desert. But if 'desert' is defined by precipitation (as geographers define it), Antarctica is the largest desert on Earth. The answer depends entirely on whether the speaker means 'sandy/hot desert' (common usage) or the technical climatological definition.",
+    "_category": "ambiguous"
+  },
+  {
+    "statement": "Humans only use 10% of their brains.",
+    "is_true": null,
+    "difficulty": "medium",
+    "domain": "neuroscience",
+    "why_ambiguous": "As commonly understood (90% is dormant/unused), this is definitively false—neuroimaging shows virtually all brain regions have known functions. However, not all neurons fire simultaneously, and at any given moment only a fraction of neurons are active. If reinterpreted as 'not all neurons are active at once,' there's a trivially true reading.",
+    "_category": "ambiguous"
+  },
+  {
+    "statement": "Organic food is healthier than conventionally grown food.",
+    "is_true": null,
+    "difficulty": "hard",
+    "domain": "nutrition/agriculture",
+    "why_ambiguous": "Large meta-analyses (Stanford 2012, British Journal of Nutrition 2014) reach different conclusions. Organic produce tends to have higher antioxidant levels and lower pesticide residues, but whether this translates to meaningful health outcomes is unproven. 'Healthier' is also undefined—nutritional content? Pesticide exposure? Environmental health? Long-term RCTs are essentially nonexistent.",
+    "_category": "ambiguous"
+  },
+  {
+    "statement": "The Second Amendment to the US Constitution guarantees an individual's right to own firearms.",
+    "is_true": null,
+    "difficulty": "hard",
+    "domain": "law/constitutional studies",
+    "why_ambiguous": "In District of Columbia v. Heller (2008), the Supreme Court ruled 5-4 that it does protect an individual right. However, four justices dissented, many legal scholars argue the amendment protects only a collective/militia right, and even the majority opinion affirmed that the right is 'not unlimited.' The answer depends on whether you treat current SCOTUS precedent as settled truth or acknowledge ongoing legal and scholarly contestation.",
+    "_category": "ambiguous"
+  }
+]

@@ -171,3 +171,25 @@ def analyze_format_awareness(all_predictions, all_actuals):
 - 每知识点只有4个格式，样本量太小做Spearman相关不稳定——需要跨知识点聚合
 - open_qa的正确性判断需要LLM-as-judge，评分可靠性是关键
 - apply类题目（计算/代码）的难度往往远大于其他格式，模型可能只需要学会"apply最难"这一条规则就得到不错的分数——需要设计一些反例（apply比mcq容易的知识点）
+
+## Haiku 4.5 Evaluation Results & Improvements
+
+**Evaluation Result**: 1-Brier=0.97, near-perfect performance across all formats. Only 15 knowledge points tested. MCQ Brier=0.0001.
+
+**Diagnosis**: The benchmark has a severe ceiling effect. Even the "apply" format barely challenges the model. With only 15 knowledge points and near-perfect accuracy on all formats, there is no variance for the format-awareness prediction to capture. The MCQ Brier score of 0.0001 indicates the model gets every MCQ correct with near-100% confidence — there is nothing to predict.
+
+### Dataset Changes
+
+- Scale to 30+ knowledge points (current 15 is far too few, especially given that Spearman correlation is unstable with only 4 data points per knowledge point).
+- Choose knowledge points where format genuinely matters:
+  - Complex chemical/biological nomenclature (recognition in MCQ vs. recall in fill-blank creates real difficulty differences)
+  - Multi-step mathematical derivations (MCQ with answer choices vs. open computation)
+  - Code implementation tasks (recognizing correct code vs. writing it from scratch)
+  - Historical chronologies with specific dates
+- Make "apply" format genuinely hard: require multi-step reasoning, exact numerical answers, or working code — not just rephrasing of the same factual recall.
+- Add format-reversed items: knowledge points where apply is easier than MCQ (e.g., straightforward calculations with tricky distractors in MCQ form).
+
+### Design Changes
+
+- Report format-level accuracy gap as a mandatory metric: for each pair of formats, compute the accuracy difference across all knowledge points. This reveals whether the dataset actually creates format-dependent difficulty.
+- Flag the benchmark as invalid if the maximum accuracy gap between any two formats is less than 10 percentage points — this means the format manipulation is not working.

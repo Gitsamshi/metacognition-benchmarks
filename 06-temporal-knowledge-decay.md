@@ -123,3 +123,27 @@ def analyze_temporal_decay(results_by_bucket):
 - 建议：每个时间桶内的题目由人类专家预先标定"固有难度"，确保跨桶可比
 - 模型的训练cutoff date不同，edge桶的定义需要根据被测模型调整
 - 如果用Bedrock API，不同模型的cutoff不同——需要动态调整edge桶范围
+
+## Haiku 4.5 Evaluation Results & Improvements
+
+**Priority**: P2 (moderate improvements needed)
+
+### Evaluation Findings
+
+- **Curve correlation = 0.80**: Reasonably good correlation between confidence and accuracy curves across time buckets, but potentially inflated due to ceiling effects.
+- **100% accuracy across ALL time buckets**: The model answered every item correctly in every time bucket, including the edge bucket. This completely defeats the purpose of the benchmark -- if there is no accuracy decay, the correlation between confidence and accuracy curves is measuring noise.
+- **Only 43 items total**: Far below the specified 200. With roughly 10 items per bucket, per-bucket statistics are unreliable and the 100% accuracy is likely an artifact of the small, easy sample.
+
+### Recommended Changes
+
+1. **Scale to 200 items** as originally specified (50 per time bucket). The current 43 items are insufficient for stable per-bucket ECE estimation and allow ceiling effects to mask genuine temporal decay patterns.
+
+2. **Redefine the edge bucket per model's knowledge cutoff**: The edge bucket must be dynamically defined based on the specific model being evaluated. Accept a `knowledge_cutoff` parameter (e.g., a date string) that shifts the edge bucket to cover the 6-12 months before the model's training data cutoff. For Haiku 4.5, this means the edge bucket should target events from late 2024 through early 2025, not a fixed date range.
+
+3. **Add genuinely obscure temporal items**: The current items are too well-known (classic historical events, major Nobel prizes). Add items about obscure events, lesser-known policy changes, minor cultural milestones, and regional events that are less likely to be reinforced across multiple training data sources. Target items where a knowledgeable human would also need to think carefully.
+
+4. **Add a "future" bucket (post-cutoff events)**: Include 20-30 items about events that definitively occurred after the model's training cutoff. A well-calibrated model should assign very low confidence to these items and ideally decline to answer. This bucket directly tests whether the model knows the boundary of its temporal knowledge.
+
+5. **Accept a `knowledge_cutoff` parameter in the benchmark runner**: The task function should accept an optional `knowledge_cutoff` date parameter that is used to (a) define the edge bucket boundary and (b) select appropriate future-bucket items. This makes the benchmark portable across models with different training data recency.
+
+6. **Add per-bucket ECE as a reported metric**: Report ECE separately for each time bucket (distant, middle, recent, edge, future). The most informative signal is whether ECE worsens as events approach and pass the knowledge cutoff. Aggregate ECE alone can mask bucket-specific calibration failures.

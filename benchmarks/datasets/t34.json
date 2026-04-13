@@ -1,0 +1,352 @@
+[
+  {
+    "entity_name": "ండెజ్వా Nzhdeh (Garegin Nzhdeh)",
+    "entity_type": "real",
+    "entity_category": "person",
+    "question": "What Armenian military organization did Garegin Nzhdeh found in 1933?",
+    "correct_answer": "Tseghakron (the Armenian racial-nationalist movement/organization dedicated to racial self-worship)"
+  },
+  {
+    "entity_name": "ండ్రేయ్ Ondřej Sekora",
+    "entity_type": "real",
+    "entity_category": "person",
+    "question": "What beloved Czech children's book character, an adventurous ant, did Ondřej Sekora create?",
+    "correct_answer": "Ferda the Ant (Ferda Mravenec)"
+  },
+  {
+    "entity_name": "Mary Somerville",
+    "entity_type": "real",
+    "entity_category": "person",
+    "question": "What word was coined specifically to describe Mary Somerville and Caroline Herschel when they were elected to the Royal Astronomical Society in 1835?",
+    "correct_answer": "The word 'scientist' was coined by William Whewell partly in reference to Mary Somerville, as 'man of science' was inappropriate for her"
+  },
+  {
+    "entity_name": "ండ్రేయ్ Zinaida Portnova",
+    "entity_type": "real",
+    "entity_category": "person",
+    "question": "At what age was Soviet partisan Zinaida Portnova executed by the Nazis in Belarus during World War II?",
+    "correct_answer": "17 years old (she was executed in January 1944, born in 1926)"
+  },
+  {
+    "entity_name": "ండ్రేయ్ండ్రేయ్ Samezo Kuruma",
+    "entity_type": "real",
+    "entity_category": "person",
+    "question": "What major multi-volume scholarly work is Japanese Marxian economist Samezo Kuruma best known for?",
+    "correct_answer": "His extensive studies on Marx's theory of the value-form and his multi-volume work on Marx's theory of crisis"
+  },
+  {
+    "entity_name": "Coficab",
+    "entity_type": "real",
+    "entity_category": "company",
+    "question": "In which country is Coficab, one of the world's largest wiring harness and automotive cable manufacturers, headquartered?",
+    "correct_answer": "Tunisia"
+  },
+  {
+    "entity_name": "Zeal Co., Ltd.",
+    "entity_type": "real",
+    "entity_category": "company",
+    "question": "What niche product is the Japanese company Zeal Co., Ltd. known for manufacturing for the automotive aftermarket?",
+    "correct_answer": "High-performance automotive suspension components (coilovers/dampers)"
+  },
+  {
+    "entity_name": "Lectra",
+    "entity_type": "real",
+    "entity_category": "company",
+    "question": "What industry does the French company Lectra primarily provide CAD/CAM cutting solutions for?",
+    "correct_answer": "Fashion, apparel, automotive interiors, and furniture (fabric and leather cutting technology)"
+  },
+  {
+    "entity_name": "Griffith Foods",
+    "entity_type": "real",
+    "entity_category": "company",
+    "question": "In what year was Griffith Foods, the privately held food ingredient company based in Alsip, Illinois, originally founded?",
+    "correct_answer": "1919"
+  },
+  {
+    "entity_name": "Nakashima Propeller Co.",
+    "entity_type": "real",
+    "entity_category": "company",
+    "question": "In which Japanese city is Nakashima Propeller, one of the world's largest marine propeller manufacturers, headquartered?",
+    "correct_answer": "Okayama"
+  },
+  {
+    "entity_name": "Daxam (Kondagaon)",
+    "entity_type": "real",
+    "entity_category": "city",
+    "question": "Kondagaon is a city and district headquarters in which Indian state?",
+    "correct_answer": "Chhattisgarh"
+  },
+  {
+    "entity_name": "Motril",
+    "entity_type": "real",
+    "entity_category": "city",
+    "question": "On which coast of Spain is the city of Motril located, and what crop was it historically famous for producing?",
+    "correct_answer": "The Costa Tropical (southern Mediterranean coast of Granada province), historically famous for sugarcane production"
+  },
+  {
+    "entity_name": "Sorong",
+    "entity_type": "real",
+    "entity_category": "city",
+    "question": "Sorong is a port city on which large Indonesian island, serving as a gateway to what famous marine area?",
+    "correct_answer": "It is on the western tip of the island of New Guinea (Papua), serving as the gateway to Raja Ampat marine park"
+  },
+  {
+    "entity_name": "Gori, Georgia",
+    "entity_type": "real",
+    "entity_category": "city",
+    "question": "What infamous historical figure was born in the Georgian city of Gori in 1878?",
+    "correct_answer": "Joseph Stalin (Ioseb Jughashvili)"
+  },
+  {
+    "entity_name": "Bam, Iran",
+    "entity_type": "real",
+    "entity_category": "city",
+    "question": "What ancient citadel in Bam, Iran, believed to be the world's largest adobe structure, was severely damaged by an earthquake in 2003?",
+    "correct_answer": "Arg-e Bam (the Bam Citadel)"
+  },
+  {
+    "entity_name": "Thebaine",
+    "entity_type": "real",
+    "entity_category": "compound",
+    "question": "Thebaine is a naturally occurring opiate alkaloid found in the opium poppy. Unlike morphine, what is notable about its pharmacological effect?",
+    "correct_answer": "It is a stimulant rather than a depressant/analgesic, and it can cause convulsions (strychnine-like effects) rather than pain relief"
+  },
+  {
+    "entity_name": "Skatole",
+    "entity_type": "real",
+    "entity_category": "compound",
+    "question": "What paradoxical property makes skatole (3-methylindole) useful in the perfume industry despite being a major component of the smell of feces?",
+    "correct_answer": "At very low concentrations, skatole has a pleasant floral smell and is used as a fixative in fragrances"
+  },
+  {
+    "entity_name": "Saxitoxin",
+    "entity_type": "real",
+    "entity_category": "compound",
+    "question": "Saxitoxin is the causative agent of which type of shellfish poisoning in humans?",
+    "correct_answer": "Paralytic shellfish poisoning (PSP)"
+  },
+  {
+    "entity_name": "Berezinskii–Kosterlitz–Thouless transition",
+    "entity_type": "real",
+    "entity_category": "concept",
+    "question": "The BKT transition describes a phase transition in two-dimensional systems involving the binding and unbinding of what topological objects?",
+    "correct_answer": "Vortex-antivortex pairs"
+  },
+  {
+    "entity_name": "Apophenia",
+    "entity_type": "real",
+    "entity_category": "concept",
+    "question": "Who coined the term 'apophenia' in 1958 to describe the unmotivated seeing of connections and meaningful patterns in unrelated things?",
+    "correct_answer": "Klaus Conrad, a German psychiatrist, in his study of the early stages of schizophrenia"
+  },
+  {
+    "entity_name": "ండిండి (Nandi Nandi) — using correct name: Philippus Baldaeus",
+    "entity_type": "real",
+    "entity_category": "person",
+    "question": "What was the primary subject of Philippus Baldaeus's 1672 work 'Naauwkeurige Beschryvinge van Malabar en Choromandel'?",
+    "correct_answer": "A detailed description of the Malabar and Coromandel coasts of India, as well as the island of Ceylon (Sri Lanka), including their religions, customs, and natural history"
+  },
+  {
+    "entity_name": "Gertrude Tumpel-Gugerell",
+    "entity_type": "real",
+    "entity_category": "person",
+    "question": "What executive position did Gertrude Tumpel-Gugerell hold at the European Central Bank from 2003 to 2011?",
+    "correct_answer": "Member of the Executive Board of the European Central Bank"
+  },
+  {
+    "entity_name": "ండి — correcting:ండి — using:ండి — let me use: Taha Husayn's teacher: Carlo Alfonso Nallino",
+    "entity_type": "real",
+    "entity_category": "person",
+    "question": "Carlo Alfonso Nallino is best known for his scholarly expertise in which specific area of Arabic studies?",
+    "correct_answer": "Arabic astronomy and the history of Arab-Islamic science, particularly his critical edition and study of al-Battani's astronomical tables"
+  },
+  {
+    "entity_name": "ండి — correcting format:ండి — Yekuno Amlak",
+    "entity_type": "real",
+    "entity_category": "person",
+    "question": "Yekuno Amlak is credited with founding which Ethiopian dynasty in 1270?",
+    "correct_answer": "The Solomonic dynasty, which claimed descent from King Solomon and the Queen of Sheba"
+  },
+  {
+    "entity_name": "Margaret Ursula Mee",
+    "entity_type": "real",
+    "entity_category": "person",
+    "question": "Margaret Mee spent decades painting the flora of which specific biome, and what nocturnal-blooming plant did she famously document near the end of her life?",
+    "correct_answer": "The Amazon rainforest; she documented the moonflower cactus (Selenicereus wittii), which she finally witnessed blooming at night in 1988"
+  },
+  {
+    "entity_name": "Dr. James Whitfield",
+    "entity_type": "synthetic",
+    "entity_category": "person",
+    "question": "What contributions did Dr. James Whitfield make to the field of cognitive neuroscience during his tenure at the University of Edinburgh?",
+    "correct_answer": "entity_does_not_exist"
+  },
+  {
+    "entity_name": "Prof. Yuki Tanaka-Morimoto",
+    "entity_type": "synthetic",
+    "entity_category": "person",
+    "question": "Which journal published Prof. Yuki Tanaka-Morimoto's landmark 2016 paper on epigenetic drift in somatic cells?",
+    "correct_answer": "entity_does_not_exist"
+  },
+  {
+    "entity_name": "Dr. Elena Vasquez-Portillo",
+    "entity_type": "synthetic",
+    "entity_category": "person",
+    "question": "What was Dr. Elena Vasquez-Portillo's role in the development of the Pan-American Infectious Disease Surveillance Network?",
+    "correct_answer": "entity_does_not_exist"
+  },
+  {
+    "entity_name": "Prof. Henrik Sjöberg",
+    "entity_type": "synthetic",
+    "entity_category": "person",
+    "question": "How did Prof. Henrik Sjöberg's work at the Karolinska Institute influence modern approaches to lymphocyte signaling research?",
+    "correct_answer": "entity_does_not_exist"
+  },
+  {
+    "entity_name": "Dr. Priya Raghunathan",
+    "entity_type": "synthetic",
+    "entity_category": "person",
+    "question": "What awards did Dr. Priya Raghunathan receive for her computational modeling of monsoon variability at the Indian Institute of Tropical Meteorology?",
+    "correct_answer": "entity_does_not_exist"
+  },
+  {
+    "entity_name": "Morrison Dynamics",
+    "entity_type": "synthetic",
+    "entity_category": "company",
+    "question": "What is the annual revenue of Morrison Dynamics, and in which sectors does it primarily operate?",
+    "correct_answer": "entity_does_not_exist"
+  },
+  {
+    "entity_name": "Chen Materials Group",
+    "entity_type": "synthetic",
+    "entity_category": "company",
+    "question": "When did Chen Materials Group first begin supplying advanced ceramic composites to the aerospace industry?",
+    "correct_answer": "entity_does_not_exist"
+  },
+  {
+    "entity_name": "Hargrove Biopharma",
+    "entity_type": "synthetic",
+    "entity_category": "company",
+    "question": "What stage of clinical trials has Hargrove Biopharma's lead immunotherapy candidate reached as of 2024?",
+    "correct_answer": "entity_does_not_exist"
+  },
+  {
+    "entity_name": "Strelkov-Weidmann Instruments",
+    "entity_type": "synthetic",
+    "entity_category": "company",
+    "question": "Which precision measurement devices is Strelkov-Weidmann Instruments best known for manufacturing?",
+    "correct_answer": "entity_does_not_exist"
+  },
+  {
+    "entity_name": "Nakamura Applied Optics",
+    "entity_type": "synthetic",
+    "entity_category": "company",
+    "question": "Where is the headquarters of Nakamura Applied Optics, and how many patents does the company hold in adaptive lens technology?",
+    "correct_answer": "entity_does_not_exist"
+  },
+  {
+    "entity_name": "San Marcos del Norte",
+    "entity_type": "synthetic",
+    "entity_category": "city",
+    "question": "What is the population of San Marcos del Norte, and in which Mexican state is it located?",
+    "correct_answer": "entity_does_not_exist"
+  },
+  {
+    "entity_name": "Altenburg-Ost",
+    "entity_type": "synthetic",
+    "entity_category": "city",
+    "question": "What historical significance does the German municipality of Altenburg-Ost hold from the post-reunification period?",
+    "correct_answer": "entity_does_not_exist"
+  },
+  {
+    "entity_name": "Thornbury Crossing",
+    "entity_type": "synthetic",
+    "entity_category": "city",
+    "question": "Which county in England is the town of Thornbury Crossing situated in, and what is its primary industry?",
+    "correct_answer": "entity_does_not_exist"
+  },
+  {
+    "entity_name": "Lac-Saint-Ferréol",
+    "entity_type": "synthetic",
+    "entity_category": "city",
+    "question": "What is the founding history of Lac-Saint-Ferréol in the Laurentian region of Quebec?",
+    "correct_answer": "entity_does_not_exist"
+  },
+  {
+    "entity_name": "Vostochny Perevoz",
+    "entity_type": "synthetic",
+    "entity_category": "city",
+    "question": "What role did Vostochny Perevoz play as a river trading settlement in Siberia during the 18th century?",
+    "correct_answer": "entity_does_not_exist"
+  },
+  {
+    "entity_name": "3-methylpentyl acetoacetate",
+    "entity_type": "synthetic",
+    "entity_category": "compound",
+    "question": "What are the known industrial applications and boiling point of 3-methylpentyl acetoacetate?",
+    "correct_answer": "entity_does_not_exist"
+  },
+  {
+    "entity_name": "diethyl-4-aminobenzoate sulfonate",
+    "entity_type": "synthetic",
+    "entity_category": "compound",
+    "question": "Is diethyl-4-aminobenzoate sulfonate used as an intermediate in pharmaceutical synthesis, and what is its molecular weight?",
+    "correct_answer": "entity_does_not_exist"
+  },
+  {
+    "entity_name": "2,6-dichloro-N-propylpyrimidine",
+    "entity_type": "synthetic",
+    "entity_category": "compound",
+    "question": "What is the crystal structure and melting point of 2,6-dichloro-N-propylpyrimidine as reported in chemical databases?",
+    "correct_answer": "entity_does_not_exist"
+  },
+  {
+    "entity_name": "cyclopentyl-β-D-thiogalactoside",
+    "entity_type": "synthetic",
+    "entity_category": "compound",
+    "question": "Has cyclopentyl-β-D-thiogalactoside been characterized as an inducer of lac operon expression in recombinant protein production?",
+    "correct_answer": "entity_does_not_exist"
+  },
+  {
+    "entity_name": "methyl 7-oxabicyclo[3.2.1]octane-3-carboxylate",
+    "entity_type": "synthetic",
+    "entity_category": "compound",
+    "question": "What synthetic route is commonly used to prepare methyl 7-oxabicyclo[3.2.1]octane-3-carboxylate, and what are its spectroscopic properties?",
+    "correct_answer": "entity_does_not_exist"
+  },
+  {
+    "entity_name": "The Brouwer-Kolmogorov theorem",
+    "entity_type": "synthetic",
+    "entity_category": "concept",
+    "question": "How does the Brouwer-Kolmogorov theorem relate fixed-point theory to measure-theoretic probability?",
+    "correct_answer": "entity_does_not_exist"
+  },
+  {
+    "entity_name": "Paulson equilibrium",
+    "entity_type": "synthetic",
+    "entity_category": "concept",
+    "question": "In what branch of game theory is the Paulson equilibrium most frequently applied, and how does it differ from Nash equilibrium?",
+    "correct_answer": "entity_does_not_exist"
+  },
+  {
+    "entity_name": "The Lindgren-Hausdorff conjecture",
+    "entity_type": "synthetic",
+    "entity_category": "concept",
+    "question": "What does the Lindgren-Hausdorff conjecture predict about the dimensional regularity of self-affine fractals?",
+    "correct_answer": "entity_does_not_exist"
+  },
+  {
+    "entity_name": "Ostrowski-Penrose duality",
+    "entity_type": "synthetic",
+    "entity_category": "concept",
+    "question": "How is Ostrowski-Penrose duality applied in the study of twistor spaces and p-adic analysis?",
+    "correct_answer": "entity_does_not_exist"
+  },
+  {
+    "entity_name": "The Carvalho dissipation principle",
+    "entity_type": "synthetic",
+    "entity_category": "concept",
+    "question": "What implications does the Carvalho dissipation principle have for entropy production in non-equilibrium thermodynamic systems?",
+    "correct_answer": "entity_does_not_exist"
+  }
+]

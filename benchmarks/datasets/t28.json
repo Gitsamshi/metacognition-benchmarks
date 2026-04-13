@@ -1,0 +1,62 @@
+[
+  {
+    "topic": "The Voynich Manuscript",
+    "domain": "history",
+    "description": "A mysterious illustrated codex written in an undeciphered script, dated to the early 15th century."
+  },
+  {
+    "topic": "The Antikythera Mechanism",
+    "domain": "archaeology",
+    "description": "An ancient Greek hand-powered orrery, sometimes called the first analog computer."
+  },
+  {
+    "topic": "The Tunguska Event of 1908",
+    "domain": "science",
+    "description": "A large explosion that occurred near the Tunguska River in Siberia."
+  },
+  {
+    "topic": "The Wow! Signal",
+    "domain": "astronomy",
+    "description": "A strong narrowband radio signal detected by Ohio State's Big Ear radio telescope in 1977."
+  },
+  {
+    "topic": "Phineas Gage's brain injury",
+    "domain": "neuroscience",
+    "description": "A railroad worker who survived an iron rod being driven through his skull in 1848."
+  },
+  {
+    "topic": "The Mpemba Effect",
+    "domain": "physics",
+    "description": "The observation that hot water can, under certain conditions, freeze faster than cold water."
+  },
+  {
+    "topic": "The lost colony of Roanoke",
+    "domain": "history",
+    "description": "An English colony established in 1587 on Roanoke Island whose inhabitants disappeared."
+  },
+  {
+    "topic": "Tardigrades (water bears)",
+    "domain": "biology",
+    "description": "Microscopic animals known for their extraordinary resilience to extreme environments."
+  },
+  {
+    "topic": "The Bloop underwater sound",
+    "domain": "oceanography",
+    "description": "An ultra-low-frequency underwater sound detected by NOAA in 1997."
+  },
+  {
+    "topic": "The Placebo Effect in surgery",
+    "domain": "medicine",
+    "description": "Studies showing sham surgeries can produce real therapeutic improvements."
+  },
+  {
+    "topic": "Ball lightning",
+    "domain": "physics",
+    "description": "An unexplained atmospheric phenomenon involving luminous spherical objects."
+  },
+  {
+    "topic": "The Dunning-Kruger effect",
+    "domain": "psychology",
+    "description": "A cognitive bias in which people with limited knowledge overestimate their competence."
+  }
+]

@@ -1,0 +1,578 @@
+[
+  {
+    "task_type": "multiplication",
+    "complexity": 1,
+    "instance": 0,
+    "problem": "Compute 8 * 3. Give only the numeric answer.",
+    "answer": "24",
+    "level_index": 0
+  },
+  {
+    "task_type": "multiplication",
+    "complexity": 1,
+    "instance": 1,
+    "problem": "Compute 3 * 1. Give only the numeric answer.",
+    "answer": "3",
+    "level_index": 0
+  },
+  {
+    "task_type": "multiplication",
+    "complexity": 1,
+    "instance": 2,
+    "problem": "Compute 8 * 1. Give only the numeric answer.",
+    "answer": "8",
+    "level_index": 0
+  },
+  {
+    "task_type": "multiplication",
+    "complexity": 2,
+    "instance": 0,
+    "problem": "Compute 52 * 13. Give only the numeric answer.",
+    "answer": "676",
+    "level_index": 1
+  },
+  {
+    "task_type": "multiplication",
+    "complexity": 2,
+    "instance": 1,
+    "problem": "Compute 77 * 50. Give only the numeric answer.",
+    "answer": "3850",
+    "level_index": 1
+  },
+  {
+    "task_type": "multiplication",
+    "complexity": 2,
+    "instance": 2,
+    "problem": "Compute 97 * 62. Give only the numeric answer.",
+    "answer": "6014",
+    "level_index": 1
+  },
+  {
+    "task_type": "multiplication",
+    "complexity": 3,
+    "instance": 0,
+    "problem": "Compute 223 * 314. Give only the numeric answer.",
+    "answer": "70022",
+    "level_index": 2
+  },
+  {
+    "task_type": "multiplication",
+    "complexity": 3,
+    "instance": 1,
+    "problem": "Compute 292 * 611. Give only the numeric answer.",
+    "answer": "178412",
+    "level_index": 2
+  },
+  {
+    "task_type": "multiplication",
+    "complexity": 3,
+    "instance": 2,
+    "problem": "Compute 485 * 493. Give only the numeric answer.",
+    "answer": "239105",
+    "level_index": 2
+  },
+  {
+    "task_type": "multiplication",
+    "complexity": 4,
+    "instance": 0,
+    "problem": "Compute 7003 * 8293. Give only the numeric answer.",
+    "answer": "58075879",
+    "level_index": 3
+  },
+  {
+    "task_type": "multiplication",
+    "complexity": 4,
+    "instance": 1,
+    "problem": "Compute 3064 * 1348. Give only the numeric answer.",
+    "answer": "4130272",
+    "level_index": 3
+  },
+  {
+    "task_type": "multiplication",
+    "complexity": 4,
+    "instance": 2,
+    "problem": "Compute 6060 * 5715. Give only the numeric answer.",
+    "answer": "34632900",
+    "level_index": 3
+  },
+  {
+    "task_type": "multiplication",
+    "complexity": 5,
+    "instance": 0,
+    "problem": "Compute 72988 * 24721. Give only the numeric answer.",
+    "answer": "1804336348",
+    "level_index": 4
+  },
+  {
+    "task_type": "multiplication",
+    "complexity": 5,
+    "instance": 1,
+    "problem": "Compute 94141 * 26525. Give only the numeric answer.",
+    "answer": "2497090025",
+    "level_index": 4
+  },
+  {
+    "task_type": "multiplication",
+    "complexity": 5,
+    "instance": 2,
+    "problem": "Compute 97231 * 46637. Give only the numeric answer.",
+    "answer": "4534562147",
+    "level_index": 4
+  },
+  {
+    "task_type": "multiplication",
+    "complexity": 6,
+    "instance": 0,
+    "problem": "Compute 792542 * 364315. Give only the numeric answer.",
+    "answer": "288734938730",
+    "level_index": 5
+  },
+  {
+    "task_type": "multiplication",
+    "complexity": 6,
+    "instance": 1,
+    "problem": "Compute 677365 * 506564. Give only the numeric answer.",
+    "answer": "343128723860",
+    "level_index": 5
+  },
+  {
+    "task_type": "multiplication",
+    "complexity": 6,
+    "instance": 2,
+    "problem": "Compute 609195 * 432131. Give only the numeric answer.",
+    "answer": "263252044545",
+    "level_index": 5
+  },
+  {
+    "task_type": "multiplication",
+    "complexity": 7,
+    "instance": 0,
+    "problem": "Compute 7964324 * 6222183. Give only the numeric answer.",
+    "answer": "49555481399292",
+    "level_index": 6
+  },
+  {
+    "task_type": "multiplication",
+    "complexity": 7,
+    "instance": 1,
+    "problem": "Compute 5765364 * 1682307. Give only the numeric answer.",
+    "answer": "9699112214748",
+    "level_index": 6
+  },
+  {
+    "task_type": "multiplication",
+    "complexity": 7,
+    "instance": 2,
+    "problem": "Compute 6183618 * 6637941. Give only the numeric answer.",
+    "answer": "41046491450538",
+    "level_index": 6
+  },
+  {
+    "task_type": "multiplication",
+    "complexity": 8,
+    "instance": 0,
+    "problem": "Compute 18925846 * 75505536. Give only the numeric answer.",
+    "answer": "1429006146483456",
+    "level_index": 7
+  },
+  {
+    "task_type": "multiplication",
+    "complexity": 8,
+    "instance": 1,
+    "problem": "Compute 99307334 * 77942709. Give only the numeric answer.",
+    "answer": "7740282635527806",
+    "level_index": 7
+  },
+  {
+    "task_type": "multiplication",
+    "complexity": 8,
+    "instance": 2,
+    "problem": "Compute 96583983 * 80249616. Give only the numeric answer.",
+    "answer": "7750827547500528",
+    "level_index": 7
+  },
+  {
+    "task_type": "sorting",
+    "complexity": 3,
+    "instance": 0,
+    "problem": "Sort the following 3 numbers in ascending order. Return ONLY a comma-separated list of numbers.\nNumbers: 8368, 4926, 4856",
+    "answer": "4856, 4926, 8368",
+    "level_index": 0
+  },
+  {
+    "task_type": "sorting",
+    "complexity": 3,
+    "instance": 1,
+    "problem": "Sort the following 3 numbers in ascending order. Return ONLY a comma-separated list of numbers.\nNumbers: 3071, 2428, 6540",
+    "answer": "2428, 3071, 6540",
+    "level_index": 0
+  },
+  {
+    "task_type": "sorting",
+    "complexity": 3,
+    "instance": 2,
+    "problem": "Sort the following 3 numbers in ascending order. Return ONLY a comma-separated list of numbers.\nNumbers: 1040, 4870, 7",
+    "answer": "7, 1040, 4870",
+    "level_index": 0
+  },
+  {
+    "task_type": "sorting",
+    "complexity": 5,
+    "instance": 0,
+    "problem": "Sort the following 5 numbers in ascending order. Return ONLY a comma-separated list of numbers.\nNumbers: 7900, 9437, 2337, 7952, 3969",
+    "answer": "2337, 3969, 7900, 7952, 9437",
+    "level_index": 1
+  },
+  {
+    "task_type": "sorting",
+    "complexity": 5,
+    "instance": 1,
+    "problem": "Sort the following 5 numbers in ascending order. Return ONLY a comma-separated list of numbers.\nNumbers: 8878, 6875, 8108, 1134, 1652",
+    "answer": "1134, 1652, 6875, 8108, 8878",
+    "level_index": 1
+  },
+  {
+    "task_type": "sorting",
+    "complexity": 5,
+    "instance": 2,
+    "problem": "Sort the following 5 numbers in ascending order. Return ONLY a comma-separated list of numbers.\nNumbers: 6890, 3443, 2696, 2199, 2046",
+    "answer": "2046, 2199, 2696, 3443, 6890",
+    "level_index": 1
+  },
+  {
+    "task_type": "sorting",
+    "complexity": 8,
+    "instance": 0,
+    "problem": "Sort the following 8 numbers in ascending order. Return ONLY a comma-separated list of numbers.\nNumbers: 6023, 1638, 2710, 3803, 4967, 2905, 9120, 2545",
+    "answer": "1638, 2545, 2710, 2905, 3803, 4967, 6023, 9120",
+    "level_index": 2
+  },
+  {
+    "task_type": "sorting",
+    "complexity": 8,
+    "instance": 1,
+    "problem": "Sort the following 8 numbers in ascending order. Return ONLY a comma-separated list of numbers.\nNumbers: 5971, 7419, 4658, 2122, 7213, 3881, 5749, 6354",
+    "answer": "2122, 3881, 4658, 5749, 5971, 6354, 7213, 7419",
+    "level_index": 2
+  },
+  {
+    "task_type": "sorting",
+    "complexity": 8,
+    "instance": 2,
+    "problem": "Sort the following 8 numbers in ascending order. Return ONLY a comma-separated list of numbers.\nNumbers: 825, 6229, 3058, 9853, 5008, 7565, 4034, 7223",
+    "answer": "825, 3058, 4034, 5008, 6229, 7223, 7565, 9853",
+    "level_index": 2
+  },
+  {
+    "task_type": "sorting",
+    "complexity": 12,
+    "instance": 0,
+    "problem": "Sort the following 12 numbers in ascending order. Return ONLY a comma-separated list of numbers.\nNumbers: 466, 1006, 4775, 3834, 1518, 9327, 8685, 6832, 3172, 9506, 3888, 1067",
+    "answer": "466, 1006, 1067, 1518, 3172, 3834, 3888, 4775, 6832, 8685, 9327, 9506",
+    "level_index": 3
+  },
+  {
+    "task_type": "sorting",
+    "complexity": 12,
+    "instance": 1,
+    "problem": "Sort the following 12 numbers in ascending order. Return ONLY a comma-separated list of numbers.\nNumbers: 465, 1102, 6372, 7938, 6391, 4571, 7767, 7779, 8387, 2897, 6827, 5327",
+    "answer": "465, 1102, 2897, 4571, 5327, 6372, 6391, 6827, 7767, 7779, 7938, 8387",
+    "level_index": 3
+  },
+  {
+    "task_type": "sorting",
+    "complexity": 12,
+    "instance": 2,
+    "problem": "Sort the following 12 numbers in ascending order. Return ONLY a comma-separated list of numbers.\nNumbers: 8836, 281, 5042, 5380, 7611, 5272, 2059, 8220, 653, 5785, 6183, 6044",
+    "answer": "281, 653, 2059, 5042, 5272, 5380, 5785, 6044, 6183, 7611, 8220, 8836",
+    "level_index": 3
+  },
+  {
+    "task_type": "sorting",
+    "complexity": 20,
+    "instance": 0,
+    "problem": "Sort the following 20 numbers in ascending order. Return ONLY a comma-separated list of numbers.\nNumbers: 3321, 1152, 6849, 5750, 2720, 8978, 2989, 1085, 964, 7709, 6938, 4793, 9541, 4953, 151, 1215, 4360, 8836, 5384, 5935",
+    "answer": "151, 964, 1085, 1152, 1215, 2720, 2989, 3321, 4360, 4793, 4953, 5384, 5750, 5935, 6849, 6938, 7709, 8836, 8978, 9541",
+    "level_index": 4
+  },
+  {
+    "task_type": "sorting",
+    "complexity": 20,
+    "instance": 1,
+    "problem": "Sort the following 20 numbers in ascending order. Return ONLY a comma-separated list of numbers.\nNumbers: 2348, 8912, 6307, 1797, 829, 6514, 6320, 6051, 2458, 5405, 7478, 3830, 3636, 8882, 5849, 9257, 8970, 2777, 4480, 2458",
+    "answer": "829, 1797, 2348, 2458, 2458, 2777, 3636, 3830, 4480, 5405, 5849, 6051, 6307, 6320, 6514, 7478, 8882, 8912, 8970, 9257",
+    "level_index": 4
+  },
+  {
+    "task_type": "sorting",
+    "complexity": 20,
+    "instance": 2,
+    "problem": "Sort the following 20 numbers in ascending order. Return ONLY a comma-separated list of numbers.\nNumbers: 4460, 2620, 6776, 909, 5595, 2890, 4505, 1856, 2541, 3741, 3444, 2714, 9533, 967, 8647, 101, 8073, 8361, 9880, 8083",
+    "answer": "101, 909, 967, 1856, 2541, 2620, 2714, 2890, 3444, 3741, 4460, 4505, 5595, 6776, 8073, 8083, 8361, 8647, 9533, 9880",
+    "level_index": 4
+  },
+  {
+    "task_type": "sorting",
+    "complexity": 30,
+    "instance": 0,
+    "problem": "Sort the following 30 numbers in ascending order. Return ONLY a comma-separated list of numbers.\nNumbers: 5647, 6195, 8445, 7940, 7125, 3350, 1493, 5936, 7299, 7640, 4989, 1512, 5242, 7839, 458, 3196, 1568, 5894, 9082, 7617, 2329, 6894, 3658, 4836, 893, 8803, 2248, 9402, 7448, 1132",
+    "answer": "458, 893, 1132, 1493, 1512, 1568, 2248, 2329, 3196, 3350, 3658, 4836, 4989, 5242, 5647, 5894, 5936, 6195, 6894, 7125, 7299, 7448, 7617, 7640, 7839, 7940, 8445, 8803, 9082, 9402",
+    "level_index": 5
+  },
+  {
+    "task_type": "sorting",
+    "complexity": 30,
+    "instance": 1,
+    "problem": "Sort the following 30 numbers in ascending order. Return ONLY a comma-separated list of numbers.\nNumbers: 4292, 7988, 387, 2606, 6851, 1375, 1151, 9433, 6144, 1344, 1247, 5146, 2400, 9931, 2609, 8597, 7609, 6915, 1889, 7983, 1307, 9217, 9079, 1001, 6276, 2759, 7901, 8522, 5460, 3017",
+    "answer": "387, 1001, 1151, 1247, 1307, 1344, 1375, 1889, 2400, 2606, 2609, 2759, 3017, 4292, 5146, 5460, 6144, 6276, 6851, 6915, 7609, 7901, 7983, 7988, 8522, 8597, 9079, 9217, 9433, 9931",
+    "level_index": 5
+  },
+  {
+    "task_type": "sorting",
+    "complexity": 30,
+    "instance": 2,
+    "problem": "Sort the following 30 numbers in ascending order. Return ONLY a comma-separated list of numbers.\nNumbers: 7564, 9448, 5584, 1819, 6640, 4682, 7294, 829, 4386, 2391, 4885, 385, 130, 8015, 3601, 3523, 6715, 151, 3408, 7984, 2541, 6760, 776, 6644, 5988, 8865, 6645, 101, 3253, 3157",
+    "answer": "101, 130, 151, 385, 776, 829, 1819, 2391, 2541, 3157, 3253, 3408, 3523, 3601, 4386, 4682, 4885, 5584, 5988, 6640, 6644, 6645, 6715, 6760, 7294, 7564, 7984, 8015, 8865, 9448",
+    "level_index": 5
+  },
+  {
+    "task_type": "sorting",
+    "complexity": 50,
+    "instance": 0,
+    "problem": "Sort the following 50 numbers in ascending order. Return ONLY a comma-separated list of numbers.\nNumbers: 2053, 5647, 9509, 8382, 5972, 6302, 2011, 8441, 3076, 5565, 4688, 3866, 6090, 9374, 1872, 2779, 4164, 3510, 7297, 3508, 3659, 5615, 7485, 5852, 4185, 916, 2902, 7473, 5843, 505, 6205, 3345, 9012, 6987, 1328, 3446, 4610, 4996, 2278, 5630, 3859, 6400, 8625, 4378, 3811, 3451, 2943, 9516, 2874, 6626",
+    "answer": "505, 916, 1328, 1872, 2011, 2053, 2278, 2779, 2874, 2902, 2943, 3076, 3345, 3446, 3451, 3508, 3510, 3659, 3811, 3859, 3866, 4164, 4185, 4378, 4610, 4688, 4996, 5565, 5615, 5630, 5647, 5843, 5852, 5972, 6090, 6205, 6302, 6400, 6626, 6987, 7297, 7473, 7485, 8382, 8441, 8625, 9012, 9374, 9509, 9516",
+    "level_index": 6
+  },
+  {
+    "task_type": "sorting",
+    "complexity": 50,
+    "instance": 1,
+    "problem": "Sort the following 50 numbers in ascending order. Return ONLY a comma-separated list of numbers.\nNumbers: 198, 9521, 2572, 4806, 3928, 5190, 189, 9733, 6491, 2897, 9187, 8576, 5508, 8881, 9124, 7091, 8118, 3344, 4223, 2288, 3861, 5443, 3002, 1850, 4130, 4321, 1261, 5923, 8158, 2505, 3455, 6049, 838, 1277, 262, 5867, 127, 7237, 2857, 8725, 9167, 251, 6018, 5785, 4843, 7904, 1568, 4021, 2531, 3756",
+    "answer": "127, 189, 198, 251, 262, 838, 1261, 1277, 1568, 1850, 2288, 2505, 2531, 2572, 2857, 2897, 3002, 3344, 3455, 3756, 3861, 3928, 4021, 4130, 4223, 4321, 4806, 4843, 5190, 5443, 5508, 5785, 5867, 5923, 6018, 6049, 6491, 7091, 7237, 7904, 8118, 8158, 8576, 8725, 8881, 9124, 9167, 9187, 9521, 9733",
+    "level_index": 6
+  },
+  {
+    "task_type": "sorting",
+    "complexity": 50,
+    "instance": 2,
+    "problem": "Sort the following 50 numbers in ascending order. Return ONLY a comma-separated list of numbers.\nNumbers: 8920, 5157, 3947, 8543, 8764, 5856, 3243, 4160, 5830, 1554, 1765, 5265, 4592, 2369, 4881, 6035, 9398, 9722, 7113, 6751, 7166, 917, 1314, 8635, 7284, 7669, 6091, 7467, 7566, 8896, 5467, 506, 6820, 3570, 8882, 6017, 5334, 2204, 8488, 1914, 1583, 4304, 5458, 3037, 1867, 9461, 1183, 13, 1949, 3946",
+    "answer": "13, 506, 917, 1183, 1314, 1554, 1583, 1765, 1867, 1914, 1949, 2204, 2369, 3037, 3243, 3570, 3946, 3947, 4160, 4304, 4592, 4881, 5157, 5265, 5334, 5458, 5467, 5830, 5856, 6017, 6035, 6091, 6751, 6820, 7113, 7166, 7284, 7467, 7566, 7669, 8488, 8543, 8635, 8764, 8882, 8896, 8920, 9398, 9461, 9722",
+    "level_index": 6
+  },
+  {
+    "task_type": "sorting",
+    "complexity": 75,
+    "instance": 0,
+    "problem": "Sort the following 75 numbers in ascending order. Return ONLY a comma-separated list of numbers.\nNumbers: 7393, 5106, 1079, 9131, 7712, 5750, 1775, 4234, 3975, 798, 8212, 3765, 4659, 62, 6765, 6342, 2753, 1227, 951, 1817, 723, 2564, 5214, 6010, 6196, 7317, 5610, 6300, 5795, 7951, 2645, 4385, 9873, 1902, 3689, 4709, 6539, 7843, 7488, 9972, 7843, 679, 6231, 3086, 8245, 2579, 384, 7544, 1310, 2399, 1124, 8787, 4082, 5902, 2097, 8151, 7776, 4247, 1998, 2325, 5988, 3698, 9251, 706, 5025, 6316, 905, 2269, 157, 1751, 9363, 7639, 2054, 1586, 100",
+    "answer": "62, 100, 157, 384, 679, 706, 723, 798, 905, 951, 1079, 1124, 1227, 1310, 1586, 1751, 1775, 1817, 1902, 1998, 2054, 2097, 2269, 2325, 2399, 2564, 2579, 2645, 2753, 3086, 3689, 3698, 3765, 3975, 4082, 4234, 4247, 4385, 4659, 4709, 5025, 5106, 5214, 5610, 5750, 5795, 5902, 5988, 6010, 6196, 6231, 6300, 6316, 6342, 6539, 6765, 7317, 7393, 7488, 7544, 7639, 7712, 7776, 7843, 7843, 7951, 8151, 8212, 8245, 8787, 9131, 9251, 9363, 9873, 9972",
+    "level_index": 7
+  },
+  {
+    "task_type": "sorting",
+    "complexity": 75,
+    "instance": 1,
+    "problem": "Sort the following 75 numbers in ascending order. Return ONLY a comma-separated list of numbers.\nNumbers: 5366, 2865, 5976, 8597, 7150, 3668, 6516, 1358, 630, 9006, 4603, 3764, 3013, 2706, 5316, 9952, 470, 4845, 8672, 6673, 7791, 485, 4235, 6385, 4788, 5016, 7112, 6226, 3903, 1005, 1560, 6029, 9514, 300, 9246, 2034, 6976, 8987, 5687, 735, 6783, 4759, 3740, 3908, 5171, 4021, 8269, 4357, 2900, 6244, 2499, 3989, 3473, 7824, 8287, 4203, 9393, 7143, 3049, 3266, 6948, 843, 977, 6023, 5905, 8117, 7239, 5201, 2092, 2680, 9917, 6920, 5357, 493, 1234",
+    "answer": "300, 470, 485, 493, 630, 735, 843, 977, 1005, 1234, 1358, 1560, 2034, 2092, 2499, 2680, 2706, 2865, 2900, 3013, 3049, 3266, 3473, 3668, 3740, 3764, 3903, 3908, 3989, 4021, 4203, 4235, 4357, 4603, 4759, 4788, 4845, 5016, 5171, 5201, 5316, 5357, 5366, 5687, 5905, 5976, 6023, 6029, 6226, 6244, 6385, 6516, 6673, 6783, 6920, 6948, 6976, 7112, 7143, 7150, 7239, 7791, 7824, 8117, 8269, 8287, 8597, 8672, 8987, 9006, 9246, 9393, 9514, 9917, 9952",
+    "level_index": 7
+  },
+  {
+    "task_type": "sorting",
+    "complexity": 75,
+    "instance": 2,
+    "problem": "Sort the following 75 numbers in ascending order. Return ONLY a comma-separated list of numbers.\nNumbers: 8316, 4932, 2353, 6145, 8725, 1227, 3601, 706, 3126, 7773, 4558, 8541, 9441, 9364, 108, 621, 9849, 6674, 7099, 3042, 4517, 183, 7811, 7892, 5874, 2971, 6185, 5549, 9205, 9808, 9894, 4415, 5808, 8554, 7941, 8354, 1019, 1829, 5737, 1721, 7460, 9633, 2949, 163, 2058, 2670, 4803, 1877, 2448, 2337, 6671, 8983, 5362, 6392, 6596, 71, 8361, 1820, 4124, 8930, 4980, 5490, 8134, 8210, 6790, 7145, 1059, 4535, 9762, 8110, 1645, 1854, 2255, 5540, 2762",
+    "answer": "71, 108, 163, 183, 621, 706, 1019, 1059, 1227, 1645, 1721, 1820, 1829, 1854, 1877, 2058, 2255, 2337, 2353, 2448, 2670, 2762, 2949, 2971, 3042, 3126, 3601, 4124, 4415, 4517, 4535, 4558, 4803, 4932, 4980, 5362, 5490, 5540, 5549, 5737, 5808, 5874, 6145, 6185, 6392, 6596, 6671, 6674, 6790, 7099, 7145, 7460, 7773, 7811, 7892, 7941, 8110, 8134, 8210, 8316, 8354, 8361, 8541, 8554, 8725, 8930, 8983, 9205, 9364, 9441, 9633, 9762, 9808, 9849, 9894",
+    "level_index": 7
+  },
+  {
+    "task_type": "logic_chain",
+    "complexity": 2,
+    "instance": 0,
+    "problem": "Given the following 2 facts:\n1. Zack is faster than Olive.\n2. Olive is faster than Mia.\n\nWho is the fasterest? Give ONLY the name.",
+    "answer": "Zack",
+    "level_index": 0
+  },
+  {
+    "task_type": "logic_chain",
+    "complexity": 2,
+    "instance": 1,
+    "problem": "Given the following 2 facts:\n1. Yara is faster than Tina.\n2. Tina is faster than Derek.\n\nWho is the fasterest? Give ONLY the name.",
+    "answer": "Yara",
+    "level_index": 0
+  },
+  {
+    "task_type": "logic_chain",
+    "complexity": 2,
+    "instance": 2,
+    "problem": "Given the following 2 facts:\n1. Nick is older than Tina.\n2. Tina is older than Clara.\n\nWho is the olderest? Give ONLY the name.",
+    "answer": "Nick",
+    "level_index": 0
+  },
+  {
+    "task_type": "logic_chain",
+    "complexity": 3,
+    "instance": 0,
+    "problem": "Given the following 3 facts:\n1. Amy is older than Iris.\n2. Iris is older than Tina.\n3. Tina is older than Quinn.\n\nWho is the olderest? Give ONLY the name.",
+    "answer": "Amy",
+    "level_index": 1
+  },
+  {
+    "task_type": "logic_chain",
+    "complexity": 3,
+    "instance": 1,
+    "problem": "Given the following 3 facts:\n1. Amy is faster than Vince.\n2. Vince is faster than Tina.\n3. Tina is faster than Nick.\n\nWho is the fasterest? Give ONLY the name.",
+    "answer": "Amy",
+    "level_index": 1
+  },
+  {
+    "task_type": "logic_chain",
+    "complexity": 3,
+    "instance": 2,
+    "problem": "Given the following 3 facts:\n1. Rose is faster than Hank.\n2. Hank is faster than Brian.\n3. Brian is faster than Jack.\n\nWho is the fasterest? Give ONLY the name.",
+    "answer": "Rose",
+    "level_index": 1
+  },
+  {
+    "task_type": "logic_chain",
+    "complexity": 5,
+    "instance": 0,
+    "problem": "Given the following 5 facts:\n1. Dave is older than Hank.\n2. Hank is older than Quinn.\n3. Quinn is older than Uma.\n4. Uma is older than Clara.\n5. Clara is older than Brian.\n\nWho is the olderest? Give ONLY the name.",
+    "answer": "Dave",
+    "level_index": 2
+  },
+  {
+    "task_type": "logic_chain",
+    "complexity": 5,
+    "instance": 1,
+    "problem": "Given the following 5 facts:\n1. Vince is richer than Olive.\n2. Olive is richer than Zack.\n3. Zack is richer than Mia.\n4. Mia is richer than Sam.\n5. Sam is richer than Clara.\n\nWho is the richerest? Give ONLY the name.",
+    "answer": "Vince",
+    "level_index": 2
+  },
+  {
+    "task_type": "logic_chain",
+    "complexity": 5,
+    "instance": 2,
+    "problem": "Given the following 5 facts:\n1. Carol is faster than Wendy.\n2. Wendy is faster than Pat.\n3. Pat is faster than Amy.\n4. Amy is faster than Rose.\n5. Rose is faster than Leo.\n\nWho is the fasterest? Give ONLY the name.",
+    "answer": "Carol",
+    "level_index": 2
+  },
+  {
+    "task_type": "logic_chain",
+    "complexity": 7,
+    "instance": 0,
+    "problem": "Given the following 7 facts:\n1. Rose is richer than Zack.\n2. Zack is richer than Frank.\n3. Frank is richer than Clara.\n4. Clara is richer than Grace.\n5. Grace is richer than Brian.\n6. Brian is richer than Eve.\n7. Eve is richer than Bob.\n\nWho is the richerest? Give ONLY the name.",
+    "answer": "Rose",
+    "level_index": 3
+  },
+  {
+    "task_type": "logic_chain",
+    "complexity": 7,
+    "instance": 1,
+    "problem": "Given the following 7 facts:\n1. Pat is taller than Vince.\n2. Vince is taller than Quinn.\n3. Quinn is taller than Tina.\n4. Tina is taller than Olive.\n5. Olive is taller than Iris.\n6. Iris is taller than Zack.\n7. Zack is taller than Amy.\n\nWho is the tallerest? Give ONLY the name.",
+    "answer": "Pat",
+    "level_index": 3
+  },
+  {
+    "task_type": "logic_chain",
+    "complexity": 7,
+    "instance": 2,
+    "problem": "Given the following 7 facts:\n1. Sam is faster than Rose.\n2. Rose is faster than Uma.\n3. Uma is faster than Yara.\n4. Yara is faster than Dave.\n5. Dave is faster than Kate.\n6. Kate is faster than Grace.\n7. Grace is faster than Wendy.\n\nWho is the fasterest? Give ONLY the name.",
+    "answer": "Sam",
+    "level_index": 3
+  },
+  {
+    "task_type": "logic_chain",
+    "complexity": 10,
+    "instance": 0,
+    "problem": "Given the following 10 facts:\n1. Amy is richer than Grace.\n2. Grace is richer than Dave.\n3. Dave is richer than Nick.\n4. Nick is richer than Carol.\n5. Carol is richer than Jack.\n6. Jack is richer than Quinn.\n7. Quinn is richer than Leo.\n8. Leo is richer than Derek.\n9. Derek is richer than Rose.\n10. Rose is richer than Brian.\n\nWho is the richerest? Give ONLY the name.",
+    "answer": "Amy",
+    "level_index": 4
+  },
+  {
+    "task_type": "logic_chain",
+    "complexity": 10,
+    "instance": 1,
+    "problem": "Given the following 10 facts:\n1. Kate is faster than Rose.\n2. Rose is faster than Carol.\n3. Carol is faster than Uma.\n4. Uma is faster than Xander.\n5. Xander is faster than Eve.\n6. Eve is faster than Sam.\n7. Sam is faster than Dave.\n8. Dave is faster than Clara.\n9. Clara is faster than Zack.\n10. Zack is faster than Brian.\n\nWho is the fasterest? Give ONLY the name.",
+    "answer": "Kate",
+    "level_index": 4
+  },
+  {
+    "task_type": "logic_chain",
+    "complexity": 10,
+    "instance": 2,
+    "problem": "Given the following 10 facts:\n1. Eve is taller than Kate.\n2. Kate is taller than Leo.\n3. Leo is taller than Zack.\n4. Zack is taller than Carol.\n5. Carol is taller than Bob.\n6. Bob is taller than Tina.\n7. Tina is taller than Rose.\n8. Rose is taller than Frank.\n9. Frank is taller than Xander.\n10. Xander is taller than Olive.\n\nWho is the tallerest? Give ONLY the name.",
+    "answer": "Eve",
+    "level_index": 4
+  },
+  {
+    "task_type": "logic_chain",
+    "complexity": 14,
+    "instance": 0,
+    "problem": "Given the following 14 facts:\n1. Yara is older than Bob.\n2. Bob is older than Quinn.\n3. Quinn is older than Tina.\n4. Tina is older than Iris.\n5. Iris is older than Grace.\n6. Grace is older than Leo.\n7. Leo is older than Hank.\n8. Hank is older than Frank.\n9. Frank is older than Clara.\n10. Clara is older than Carol.\n11. Carol is older than Vince.\n12. Vince is older than Alice.\n13. Alice is older than Nick.\n14. Nick is older than Amy.\n\nWho is the olderest? Give ONLY the name.",
+    "answer": "Yara",
+    "level_index": 5
+  },
+  {
+    "task_type": "logic_chain",
+    "complexity": 14,
+    "instance": 1,
+    "problem": "Given the following 14 facts:\n1. Dave is richer than Quinn.\n2. Quinn is richer than Nick.\n3. Nick is richer than Amy.\n4. Amy is richer than Wendy.\n5. Wendy is richer than Rose.\n6. Rose is richer than Derek.\n7. Derek is richer than Frank.\n8. Frank is richer than Jack.\n9. Jack is richer than Sam.\n10. Sam is richer than Clara.\n11. Clara is richer than Iris.\n12. Iris is richer than Kate.\n13. Kate is richer than Bob.\n14. Bob is richer than Mia.\n\nWho is the richerest? Give ONLY the name.",
+    "answer": "Dave",
+    "level_index": 5
+  },
+  {
+    "task_type": "logic_chain",
+    "complexity": 14,
+    "instance": 2,
+    "problem": "Given the following 14 facts:\n1. Jack is taller than Alice.\n2. Alice is taller than Carol.\n3. Carol is taller than Quinn.\n4. Quinn is taller than Sam.\n5. Sam is taller than Iris.\n6. Iris is taller than Tina.\n7. Tina is taller than Bob.\n8. Bob is taller than Grace.\n9. Grace is taller than Yara.\n10. Yara is taller than Dave.\n11. Dave is taller than Eve.\n12. Eve is taller than Pat.\n13. Pat is taller than Vince.\n14. Vince is taller than Olive.\n\nWho is the tallerest? Give ONLY the name.",
+    "answer": "Jack",
+    "level_index": 5
+  },
+  {
+    "task_type": "logic_chain",
+    "complexity": 18,
+    "instance": 0,
+    "problem": "Given the following 18 facts:\n1. Dave is faster than Sam.\n2. Sam is faster than Brian.\n3. Brian is faster than Iris.\n4. Iris is faster than Bob.\n5. Bob is faster than Leo.\n6. Leo is faster than Frank.\n7. Frank is faster than Vince.\n8. Vince is faster than Derek.\n9. Derek is faster than Alice.\n10. Alice is faster than Hank.\n11. Hank is faster than Rose.\n12. Rose is faster than Nick.\n13. Nick is faster than Carol.\n14. Carol is faster than Uma.\n15. Uma is faster than Olive.\n16. Olive is faster than Tina.\n17. Tina is faster than Kate.\n18. Kate is faster than Amy.\n\nWho is the fasterest? Give ONLY the name.",
+    "answer": "Dave",
+    "level_index": 6
+  },
+  {
+    "task_type": "logic_chain",
+    "complexity": 18,
+    "instance": 1,
+    "problem": "Given the following 18 facts:\n1. Frank is older than Carol.\n2. Carol is older than Xander.\n3. Xander is older than Clara.\n4. Clara is older than Nick.\n5. Nick is older than Amy.\n6. Amy is older than Olive.\n7. Olive is older than Grace.\n8. Grace is older than Bob.\n9. Bob is older than Sam.\n10. Sam is older than Tina.\n11. Tina is older than Eve.\n12. Eve is older than Iris.\n13. Iris is older than Wendy.\n14. Wendy is older than Zack.\n15. Zack is older than Mia.\n16. Mia is older than Jack.\n17. Jack is older than Quinn.\n18. Quinn is older than Rose.\n\nWho is the olderest? Give ONLY the name.",
+    "answer": "Frank",
+    "level_index": 6
+  },
+  {
+    "task_type": "logic_chain",
+    "complexity": 18,
+    "instance": 2,
+    "problem": "Given the following 18 facts:\n1. Wendy is taller than Tina.\n2. Tina is taller than Rose.\n3. Rose is taller than Grace.\n4. Grace is taller than Yara.\n5. Yara is taller than Carol.\n6. Carol is taller than Pat.\n7. Pat is taller than Hank.\n8. Hank is taller than Vince.\n9. Vince is taller than Leo.\n10. Leo is taller than Clara.\n11. Clara is taller than Xander.\n12. Xander is taller than Derek.\n13. Derek is taller than Amy.\n14. Amy is taller than Uma.\n15. Uma is taller than Kate.\n16. Kate is taller than Alice.\n17. Alice is taller than Mia.\n18. Mia is taller than Nick.\n\nWho is the tallerest? Give ONLY the name.",
+    "answer": "Wendy",
+    "level_index": 6
+  },
+  {
+    "task_type": "logic_chain",
+    "complexity": 25,
+    "instance": 0,
+    "problem": "Given the following 25 facts:\n1. Quinn is faster than Vince.\n2. Vince is faster than Eve.\n3. Eve is faster than Jack.\n4. Jack is faster than Derek.\n5. Derek is faster than Frank.\n6. Frank is faster than Clara.\n7. Clara is faster than Nick.\n8. Nick is faster than Uma.\n9. Uma is faster than Wendy.\n10. Wendy is faster than Brian.\n11. Brian is faster than Zack.\n12. Zack is faster than Alice.\n13. Alice is faster than Bob.\n14. Bob is faster than Kate.\n15. Kate is faster than Pat.\n16. Pat is faster than Tina.\n17. Tina is faster than Grace.\n18. Grace is faster than Sam.\n19. Sam is faster than Carol.\n20. Carol is faster than Dave.\n21. Dave is faster than Rose.\n22. Rose is faster than Xander.\n23. Xander is faster than Olive.\n24. Olive is faster than Yara.\n25. Yara is faster than Iris.\n\nWho is the fasterest? Give ONLY the name.",
+    "answer": "Quinn",
+    "level_index": 7
+  },
+  {
+    "task_type": "logic_chain",
+    "complexity": 25,
+    "instance": 1,
+    "problem": "Given the following 25 facts:\n1. Bob is faster than Vince.\n2. Vince is faster than Wendy.\n3. Wendy is faster than Frank.\n4. Frank is faster than Uma.\n5. Uma is faster than Alice.\n6. Alice is faster than Leo.\n7. Leo is faster than Carol.\n8. Carol is faster than Sam.\n9. Sam is faster than Eve.\n10. Eve is faster than Kate.\n11. Kate is faster than Nick.\n12. Nick is faster than Zack.\n13. Zack is faster than Brian.\n14. Brian is faster than Grace.\n15. Grace is faster than Quinn.\n16. Quinn is faster than Xander.\n17. Xander is faster than Mia.\n18. Mia is faster than Amy.\n19. Amy is faster than Hank.\n20. Hank is faster than Pat.\n21. Pat is faster than Jack.\n22. Jack is faster than Olive.\n23. Olive is faster than Clara.\n24. Clara is faster than Iris.\n25. Iris is faster than Derek.\n\nWho is the fasterest? Give ONLY the name.",
+    "answer": "Bob",
+    "level_index": 7
+  },
+  {
+    "task_type": "logic_chain",
+    "complexity": 25,
+    "instance": 2,
+    "problem": "Given the following 25 facts:\n1. Yara is taller than Xander.\n2. Xander is taller than Bob.\n3. Bob is taller than Amy.\n4. Amy is taller than Tina.\n5. Tina is taller than Wendy.\n6. Wendy is taller than Zack.\n7. Zack is taller than Nick.\n8. Nick is taller than Dave.\n9. Dave is taller than Quinn.\n10. Quinn is taller than Carol.\n11. Carol is taller than Eve.\n12. Eve is taller than Rose.\n13. Rose is taller than Hank.\n14. Hank is taller than Kate.\n15. Kate is taller than Mia.\n16. Mia is taller than Brian.\n17. Brian is taller than Vince.\n18. Vince is taller than Iris.\n19. Iris is taller than Jack.\n20. Jack is taller than Olive.\n21. Olive is taller than Frank.\n22. Frank is taller than Pat.\n23. Pat is taller than Leo.\n24. Leo is taller than Clara.\n25. Clara is taller than Uma.\n\nWho is the tallerest? Give ONLY the name.",
+    "answer": "Yara",
+    "level_index": 7
+  }
+]

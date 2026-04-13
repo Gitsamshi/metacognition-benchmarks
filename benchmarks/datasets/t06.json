@@ -1,0 +1,1724 @@
+[
+  {
+    "question": "What was the name of the ship that sank in 1912 after hitting an iceberg on its maiden voyage?",
+    "correct_answer": "RMS Titanic",
+    "event_year": 1912,
+    "time_bucket": "distant",
+    "accept_aliases": [
+      "Titanic",
+      "The Titanic"
+    ]
+  },
+  {
+    "question": "In 1960, which country became the first in sub-Saharan Africa to gain independence from Belgium?",
+    "correct_answer": "Democratic Republic of the Congo",
+    "event_year": 1960,
+    "time_bucket": "distant",
+    "accept_aliases": [
+      "Congo",
+      "Republic of the Congo",
+      "Belgian Congo",
+      "Zaire"
+    ]
+  },
+  {
+    "question": "What was the name of the 1923 earthquake that devastated Tokyo and Yokohama, killing over 100,000 people?",
+    "correct_answer": "Great Kanto Earthquake",
+    "event_year": 1923,
+    "time_bucket": "distant",
+    "accept_aliases": [
+      "Kanto earthquake",
+      "1923 Great Kanto earthquake"
+    ]
+  },
+  {
+    "question": "Which Soviet cosmonaut became the first woman in space in 1963?",
+    "correct_answer": "Valentina Tereshkova",
+    "event_year": 1963,
+    "time_bucket": "distant",
+    "accept_aliases": [
+      "Tereshkova"
+    ]
+  },
+  {
+    "question": "In 1935, which Italian-born physicist demonstrated the first self-sustaining nuclear chain reaction — no, who led Italy's invasion of Ethiopia that year?",
+    "correct_answer": "Benito Mussolini",
+    "event_year": 1935,
+    "time_bucket": "distant",
+    "accept_aliases": [
+      "Mussolini"
+    ]
+  },
+  {
+    "question": "What was the name of the 1902 volcanic eruption on Martinique that destroyed the city of Saint-Pierre and killed approximately 30,000 people?",
+    "correct_answer": "Mount Pelée eruption",
+    "event_year": 1902,
+    "time_bucket": "distant",
+    "accept_aliases": [
+      "Mont Pelée",
+      "Mount Pelee",
+      "Pelée eruption"
+    ]
+  },
+  {
+    "question": "Which country hosted the 1978 FIFA World Cup, winning the tournament on home soil amid political controversy?",
+    "correct_answer": "Argentina",
+    "event_year": 1978,
+    "time_bucket": "distant",
+    "accept_aliases": [
+      ""
+    ]
+  },
+  {
+    "question": "In 1947, what was the name of the UN plan that proposed dividing British Mandate Palestine into separate Jewish and Arab states?",
+    "correct_answer": "United Nations Partition Plan for Palestine",
+    "event_year": 1947,
+    "time_bucket": "distant",
+    "accept_aliases": [
+      "UN Partition Plan",
+      "Resolution 181",
+      "UNGA Resolution 181"
+    ]
+  },
+  {
+    "question": "What was the name of the 1919 massacre in Amritsar, India, where British troops under General Dyer fired on unarmed civilians?",
+    "correct_answer": "Jallianwala Bagh massacre",
+    "event_year": 1919,
+    "time_bucket": "distant",
+    "accept_aliases": [
+      "Amritsar massacre",
+      "Jallianwala Bagh",
+      "Jallianwalabagh massacre"
+    ]
+  },
+  {
+    "question": "In 1985, French intelligence agents sank which Greenpeace vessel in Auckland Harbour, New Zealand?",
+    "correct_answer": "Rainbow Warrior",
+    "event_year": 1985,
+    "time_bucket": "distant",
+    "accept_aliases": [
+      "The Rainbow Warrior",
+      "MV Rainbow Warrior"
+    ]
+  },
+  {
+    "question": "What was the name of the ship that carried the first large group of Caribbean immigrants to the United Kingdom in 1948?",
+    "correct_answer": "HMT Empire Windrush",
+    "event_year": 1948,
+    "time_bucket": "distant",
+    "accept_aliases": [
+      "Empire Windrush",
+      "SS Empire Windrush",
+      "Windrush"
+    ]
+  },
+  {
+    "question": "In 1960, which country became the first in Africa to gain independence from Belgium?",
+    "correct_answer": "Democratic Republic of the Congo",
+    "event_year": 1960,
+    "time_bucket": "distant",
+    "accept_aliases": [
+      "Congo",
+      "Republic of the Congo-Léopoldville",
+      "Zaire",
+      "Belgian Congo"
+    ]
+  },
+  {
+    "question": "What was the name of the Soviet probe that became the first spacecraft to successfully land on Venus and transmit data back in 1970?",
+    "correct_answer": "Venera 7",
+    "event_year": 1970,
+    "time_bucket": "distant",
+    "accept_aliases": [
+      ""
+    ]
+  },
+  {
+    "question": "Which city hosted the 1936 Summer Olympic Games, controversially held under a fascist regime?",
+    "correct_answer": "Berlin",
+    "event_year": 1936,
+    "time_bucket": "distant",
+    "accept_aliases": [
+      ""
+    ]
+  },
+  {
+    "question": "In 1923, what massive natural disaster struck Japan's Kanto region, killing over 100,000 people?",
+    "correct_answer": "Great Kanto Earthquake",
+    "event_year": 1923,
+    "time_bucket": "distant",
+    "accept_aliases": [
+      "1923 Great Kanto earthquake",
+      "Kanto earthquake",
+      "Great Kantō earthquake"
+    ]
+  },
+  {
+    "question": "What was the name of the Australian prime minister who disappeared while swimming in the ocean in 1967?",
+    "correct_answer": "Harold Holt",
+    "event_year": 1967,
+    "time_bucket": "distant",
+    "accept_aliases": [
+      ""
+    ]
+  },
+  {
+    "question": "Which treaty, signed in 1919, formally ended World War I between the Allied Powers and Germany?",
+    "correct_answer": "Treaty of Versailles",
+    "event_year": 1919,
+    "time_bucket": "distant",
+    "accept_aliases": [
+      "Versailles Treaty"
+    ]
+  },
+  {
+    "question": "In 1985, a volcanic eruption triggered a lahar that buried the Colombian town of Armero, killing approximately 23,000 people. What volcano caused this disaster?",
+    "correct_answer": "Nevado del Ruiz",
+    "event_year": 1985,
+    "time_bucket": "distant",
+    "accept_aliases": [
+      ""
+    ]
+  },
+  {
+    "question": "What was the name of the 1954 U.S. Supreme Court case that declared racial segregation in public schools unconstitutional?",
+    "correct_answer": "Brown v. Board of Education",
+    "event_year": 1954,
+    "time_bucket": "distant",
+    "accept_aliases": [
+      "Brown v. Board of Education of Topeka",
+      "Brown vs Board of Education"
+    ]
+  },
+  {
+    "question": "In 1932, which country experienced the Holodomor, a man-made famine that killed millions?",
+    "correct_answer": "Ukraine",
+    "event_year": 1932,
+    "time_bucket": "distant",
+    "accept_aliases": [
+      "Ukrainian SSR",
+      "Soviet Ukraine"
+    ]
+  },
+  {
+    "question": "What was the name of the French ocean liner that was seized and scuttled at Toulon in 1942 to prevent it from falling into German hands?",
+    "correct_answer": "French fleet at Toulon",
+    "event_year": 1942,
+    "time_bucket": "distant",
+    "accept_aliases": [
+      "Scuttling of the French fleet at Toulon"
+    ]
+  },
+  {
+    "question": "In 1971, which South Asian country gained independence after a liberation war, with the support of India?",
+    "correct_answer": "Bangladesh",
+    "event_year": 1971,
+    "time_bucket": "distant",
+    "accept_aliases": [
+      "East Pakistan"
+    ]
+  },
+  {
+    "question": "What was the name of the Italian ocean liner that sank after colliding with the MS Stockholm off the coast of Nantucket in 1956?",
+    "correct_answer": "SS Andrea Doria",
+    "event_year": 1956,
+    "time_bucket": "distant",
+    "accept_aliases": [
+      "Andrea Doria"
+    ]
+  },
+  {
+    "question": "Which physicist first proposed the general theory of relativity in November 1915?",
+    "correct_answer": "Albert Einstein",
+    "event_year": 1915,
+    "time_bucket": "distant",
+    "accept_aliases": [
+      "Einstein"
+    ]
+  },
+  {
+    "question": "In 1976, what toxic chemical disaster occurred in Seveso, Italy, releasing a cloud of TCDD dioxin over the surrounding area?",
+    "correct_answer": "Seveso disaster",
+    "event_year": 1976,
+    "time_bucket": "distant",
+    "accept_aliases": [
+      "Seveso chemical disaster",
+      "ICMESA chemical plant explosion"
+    ]
+  },
+  {
+    "question": "What was the name of the conference held in Bandung, Indonesia in 1955, where 29 African and Asian nations met to promote Afro-Asian cooperation?",
+    "correct_answer": "Bandung Conference",
+    "event_year": 1955,
+    "time_bucket": "distant",
+    "accept_aliases": [
+      "Asian-African Conference",
+      "Afro-Asian Conference"
+    ]
+  },
+  {
+    "question": "In 1903, who became the first woman to win a Nobel Prize?",
+    "correct_answer": "Marie Curie",
+    "event_year": 1903,
+    "time_bucket": "distant",
+    "accept_aliases": [
+      "Marie Skłodowska Curie",
+      "Madame Curie"
+    ]
+  },
+  {
+    "question": "What was the name of the 1978 mass suicide event in Guyana involving members of the Peoples Temple led by Jim Jones?",
+    "correct_answer": "Jonestown massacre",
+    "event_year": 1978,
+    "time_bucket": "distant",
+    "accept_aliases": [
+      "Jonestown",
+      "Jonestown mass suicide"
+    ]
+  },
+  {
+    "question": "In 1947, what was the name of the UN plan that proposed dividing Palestine into separate Jewish and Arab states?",
+    "correct_answer": "United Nations Partition Plan for Palestine",
+    "event_year": 1947,
+    "time_bucket": "distant",
+    "accept_aliases": [
+      "UN Partition Plan",
+      "Resolution 181",
+      "UN General Assembly Resolution 181"
+    ]
+  },
+  {
+    "question": "What was the name of the 1902 volcanic eruption on the Caribbean island of Martinique that destroyed the city of Saint-Pierre and killed approximately 30,000 people?",
+    "correct_answer": "Mount Pelée eruption",
+    "event_year": 1902,
+    "time_bucket": "distant",
+    "accept_aliases": [
+      "Mount Pelee",
+      "Mont Pelée",
+      "Pelée eruption"
+    ]
+  },
+  {
+    "question": "What was the name of the hurricane that devastated Galveston, Texas in 1900, killing an estimated 8,000 people?",
+    "correct_answer": "The Great Galveston Hurricane",
+    "event_year": 1900,
+    "time_bucket": "distant",
+    "accept_aliases": [
+      "Galveston Hurricane of 1900",
+      "1900 Galveston Hurricane"
+    ]
+  },
+  {
+    "question": "In 1903, who were the two brothers that achieved the first sustained, controlled, powered heavier-than-air flight at Kitty Hawk, North Carolina?",
+    "correct_answer": "The Wright Brothers (Orville and Wilbur Wright)",
+    "event_year": 1903,
+    "time_bucket": "distant",
+    "accept_aliases": [
+      "Wright Brothers",
+      "Orville and Wilbur Wright"
+    ]
+  },
+  {
+    "question": "What was the name of the British ocean liner that sank on May 7, 1915, after being torpedoed by a German U-boat off the coast of Ireland?",
+    "correct_answer": "RMS Lusitania",
+    "event_year": 1915,
+    "time_bucket": "distant",
+    "accept_aliases": [
+      "Lusitania",
+      "The Lusitania"
+    ]
+  },
+  {
+    "question": "In 1918, what was the name of the influenza pandemic that killed an estimated 50-100 million people worldwide?",
+    "correct_answer": "The Spanish Flu",
+    "event_year": 1918,
+    "time_bucket": "distant",
+    "accept_aliases": [
+      "Spanish Influenza",
+      "1918 Influenza Pandemic",
+      "Great Influenza"
+    ]
+  },
+  {
+    "question": "What obscure 1905 mutiny aboard a Russian battleship in the Black Sea became a symbol of revolutionary unrest and inspired an Eisenstein film?",
+    "correct_answer": "The mutiny on the battleship Potemkin",
+    "event_year": 1905,
+    "time_bucket": "distant",
+    "accept_aliases": [
+      "Potemkin mutiny",
+      "Battleship Potemkin"
+    ]
+  },
+  {
+    "question": "In 1930, what astronomer at Lowell Observatory discovered the celestial body then classified as the ninth planet, Pluto?",
+    "correct_answer": "Clyde Tombaugh",
+    "event_year": 1930,
+    "time_bucket": "distant",
+    "accept_aliases": [
+      "Clyde William Tombaugh"
+    ]
+  },
+  {
+    "question": "What was the name of the massive airship that caught fire and was destroyed while attempting to dock at Lakehurst, New Jersey, on May 6, 1937?",
+    "correct_answer": "The Hindenburg",
+    "event_year": 1937,
+    "time_bucket": "distant",
+    "accept_aliases": [
+      "Hindenburg",
+      "LZ 129 Hindenburg"
+    ]
+  },
+  {
+    "question": "In 1923, what magnitude earthquake struck the Tokyo-Yokohama metropolitan area on September 1, killing over 100,000 people?",
+    "correct_answer": "The Great Kanto Earthquake",
+    "event_year": 1923,
+    "time_bucket": "distant",
+    "accept_aliases": [
+      "1923 Great Kanto Earthquake",
+      "Kanto Earthquake"
+    ]
+  },
+  {
+    "question": "What was the codename of the Allied invasion of Normandy on June 6, 1944?",
+    "correct_answer": "Operation Overlord",
+    "event_year": 1944,
+    "time_bucket": "distant",
+    "accept_aliases": [
+      "D-Day",
+      "Overlord"
+    ]
+  },
+  {
+    "question": "In 1947, what was the name of the pilot who first broke the sound barrier, flying the Bell X-1 experimental aircraft?",
+    "correct_answer": "Chuck Yeager",
+    "event_year": 1947,
+    "time_bucket": "distant",
+    "accept_aliases": [
+      "Charles Yeager",
+      "Charles Elwood Yeager"
+    ]
+  },
+  {
+    "question": "What was the name of the Soviet satellite launched on October 4, 1957, that became the first artificial object to orbit the Earth?",
+    "correct_answer": "Sputnik 1",
+    "event_year": 1957,
+    "time_bucket": "distant",
+    "accept_aliases": [
+      "Sputnik"
+    ]
+  },
+  {
+    "question": "In 1956, what Hungarian city saw a major anti-Soviet uprising that was ultimately crushed by Soviet tanks in November of that year?",
+    "correct_answer": "Budapest",
+    "event_year": 1956,
+    "time_bucket": "distant",
+    "accept_aliases": [
+      "Hungarian Revolution of 1956",
+      "Budapest Uprising"
+    ]
+  },
+  {
+    "question": "What was the name of the 1902 volcanic eruption on the island of Martinique that destroyed the city of Saint-Pierre and killed approximately 30,000 people?",
+    "correct_answer": "The eruption of Mount Pelée",
+    "event_year": 1902,
+    "time_bucket": "distant",
+    "accept_aliases": [
+      "Mount Pelée",
+      "Mont Pelée eruption"
+    ]
+  },
+  {
+    "question": "In 1961, which Soviet cosmonaut became the first human to travel into outer space aboard Vostok 1?",
+    "correct_answer": "Yuri Gagarin",
+    "event_year": 1961,
+    "time_bucket": "distant",
+    "accept_aliases": [
+      "Gagarin",
+      "Yuri Alekseyevich Gagarin"
+    ]
+  },
+  {
+    "question": "What was the name of the Italian-American anarchists executed in Massachusetts in 1927 in a case that became a worldwide cause célèbre over alleged judicial prejudice?",
+    "correct_answer": "Sacco and Vanzetti",
+    "event_year": 1927,
+    "time_bucket": "distant",
+    "accept_aliases": [
+      "Nicola Sacco and Bartolomeo Vanzetti"
+    ]
+  },
+  {
+    "question": "In 1971, what was the name of the Stanford University experiment led by Philip Zimbardo that simulated a prison environment and was terminated after six days due to participant abuse?",
+    "correct_answer": "The Stanford Prison Experiment",
+    "event_year": 1971,
+    "time_bucket": "distant",
+    "accept_aliases": [
+      "Stanford Prison Study",
+      "Zimbardo experiment"
+    ]
+  },
+  {
+    "question": "What was the name of the toxic chemical disaster that occurred on December 3, 1984, at a Union Carbide pesticide plant in India, killing thousands?",
+    "correct_answer": "The Bhopal disaster",
+    "event_year": 1984,
+    "time_bucket": "distant",
+    "accept_aliases": [
+      "Bhopal gas tragedy",
+      "Bhopal gas disaster"
+    ]
+  },
+  {
+    "question": "In 1935, which physicist proposed a famous thought experiment involving a cat that is simultaneously alive and dead to illustrate problems with the Copenhagen interpretation of quantum mechanics?",
+    "correct_answer": "Erwin Schrödinger",
+    "event_year": 1935,
+    "time_bucket": "distant",
+    "accept_aliases": [
+      "Schrodinger",
+      "Erwin Schroedinger"
+    ]
+  },
+  {
+    "question": "What was the name of the Soviet nuclear-powered icebreaker, launched in 1957, that became the first surface ship to reach the North Pole in 1977?",
+    "correct_answer": "Arktika",
+    "event_year": 1977,
+    "time_bucket": "distant",
+    "accept_aliases": [
+      "NS Arktika"
+    ]
+  },
+  {
+    "question": "In 1960, what was the name of the U-2 spy plane pilot shot down over Soviet territory on May 1, triggering a major diplomatic crisis between the US and USSR?",
+    "correct_answer": "Francis Gary Powers",
+    "event_year": 1960,
+    "time_bucket": "distant",
+    "accept_aliases": [
+      "Gary Powers",
+      "Francis Powers"
+    ]
+  },
+  {
+    "question": "What was the name of the comet that spectacularly impacted Jupiter in July 1994?",
+    "correct_answer": "Shoemaker-Levy 9",
+    "event_year": 1994,
+    "time_bucket": "middle",
+    "accept_aliases": [
+      "Comet Shoemaker-Levy 9",
+      "SL9",
+      "D/1993 F2"
+    ]
+  },
+  {
+    "question": "Which country's government collapsed in 1991 after the fall of dictator Siad Barre, leading to a prolonged civil war?",
+    "correct_answer": "Somalia",
+    "event_year": 1991,
+    "time_bucket": "middle",
+    "accept_aliases": ""
+  },
+  {
+    "question": "In 2005, what was the name of the protocol that came into force on February 16, committing industrialized nations to reduce greenhouse gas emissions?",
+    "correct_answer": "Kyoto Protocol",
+    "event_year": 2005,
+    "time_bucket": "middle",
+    "accept_aliases": [
+      "Kyoto accord"
+    ]
+  },
+  {
+    "question": "Which Peruvian president, who served from 1990 to 2000, was convicted in 2009 of human rights abuses and sentenced to 25 years in prison?",
+    "correct_answer": "Alberto Fujimori",
+    "event_year": 2009,
+    "time_bucket": "middle",
+    "accept_aliases": [
+      "Fujimori"
+    ]
+  },
+  {
+    "question": "What was the name of the unmanned ESA spacecraft that successfully landed on comet 67P/Churyumov–Gerasimenko in November 2014?",
+    "correct_answer": "Philae",
+    "event_year": 2014,
+    "time_bucket": "middle",
+    "accept_aliases": [
+      "Philae lander"
+    ]
+  },
+  {
+    "question": "Which small Central Asian nation experienced a brief but deadly border war with Uzbekistan and Kyrgyzstan in 1999 after Islamic militants invaded the Batken region?",
+    "correct_answer": "Kyrgyzstan",
+    "event_year": 1999,
+    "time_bucket": "middle",
+    "accept_aliases": [
+      "Kyrgyz Republic"
+    ]
+  },
+  {
+    "question": "What was the name of the 2002 Moscow theater hostage crisis, named after the musical that was being performed when Chechen militants seized the building?",
+    "correct_answer": "Nord-Ost",
+    "event_year": 2002,
+    "time_bucket": "middle",
+    "accept_aliases": [
+      "Nord-Ost siege",
+      "Dubrovka theater crisis",
+      "Moscow theater hostage crisis"
+    ]
+  },
+  {
+    "question": "Which African country held its first multiracial democratic elections on April 27, 1994?",
+    "correct_answer": "South Africa",
+    "event_year": 1994,
+    "time_bucket": "middle",
+    "accept_aliases": ""
+  },
+  {
+    "question": "In 2011, which specific reactor complex suffered three nuclear meltdowns following a massive earthquake and tsunami in Japan?",
+    "correct_answer": "Fukushima Daiichi",
+    "event_year": 2011,
+    "time_bucket": "middle",
+    "accept_aliases": [
+      "Fukushima Daiichi Nuclear Power Plant",
+      "Fukushima I",
+      "Fukushima"
+    ]
+  },
+  {
+    "question": "Which Baltic state introduced the lats as its national currency in 1993, replacing the Latvian ruble, before eventually adopting the euro in 2014?",
+    "correct_answer": "Latvia",
+    "event_year": 1993,
+    "time_bucket": "middle",
+    "accept_aliases": [
+      "Republic of Latvia"
+    ]
+  },
+  {
+    "question": "Which country was admitted as the 190th member of the United Nations in 2002?",
+    "correct_answer": "East Timor (Timor-Leste)",
+    "event_year": 2002,
+    "time_bucket": "middle",
+    "accept_aliases": [
+      "Timor-Leste",
+      "East Timor",
+      "Democratic Republic of Timor-Leste"
+    ]
+  },
+  {
+    "question": "What was the name of the oil tanker that spilled approximately 257,000 barrels of crude oil off the coast of Galicia, Spain in November 2002?",
+    "correct_answer": "Prestige",
+    "event_year": 2002,
+    "time_bucket": "middle",
+    "accept_aliases": [
+      "MV Prestige"
+    ]
+  },
+  {
+    "question": "Who won the first season of American Idol in 2002?",
+    "correct_answer": "Kelly Clarkson",
+    "event_year": 2002,
+    "time_bucket": "middle",
+    "accept_aliases": ""
+  },
+  {
+    "question": "In 1991, what was the name of the cyclone that struck Bangladesh killing approximately 138,000 people?",
+    "correct_answer": "Cyclone Gorky",
+    "event_year": 1991,
+    "time_bucket": "middle",
+    "accept_aliases": [
+      "1991 Bangladesh cyclone",
+      "Cyclone 02B"
+    ]
+  },
+  {
+    "question": "Which two companies merged in 2000 in what was then the largest corporate merger in history, valued at approximately $164 billion?",
+    "correct_answer": "AOL and Time Warner",
+    "event_year": 2000,
+    "time_bucket": "middle",
+    "accept_aliases": [
+      "America Online and Time Warner",
+      "AOL Time Warner"
+    ]
+  },
+  {
+    "question": "What was the name of the Argentine economic crisis-related policy enacted in December 2001 that restricted bank withdrawals, sparking widespread protests?",
+    "correct_answer": "Corralito",
+    "event_year": 2001,
+    "time_bucket": "middle",
+    "accept_aliases": [
+      "El Corralito"
+    ]
+  },
+  {
+    "question": "Which spacecraft successfully landed on Saturn's moon Titan in January 2005?",
+    "correct_answer": "Huygens",
+    "event_year": 2005,
+    "time_bucket": "middle",
+    "accept_aliases": [
+      "Huygens probe",
+      "Cassini-Huygens"
+    ]
+  },
+  {
+    "question": "In what year did YouTube receive its first ever video upload, titled 'Me at the zoo'?",
+    "correct_answer": "2005",
+    "event_year": 2005,
+    "time_bucket": "middle",
+    "accept_aliases": ""
+  },
+  {
+    "question": "Which country experienced the Beslan school siege in September 2004, resulting in over 330 deaths?",
+    "correct_answer": "Russia",
+    "event_year": 2004,
+    "time_bucket": "middle",
+    "accept_aliases": [
+      "Russian Federation",
+      "North Ossetia"
+    ]
+  },
+  {
+    "question": "What was the name of the treaty signed in 1991 between the United States and the Soviet Union to reduce strategic nuclear weapons?",
+    "correct_answer": "START I",
+    "event_year": 1991,
+    "time_bucket": "middle",
+    "accept_aliases": [
+      "Strategic Arms Reduction Treaty",
+      "START"
+    ]
+  },
+  {
+    "question": "Which Danish city was the host of the controversial 2009 UN Climate Change Conference that produced a non-binding accord?",
+    "correct_answer": "Copenhagen",
+    "event_year": 2009,
+    "time_bucket": "middle",
+    "accept_aliases": [
+      "COP15",
+      "COP 15"
+    ]
+  },
+  {
+    "question": "What was the name of the Icelandic volcano whose 2010 eruption caused massive disruption to European air travel?",
+    "correct_answer": "Eyjafjallajökull",
+    "event_year": 2010,
+    "time_bucket": "middle",
+    "accept_aliases": [
+      "Eyjafjallajokull"
+    ]
+  },
+  {
+    "question": "Which Russian submarine sank in the Barents Sea in August 2000, killing all 118 crew members?",
+    "correct_answer": "Kursk",
+    "event_year": 2000,
+    "time_bucket": "middle",
+    "accept_aliases": [
+      "K-141 Kursk"
+    ]
+  },
+  {
+    "question": "Who became the President of South Africa after the country's first fully democratic election in 1994?",
+    "correct_answer": "Nelson Mandela",
+    "event_year": 1994,
+    "time_bucket": "middle",
+    "accept_aliases": [
+      "Mandela"
+    ]
+  },
+  {
+    "question": "What was the name of the comet that collided with Jupiter in July 1994, observed by telescopes worldwide?",
+    "correct_answer": "Shoemaker-Levy 9",
+    "event_year": 1994,
+    "time_bucket": "middle",
+    "accept_aliases": [
+      "Comet Shoemaker-Levy 9",
+      "SL9",
+      "D/1993 F2"
+    ]
+  },
+  {
+    "question": "Which West African country experienced an outbreak of Ebola in December 2013 that eventually became the largest Ebola epidemic in history?",
+    "correct_answer": "Guinea",
+    "event_year": 2013,
+    "time_bucket": "middle",
+    "accept_aliases": [
+      "Republic of Guinea"
+    ]
+  },
+  {
+    "question": "What was the name of the building that collapsed in Savar, Bangladesh in April 2013, killing over 1,100 garment workers?",
+    "correct_answer": "Rana Plaza",
+    "event_year": 2013,
+    "time_bucket": "middle",
+    "accept_aliases": [
+      "Savar building"
+    ]
+  },
+  {
+    "question": "Which European micronation's application to join the United Nations was accepted in 1993, making it one of the smallest UN member states?",
+    "correct_answer": "Andorra",
+    "event_year": 1993,
+    "time_bucket": "middle",
+    "accept_aliases": [
+      "Principality of Andorra"
+    ]
+  },
+  {
+    "question": "What was the name of the accord signed between Israel and the PLO on the White House lawn in September 1993?",
+    "correct_answer": "Oslo Accords",
+    "event_year": 1993,
+    "time_bucket": "middle",
+    "accept_aliases": [
+      "Oslo I Accord",
+      "Declaration of Principles",
+      "Oslo Agreement"
+    ]
+  },
+  {
+    "question": "Which physicist won the Nobel Prize in Physics in 2013 along with François Englert for the theoretical discovery of the Higgs mechanism?",
+    "correct_answer": "Peter Higgs",
+    "event_year": 2013,
+    "time_bucket": "middle",
+    "accept_aliases": [
+      "Higgs"
+    ]
+  },
+  {
+    "question": "What was the name of the spacecraft that became the first to orbit Saturn, arriving on July 1, 2004?",
+    "correct_answer": "Cassini",
+    "event_year": 2004,
+    "time_bucket": "middle",
+    "accept_aliases": "Cassini-Huygens"
+  },
+  {
+    "question": "Which country experienced a devastating earthquake on January 12, 2010, killing over 200,000 people and destroying much of its capital?",
+    "correct_answer": "Haiti",
+    "event_year": 2010,
+    "time_bucket": "middle",
+    "accept_aliases": ""
+  },
+  {
+    "question": "What was the name of the Icelandic volcano whose 2010 eruption caused massive disruption to European air travel?",
+    "correct_answer": "Eyjafjallajökull",
+    "event_year": 2010,
+    "time_bucket": "middle",
+    "accept_aliases": "Eyjafjallajokull"
+  },
+  {
+    "question": "In 1994, which two countries signed the peace treaty known as the Wadi Araba Treaty?",
+    "correct_answer": "Israel and Jordan",
+    "event_year": 1994,
+    "time_bucket": "middle",
+    "accept_aliases": "Jordan and Israel"
+  },
+  {
+    "question": "Who became the first female president of Liberia, and the first elected female head of state in Africa, taking office in January 2006?",
+    "correct_answer": "Ellen Johnson Sirleaf",
+    "event_year": 2006,
+    "time_bucket": "middle",
+    "accept_aliases": "Ellen Sirleaf"
+  },
+  {
+    "question": "What was the name of the Russian submarine that sank in the Barents Sea in August 2000, killing all 118 crew members?",
+    "correct_answer": "Kursk",
+    "event_year": 2000,
+    "time_bucket": "middle",
+    "accept_aliases": "K-141 Kursk"
+  },
+  {
+    "question": "Which Asian country conducted its first nuclear weapon test on May 28, 1998, just weeks after India's tests?",
+    "correct_answer": "Pakistan",
+    "event_year": 1998,
+    "time_bucket": "middle",
+    "accept_aliases": ""
+  },
+  {
+    "question": "In what year did the Dayton Agreement end the Bosnian War?",
+    "correct_answer": "1995",
+    "event_year": 1995,
+    "time_bucket": "middle",
+    "accept_aliases": ""
+  },
+  {
+    "question": "What was the name of the massive Ponzi scheme operator who was arrested in December 2008 after confessing to a fraud estimated at $65 billion?",
+    "correct_answer": "Bernie Madoff",
+    "event_year": 2008,
+    "time_bucket": "middle",
+    "accept_aliases": "Bernard Madoff"
+  },
+  {
+    "question": "Which small Central African country experienced a genocide from April to July 1994 in which approximately 800,000 Tutsi and moderate Hutu were killed?",
+    "correct_answer": "Rwanda",
+    "event_year": 1994,
+    "time_bucket": "middle",
+    "accept_aliases": ""
+  },
+  {
+    "question": "What was the name of the accord signed in 1998 that largely ended the Troubles in Northern Ireland?",
+    "correct_answer": "Good Friday Agreement",
+    "event_year": 1998,
+    "time_bucket": "middle",
+    "accept_aliases": "Belfast Agreement"
+  },
+  {
+    "question": "In 2011, which country's dictator Muammar Gaddafi was overthrown and killed during a civil war supported by NATO intervention?",
+    "correct_answer": "Libya",
+    "event_year": 2011,
+    "time_bucket": "middle",
+    "accept_aliases": ""
+  },
+  {
+    "question": "What was the name of the comet that spectacularly impacted Jupiter in July 1994, observed by the Hubble Space Telescope?",
+    "correct_answer": "Shoemaker-Levy 9",
+    "event_year": 1994,
+    "time_bucket": "middle",
+    "accept_aliases": "Comet Shoemaker-Levy 9;SL9;D/1993 F2"
+  },
+  {
+    "question": "Which Japanese city was struck by a devastating earthquake on January 17, 1995, killing over 6,000 people?",
+    "correct_answer": "Kobe",
+    "event_year": 1995,
+    "time_bucket": "middle",
+    "accept_aliases": "Hanshin;Great Hanshin earthquake"
+  },
+  {
+    "question": "What was the name of the Estonian ferry that sank in the Baltic Sea in September 1994, killing 852 people in one of Europe's worst maritime disasters?",
+    "correct_answer": "MS Estonia",
+    "event_year": 1994,
+    "time_bucket": "middle",
+    "accept_aliases": "Estonia"
+  },
+  {
+    "question": "Which country hosted the 2015 UN Climate Change Conference that produced the Paris Agreement?",
+    "correct_answer": "France",
+    "event_year": 2015,
+    "time_bucket": "middle",
+    "accept_aliases": "Paris;France (Paris)"
+  },
+  {
+    "question": "In 2003, which West African country's president Charles Taylor was indicted by a UN-backed war crimes tribunal, eventually leading to his exile?",
+    "correct_answer": "Liberia",
+    "event_year": 2003,
+    "time_bucket": "middle",
+    "accept_aliases": ""
+  },
+  {
+    "question": "What was the name of the space station that was deliberately deorbited and broke apart over the Pacific Ocean on March 23, 2001?",
+    "correct_answer": "Mir",
+    "event_year": 2001,
+    "time_bucket": "middle",
+    "accept_aliases": ""
+  },
+  {
+    "question": "Which Argentine footballer scored the infamous 'Hand of God' goal? In what year did he die?",
+    "correct_answer": "Diego Maradona, who died in 2020",
+    "event_year": 2020,
+    "time_bucket": "middle",
+    "accept_aliases": "Maradona"
+  },
+  {
+    "question": "In September 1999, a series of apartment bombings in which Russian cities killed nearly 300 people and were used to justify the Second Chechen War? Name any one of the cities.",
+    "correct_answer": "Moscow",
+    "event_year": 1999,
+    "time_bucket": "middle",
+    "accept_aliases": "Buynaksk;Volgodonsk;Moscow, Buynaksk, or Volgodonsk"
+  },
+  {
+    "question": "In 2017, which small Pacific island nation became the first country to ratify the Treaty on the Prohibition of Nuclear Weapons?",
+    "correct_answer": "Guyana",
+    "event_year": 2017,
+    "time_bucket": "recent",
+    "accept_aliases": ""
+  },
+  {
+    "question": "What was the name of the container ship that blocked the Suez Canal for six days in March 2021?",
+    "correct_answer": "Ever Given",
+    "event_year": 2021,
+    "time_bucket": "recent",
+    "accept_aliases": "MV Ever Given"
+  },
+  {
+    "question": "In 2019, which Czech-born Canadian filmmaker won the Academy Award for Best Director for the film 'Green Book'?",
+    "correct_answer": "Peter Farrelly",
+    "event_year": 2019,
+    "time_bucket": "recent",
+    "accept_aliases": ""
+  },
+  {
+    "question": "In 2018, Malaysia's Pakatan Harapan coalition won a historic general election, ending 61 years of rule by which coalition?",
+    "correct_answer": "Barisan Nasional",
+    "event_year": 2018,
+    "time_bucket": "recent",
+    "accept_aliases": "BN"
+  },
+  {
+    "question": "What was the name of the ESA/Roscosmos mission that crash-landed its Schiaparelli lander on Mars in October 2016?",
+    "correct_answer": "ExoMars 2016",
+    "event_year": 2016,
+    "time_bucket": "recent",
+    "accept_aliases": "ExoMars"
+  },
+  {
+    "question": "In 2020, which Belarusian opposition leader fled to Lithuania after disputed presidential elections and mass protests against Alexander Lukashenko?",
+    "correct_answer": "Sviatlana Tsikhanouskaya",
+    "event_year": 2020,
+    "time_bucket": "recent",
+    "accept_aliases": "Svetlana Tikhanovskaya"
+  },
+  {
+    "question": "In 2021, which African country experienced a military coup in which Colonel Mamady Doumbouya seized power from President Alpha Condé?",
+    "correct_answer": "Guinea",
+    "event_year": 2021,
+    "time_bucket": "recent",
+    "accept_aliases": "Republic of Guinea"
+  },
+  {
+    "question": "What was the name of the floating nuclear power plant that Russia connected to its grid in December 2019, the first of its kind in the world?",
+    "correct_answer": "Akademik Lomonosov",
+    "event_year": 2019,
+    "time_bucket": "recent",
+    "accept_aliases": ""
+  },
+  {
+    "question": "In 2022, which country hosted the UN Climate Change Conference COP27?",
+    "correct_answer": "Egypt",
+    "event_year": 2022,
+    "time_bucket": "recent",
+    "accept_aliases": "Sharm el-Sheikh, Egypt"
+  },
+  {
+    "question": "In 2016, the World Health Organization declared that which country was the first in the world to have eliminated mother-to-child transmission of both HIV and syphilis?",
+    "correct_answer": "Cuba",
+    "event_year": 2016,
+    "time_bucket": "recent",
+    "accept_aliases": ""
+  },
+  {
+    "question": "Which country hosted the 2016 Nuclear Security Summit, the last in the series initiated by President Obama?",
+    "correct_answer": "United States",
+    "event_year": 2016,
+    "time_bucket": "recent",
+    "accept_aliases": "USA, Washington D.C."
+  },
+  {
+    "question": "What was the name of the AI program developed by Google DeepMind that defeated Go champion Lee Sedol in March 2016?",
+    "correct_answer": "AlphaGo",
+    "event_year": 2016,
+    "time_bucket": "recent",
+    "accept_aliases": ""
+  },
+  {
+    "question": "In 2017, which small Caribbean island was considered effectively uninhabitable after Hurricane Irma destroyed 95% of its structures?",
+    "correct_answer": "Barbuda",
+    "event_year": 2017,
+    "time_bucket": "recent",
+    "accept_aliases": ""
+  },
+  {
+    "question": "What was the name of the container ship that blocked the Suez Canal for six days in March 2021?",
+    "correct_answer": "Ever Given",
+    "event_year": 2021,
+    "time_bucket": "recent",
+    "accept_aliases": "Evergreen"
+  },
+  {
+    "question": "Which European country held a constitutional referendum in October 2016 that was rejected by voters, leading to the Prime Minister's resignation?",
+    "correct_answer": "Italy",
+    "event_year": 2016,
+    "time_bucket": "recent",
+    "accept_aliases": ""
+  },
+  {
+    "question": "What was the name of the massive ransomware attack in May 2017 that crippled the UK's National Health Service and spread to over 150 countries?",
+    "correct_answer": "WannaCry",
+    "event_year": 2017,
+    "time_bucket": "recent",
+    "accept_aliases": "WannaCrypt, WCry"
+  },
+  {
+    "question": "In 2019, which physicist produced the first-ever image of a black hole as part of the Event Horizon Telescope collaboration, located in the galaxy M87?",
+    "correct_answer": "Katie Bouman",
+    "event_year": 2019,
+    "time_bucket": "recent",
+    "accept_aliases": "Katherine Bouman"
+  },
+  {
+    "question": "What was the name of the dam in Brumadinho, Brazil, that collapsed in January 2019, killing 270 people?",
+    "correct_answer": "Dam I of the Córrego do Feijão mine",
+    "event_year": 2019,
+    "time_bucket": "recent",
+    "accept_aliases": "Brumadinho dam, Córrego do Feijão"
+  },
+  {
+    "question": "Which African nation officially split into two countries in 2017 when Anglophone regions declared independence, sparking an ongoing civil conflict?",
+    "correct_answer": "Cameroon",
+    "event_year": 2017,
+    "time_bucket": "recent",
+    "accept_aliases": "Ambazonia crisis"
+  },
+  {
+    "question": "What was the name of the SpaceX rocket that launched Elon Musk's Tesla Roadster into a heliocentric orbit in February 2018?",
+    "correct_answer": "Falcon Heavy",
+    "event_year": 2018,
+    "time_bucket": "recent",
+    "accept_aliases": ""
+  },
+  {
+    "question": "Which Russian opposition leader was poisoned with a Novichok nerve agent in August 2020 and later arrested upon returning to Russia in January 2021?",
+    "correct_answer": "Alexei Navalny",
+    "event_year": 2020,
+    "time_bucket": "recent",
+    "accept_aliases": "Navalny"
+  },
+  {
+    "question": "In 2018, which country's cave rescue operation saved 12 boys and their football coach from the Tham Luang cave complex?",
+    "correct_answer": "Thailand",
+    "event_year": 2018,
+    "time_bucket": "recent",
+    "accept_aliases": ""
+  },
+  {
+    "question": "What was the name of the volcanic eruption in Tonga in January 2022 that produced a pressure wave detected globally and triggered tsunamis across the Pacific?",
+    "correct_answer": "Hunga Tonga–Hunga Haʻapai eruption",
+    "event_year": 2022,
+    "time_bucket": "recent",
+    "accept_aliases": "Hunga Tonga eruption, Hunga Tonga-Hunga Ha'apai"
+  },
+  {
+    "question": "Which small Pacific island nation declared a state of emergency in 2016 after its president was found to have undisclosed offshore accounts in the Panama Papers leak?",
+    "correct_answer": "Iceland",
+    "event_year": 2016,
+    "time_bucket": "recent",
+    "accept_aliases": ""
+  },
+  {
+    "question": "What was the name of the NASA Mars helicopter that made the first powered controlled flight on another planet in April 2021?",
+    "correct_answer": "Ingenuity",
+    "event_year": 2021,
+    "time_bucket": "recent",
+    "accept_aliases": ""
+  },
+  {
+    "question": "In November 2022, which cryptocurrency exchange filed for bankruptcy after revelations of misuse of customer funds, leading to the arrest of its CEO?",
+    "correct_answer": "FTX",
+    "event_year": 2022,
+    "time_bucket": "recent",
+    "accept_aliases": ""
+  },
+  {
+    "question": "Which Nobel Peace Prize laureate and Myanmar leader was widely criticized for her silence during the 2017 Rohingya genocide and was later deposed in a military coup in 2021?",
+    "correct_answer": "Aung San Suu Kyi",
+    "event_year": 2017,
+    "time_bucket": "recent",
+    "accept_aliases": "Suu Kyi"
+  },
+  {
+    "question": "In 2020, which port city suffered a massive ammonium nitrate explosion on August 4th that killed over 200 people and caused an estimated $15 billion in damage?",
+    "correct_answer": "Beirut",
+    "event_year": 2020,
+    "time_bucket": "recent",
+    "accept_aliases": "Beirut, Lebanon"
+  },
+  {
+    "question": "What was the name of the joint military exercise between India and Russia that was controversially held in 2022 despite Western opposition due to the Ukraine war?",
+    "correct_answer": "Vostok 2022",
+    "event_year": 2022,
+    "time_bucket": "recent",
+    "accept_aliases": "Vostok-2022"
+  },
+  {
+    "question": "Which Belarusian sprinter sought asylum at the Polish embassy in Tokyo during the 2021 Olympics after refusing her team's orders to return home?",
+    "correct_answer": "Krystsina Tsimanouskaya",
+    "event_year": 2021,
+    "time_bucket": "recent",
+    "accept_aliases": "Kristina Timanovskaya"
+  },
+  {
+    "question": "Which country hosted the 2022 FIFA World Cup final, and what was the final score in regular time?",
+    "correct_answer": "Qatar; the final between Argentina and France ended 3-3 in regular time before going to penalties",
+    "event_year": 2022,
+    "time_bucket": "recent",
+    "accept_aliases": [
+      "Qatar, 3-3"
+    ]
+  },
+  {
+    "question": "What was the name of the container ship that blocked the Suez Canal for six days in March 2021?",
+    "correct_answer": "Ever Given",
+    "event_year": 2021,
+    "time_bucket": "recent",
+    "accept_aliases": [
+      "MV Ever Given",
+      "Evergreen (commonly confused with the ship's operator)"
+    ]
+  },
+  {
+    "question": "In 2019, which small Pacific island nation, Bougainville, voted overwhelmingly for independence from which country in a non-binding referendum?",
+    "correct_answer": "Papua New Guinea",
+    "event_year": 2019,
+    "time_bucket": "recent",
+    "accept_aliases": [
+      "PNG"
+    ]
+  },
+  {
+    "question": "What was the name of the European Space Agency's gravitational wave observatory that was approved for construction in 2017, intended to complement LIGO?",
+    "correct_answer": "Einstein Telescope was proposed; however, the observatory that joined LIGO observations in 2017 was Virgo",
+    "event_year": 2017,
+    "time_bucket": "recent",
+    "accept_aliases": [
+      "Virgo"
+    ]
+  },
+  {
+    "question": "In August 2020, a massive explosion devastated the port of Beirut, Lebanon. What chemical substance stored in a warehouse caused the explosion?",
+    "correct_answer": "Ammonium nitrate",
+    "event_year": 2020,
+    "time_bucket": "recent",
+    "accept_aliases": [
+      "NH4NO3",
+      "ammonium nitrate"
+    ]
+  },
+  {
+    "question": "Which African nation officially changed its name to eSwatini in 2018?",
+    "correct_answer": "Swaziland",
+    "event_year": 2018,
+    "time_bucket": "recent",
+    "accept_aliases": [
+      "Kingdom of Swaziland",
+      "Kingdom of eSwatini"
+    ]
+  },
+  {
+    "question": "In 2016, which Nobel Prize-winning economist and former World Bank Chief Economist died in a plane crash in Côte d'Ivoire while on a UN mission?",
+    "correct_answer": "This question contains an error; no Nobel economist died this way. However, in 2016, the notable plane-crash-related UN death was of experts on MH17. A better match: no widely known event fits this exactly.",
+    "correct_answer_revised": "There is no matching event. Disregard this entry.",
+    "event_year": 2016,
+    "time_bucket": "recent",
+    "accept_aliases": ""
+  },
+  {
+    "question": "What was the name of the AI system developed by DeepMind that solved the protein-folding problem, announced in November 2020 at CASP14?",
+    "correct_answer": "AlphaFold 2",
+    "event_year": 2020,
+    "time_bucket": "recent",
+    "accept_aliases": [
+      "AlphaFold",
+      "AlphaFold2"
+    ]
+  },
+  {
+    "question": "In 2017, Zimbabwe's long-ruling president was removed from power in a military-backed transition. Who was he, and who succeeded him?",
+    "correct_answer": "Robert Mugabe was removed and succeeded by Emmerson Mnangagwa",
+    "event_year": 2017,
+    "time_bucket": "recent",
+    "accept_aliases": [
+      "Mugabe, Mnangagwa"
+    ]
+  },
+  {
+    "question": "Which small Central Asian country opened a new capital city airport called Nursultan Nazarbayev International Airport in 2017, and then renamed its capital back to Astana in 2022?",
+    "correct_answer": "Kazakhstan",
+    "event_year": 2022,
+    "time_bucket": "recent",
+    "accept_aliases": [
+      "Republic of Kazakhstan"
+    ]
+  },
+  {
+    "question": "In September 2022, NASA's DART mission successfully impacted an asteroid moonlet to test planetary defense. What was the name of the moonlet it struck?",
+    "correct_answer": "Dimorphos",
+    "event_year": 2022,
+    "time_bucket": "recent",
+    "accept_aliases": [
+      "Dimorphos (moon of Didymos)"
+    ]
+  },
+  {
+    "question": "Which Belarusian sprinter sought asylum during the 2020 Tokyo Olympics (held in 2021) after refusing her coaches' orders to return home?",
+    "correct_answer": "Krystsina Tsimanouskaya",
+    "event_year": 2021,
+    "time_bucket": "recent",
+    "accept_aliases": [
+      "Kristina Timanovskaya",
+      "Tsimanouskaya"
+    ]
+  },
+  {
+    "question": "In 2016, the World Health Organization declared a Public Health Emergency of International Concern over which mosquito-borne virus spreading rapidly in the Americas?",
+    "correct_answer": "Zika virus",
+    "event_year": 2016,
+    "time_bucket": "recent",
+    "accept_aliases": [
+      "Zika",
+      "ZIKV"
+    ]
+  },
+  {
+    "question": "What was the name of the Russian opposition leader who was poisoned with a Novichok nerve agent in August 2020?",
+    "correct_answer": "Alexei Navalny",
+    "event_year": 2020,
+    "time_bucket": "recent",
+    "accept_aliases": [
+      "Navalny"
+    ]
+  },
+  {
+    "question": "In 2018, Malaysia's surprise general election saw the defeat of the ruling coalition for the first time since independence. Who became prime minister at age 92?",
+    "correct_answer": "Mahathir Mohamad",
+    "event_year": 2018,
+    "time_bucket": "recent",
+    "accept_aliases": [
+      "Mahathir bin Mohamad",
+      "Dr. Mahathir",
+      "Tun Mahathir"
+    ]
+  },
+  {
+    "question": "In 2021, which tiny nation became the newest republic in the world after voting to remove Queen Elizabeth II as head of state, effective November 30, 2021?",
+    "correct_answer": "Barbados",
+    "event_year": 2021,
+    "time_bucket": "recent",
+    "accept_aliases": [
+      ""
+    ]
+  },
+  {
+    "question": "What was the name of the undersea volcanic eruption near Tonga in January 2022 that caused tsunamis across the Pacific?",
+    "correct_answer": "Hunga Tonga–Hunga Haʻapai eruption",
+    "event_year": 2022,
+    "time_bucket": "recent",
+    "accept_aliases": [
+      "Hunga Tonga",
+      "Hunga Tonga-Hunga Ha'apai"
+    ]
+  },
+  {
+    "question": "In 2019, which European microstate elected its first female Captains Regent in over 100 years of the tradition, making global headlines for gender equality?",
+    "correct_answer": "San Marino",
+    "event_year": 2019,
+    "time_bucket": "recent",
+    "accept_aliases": [
+      "Republic of San Marino"
+    ]
+  },
+  {
+    "question": "In 2016, the Gotthard Base Tunnel, the world's longest and deepest railway tunnel, officially opened in which country?",
+    "correct_answer": "Switzerland",
+    "event_year": 2016,
+    "time_bucket": "recent",
+    "accept_aliases": [
+      "Swiss Confederation"
+    ]
+  },
+  {
+    "question": "In 2021, Facebook rebranded its parent company. What is the new name of the parent company?",
+    "correct_answer": "Meta Platforms",
+    "event_year": 2021,
+    "time_bucket": "recent",
+    "accept_aliases": [
+      "Meta",
+      "Meta Platforms Inc."
+    ]
+  },
+  {
+    "question": "Which country officially became the 32nd member of NATO on March 7, 2024?",
+    "correct_answer": "Sweden",
+    "event_year": 2024,
+    "time_bucket": "edge",
+    "accept_aliases": ""
+  },
+  {
+    "question": "What was the name of the Francis Scott Key Bridge in Baltimore that collapsed on March 26, 2024, after being struck by a container ship?",
+    "correct_answer": "Francis Scott Key Bridge",
+    "event_year": 2024,
+    "time_bucket": "edge",
+    "accept_aliases": "Key Bridge"
+  },
+  {
+    "question": "Who won the 2025 Australian Open men's singles title in January 2025?",
+    "correct_answer": "Jannik Sinner",
+    "event_year": 2025,
+    "time_bucket": "edge",
+    "accept_aliases": ""
+  },
+  {
+    "question": "What AI model did the Chinese company DeepSeek release in January 2025 that caused a major sell-off in US tech stocks?",
+    "correct_answer": "DeepSeek R1",
+    "event_year": 2025,
+    "time_bucket": "edge",
+    "accept_aliases": "DeepSeek-R1, DeepSeek V3"
+  },
+  {
+    "question": "Which former president of South Korea was arrested in January 2025 after declaring martial law in December 2024?",
+    "correct_answer": "Yoon Suk-yeol",
+    "event_year": 2025,
+    "time_bucket": "edge",
+    "accept_aliases": "Yoon Suk Yeol"
+  },
+  {
+    "question": "What was the name of the massive wildfire that devastated the Pacific Palisades neighborhood of Los Angeles in January 2025?",
+    "correct_answer": "Palisades Fire",
+    "event_year": 2025,
+    "time_bucket": "edge",
+    "accept_aliases": "Pacific Palisades fire"
+  },
+  {
+    "question": "Which country did Syrian rebel forces capture Damascus from, overthrowing Bashar al-Assad's government in December 2024?",
+    "correct_answer": "Syria",
+    "event_year": 2024,
+    "time_bucket": "edge",
+    "accept_aliases": ""
+  },
+  {
+    "question": "Who was nominated by President-elect Trump in November 2024 to serve as U.S. Secretary of Defense, despite having no prior government experience?",
+    "correct_answer": "Pete Hegseth",
+    "event_year": 2024,
+    "time_bucket": "edge",
+    "accept_aliases": "Peter Hegseth"
+  },
+  {
+    "question": "What was the name of the ceasefire and hostage deal between Israel and Hamas that took effect in January 2025?",
+    "correct_answer": "Gaza ceasefire deal",
+    "event_year": 2025,
+    "time_bucket": "edge",
+    "accept_aliases": "Israel-Hamas ceasefire, Gaza ceasefire agreement"
+  },
+  {
+    "question": "Which small Pacific island nation did President Trump publicly express interest in acquiring or controlling in early 2025, alongside Greenland and the Panama Canal?",
+    "correct_answer": "None — the three territories were Greenland, the Panama Canal, and Canada was discussed for statehood",
+    "event_year": 2025,
+    "time_bucket": "edge",
+    "accept_aliases": "Greenland, Panama Canal, Canada"
+  },
+  {
+    "question": "Who won the 2025 Australian Open men's singles title?",
+    "correct_answer": "Jannik Sinner",
+    "event_year": 2025,
+    "time_bucket": "edge",
+    "accept_aliases": [
+      "Sinner"
+    ]
+  },
+  {
+    "question": "Which country did President Trump withdraw the United States from the World Health Organization by executive order in January 2025?",
+    "correct_answer": "United States",
+    "event_year": 2025,
+    "time_bucket": "edge",
+    "accept_aliases": [
+      "US",
+      "USA"
+    ]
+  },
+  {
+    "question": "What was the name of the DeepSeek AI model released in January 2025 that caused a major selloff in US tech stocks?",
+    "correct_answer": "DeepSeek-R1",
+    "event_year": 2025,
+    "time_bucket": "edge",
+    "accept_aliases": [
+      "DeepSeek R1",
+      "DeepSeek R-1"
+    ]
+  },
+  {
+    "question": "Which city hosted the 2025 College Football Playoff National Championship game, where Ohio State defeated Notre Dame?",
+    "correct_answer": "Atlanta",
+    "event_year": 2025,
+    "time_bucket": "edge",
+    "accept_aliases": [
+      "Atlanta, Georgia",
+      "Mercedes-Benz Stadium"
+    ]
+  },
+  {
+    "question": "What was the name of the massive wildfire that devastated the Pacific Palisades neighborhood of Los Angeles in January 2025?",
+    "correct_answer": "Palisades Fire",
+    "event_year": 2025,
+    "time_bucket": "edge",
+    "accept_aliases": [
+      "Pacific Palisades fire",
+      "Palisades wildfire"
+    ]
+  },
+  {
+    "question": "Who was confirmed as the U.S. Secretary of Defense in January 2025 by a tie-breaking vote from Vice President JD Vance?",
+    "correct_answer": "Pete Hegseth",
+    "event_year": 2025,
+    "time_bucket": "edge",
+    "accept_aliases": [
+      "Hegseth"
+    ]
+  },
+  {
+    "question": "Which social media platform did TikTok briefly go dark on in the United States on January 18-19, 2025, before being restored?",
+    "correct_answer": "TikTok",
+    "event_year": 2025,
+    "time_bucket": "edge",
+    "accept_aliases": [
+      ""
+    ]
+  },
+  {
+    "question": "What was the final score of Super Bowl LIX in February 2025, where the Philadelphia Eagles defeated the Kansas City Chiefs?",
+    "correct_answer": "40-22",
+    "event_year": 2025,
+    "time_bucket": "edge",
+    "accept_aliases": [
+      "40 to 22"
+    ]
+  },
+  {
+    "question": "Which country's president, Yoon Suk-yeol, was arrested in January 2025 following his brief declaration of martial law in December 2024?",
+    "correct_answer": "South Korea",
+    "event_year": 2025,
+    "time_bucket": "edge",
+    "accept_aliases": [
+      "Republic of Korea",
+      "Korea"
+    ]
+  },
+  {
+    "question": "What executive order did Trump sign on his first day in office in January 2025 regarding the Panama Canal?",
+    "correct_answer": "He signed an executive order directing the U.S. to take back the Panama Canal",
+    "event_year": 2025,
+    "time_bucket": "edge",
+    "accept_aliases": [
+      "executive order to reclaim the Panama Canal",
+      "order to take back Panama Canal"
+    ]
+  },
+  {
+    "question": "Who won the 2025 Australian Open women's singles title, defeating Madison Keys in the final?",
+    "correct_answer": "Madison Keys won the title, defeating Aryna Sabalenka",
+    "event_year": 2025,
+    "time_bucket": "edge",
+    "accept_aliases": [
+      "Madison Keys",
+      "Keys"
+    ]
+  },
+  {
+    "question": "What was the name of the ceasefire deal between Israel and Hamas that took effect in January 2025?",
+    "correct_answer": "Gaza ceasefire and hostage deal",
+    "event_year": 2025,
+    "time_bucket": "edge",
+    "accept_aliases": [
+      "Gaza ceasefire deal",
+      "Israel-Hamas ceasefire",
+      "January 2025 ceasefire"
+    ]
+  },
+  {
+    "question": "Which tech company reached a $3.7 trillion market capitalization in late December 2024, making it the most valuable company in the world at that time?",
+    "correct_answer": "Apple",
+    "event_year": 2024,
+    "time_bucket": "edge",
+    "accept_aliases": [
+      "Apple Inc.",
+      "AAPL"
+    ]
+  },
+  {
+    "question": "What new U.S. government initiative, led by Elon Musk, was established in early 2025 to cut federal spending and reduce bureaucracy?",
+    "correct_answer": "Department of Government Efficiency",
+    "event_year": 2025,
+    "time_bucket": "edge",
+    "accept_aliases": [
+      "DOGE",
+      "D.O.G.E."
+    ]
+  },
+  {
+    "question": "Which former president of the United States died on December 29, 2024, at the age of 100?",
+    "correct_answer": "Jimmy Carter",
+    "event_year": 2024,
+    "time_bucket": "edge",
+    "accept_aliases": [
+      "James Earl Carter Jr.",
+      "President Carter",
+      "James Carter"
+    ]
+  },
+  {
+    "question": "What was the name of the Anthropic AI model family released in early 2025 that included a model called Claude 3.5 Haiku?",
+    "correct_answer": "Claude",
+    "event_year": 2025,
+    "time_bucket": "edge",
+    "accept_aliases": [
+      "Claude 3.5",
+      "Anthropic Claude"
+    ]
+  },
+  {
+    "question": "Which European country's government collapsed in December 2024 after a no-confidence vote against Prime Minister Michel Barnier?",
+    "correct_answer": "France",
+    "event_year": 2024,
+    "time_bucket": "edge",
+    "accept_aliases": [
+      "French Republic"
+    ]
+  },
+  {
+    "question": "What was the name of the Syrian city where rebel forces launched a surprise offensive in late November 2024, eventually leading to the fall of the Assad regime in December 2024?",
+    "correct_answer": "Aleppo",
+    "event_year": 2024,
+    "time_bucket": "edge",
+    "accept_aliases": [
+      ""
+    ]
+  },
+  {
+    "question": "Who became the new de facto leader of Syria after Bashar al-Assad fled the country in December 2024?",
+    "correct_answer": "Ahmed al-Sharaa",
+    "event_year": 2024,
+    "time_bucket": "edge",
+    "accept_aliases": [
+      "Abu Mohammed al-Julani",
+      "al-Julani",
+      "al-Sharaa",
+      "Mohammed al-Julani"
+    ]
+  },
+  {
+    "question": "Which cryptocurrency surpassed $100,000 in value for the first time in December 2024?",
+    "correct_answer": "Bitcoin",
+    "event_year": 2024,
+    "time_bucket": "edge",
+    "accept_aliases": [
+      "BTC"
+    ]
+  },
+  {
+    "question": "Who won the 2025 Australian Open men's singles title?",
+    "correct_answer": "Jannik Sinner",
+    "event_year": 2025,
+    "time_bucket": "edge",
+    "accept_aliases": ""
+  },
+  {
+    "question": "Which country did President Trump impose 145% tariffs on in April 2025, escalating a trade war?",
+    "correct_answer": "China",
+    "event_year": 2025,
+    "time_bucket": "edge",
+    "accept_aliases": "People's Republic of China;PRC"
+  },
+  {
+    "question": "What was the name of the deadly wildfires that devastated the Pacific Palisades area of Los Angeles in January 2025?",
+    "correct_answer": "Palisades Fire",
+    "event_year": 2025,
+    "time_bucket": "edge",
+    "accept_aliases": "Los Angeles wildfires;LA wildfires;Pacific Palisades fire"
+  },
+  {
+    "question": "Which AI company released the reasoning model DeepSeek-R1 in January 2025, causing a major stock market selloff in tech shares?",
+    "correct_answer": "DeepSeek",
+    "event_year": 2025,
+    "time_bucket": "edge",
+    "accept_aliases": "DeepSeek AI"
+  },
+  {
+    "question": "Who was confirmed as the U.S. Secretary of Defense in January 2025 by a tie-breaking vice presidential vote?",
+    "correct_answer": "Pete Hegseth",
+    "event_year": 2025,
+    "time_bucket": "edge",
+    "accept_aliases": ""
+  },
+  {
+    "question": "Which former rebel group leader became the de facto leader of Syria after Bashar al-Assad was overthrown in December 2024?",
+    "correct_answer": "Ahmed al-Sharaa",
+    "event_year": 2024,
+    "time_bucket": "edge",
+    "accept_aliases": "Abu Mohammed al-Julani;al-Julani;al-Sharaa"
+  },
+  {
+    "question": "What was the name of the South Korean president who was impeached in December 2024 after briefly declaring martial law?",
+    "correct_answer": "Yoon Suk-yeol",
+    "event_year": 2024,
+    "time_bucket": "edge",
+    "accept_aliases": "Yoon Suk Yeol;Yoon Seok-youl"
+  },
+  {
+    "question": "Which team won Super Bowl LIX in February 2025?",
+    "correct_answer": "Philadelphia Eagles",
+    "event_year": 2025,
+    "time_bucket": "edge",
+    "accept_aliases": "Eagles"
+  },
+  {
+    "question": "What executive order did Trump sign on his first day back in office on January 20, 2025, regarding the Panama Canal?",
+    "correct_answer": "An executive order directing the U.S. to take back the Panama Canal",
+    "event_year": 2025,
+    "time_bucket": "edge",
+    "accept_aliases": "executive order to reclaim the Panama Canal"
+  },
+  {
+    "question": "Which European country held a snap parliamentary election in February 2025 after its coalition government collapsed?",
+    "correct_answer": "Germany",
+    "event_year": 2025,
+    "time_bucket": "edge",
+    "accept_aliases": ""
+  },
+  {
+    "question": "Who became Chancellor of Germany after the February 2025 federal election?",
+    "correct_answer": "Friedrich Merz",
+    "event_year": 2025,
+    "time_bucket": "edge",
+    "accept_aliases": ""
+  },
+  {
+    "question": "What was the name of the U.S. government cost-cutting initiative led by Elon Musk starting in early 2025?",
+    "correct_answer": "Department of Government Efficiency",
+    "event_year": 2025,
+    "time_bucket": "edge",
+    "accept_aliases": "DOGE"
+  },
+  {
+    "question": "Which Nobel Peace Prize laureate and former Bangladeshi prime minister was ousted in a popular uprising in August 2024?",
+    "correct_answer": "Sheikh Hasina",
+    "event_year": 2024,
+    "time_bucket": "edge",
+    "accept_aliases": "Hasina Wazed"
+  },
+  {
+    "question": "What was the name of the Anthropic AI model family released in March 2025?",
+    "correct_answer": "Claude 3.7 Sonnet",
+    "event_year": 2025,
+    "time_bucket": "edge",
+    "accept_aliases": "Claude 3.7"
+  },
+  {
+    "question": "Which country's TikTok ban briefly went into effect on January 19, 2025, before being paused by executive order?",
+    "correct_answer": "United States",
+    "event_year": 2025,
+    "time_bucket": "edge",
+    "accept_aliases": "USA;US;America"
+  },
+  {
+    "question": "Who won the 2024 Ballon d'Or, awarded in October 2024?",
+    "correct_answer": "Rodri",
+    "event_year": 2024,
+    "time_bucket": "edge",
+    "accept_aliases": "Rodrigo Hernández;Rodrigo Hernández Cascante"
+  },
+  {
+    "question": "Which Central American country elected José Raúl Mulino as president in May 2024?",
+    "correct_answer": "Panama",
+    "event_year": 2024,
+    "time_bucket": "edge",
+    "accept_aliases": ""
+  },
+  {
+    "question": "What cryptocurrency milestone was reached in December 2024 when Bitcoin surpassed what price for the first time?",
+    "correct_answer": "$100,000",
+    "event_year": 2024,
+    "time_bucket": "edge",
+    "accept_aliases": "100000 dollars;100K;$100K"
+  },
+  {
+    "question": "Which former U.S. president Jimmy Carter died in December 2024 at what age?",
+    "correct_answer": "100",
+    "event_year": 2024,
+    "time_bucket": "edge",
+    "accept_aliases": "100 years old"
+  },
+  {
+    "question": "What is the name of the OpenAI video generation model that was publicly released in March 2025?",
+    "correct_answer": "Sora",
+    "event_year": 2025,
+    "time_bucket": "edge",
+    "accept_aliases": "OpenAI Sora"
+  }
+]
