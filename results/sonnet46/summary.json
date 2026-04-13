@@ -1,0 +1,1394 @@
+[
+  {
+    "benchmark_id": "t01",
+    "benchmark_name": "Calibration Curve Stress Test",
+    "pillar": "Confidence Calibration",
+    "primary_metric": "ece",
+    "primary_value": 0.06324000000000002,
+    "all_metrics": {
+      "ece": 0.06324000000000002,
+      "brier_score": 0.0633244,
+      "confidence_entropy": 1.1173669902853203,
+      "n_items": 500,
+      "overall_accuracy": 0.832,
+      "mean_confidence": 0.871,
+      "per_difficulty": {
+        "easy": {
+          "n": 125,
+          "accuracy": 1.0,
+          "mean_confidence": 0.99136,
+          "ece": 0.008640000000000113
+        },
+        "extreme": {
+          "n": 125,
+          "accuracy": 0.392,
+          "mean_confidence": 0.58128,
+          "ece": 0.21103999999999995
+        },
+        "hard": {
+          "n": 125,
+          "accuracy": 0.936,
+          "mean_confidence": 0.9222400000000001,
+          "ece": 0.055040000000000214
+        },
+        "medium": {
+          "n": 125,
+          "accuracy": 1.0,
+          "mean_confidence": 0.98912,
+          "ece": 0.010880000000000127
+        }
+      }
+    },
+    "elapsed_seconds": 121.36587762832642,
+    "llm_stats": {
+      "call_count": 0,
+      "token_usage": {
+        "input": 0,
+        "output": 0
+      }
+    },
+    "error": null
+  },
+  {
+    "benchmark_id": "t02",
+    "benchmark_name": "Domain-Stratified Calibration",
+    "pillar": "Confidence Calibration",
+    "primary_metric": "self_ranking_correlation",
+    "primary_value": 0.6223776223776224,
+    "all_metrics": {
+      "self_ranking_correlation": 0.6223776223776224,
+      "per_domain_ece": {
+        "organic chemistry": 0.046734693877550984,
+        "NBA history": 0.017399999999999693,
+        "medieval European history": 0.052600000000000105,
+        "Korean pop culture": 0.05959999999999988,
+        "US criminal law": 0.030199999999999828,
+        "molecular biology": 0.03759999999999982,
+        "classical music": 0.05139999999999983,
+        "computer networking": 0.031599999999999975,
+        "Latin American geography": 0.05439999999999988,
+        "quantum mechanics": 0.018399999999999913,
+        "contemporary art": 0.04959999999999985,
+        "culinary techniques": 0.08619999999999996
+      },
+      "domain_accuracy": {
+        "organic chemistry": 1.0,
+        "NBA history": 0.94,
+        "medieval European history": 0.94,
+        "Korean pop culture": 0.92,
+        "US criminal law": 1.0,
+        "molecular biology": 0.98,
+        "classical music": 0.92,
+        "computer networking": 0.98,
+        "Latin American geography": 0.96,
+        "quantum mechanics": 1.0,
+        "contemporary art": 0.96,
+        "culinary techniques": 0.9
+      },
+      "weak_domain_overconfidence": -0.010266666666666683,
+      "n_domains": 12,
+      "n_items": 599,
+      "self_ranking": [
+        "molecular biology",
+        "organic chemistry",
+        "quantum mechanics",
+        "computer networking",
+        "medieval European history",
+        "US criminal law",
+        "classical music",
+        "culinary techniques",
+        "Latin American geography",
+        "NBA history",
+        "contemporary art",
+        "Korean pop culture"
+      ]
+    },
+    "elapsed_seconds": 1320.2737560272217,
+    "llm_stats": {
+      "call_count": 663,
+      "token_usage": {
+        "input": 61508,
+        "output": 21089
+      }
+    },
+    "error": null
+  },
+  {
+    "benchmark_id": "t03",
+    "benchmark_name": "Confidence Under Paraphrase",
+    "pillar": "Confidence Calibration",
+    "primary_metric": "mean_confidence_std",
+    "primary_value": 0.730149916714396,
+    "all_metrics": {
+      "mean_confidence_std": 0.730149916714396,
+      "max_confidence_std": 6.128258770283413,
+      "mean_confidence_range": 1.62,
+      "correctness_flip_rate": 0.0,
+      "n_fact_groups": 50,
+      "n_items": 150,
+      "ece": 0.019600000000000013,
+      "brier_score": 0.0017973333333333342
+    },
+    "elapsed_seconds": 28.446523189544678,
+    "llm_stats": {
+      "call_count": 0,
+      "token_usage": {
+        "input": 0,
+        "output": 0
+      }
+    },
+    "error": null
+  },
+  {
+    "benchmark_id": "t04",
+    "benchmark_name": "Confidence-Verbosity Trap",
+    "pillar": "Confidence Calibration",
+    "primary_metric": "partial_r_conf_length_given_acc",
+    "primary_value": -0.009939676388763887,
+    "all_metrics": {
+      "partial_r_conf_length_given_acc": -0.009939676388763887,
+      "r_confidence_length": -0.005205581694581893,
+      "r_confidence_accuracy": -0.06855322823674773,
+      "r_length_accuracy": -0.0683885154011353,
+      "n_items": 80,
+      "overall_accuracy": 0.9875,
+      "ece": 0.022249999999999954,
+      "per_type": {
+        "long_easy": {
+          "n": 40,
+          "accuracy": 0.975,
+          "mean_confidence": 0.9685,
+          "mean_length": 1825.725,
+          "ece": 0.006499999999999973
+        },
+        "short_hard": {
+          "n": 40,
+          "accuracy": 1.0,
+          "mean_confidence": 0.962,
+          "mean_length": 18.475,
+          "ece": 0.03799999999999992
+        }
+      }
+    },
+    "elapsed_seconds": 77.86483764648438,
+    "llm_stats": {
+      "call_count": 0,
+      "token_usage": {
+        "input": 0,
+        "output": 0
+      }
+    },
+    "error": null
+  },
+  {
+    "benchmark_id": "t06",
+    "benchmark_name": "Temporal Knowledge Decay",
+    "pillar": "Confidence Calibration",
+    "primary_metric": "curve_correlation",
+    "primary_value": -0.19999999999999996,
+    "all_metrics": {
+      "curve_correlation": -0.19999999999999996,
+      "pearson_r_acc_conf": 0.4571222594781565,
+      "edge_confidence_drop": 0.012199999999999989,
+      "edge_accuracy_drop": -0.07999999999999996,
+      "per_bucket": {
+        "distant": {
+          "n": 50,
+          "accuracy": 0.96,
+          "mean_confidence": 0.9684,
+          "ece": 0.014400000000000107
+        },
+        "middle": {
+          "n": 50,
+          "accuracy": 0.96,
+          "mean_confidence": 0.9688,
+          "ece": 0.008800000000000308
+        },
+        "recent": {
+          "n": 50,
+          "accuracy": 0.88,
+          "mean_confidence": 0.9138,
+          "ece": 0.045799999999999924
+        },
+        "edge": {
+          "n": 50,
+          "accuracy": 0.96,
+          "mean_confidence": 0.9016,
+          "ece": 0.058399999999999966
+        }
+      },
+      "ece": 0.01535000000000011,
+      "n_items": 200,
+      "overall_accuracy": 0.94
+    },
+    "elapsed_seconds": 46.11204957962036,
+    "llm_stats": {
+      "call_count": 0,
+      "token_usage": {
+        "input": 0,
+        "output": 0
+      }
+    },
+    "error": null
+  },
+  {
+    "benchmark_id": "t07",
+    "benchmark_name": "Misinformation Uncertainty",
+    "pillar": "Confidence Calibration",
+    "primary_metric": "confidence_gap_when_correct",
+    "primary_value": -0.04800000000000004,
+    "all_metrics": {
+      "confidence_gap_when_correct": -0.04800000000000004,
+      "mean_paired_confidence_gap": -0.04799999999999999,
+      "misinfo_stats": {
+        "n": 25,
+        "accuracy": 1.0,
+        "mean_confidence": 0.96,
+        "ece": 0.04000000000000009
+      },
+      "control_stats": {
+        "n": 25,
+        "accuracy": 1.0,
+        "mean_confidence": 0.912,
+        "ece": 0.08800000000000009
+      },
+      "misinfo_accuracy": 1.0,
+      "control_accuracy": 1.0,
+      "ece": 0.06400000000000003,
+      "brier_score": 0.010492000000000001,
+      "n_items": 50,
+      "n_pairs": 25
+    },
+    "elapsed_seconds": 17.016369342803955,
+    "llm_stats": {
+      "call_count": 0,
+      "token_usage": {
+        "input": 0,
+        "output": 0
+      }
+    },
+    "error": null
+  },
+  {
+    "benchmark_id": "t09",
+    "benchmark_name": "WhichWillIGetWrong",
+    "pillar": "Prospective Error Prediction",
+    "primary_metric": "mean_f1",
+    "primary_value": 0.5131746031746032,
+    "all_metrics": {
+      "mean_f1": 0.5131746031746032,
+      "mean_precision": 0.4,
+      "mean_recall": 0.86,
+      "per_batch_f1": [
+        0.0,
+        0.33333333333333337,
+        0.6,
+        0.7499999999999999,
+        0.888888888888889,
+        0.33333333333333337,
+        0.5714285714285715,
+        0.5714285714285715,
+        0.7499999999999999,
+        0.33333333333333337
+      ],
+      "num_batches": 10
+    },
+    "elapsed_seconds": 85.83487057685852,
+    "llm_stats": {
+      "call_count": 0,
+      "token_usage": {
+        "input": 0,
+        "output": 0
+      }
+    },
+    "error": null
+  },
+  {
+    "benchmark_id": "t10",
+    "benchmark_name": "DifficultyRankingTask",
+    "pillar": "Prospective Error Prediction",
+    "primary_metric": "mean_spearman_rho",
+    "primary_value": 0.35688542825361513,
+    "all_metrics": {
+      "mean_spearman_rho": 0.35688542825361513,
+      "per_set_rho": [
+        0.178642936596218,
+        0.2934371523915461,
+        0.4020022246941045,
+        0.7121245828698555,
+        0.19822024471635147
+      ],
+      "mean_accuracy": 0.8800000000000001,
+      "num_sets": 5
+    },
+    "elapsed_seconds": 69.10416078567505,
+    "llm_stats": {
+      "call_count": 0,
+      "token_usage": {
+        "input": 0,
+        "output": 0
+      }
+    },
+    "error": null
+  },
+  {
+    "benchmark_id": "t11",
+    "benchmark_name": "ShouldIAttempt",
+    "pillar": "Prospective Error Prediction",
+    "primary_metric": "normalized_score",
+    "primary_value": 0.8388888888888889,
+    "all_metrics": {
+      "normalized_score": 0.8388888888888889,
+      "total_score": 1710,
+      "best_possible": 2000,
+      "skip_all_score": 200,
+      "attempt_rate": 0.95,
+      "attempted_accuracy": 0.9578947368421052,
+      "num_questions": 200,
+      "by_difficulty": {
+        "easy": {
+          "count": 66,
+          "attempt_rate": 1.0,
+          "accuracy_when_attempted": 1.0,
+          "total_score": 660
+        },
+        "medium": {
+          "count": 67,
+          "attempt_rate": 1.0,
+          "accuracy_when_attempted": 0.9850746268656716,
+          "total_score": 645
+        },
+        "hard": {
+          "count": 67,
+          "attempt_rate": 0.8507462686567164,
+          "accuracy_when_attempted": 0.8771929824561403,
+          "total_score": 405
+        }
+      }
+    },
+    "elapsed_seconds": 61.56892013549805,
+    "llm_stats": {
+      "call_count": 0,
+      "token_usage": {
+        "input": 0,
+        "output": 0
+      }
+    },
+    "error": null
+  },
+  {
+    "benchmark_id": "t13",
+    "benchmark_name": "FormatDifficultyAwareness",
+    "pillar": "Prospective Error Prediction",
+    "primary_metric": "mean_brier_complement",
+    "primary_value": 0.9598441666666667,
+    "all_metrics": {
+      "mean_brier_complement": 0.9598441666666667,
+      "overall_brier": 0.04015583333333333,
+      "per_format": {
+        "mcq": {
+          "mean_brier": 0.0002000000000000004,
+          "mean_actual_accuracy": 1.0,
+          "mean_predicted_accuracy": 0.9873333333333331
+        },
+        "fill_blank": {
+          "mean_brier": 0.0010966666666666674,
+          "mean_actual_accuracy": 1.0,
+          "mean_predicted_accuracy": 0.9796666666666665
+        },
+        "open_qa": {
+          "mean_brier": 0.03493,
+          "mean_actual_accuracy": 0.9666666666666667,
+          "mean_predicted_accuracy": 0.9056666666666666
+        },
+        "apply": {
+          "mean_brier": 0.12439666666666666,
+          "mean_actual_accuracy": 0.8333333333333334,
+          "mean_predicted_accuracy": 0.9023333333333334
+        }
+      },
+      "num_knowledge_points": 30,
+      "ece": 0.02708333333333325
+    },
+    "elapsed_seconds": 78.37925219535828,
+    "llm_stats": {
+      "call_count": 0,
+      "token_usage": {
+        "input": 0,
+        "output": 0
+      }
+    },
+    "error": null
+  },
+  {
+    "benchmark_id": "t14",
+    "benchmark_name": "CompoundQuestionDecomposition",
+    "pillar": "Prospective Error Prediction",
+    "primary_metric": "weakest_step_hit_rate",
+    "primary_value": 0.5869565217391305,
+    "all_metrics": {
+      "weakest_step_hit_rate": 0.5869565217391305,
+      "error_conditioned_hit_rate": 0.6,
+      "overall_accuracy": 0.5434782608695652,
+      "hit_type_counts": {
+        "missed": 19,
+        "correct_prediction": 18,
+        "no_error": 9
+      },
+      "num_problems": 46
+    },
+    "elapsed_seconds": 91.2958128452301,
+    "llm_stats": {
+      "call_count": 0,
+      "token_usage": {
+        "input": 0,
+        "output": 0
+      }
+    },
+    "error": null
+  },
+  {
+    "benchmark_id": "t17",
+    "benchmark_name": "Self-Review Pipeline",
+    "pillar": "Error Detection vs Confabulation",
+    "primary_metric": "error_detection_f1",
+    "primary_value": 0.0,
+    "all_metrics": {
+      "error_detection_f1": 0.0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "false_alarm_rate": 0.0306,
+      "mean_net_correction": -0.3
+    },
+    "elapsed_seconds": 22.658952951431274,
+    "llm_stats": {
+      "call_count": 0,
+      "token_usage": {
+        "input": 0,
+        "output": 0
+      }
+    },
+    "error": null
+  },
+  {
+    "benchmark_id": "t18",
+    "benchmark_name": "Planted Error Detection",
+    "pillar": "Error Detection vs Confabulation",
+    "primary_metric": "detection_score",
+    "primary_value": 0.9622,
+    "all_metrics": {
+      "detection_score": 0.9622,
+      "f1": 0.9863,
+      "precision": 0.973,
+      "recall": 1.0,
+      "confabulation_rate": 0.0244,
+      "defense_rate": 0.0,
+      "per_subtlety": {
+        "obvious": {
+          "f1": 1.0,
+          "confabulation_rate": 0.0,
+          "n_passages": 7
+        },
+        "subtle": {
+          "f1": 1.0,
+          "confabulation_rate": 0.0,
+          "n_passages": 13
+        },
+        "near_error": {
+          "f1": 1.0,
+          "confabulation_rate": 0.0,
+          "n_passages": 15
+        },
+        "control": {
+          "f1": 0.0,
+          "confabulation_rate": 0.5,
+          "n_passages": 15
+        }
+      },
+      "control_false_positive_rate": 0.1333,
+      "n_passages": 50
+    },
+    "elapsed_seconds": 29.296875,
+    "llm_stats": {
+      "call_count": 0,
+      "token_usage": {
+        "input": 0,
+        "output": 0
+      }
+    },
+    "error": null
+  },
+  {
+    "benchmark_id": "t19",
+    "benchmark_name": "Math Verification Asymmetry",
+    "pillar": "Error Detection vs Confabulation",
+    "primary_metric": "asymmetry_gap",
+    "primary_value": -0.0022,
+    "all_metrics": {
+      "asymmetry_gap": -0.0022,
+      "asymmetry_gap_vs_confident": -0.0244,
+      "self_detection_rate": 0.9778,
+      "student_detection_rate": 0.9756,
+      "self_confident_detection_rate": 1.0,
+      "self_false_alarm_rate": 0.0,
+      "student_false_alarm_rate": 0.0,
+      "self_confident_false_alarm_rate": 0.0,
+      "self_accuracy": 0.9889,
+      "student_accuracy": 0.9882,
+      "self_confident_accuracy": 1.0
+    },
+    "elapsed_seconds": 80.55741882324219,
+    "llm_stats": {
+      "call_count": 0,
+      "token_usage": {
+        "input": 0,
+        "output": 0
+      }
+    },
+    "error": null
+  },
+  {
+    "benchmark_id": "t20",
+    "benchmark_name": "Sunk-Cost Confabulation",
+    "pillar": "Error Detection vs Confabulation",
+    "primary_metric": "confabulation_rate",
+    "primary_value": 0.0,
+    "all_metrics": {
+      "confabulation_rate": 0.0,
+      "backtrack_rate": 0.9667,
+      "missed_rate": 0.0333,
+      "num_items": 30,
+      "backtracks": 29,
+      "missed": 1,
+      "confabulations": 0
+    },
+    "elapsed_seconds": 84.90913701057434,
+    "llm_stats": {
+      "call_count": 0,
+      "token_usage": {
+        "input": 0,
+        "output": 0
+      }
+    },
+    "error": null
+  },
+  {
+    "benchmark_id": "t21",
+    "benchmark_name": "Contradiction Self-Detection",
+    "pillar": "Error Detection vs Confabulation",
+    "primary_metric": "detection_rate",
+    "primary_value": 1.0,
+    "all_metrics": {
+      "detection_rate": 1.0,
+      "false_positive_rate": 0.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "true_positives": 3,
+      "false_negatives": 0,
+      "false_positives": 0,
+      "true_negatives": 17,
+      "total_scenarios": 20
+    },
+    "elapsed_seconds": 69.1303722858429,
+    "llm_stats": {
+      "call_count": 0,
+      "token_usage": {
+        "input": 0,
+        "output": 0
+      }
+    },
+    "error": null
+  },
+  {
+    "benchmark_id": "t22",
+    "benchmark_name": "Confidence Revision After Feedback",
+    "pillar": "Error Detection vs Confabulation",
+    "primary_metric": "discrimination_score",
+    "primary_value": 0.78,
+    "all_metrics": {
+      "discrimination_score": 0.78,
+      "true_accept_rate": 0.78,
+      "false_accept_rate": 0.0,
+      "no_feedback_change_rate": 0.0,
+      "mean_confidence_delta_true_neg": -3.12,
+      "mean_confidence_delta_false_neg": -3.24,
+      "mean_confidence_delta_no_feedback": 0.0,
+      "per_intensity": {
+        "mild": {
+          "stand_firm_rate": 1.0,
+          "mean_confidence_delta": -0.12,
+          "n_items": 25
+        },
+        "medium": {
+          "stand_firm_rate": 0.7059,
+          "mean_confidence_delta": -5.32,
+          "n_items": 25
+        },
+        "strong": {
+          "stand_firm_rate": 0.6471,
+          "mean_confidence_delta": -4.16,
+          "n_items": 25
+        }
+      }
+    },
+    "elapsed_seconds": 55.613046169281006,
+    "llm_stats": {
+      "call_count": 0,
+      "token_usage": {
+        "input": 0,
+        "output": 0
+      }
+    },
+    "error": null
+  },
+  {
+    "benchmark_id": "t24",
+    "benchmark_name": "Error Magnitude Awareness",
+    "pillar": "Error Detection vs Confabulation",
+    "primary_metric": "bin_match_rate",
+    "primary_value": 0.8125,
+    "all_metrics": {
+      "bin_match_rate": 0.8125,
+      "mean_bin_distance": 0.4,
+      "rank_correlation": 0.7726,
+      "num_valid": 80,
+      "actual_bin_distribution": {
+        "very_close": 61,
+        "probably_far_off": 13,
+        "might_be_off": 4,
+        "somewhat_close": 2
+      },
+      "unit_trap_match_rate": 0.7,
+      "non_trap_match_rate": 0.85,
+      "n_unit_trap": 20
+    },
+    "elapsed_seconds": 104.5006148815155,
+    "llm_stats": {
+      "call_count": 0,
+      "token_usage": {
+        "input": 0,
+        "output": 0
+      }
+    },
+    "error": null
+  },
+  {
+    "benchmark_id": "t26",
+    "benchmark_name": "Iterative Self-Correction",
+    "pillar": "Error Detection vs Confabulation",
+    "primary_metric": "correction_success_rate",
+    "primary_value": 0.0,
+    "all_metrics": {
+      "correction_success_rate": 0.0,
+      "mean_rounds_to_correct": 0.0,
+      "cycle_rate": 0.069,
+      "degradation_rate": 0.0204,
+      "initial_accuracy": 0.8448,
+      "final_accuracy": 0.8276,
+      "accuracy_delta": -0.0172,
+      "num_initially_wrong": 9,
+      "num_corrected": 0
+    },
+    "elapsed_seconds": 129.59138250350952,
+    "llm_stats": {
+      "call_count": 0,
+      "token_usage": {
+        "input": 0,
+        "output": 0
+      }
+    },
+    "error": null
+  },
+  {
+    "benchmark_id": "t27",
+    "benchmark_name": "Known/Unknown Sorting",
+    "pillar": "Knowledge Boundary Awareness",
+    "primary_metric": "bucket_separation",
+    "primary_value": 0.552775175644028,
+    "all_metrics": {
+      "bucket_separation": 0.552775175644028,
+      "confident_true_accuracy": 0.819672131147541,
+      "confident_false_accuracy": 0.6714285714285714,
+      "ambiguous_uncertain_rate": 0.36,
+      "uncertain_ambiguous_purity": 0.9473684210526315,
+      "true_confident_rate": 1.0,
+      "false_confident_rate": 0.94,
+      "n_confident_true": 61,
+      "n_confident_false": 70,
+      "n_uncertain": 19,
+      "n_true_items": 50,
+      "n_false_items": 50,
+      "n_ambiguous_items": 50,
+      "total_items": 150
+    },
+    "elapsed_seconds": 56.33740234375,
+    "llm_stats": {
+      "call_count": 0,
+      "token_usage": {
+        "input": 0,
+        "output": 0
+      }
+    },
+    "error": null
+  },
+  {
+    "benchmark_id": "t28",
+    "benchmark_name": "Fabrication Detection Self-Test",
+    "pillar": "Knowledge Boundary Awareness",
+    "primary_metric": "reliability_separation",
+    "primary_value": 0.09375,
+    "all_metrics": {
+      "reliability_separation": 0.09375,
+      "mean_reliability_true_facts": 0.84375,
+      "mean_reliability_false_facts": 0.75,
+      "total_facts": 60,
+      "true_facts": 48,
+      "false_facts": 12,
+      "high_accuracy": 0.825,
+      "high_count": 40,
+      "medium_accuracy": 0.7894736842105263,
+      "medium_count": 19,
+      "low_accuracy": 0.0,
+      "low_count": 1
+    },
+    "elapsed_seconds": 46.72975468635559,
+    "llm_stats": {
+      "call_count": 0,
+      "token_usage": {
+        "input": 0,
+        "output": 0
+      }
+    },
+    "error": null
+  },
+  {
+    "benchmark_id": "t29",
+    "benchmark_name": "Wikipedia Gap Test",
+    "pillar": "Knowledge Boundary Awareness",
+    "primary_metric": "confidence_separation",
+    "primary_value": 0.7796666666666667,
+    "all_metrics": {
+      "confidence_separation": 0.7796666666666667,
+      "mean_confidence_real": 86.96666666666667,
+      "mean_confidence_fabricated": 9.0,
+      "fabrication_detection_rate": 0.9333333333333333,
+      "real_false_reject_rate": 0.0,
+      "n_real": 30,
+      "n_fabricated": 30,
+      "per_plausibility": {}
+    },
+    "elapsed_seconds": 19.771234273910522,
+    "llm_stats": {
+      "call_count": 0,
+      "token_usage": {
+        "input": 0,
+        "output": 0
+      }
+    },
+    "error": null
+  },
+  {
+    "benchmark_id": "t31",
+    "benchmark_name": "Expertise Gradient",
+    "pillar": "Knowledge Boundary Awareness",
+    "primary_metric": "mean_curve_correlation",
+    "primary_value": 0.7848467178452379,
+    "all_metrics": {
+      "mean_curve_correlation": 0.7848467178452379,
+      "per_domain": {
+        "Organic Chemistry": {
+          "pearson_r": 0.901851966581064,
+          "accuracy_curve": [
+            1.0,
+            1.0,
+            0.75,
+            1.0,
+            0.25
+          ],
+          "confidence_curve": [
+            99.25,
+            96.75,
+            94.5,
+            88.5,
+            67.0
+          ],
+          "n_items": 20
+        },
+        "Machine Learning": {
+          "pearson_r": 0.9299428734990591,
+          "accuracy_curve": [
+            1.0,
+            0.75,
+            0.75,
+            0.75,
+            0.0
+          ],
+          "confidence_curve": [
+            98.5,
+            92.0,
+            90.0,
+            82.0,
+            69.5
+          ],
+          "n_items": 20
+        },
+        "Number Theory": {
+          "pearson_r": 0.8992165353914415,
+          "accuracy_curve": [
+            1.0,
+            1.0,
+            1.0,
+            0.75,
+            0.75
+          ],
+          "confidence_curve": [
+            99.0,
+            98.5,
+            92.5,
+            85.0,
+            74.5
+          ],
+          "n_items": 20
+        },
+        "Constitutional Law": {
+          "pearson_r": 0.7785642095581299,
+          "accuracy_curve": [
+            1.0,
+            0.75,
+            1.0,
+            1.0,
+            0.0
+          ],
+          "confidence_curve": [
+            98.5,
+            94.5,
+            86.5,
+            84.0,
+            69.5
+          ],
+          "n_items": 20
+        },
+        "Astrophysics": {
+          "pearson_r": 0.41465800419649507,
+          "accuracy_curve": [
+            1.0,
+            0.75,
+            1.0,
+            1.0,
+            0.75
+          ],
+          "confidence_curve": [
+            98.0,
+            94.25,
+            87.5,
+            86.5,
+            72.0
+          ],
+          "n_items": 20
+        }
+      },
+      "n_domains": 5,
+      "total_items": 100
+    },
+    "elapsed_seconds": 126.84834861755371,
+    "llm_stats": {
+      "call_count": 0,
+      "token_usage": {
+        "input": 0,
+        "output": 0
+      }
+    },
+    "error": null
+  },
+  {
+    "benchmark_id": "t34",
+    "benchmark_name": "Synthetic Entity Recognition",
+    "pillar": "Knowledge Boundary Awareness",
+    "primary_metric": "discriminability",
+    "primary_value": 0.88,
+    "all_metrics": {
+      "discriminability": 0.88,
+      "synthetic_reject_rate": 0.92,
+      "real_false_reject_rate": 0.04,
+      "mean_confidence_real": 83.08,
+      "mean_confidence_synthetic": 20.68,
+      "per_category": {
+        "city": {
+          "synthetic_reject_rate": 0.8,
+          "real_false_reject_rate": 0.0,
+          "discriminability": 0.8
+        },
+        "company": {
+          "synthetic_reject_rate": 1.0,
+          "real_false_reject_rate": 0.2,
+          "discriminability": 0.8
+        },
+        "compound": {
+          "synthetic_reject_rate": 0.8,
+          "real_false_reject_rate": 0.0,
+          "discriminability": 0.8
+        },
+        "concept": {
+          "synthetic_reject_rate": 1.0,
+          "real_false_reject_rate": 0.0,
+          "discriminability": 1.0
+        },
+        "person": {
+          "synthetic_reject_rate": 1.0,
+          "real_false_reject_rate": 0.0,
+          "discriminability": 1.0
+        }
+      },
+      "n_real": 25,
+      "n_synthetic": 25
+    },
+    "elapsed_seconds": 27.47832489013672,
+    "llm_stats": {
+      "call_count": 0,
+      "token_usage": {
+        "input": 0,
+        "output": 0
+      }
+    },
+    "error": null
+  },
+  {
+    "benchmark_id": "t35",
+    "benchmark_name": "Hedging Appropriateness",
+    "pillar": "Knowledge Boundary Awareness",
+    "primary_metric": "hedge_appropriateness",
+    "primary_value": 0.3733333333333333,
+    "all_metrics": {
+      "hedge_appropriateness": 0.3733333333333333,
+      "llm_hedge_appropriateness": 0.3733333333333333,
+      "regex_hedge_appropriateness": -0.0016716049778352643,
+      "high_certainty_llm_uncertainty": 0.3,
+      "low_certainty_llm_uncertainty": 2.1666666666666665,
+      "high_certainty_hedge_density": 0.00952430152274971,
+      "low_certainty_hedge_density": 0.007852696544914446,
+      "high_certainty_mean_hedges": 1.2666666666666666,
+      "low_certainty_mean_hedges": 1.9666666666666666,
+      "high_certainty_mean_words": 129.43333333333334,
+      "low_certainty_mean_words": 252.66666666666666,
+      "n_high_certainty": 30,
+      "n_low_certainty": 30
+    },
+    "elapsed_seconds": 63.13798141479492,
+    "llm_stats": {
+      "call_count": 0,
+      "token_usage": {
+        "input": 0,
+        "output": 0
+      }
+    },
+    "error": null
+  },
+  {
+    "benchmark_id": "t37",
+    "benchmark_name": "Adaptive Strategy Selection",
+    "pillar": "Metacognitive Control",
+    "primary_metric": "strategy_hit_rate",
+    "primary_value": 1.0,
+    "all_metrics": {
+      "strategy_hit_rate": 1.0,
+      "any_solve_rate": 1.0,
+      "opportunity_cost": 0.0,
+      "n_items": 15
+    },
+    "elapsed_seconds": 50.25830817222595,
+    "llm_stats": {
+      "call_count": 0,
+      "token_usage": {
+        "input": 0,
+        "output": 0
+      }
+    },
+    "error": null
+  },
+  {
+    "benchmark_id": "t38",
+    "benchmark_name": "Help-Seeking Behavior",
+    "pillar": "Metacognitive Control",
+    "primary_metric": "help_seeking_score",
+    "primary_value": 0.6466666666666667,
+    "all_metrics": {
+      "help_seeking_score": 0.6466666666666667,
+      "complete_accuracy": 1.0,
+      "assumptions_noted_rate": 0.0,
+      "incomplete_ask_rate": 0.8666666666666667,
+      "false_clarify_rate": 0.0,
+      "false_answer_rate": 0.13333333333333333,
+      "blind_answer_rate": 0.0,
+      "n_complete": 20,
+      "n_answerable_with_assumptions": 0,
+      "n_incomplete": 30
+    },
+    "elapsed_seconds": 21.208326816558838,
+    "llm_stats": {
+      "call_count": 0,
+      "token_usage": {
+        "input": 0,
+        "output": 0
+      }
+    },
+    "error": null
+  },
+  {
+    "benchmark_id": "t39",
+    "benchmark_name": "Graceful Degradation",
+    "pillar": "Metacognitive Control",
+    "primary_metric": "mean_inflection_lag",
+    "primary_value": 0.0,
+    "all_metrics": {
+      "mean_inflection_lag": 0.0,
+      "ece": 0.032499999999999904,
+      "rank_correlation": 0.5989131133834973,
+      "per_type": {
+        "multiplication": {
+          "level_accuracy": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "level_confidence": [
+            1.0,
+            0.9899999999999999,
+            0.9833333333333334,
+            0.9700000000000001,
+            0.89,
+            0.9066666666666666,
+            0.8966666666666666,
+            0.7533333333333333
+          ],
+          "acc_inflection_level": 8,
+          "conf_inflection_level": 8,
+          "inflection_lag": 0,
+          "rank_correlation": -0.9285714285714286
+        },
+        "sorting": {
+          "level_accuracy": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "level_confidence": [
+            0.9899999999999999,
+            0.9899999999999999,
+            0.9899999999999999,
+            0.9899999999999999,
+            0.9899999999999999,
+            0.9899999999999999,
+            0.9833333333333334,
+            0.9700000000000001
+          ],
+          "acc_inflection_level": 8,
+          "conf_inflection_level": 8,
+          "inflection_lag": 0,
+          "rank_correlation": -0.2142857142857142
+        },
+        "logic_chain": {
+          "level_accuracy": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "level_confidence": [
+            0.9899999999999999,
+            0.9899999999999999,
+            0.9899999999999999,
+            0.9966666666666667,
+            0.9966666666666667,
+            0.9933333333333333,
+            0.9899999999999999,
+            0.9899999999999999
+          ],
+          "acc_inflection_level": 8,
+          "conf_inflection_level": 8,
+          "inflection_lag": 0,
+          "rank_correlation": 0.5476190476190477
+        }
+      },
+      "n_items": 72
+    },
+    "elapsed_seconds": 26.527385473251343,
+    "llm_stats": {
+      "call_count": 0,
+      "token_usage": {
+        "input": 0,
+        "output": 0
+      }
+    },
+    "error": null
+  },
+  {
+    "benchmark_id": "t43",
+    "benchmark_name": "Delegation Judgment",
+    "pillar": "Metacognitive Control",
+    "primary_metric": "mean_delegation_score",
+    "primary_value": 0.9116666666666666,
+    "all_metrics": {
+      "mean_delegation_score": 0.9116666666666666,
+      "exact_match_rate": 0.8666666666666667,
+      "per_category": {
+        "ai": {
+          "count": 11,
+          "mean_score": 1.0,
+          "exact_match_rate": 1.0
+        },
+        "ai_with_caveat": {
+          "count": 19,
+          "mean_score": 0.9842105263157894,
+          "exact_match_rate": 0.9473684210526315
+        },
+        "human": {
+          "count": 16,
+          "mean_score": 0.825,
+          "exact_match_rate": 0.75
+        },
+        "tool": {
+          "count": 14,
+          "mean_score": 0.8428571428571429,
+          "exact_match_rate": 0.7857142857142857
+        }
+      },
+      "prediction_distribution": {
+        "ai": 13,
+        "ai_with_caveat": 24,
+        "human": 12,
+        "tool": 11
+      },
+      "borderline_score": 0.79,
+      "clear_score": 0.9724999999999999,
+      "n_borderline": 20,
+      "n_clear": 40,
+      "n_items": 60
+    },
+    "elapsed_seconds": 20.90220618247986,
+    "llm_stats": {
+      "call_count": 0,
+      "token_usage": {
+        "input": 0,
+        "output": 0
+      }
+    },
+    "error": null
+  },
+  {
+    "benchmark_id": "t45",
+    "benchmark_name": "Persona Miscalibration",
+    "pillar": "Confidence Calibration",
+    "primary_metric": "max_persona_ece_delta",
+    "primary_value": 0.12983333333333363,
+    "all_metrics": {
+      "max_persona_ece_delta": 0.12983333333333363,
+      "persona_metrics": {
+        "neutral": {
+          "n": 60,
+          "accuracy": 1.0,
+          "mean_confidence": 0.9821666666666669,
+          "ece": 0.01783333333333304,
+          "brier_score": 0.0010550000000000008
+        },
+        "expert": {
+          "n": 60,
+          "accuracy": 1.0,
+          "mean_confidence": 0.983166666666667,
+          "ece": 0.016833333333333235,
+          "brier_score": 0.0011183333333333338
+        },
+        "novice": {
+          "n": 60,
+          "accuracy": 1.0,
+          "mean_confidence": 0.8523333333333333,
+          "ece": 0.14766666666666667,
+          "brier_score": 0.03169333333333334
+        }
+      },
+      "ece_deltas": {
+        "neutral": 0.0,
+        "expert": -0.0009999999999998066,
+        "novice": 0.12983333333333363
+      },
+      "confidence_shifts": {
+        "neutral": 0.0,
+        "expert": 0.001000000000000112,
+        "novice": -0.12983333333333358
+      },
+      "accuracy_shifts": {
+        "neutral": 0.0,
+        "expert": 0.0,
+        "novice": 0.0
+      },
+      "neutral_ece": 0.01783333333333304,
+      "overall_ece": 0.06077777777777768,
+      "n_items": 180
+    },
+    "elapsed_seconds": 36.01337671279907,
+    "llm_stats": {
+      "call_count": 0,
+      "token_usage": {
+        "input": 0,
+        "output": 0
+      }
+    },
+    "error": null
+  },
+  {
+    "benchmark_id": "t46",
+    "benchmark_name": "Multi-Turn Belief Revision",
+    "pillar": "Knowledge Boundary Awareness",
+    "primary_metric": "mean_trajectory_correlation",
+    "primary_value": 0.9146389793693842,
+    "all_metrics": {
+      "mean_trajectory_correlation": 0.9146389793693842,
+      "direction_accuracy": 1.0,
+      "mean_abs_deviation_from_expert": 12.238095238095237,
+      "per_scenario_correlation": {
+        "A new drug X significantly reduces the risk of heart attacks": 0.835541099902658,
+        "The newly discovered deep-sea organism produces a compound e": 0.9797958971132712,
+        "Ancient civilisation Y had regular maritime trade with a dis": 0.9084486886743546,
+        "AI system Z achieves true general intelligence.": 0.933439026999166,
+        "Vitamin D supplementation significantly reduces the risk of ": 0.8757118051300735,
+        "The Minoan eruption of Thera directly caused the collapse of": 0.9004671505832732,
+        "Regular meditation practice physically alters brain structur": 0.9011871913245277,
+        "Microplastics in drinking water pose a significant health ri": 0.9825209752277491
+      },
+      "n_scenarios": 8
+    },
+    "elapsed_seconds": 35.91591930389404,
+    "llm_stats": {
+      "call_count": 0,
+      "token_usage": {
+        "input": 0,
+        "output": 0
+      }
+    },
+    "error": null
+  },
+  {
+    "benchmark_id": "t48",
+    "benchmark_name": "Abstention ROC",
+    "pillar": "Metacognitive Control",
+    "primary_metric": "auroc",
+    "primary_value": 0.9506466337010271,
+    "all_metrics": {
+      "auroc": 0.9506466337010271,
+      "abstention_auroc": 0.9947875211662693,
+      "normalized_abstention_auroc": 0.8815345719606669,
+      "ece": 0.05774000000000003,
+      "spearman_rho": -0.04114989259957036,
+      "overall_accuracy": 0.956,
+      "mean_confidence": 0.89826,
+      "per_domain": {
+        "economics": {
+          "accuracy": 0.94,
+          "mean_confidence": 0.8737999999999998,
+          "auroc": 0.8723404255319149,
+          "count": 50
+        },
+        "geography": {
+          "accuracy": 1.0,
+          "mean_confidence": 0.9148000000000001,
+          "auroc": 0.5,
+          "count": 50
+        },
+        "history": {
+          "accuracy": 0.98,
+          "mean_confidence": 0.9282,
+          "auroc": 0.9795918367346939,
+          "count": 50
+        },
+        "literature": {
+          "accuracy": 0.92,
+          "mean_confidence": 0.9256,
+          "auroc": 0.9728260869565217,
+          "count": 50
+        },
+        "mathematics": {
+          "accuracy": 0.98,
+          "mean_confidence": 0.9394,
+          "auroc": 1.0,
+          "count": 50
+        },
+        "medicine": {
+          "accuracy": 1.0,
+          "mean_confidence": 0.9102000000000001,
+          "auroc": 0.5,
+          "count": 50
+        },
+        "politics": {
+          "accuracy": 0.98,
+          "mean_confidence": 0.8857999999999998,
+          "auroc": 1.0,
+          "count": 50
+        },
+        "science": {
+          "accuracy": 0.98,
+          "mean_confidence": 0.9331999999999999,
+          "auroc": 0.9795918367346939,
+          "count": 50
+        },
+        "sports": {
+          "accuracy": 0.9,
+          "mean_confidence": 0.8469999999999999,
+          "auroc": 0.9333333333333333,
+          "count": 50
+        },
+        "technology": {
+          "accuracy": 0.88,
+          "mean_confidence": 0.8245999999999999,
+          "auroc": 0.9242424242424242,
+          "count": 50
+        }
+      },
+      "per_difficulty": {
+        "easy": {
+          "accuracy": 1.0,
+          "mean_confidence": 0.9791262135922328,
+          "count": 103
+        },
+        "hard": {
+          "accuracy": 0.9144736842105263,
+          "mean_confidence": 0.8580263157894737,
+          "count": 152
+        },
+        "medium": {
+          "accuracy": 0.9859154929577465,
+          "mean_confidence": 0.9595070422535209,
+          "count": 142
+        },
+        "very_hard": {
+          "accuracy": 0.9320388349514563,
+          "mean_confidence": 0.7923300970873783,
+          "count": 103
+        }
+      },
+      "n_items": 500
+    },
+    "elapsed_seconds": 96.48100233078003,
+    "llm_stats": {
+      "call_count": 0,
+      "token_usage": {
+        "input": 0,
+        "output": 0
+      }
+    },
+    "error": null
+  }
+]

@@ -1,0 +1,22 @@
+{
+  "Confidence Calibration": {
+    "mean": 0.33203190399731486,
+    "benchmarks": 7
+  },
+  "Prospective Error Prediction": {
+    "mean": 0.6376763845794601,
+    "benchmarks": 5
+  },
+  "Error Detection vs Confabulation": {
+    "mean": 0.42756249999999996,
+    "benchmarks": 8
+  },
+  "Knowledge Boundary Awareness": {
+    "mean": 0.5594004662078794,
+    "benchmarks": 7
+  },
+  "Metacognitive Control": {
+    "mean": 0.9679408644094243,
+    "benchmarks": 5
+  }
+}
