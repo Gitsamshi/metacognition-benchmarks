@@ -84,13 +84,13 @@ Ties:                         —            —             4/32 benchmarks
 - **What it measures:** Within each domain, does the model's confidence track its actual accuracy as questions go from introductory to cutting-edge? The confidence "inflection point" should align with the accuracy "cliff."
 - **Why it's special:** Tests whether the model recognizes the boundary of its own expertise — not just "I don't know" but "I know up to THIS level and beyond that I'm guessing."
 
-#### Benchmark 4: Confidence Revision After Feedback (t22) — SYCOPHANCY PROBE
+#### Benchmark 4: Iterative Self-Correction (t26) — SELF-REPAIR (HAIKU WINS)
 - **Competition target:** Error detection vs confabulation
-- **Metric:** Discrimination score = true_accept_rate - false_accept_rate
-- **Cross-model:** Haiku=0.90, Sonnet=0.78 **(Δ=-0.12, Haiku wins!)**
-- **Items:** 100 questions with true/false/no feedback conditions
-- **What it measures:** Model answers, then gets told "you're wrong" — sometimes truthfully, sometimes falsely. Can it accept valid corrections while resisting false pressure?
-- **Why it's special:** Directly measures the sycophancy-metacognition boundary. Fascinating cross-model result: the *smaller* model (Haiku) is more resistant to false feedback than the larger Sonnet — suggesting sycophancy and model size may be positively correlated.
+- **Metric:** Correction success rate (fraction of initial errors fixed within 5 "recheck" rounds)
+- **Cross-model:** Haiku=0.25, Sonnet=0.00 **(Δ=-0.25, Haiku wins!)**
+- **Items:** 60 hard questions (~50% initial accuracy), up to 5 iterative recheck rounds with no feedback
+- **What it measures:** When the model gets a question wrong, can it self-correct through reflection alone? No hints or feedback — just "please recheck your answer."
+- **Why it's special:** Tests metacognitive *control* — the ability to monitor and repair one's own output. Striking cross-model result: smaller Haiku (25% correction rate) can self-correct but larger Sonnet (0%) cannot. Also tracks oscillation (11%) and degradation (2%) rates. Suggests self-correction may not scale with model size.
 
 #### Benchmark 5: "Should I Attempt This?" (t11) — BEHAVIORAL ECONOMICS
 - **Competition target:** Prospective error prediction + metacognitive control
@@ -130,24 +130,25 @@ Ties:                         —            —             4/32 benchmarks
 |---|-----------|------|--------|-------------------|-------------|
 | 1 | t18 Planted Error | 0.58 | Sonnet | Error detection | Triple-failure taxonomy |
 | 2 | t02 Domain Calibration | 0.27 | Sonnet | Calibration | Two-phase self-ranking |
-| 3 | t31 Expertise Gradient | 0.20 | Sonnet | Knowledge boundary | Difficulty-level curve |
-| 4 | t22 Feedback Revision | 0.12 | **Haiku** | Error detection | Sycophancy probe |
-| 5 | t11 Should Attempt | 0.06 | Sonnet | Error prediction | Economic game |
-| 6 | t48 Abstention ROC | 0.05 | Sonnet | Calibration | AUROC headline |
+| 3 | t26 Self-Correction | 0.25 | **Haiku** | Error detection | Iterative recheck without feedback |
+| 4 | t31 Expertise Gradient | 0.20 | Sonnet | Knowledge boundary | Difficulty-level curve |
+| 5 | t48 Abstention ROC | 0.05 | Sonnet | Calibration | AUROC headline |
+| 6 | t29 Wikipedia Gap | 0.14 | Sonnet | Knowledge boundary | Real vs fabricated entities |
 | 7 | t27 Known/Unknown | 0.13 | Sonnet | Knowledge boundary | Ambiguous statements |
-| 8 | t29 Wikipedia Gap | 0.14 | Sonnet | Knowledge boundary | Real vs fabricated entities |
+| 8 | t11 Should Attempt | 0.06 | Sonnet | Error prediction | Economic game |
 
-**All 4 competition targets covered.** 6 benchmarks show Sonnet > Haiku, 1 shows Haiku > Sonnet (t22 — the sycophancy finding), 1 is close. This demonstrates both gradient AND non-trivial capability inversions.
+**All 4 competition targets covered.** 6 benchmarks show Sonnet > Haiku, 1 shows Haiku > Sonnet (t26 — the self-correction finding), 1 is close. This demonstrates both gradient AND a genuine capability inversion: smaller models may be better at iterative self-repair.
 
 ### Dropped from v1 Selection (and why)
 
 | Benchmark | Why dropped |
 |-----------|------------|
 | t19 Math Verification | Both models score 0.00 — no discrimination |
+| t22 Feedback Revision | Bug-fixed: both models ≈0.97, near-tie. Was artifact of string comparison. |
 | t09 Which Wrong | Good benchmark but only Δ=0.03, replaced by higher-Δ alternatives |
 | t10 Difficulty Ranking | Similar signal to t11 (both test error prediction), t11 more novel |
 | t46 Belief Revision | Both models score ~0.89, low discrimination (Δ=0.03) |
-| t34 Synthetic Entity | Good but Haiku actually *better* here; t29 covers same target with better discrimination |
+| t34 Synthetic Entity | Haiku slightly better; t29 covers same target with better Sonnet discrimination |
 
 ---
 
@@ -161,7 +162,7 @@ Ties:                         —            —             4/32 benchmarks
 
 ### Important (Should do)
 - [ ] **Add reliability diagrams** — Visual calibration plots for t01 and t48 (judges love figures).
-- [ ] **Highlight the sycophancy finding** — t22 shows Haiku *beats* Sonnet on feedback resistance (0.90 vs 0.78). This is the key "metacognition doesn't scale uniformly" finding.
+- [ ] **Highlight the self-correction finding** — t26 shows Haiku *beats* Sonnet on iterative self-repair (0.25 vs 0.00). This is the key "metacognition doesn't scale uniformly" finding.
 - [x] **Add cross-model comparison table** — ✅ Done: full Haiku vs Sonnet comparison with per-benchmark insights.
 
 ### Nice to Have
@@ -235,8 +236,8 @@ Ties:                         —            —             4/32 benchmarks
 | Factual QA only | Controlled experiments (t19), sycophancy testing (t22), belief revision (t46) |
 
 ### Our strongest selling points (in order):
-1. **Cross-model gradient** — Sonnet 4.6 wins 19/32, Haiku 4.5 wins 9/32, with capability inversions (Haiku beats Sonnet on sycophancy resistance!)
-2. **"Metacognition doesn't scale uniformly"** — the key finding: bigger models have better calibration and knowledge awareness, but smaller Haiku is more resistant to false feedback and better at self-correction
+1. **Cross-model gradient** — Sonnet 4.6 wins 20/32, Haiku 4.5 wins 8/32, with genuine capability inversions
+2. **"Metacognition doesn't scale uniformly"** — the key finding: bigger models have better calibration and knowledge awareness, but smaller Haiku is better at iterative self-correction (t26: 0.25 vs 0.00) and temporal awareness (t06: 0.80 vs -0.20)
 3. **Experimental design novelty** — t18 (triple-failure taxonomy), t11 (economic game), t22 (sycophancy probe), t31 (expertise inflection detection)
 4. **Comprehensiveness** — 5 pillars, 32 benchmarks, 3,808 items, two model evaluations
 5. **Practical framework** — One pip install, one command, parallel execution, JSON results

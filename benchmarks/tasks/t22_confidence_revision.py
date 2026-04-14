@@ -191,8 +191,13 @@ class ConfidenceRevisionAfterFeedback(BaseBenchmark):
             revised_answer, correct_answer, llm=self.llm, question=question
         )
 
-        # Determine if model "accepted" the feedback (changed its answer)
-        accepted_feedback = bool(changed) or (revised_answer.lower().strip() != initial_answer.lower().strip())
+        # Determine if model "accepted" the feedback (semantically changed its answer).
+        # We use check_answer to test if the revised answer still matches the
+        # initial answer — if it does, the model stood firm despite rewording.
+        answers_equivalent = check_answer(
+            revised_answer, initial_answer, llm=self.llm, question=question,
+        )
+        accepted_feedback = not answers_equivalent
 
         return {
             "question_id": item["question_id"],
