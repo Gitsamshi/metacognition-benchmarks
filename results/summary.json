@@ -1,0 +1,145 @@
+{
+  "total_items": 300,
+  "per_category": {
+    "confidence_calibration_on_facts": 75,
+    "known_unknown": 75,
+    "self_error_detection": 75,
+    "strategy_adjustment": 75
+  },
+  "models": {
+    "opus-4.6_force_answer": {
+      "accuracy": 0.8,
+      "avg_conf": 0.7606,
+      "ece": 0.0891,
+      "n": 300
+    },
+    "opus-4.6_allow_idk": {
+      "accuracy": 0.8067,
+      "avg_conf": 0.7942,
+      "ece": 0.0525,
+      "n": 300
+    },
+    "sonnet-4.6_force_answer": {
+      "accuracy": 0.7967,
+      "avg_conf": 0.7813,
+      "ece": 0.1295,
+      "n": 300
+    },
+    "sonnet-4.6_allow_idk": {
+      "accuracy": 0.7933,
+      "avg_conf": 0.8104,
+      "ece": 0.126,
+      "n": 300
+    },
+    "haiku-4.5_force_answer": {
+      "accuracy": 0.7033,
+      "avg_conf": 0.6798,
+      "ece": 0.1218,
+      "n": 300
+    },
+    "haiku-4.5_allow_idk": {
+      "accuracy": 0.7033,
+      "avg_conf": 0.6864,
+      "ece": 0.1173,
+      "n": 300
+    },
+    "opus-4.5_force_answer": {
+      "accuracy": 0.8133,
+      "avg_conf": 0.7057,
+      "ece": 0.141,
+      "n": 300
+    },
+    "opus-4.5_allow_idk": {
+      "accuracy": 0.8167,
+      "avg_conf": 0.7442,
+      "ece": 0.102,
+      "n": 300
+    },
+    "nova-micro_force_answer": {
+      "accuracy": 0.2733,
+      "avg_conf": 0.9297,
+      "ece": 0.6697,
+      "n": 300
+    },
+    "nova-micro_allow_idk": {
+      "accuracy": 0.31,
+      "avg_conf": 0.793,
+      "ece": 0.657,
+      "n": 300
+    },
+    "nova-lite_force_answer": {
+      "accuracy": 0.32,
+      "avg_conf": 0.9155,
+      "ece": 0.6295,
+      "n": 300
+    },
+    "nova-lite_allow_idk": {
+      "accuracy": 0.3333,
+      "avg_conf": 0.733,
+      "ece": 0.6197,
+      "n": 300
+    },
+    "nova-pro_force_answer": {
+      "accuracy": 0.4,
+      "avg_conf": 0.9165,
+      "ece": 0.5165,
+      "n": 300
+    },
+    "nova-pro_allow_idk": {
+      "accuracy": 0.4433,
+      "avg_conf": 0.886,
+      "ece": 0.5127,
+      "n": 300
+    },
+    "gemma-3-4b_force_answer": {
+      "accuracy": 0.35,
+      "avg_conf": 0.8333,
+      "ece": 0.4833,
+      "n": 300
+    },
+    "gemma-3-4b_allow_idk": {
+      "accuracy": 0.36,
+      "avg_conf": 0.791,
+      "ece": 0.5383,
+      "n": 300
+    },
+    "gemma-3-12b_force_answer": {
+      "accuracy": 0.48,
+      "avg_conf": 0.8281,
+      "ece": 0.4181,
+      "n": 300
+    },
+    "gemma-3-12b_allow_idk": {
+      "accuracy": 0.4333,
+      "avg_conf": 0.791,
+      "ece": 0.592,
+      "n": 300
+    },
+    "gemma-3-27b_force_answer": {
+      "accuracy": 0.4733,
+      "avg_conf": 0.8845,
+      "ece": 0.4201,
+      "n": 300
+    },
+    "gemma-3-27b_allow_idk": {
+      "accuracy": 0.57,
+      "avg_conf": 0.8098,
+      "ece": 0.4288,
+      "n": 300
+    }
+  },
+  "ece_per_model": {
+    "opus-4.6": 0.0891,
+    "sonnet-4.6": 0.1295,
+    "haiku-4.5": 0.1218,
+    "opus-4.5": 0.141,
+    "nova-micro": 0.6697,
+    "nova-lite": 0.6295,
+    "nova-pro": 0.5165,
+    "gemma-3-4b": 0.4833,
+    "gemma-3-12b": 0.4181,
+    "gemma-3-27b": 0.4201
+  },
+  "ece_spread_all": 0.5806,
+  "ece_spread_claude": 0.0519
+}
